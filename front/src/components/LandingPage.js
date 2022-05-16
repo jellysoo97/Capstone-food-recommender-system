@@ -76,7 +76,7 @@ function LandingPage() {
           </div>
           <div className="row text-center">
             <div className="col-12">
-              <a href="#">
+              <a href="/signup">
                 <button type="button" className="lp-regi">
                   회원가입
                 </button>
