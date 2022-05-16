@@ -1,20 +1,11 @@
-import React, { useState } from "react"
+import React from "react"
 import "../../../index.css"
 
 function Table(props) {
   const user = props.user
   const unable = props.unable
-  const group = props.group
-  const [click, setClick] = useState(false)
-  const [clickbox, setClickbox] = useState("")
+  const datalist = props.datalist
 
-  const handleClick = (e) => {
-    click ? setClick(false) : setClick(true)
-    console.log(click)
-    click
-      ? (e.target.className = "tableRowItems sl-clicked")
-      : (e.target.className = "tableRowItems")
-  }
   return (
     <div className="container-fluid py-5">
       <div className="row text-center mb-2">
@@ -38,14 +29,10 @@ function Table(props) {
           <div className="sl-table-box">
             <table className="table table-hover">
               <tbody>
-                {group
-                  ? group.map((el, index) => (
-                      <tr
-                        className="tableRowItems"
-                        key={index}
-                        onClick={handleClick}
-                      >
-                        <td className="tableCell">{el}</td>
+                {datalist
+                  ? datalist.map((el, index) => (
+                      <tr key={index} className="tableRowItems">
+                        <td className="tableCell">{el.userId}</td>
                       </tr>
                     ))
                   : ""}
@@ -55,13 +42,13 @@ function Table(props) {
           <div className="sl-table-box">
             <table className="table table-hover">
               <tbody>
-                {/* {datalist\
+                {datalist
                   ? datalist.map((el, index) => (
                       <tr key={index} className="tableRowItems">
                         <td className="tableCell">{el.id}</td>
                       </tr>
                     ))
-                  : ""} */}
+                  : ""}
               </tbody>
             </table>
           </div>

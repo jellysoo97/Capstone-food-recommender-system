@@ -4,15 +4,15 @@ import axios from "axios"
 import Table from "./Table/Table.js"
 
 function Select() {
-  const [group, setGroup] = useState()
-  const [ingre, setIngre] = useState()
+  const [datalist, setDatalist] = useState()
 
   useEffect(() => {
     function getData() {
       axios
-        .get("https://jsonplaceholder.typicode.com/users")
+        .get("https://jsonplaceholder.typicode.com/posts")
         .then((response) => {
-          setGroup([...response.data[0]])
+          console.log(response.data)
+          setDatalist([...response.data])
         })
         .catch((error) => {
           console.log(error)
@@ -23,7 +23,7 @@ function Select() {
 
   return (
     <div>
-      <Table group={group} />
+      <Table datalist={datalist} />
     </div>
   )
 }
