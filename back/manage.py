@@ -4,6 +4,7 @@ import os
 import sys
 from pathlib import Path
 
+[sys.path.append(i) for i in [".", ".."]]
 
 def main():
     """Run administrative tasks."""
