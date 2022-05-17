@@ -4,17 +4,49 @@ import "../../../index.css"
 function Table(props) {
   const user = props.user
   const unable = props.unable
-  const group = props.group
-  const [click, setClick] = useState(false)
-  const [clickbox, setClickbox] = useState("")
+  const datalist = props.datalist
+  const getIngreGroup = props.getIngreGroup
+  const getSelectedIngre = props.getSelectedIngre
+  const [selected_ingre, setSelectedIngre] = useState([])
 
-  const handleClick = (e) => {
-    click ? setClick(false) : setClick(true)
-    console.log(click)
-    click
-      ? (e.target.className = "tableRowItems sl-clicked")
-      : (e.target.className = "tableRowItems")
+  const ingre_list = [
+    "감자 및 전분류",
+    "견과류",
+    "곡류",
+    "과실류",
+    "난류",
+    "당류",
+    "두류",
+    "버섯류",
+    "어패류 및 수산물",
+    "유제품류",
+    "유지류",
+    "육류",
+    "음료류",
+    "조리가공품류",
+    "조미료류",
+    "주류",
+    "차류",
+    "채소류",
+    "해조류",
+    "갑각류",
+    "두족류",
+    "수산가공품",
+    "어류",
+  ]
+
+  const clickIngreGroup = (e) => {
+    e.preventDefault()
+    getIngreGroup(e.target.innerText)
   }
+
+  const insertIngre = (e) => {
+    e.preventDefault()
+    setSelectedIngre(selected_ingre.concat(e.target.innerText))
+    console.log("child:", selected_ingre)
+    getSelectedIngre(selected_ingre)
+  }
+
   return (
     <div className="container-fluid py-5">
       <div className="row text-center mb-2">
@@ -38,14 +70,12 @@ function Table(props) {
           <div className="sl-table-box">
             <table className="table table-hover">
               <tbody>
-                {group
-                  ? group.map((el, index) => (
-                      <tr
-                        className="tableRowItems"
-                        key={index}
-                        onClick={handleClick}
-                      >
-                        <td className="tableCell">{el}</td>
+                {ingre_list
+                  ? ingre_list.map((el, index) => (
+                      <tr key={index} className="tableRowItems">
+                        <td className="tableCell" onClick={clickIngreGroup}>
+                          {el}
+                        </td>
                       </tr>
                     ))
                   : ""}
@@ -55,17 +85,31 @@ function Table(props) {
           <div className="sl-table-box">
             <table className="table table-hover">
               <tbody>
-                {/* {datalist\
+                {datalist
                   ? datalist.map((el, index) => (
                       <tr key={index} className="tableRowItems">
-                        <td className="tableCell">{el.id}</td>
+                        <td className="tableCell" onClick={insertIngre}>
+                          {el["fields"]["ingre_group_1"]}
+                        </td>
                       </tr>
                     ))
-                  : ""} */}
+                  : ""}
               </tbody>
             </table>
           </div>
-          <div className="sl-table-box">3</div>
+          <div className="sl-table-box">
+            <table className="table table-hover">
+              <tbody>
+                {selected_ingre
+                  ? selected_ingre.map((el, index) => (
+                      <tr key={index} className="tableRowItems">
+                        <td className="tableCell">{el}</td>
+                      </tr>
+                    ))
+                  : ""}
+              </tbody>
+            </table>
+          </div>
         </div>
       </div>
       <div className="row">

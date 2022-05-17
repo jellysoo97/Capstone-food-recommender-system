@@ -4,26 +4,44 @@ import axios from "axios"
 import Table from "./Table/Table.js"
 
 function Select() {
-  const [group, setGroup] = useState()
-  const [ingre, setIngre] = useState()
+  const [datalist, setDatalist] = useState()
+  const [selected_ingre_group, setSelectedIngreGroup] = useState("")
+  const [selected_ingre, setSelectedIngre] = useState([])
+
+  const getIngreGroup = (selected_ingre_group) => {
+    setSelectedIngreGroup(selected_ingre_group)
+    console.log(selected_ingre_group)
+  }
+
+  const getSelectedIngre = (selected_ingre) => {
+    setSelectedIngre(selected_ingre)
+    console.log("parent:", selected_ingre)
+  }
 
   useEffect(() => {
     function getData() {
       axios
-        .get("https://jsonplaceholder.typicode.com/users")
+        .get(`http://localhost:8000/recommend/select/${selected_ingre_group}`)
         .then((response) => {
-          setGroup([...response.data[0]])
+          // console.log(response.data)
+          setDatalist([...response.data])
         })
         .catch((error) => {
           console.log(error)
         })
     }
     getData()
-  }, [])
+  }, [selected_ingre_group])
 
   return (
     <div>
-      <Table group={group} />
+      <Table
+        datalist={datalist}
+        selected_ingre_group={selected_ingre_group}
+        getIngreGroup={getIngreGroup}
+        selected_ingre={selected_ingre}
+        getSelectedIngre={getSelectedIngre}
+      />
     </div>
   )
 }

@@ -91,6 +91,45 @@ code {
   line-height: 2;
 }
 
+
+/* Signup css */
+
+.su{
+  display : inline-block;
+  padding : 20px;
+  background-color: white;
+  outline: none;
+  border-radius : 20px;
+  position : absolute;
+  left :15vw;
+  top : 100px;
+  width :70vw;
+}
+.su-label{
+  font-weight: bold;
+  width:650px;
+  display :block;
+  padding : 20px;
+}
+.su-label2{
+  font-weight: bold;
+  display:block;
+  padding :20px;
+}
+.su-label span {
+  display :inline-block;
+  width : 200px;
+  text-align : left;
+  padding : 10px;
+
+}
+.su-bg {
+  background-color: #A8BA88;
+  display : block;
+  height: 140vh;
+}
+
+
 /* Login */
 .lg-bg {
   min-height: calc(100vh);
@@ -159,7 +198,4 @@ code {
   background-color: #ed4c5c;
   border: 2px solid transparent;
 }
-.sl-clicked {
-  background-color: black;
-  font-weight: bold;
-}
+
