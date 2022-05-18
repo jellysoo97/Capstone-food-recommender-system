@@ -5,7 +5,8 @@ import "../../index.css"
 import image from "../../images/logo.png"
 
 function Signup() {
-  const url = "https://fad0d70d-d523-442e-8fa3-3fbe1e1b8bf2.mock.pstmn.io/post1"
+  // const url = "https://fad0d70d-d523-442e-8fa3-3fbe1e1b8bf2.mock.pstmn.io/post1"
+  const url = "http://localhost:8000/account"
   const [data, setData] = useState({
     userid: "",
     userpw: "",
@@ -40,14 +41,6 @@ function Signup() {
     { label: "아황산포함식품", value: "21" },
   ]
   const [unableselected, setunableSelected] = useState([])
-  const alreoptions = [
-    { label: "간장", value: "1" },
-    { label: "된장", value: "2" },
-    { label: "고추장", value: "3" },
-    { label: "쌈장", value: "4" },
-  ]
-  const [alreselected, setalreSelected] = useState([])
-
   function submit(e) {
     e.preventDefault()
     axios
@@ -60,7 +53,6 @@ function Signup() {
         vegtype: data.vegtype,
         allergic: data.allergic,
         unable: unableselected,
-        already: alreselected,
       })
       .then((res) => {
         console.log(res.data)
@@ -78,7 +70,7 @@ function Signup() {
   return (
     <div className="su-bg" style={{ background: "#A8BA88" }}>
       <div className="su">
-        <div class="d-flex justify-content-center">
+        <div className="d-flex justify-content-center">
           <img src={image} width="45" height="45" />
           <h1>나는 뭐 먹지</h1>
         </div>
@@ -207,17 +199,6 @@ function Signup() {
                 options={unableoptions}
                 value={unableselected}
                 onChange={setunableSelected}
-                labelledBy="Select"
-              />
-            </label>
-          </div>
-          <div class="d-flex justify-content-center">
-            <label className="su-label2">
-              항상 보유중인 식자재를 체크해 주세요
-              <MultiSelect
-                options={alreoptions}
-                value={alreselected}
-                onChange={setalreSelected}
                 labelledBy="Select"
               />
             </label>
