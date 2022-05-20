@@ -71,6 +71,7 @@ cover/
 *.mo
 
 # Django stuff:
+local_settings.py
 
 # Flask stuff:
 instance/
