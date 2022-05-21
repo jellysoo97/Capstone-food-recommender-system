@@ -5,8 +5,8 @@ import "../../index.css"
 import image from "../../images/logo.png"
 
 function Signup() {
-  // const url = "https://fad0d70d-d523-442e-8fa3-3fbe1e1b8bf2.mock.pstmn.io/post1"
-  const url = "http://localhost:8000/account"
+  const url = "https://fad0d70d-d523-442e-8fa3-3fbe1e1b8bf2.mock.pstmn.io/post1"
+  //const url = "http://localhost:8000/account"
   const [data, setData] = useState({
     userid: "",
     userpw: "",
@@ -49,9 +49,7 @@ function Signup() {
         userpw: data.userpw,
         sex: data.sex,
         age: data.age,
-        veg: data.isveg,
         vegtype: data.vegtype,
-        allergic: data.allergic,
         unable: unableselected,
       })
       .then((res) => {
@@ -65,6 +63,22 @@ function Signup() {
     newdata[e.target.id] = e.target.value
     setData(newdata)
     console.log(newdata)
+  }
+
+  function changedis(e){
+    if(e.target.value==="Y"){
+      if(e.target.id==="isveg"){
+        document.getElementById("vegdiv").style.display="flex"
+      }else if(e.target.id==="allergic"){
+        document.getElementById("alldiv").style.display="flex"
+      }
+    }else if(e.target.value==="N"){
+      if(e.target.id==="isveg"){
+        document.getElementById("vegdiv").style.display="none"
+      }else if(e.target.id==="allergic"){
+        document.getElementById("alldiv").style.display="none"
+      }
+    }
   }
 
   return (
@@ -87,7 +101,7 @@ function Signup() {
               />
             </label>
           </div>
-          <div class="d-flex justify-content-center">
+          <div className="d-flex justify-content-center">
             <label className="su-label">
               <span>비밀번호</span>
               <input
@@ -99,7 +113,7 @@ function Signup() {
               />
             </label>
           </div>
-          <div class="d-flex justify-content-center">
+          <div className="d-flex justify-content-center">
             <label className="su-label">
               <span>성별</span>
               <select
@@ -113,7 +127,7 @@ function Signup() {
               </select>
             </label>
           </div>
-          <div class="d-flex justify-content-center">
+          <div className="d-flex justify-content-center">
             <label className="su-label">
               <span>나이</span>
               <select
@@ -134,11 +148,11 @@ function Signup() {
               </select>
             </label>
           </div>
-          <div class="d-flex justify-content-center">
+          <div className="d-flex justify-content-center">
             <label className="su-label">
               <span>채식주의자이신가요?</span>
               <select
-                onChange={(e) => handle(e)}
+                onChange={(e)=>{handle(e);changedis(e);}}
                 id="isveg"
                 value={data.isveg}
                 style={{ width: 320, textAlign: "center" }}
@@ -148,9 +162,13 @@ function Signup() {
               </select>
             </label>
           </div>
-          <div class="d-flex justify-content-center">
+          <div 
+            id="vegdiv" 
+            className="justify-content-center" 
+            style={{display:"none"}}
+          >
             <label className="su-label">
-              <span>어느 유형에 속하시나요?</span>
+              <span>어느 채식 유형에 속하시나요?</span>
               <select
                 onChange={(e) => handle(e)}
                 id="vegtype"
@@ -178,11 +196,11 @@ function Signup() {
               </select>
             </label>
           </div>
-          <div class="d-flex justify-content-center">
+          <div className="d-flex justify-content-center">
             <label className="su-label">
               <span>알레르기가 있으신가요?</span>
               <select
-                onChange={(e) => handle(e)}
+                onChange={(e)=>{handle(e);changedis(e);}}
                 id="allergic"
                 value={data.allergic}
                 style={{ width: 320, textAlign: "center" }}
@@ -192,7 +210,11 @@ function Signup() {
               </select>
             </label>
           </div>
-          <div class="d-flex justify-content-center">
+          <div 
+            id="alldiv" 
+            className="justify-content-center" 
+            style={{display:"none"}}
+          >
             <label className="su-label2">
               주의해야할 알레르기 성분에 체크해 주세요
               <MultiSelect
@@ -203,7 +225,7 @@ function Signup() {
               />
             </label>
           </div>
-          <div class="d-flex justify-content-center">
+          <div className="d-flex justify-content-center">
             <button className="su-btn" class="btn btn-outline-dark">
               회원가입하기
             </button>

@@ -104,6 +104,7 @@ code {
   left :15vw;
   top : 100px;
   width :70vw;
+  min-height: calc(100vh + 145px);
 }
 .su-label{
   font-weight: bold;
@@ -126,7 +127,7 @@ code {
 .su-bg {
   background-color: #A8BA88;
   display : block;
-  height: 140vh;
+  min-height: calc(100vh + 230px);
 }
 
 
@@ -198,4 +199,26 @@ code {
   background-color: #ed4c5c;
   border: 2px solid transparent;
 }
-
+/* result */
+.rs{
+  display : flex;
+  background-color: #E9DCCD;
+  min-height: calc(100vh - 80px);
+}
+.rs-info{
+  display:inline-block;
+  background-color: #E9DCCD;
+  width: 60vw;
+  min-height: calc(80vh - 80px);
+  position: absolute;
+  top:20vh;
+  left:10vh;
+}
+.rs-img{
+  background-color: lightblue;
+  display:inline-block;
+  width: 40vw;
+  min-height: calc(100vh - 80px);
+  position:absolute;
+  right:0px;
+}
