@@ -22,5 +22,4 @@ urlpatterns = [
     # path("", views.index),
     path('user/', include('account.urls')),
     path('recommend/', include('recommend.urls')),
-    path('firstPreference/', include('firstPreference.urls')),
 ]

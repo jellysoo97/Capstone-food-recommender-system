@@ -43,9 +43,9 @@ INSTALLED_APPS = [
     "rest_framework.authtoken",
     'rest_auth',
     "corsheaders",
-    # 내 app들
-    'account.apps.AccountConfig',
-    'recommend.apps.RecommendConfig',
+    # app
+    "account",
+    "recommend",
 ]
 
 MIDDLEWARE = [
@@ -56,7 +56,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    # cors
+    #cors
     "corsheaders.middleware.CorsMiddleware",
 ]
 
