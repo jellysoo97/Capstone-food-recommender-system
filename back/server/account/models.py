@@ -9,8 +9,8 @@ class User(models.Model):
     sex = models.BooleanField(default=False, null=False)
     age = models.SmallIntegerField(
         default='', null=False, blank=False)
-    vege_type = models.CharField(
+    vegetype = models.CharField(
         default='', max_length=50, null=False, blank=False, unique=False)
-    alle_type = models.CharField(
+    allergic = models.CharField(
         default='', max_length=50, null=False, blank=False, unique=False)
     password = models.CharField(max_length=200)

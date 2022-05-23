@@ -4,43 +4,62 @@ import axios from "axios"
 import Table from "./Table/Table.js"
 
 function Select() {
-  const [datalist, setDatalist] = useState()
-  const [selected_ingre_group, setSelectedIngreGroup] = useState("")
-  const [selected_ingre, setSelectedIngre] = useState([])
+  const [grouplist, setGrouplist] = useState([])
+  const [ingrelist, setIngrelist] = useState([])
+  const [selected_group_value, setSelectedGroupValue] = useState("")
+  let get_group_data = []
+  let group_data_list = []
+  let get_ingre_data = []
+  let ingre_data_list = []
 
-  const getIngreGroup = (selected_ingre_group) => {
-    setSelectedIngreGroup(selected_ingre_group)
-    console.log(selected_ingre_group)
-  }
-
-  const getSelectedIngre = (selected_ingre) => {
-    setSelectedIngre(selected_ingre)
-    console.log("parent:", selected_ingre)
+  const getSelectedGroupValue = (selected_group_value) => {
+    setSelectedGroupValue(parseInt(selected_group_value))
   }
 
   useEffect(() => {
-    function getData() {
+    function getGroup() {
       axios
-        .get(`http://localhost:8000/recommend/select/${selected_ingre_group}`)
+        .get("http://localhost:8000/selectIngre/group")
         .then((response) => {
-          // console.log(response.data)
-          setDatalist([...response.data])
+          get_group_data = [...response.data]
+          get_group_data.map((el) => {
+            group_data_list.push(el.fields.group)
+          })
+          setGrouplist(group_data_list)
         })
         .catch((error) => {
           console.log(error)
         })
     }
-    getData()
-  }, [selected_ingre_group])
+    getGroup()
+  }, [])
+
+  useEffect(() => {
+    function getSub() {
+      axios
+        .get(`http://localhost:8000/selectIngre/group/${selected_group_value}`)
+        .then((response) => {
+          get_ingre_data = [...response.data]
+          get_ingre_data.map((el) => {
+            ingre_data_list.push(el.fields.sub_igrdt)
+          })
+          ingre_data_list[0] = ingre_data_list[0].replaceAll("'", '"')
+          let list = JSON.parse("[" + ingre_data_list[0] + "]")
+          setIngrelist(list[0])
+        })
+        .catch((error) => {
+          console.log(error)
+        })
+    }
+    getSub()
+  }, [selected_group_value])
 
   return (
     <div>
       <Table
-        datalist={datalist}
-        selected_ingre_group={selected_ingre_group}
-        getIngreGroup={getIngreGroup}
-        selected_ingre={selected_ingre}
-        getSelectedIngre={getSelectedIngre}
+        grouplist={grouplist}
+        getSelectedGroupValue={getSelectedGroupValue}
+        ingrelist={ingrelist}
       />
     </div>
   )
