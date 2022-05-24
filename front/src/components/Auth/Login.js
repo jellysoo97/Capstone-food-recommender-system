@@ -2,7 +2,6 @@ import React , { useState } from "react"
 import axios from "axios"
 
 function Login() {
-  //const url = "https://fad0d70d-d523-442e-8fa3-3fbe1e1b8bf2.mock.pstmn.io/post1"
   const url = "http://127.0.0.1:8000/user/login/"
   const [logindata,setlogindata]=useState({
     user_id:"",
