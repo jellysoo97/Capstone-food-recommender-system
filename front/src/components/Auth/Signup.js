@@ -5,8 +5,8 @@ import "../../index.css"
 import image from "../../images/logo.png"
 
 function Signup() {
-  const url = "https://fad0d70d-d523-442e-8fa3-3fbe1e1b8bf2.mock.pstmn.io/post1"
-  //const url = "http://localhost:8000/account"
+  //const url = "https://fad0d70d-d523-442e-8fa3-3fbe1e1b8bf2.mock.pstmn.io/post1"
+  const url = "http://127.0.0.1:8000/user/account"
   const [data, setData] = useState({
     userid: "",
     userpw: "",
@@ -41,16 +41,21 @@ function Signup() {
     { label: "아황산포함식품", value: "21" },
   ]
   const [unableselected, setunableSelected] = useState([])
+  const newunable=[]
+  
   function submit(e) {
     e.preventDefault()
+    for(let i=0;i<unableselected.length;i++){
+      newunable.push(unableselected[i].label)
+    }
     axios
       .post(url, {
-        userid: data.userid,
-        userpw: data.userpw,
+        user_id: data.userid,
+        password: data.userpw,
         sex: data.sex,
         age: data.age,
         vegtype: data.vegtype,
-        unable: unableselected,
+        allergic: newunable,
       })
       .then((res) => {
         console.log(res.data)
@@ -176,7 +181,6 @@ function Signup() {
                 style={{ width: 320, textAlign: "center" }}
               >
                 <option value="N"></option>
-                <option value="fruitarian">프루테리언(fruitarian)</option>
                 <option value="vegan">비건(vegan)</option>
                 <option value="lacto-vegetarian">
                   락토 베지테리언(lacto-vegetarian)
