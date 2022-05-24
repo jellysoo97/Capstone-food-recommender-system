@@ -11,6 +11,8 @@ class User(models.Model):
     sex = models.BooleanField(default=False, null=False)
     age = models.SmallIntegerField(
         default='', null=False, blank=False)
+    height = models.IntegerField(default=160, null=False)
+    weight = models.IntegerField(default=60, null=False)
     health = models.CharField(default="없을 무", max_length=128)
     # 리스트 https://django-mysql.readthedocs.io/en/latest/model_fields/list_fields.html
     vegtype = models.TextField(default="[]", max_length=128)
