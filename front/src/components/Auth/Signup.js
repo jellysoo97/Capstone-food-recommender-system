@@ -5,13 +5,16 @@ import "../../index.css"
 import image from "../../images/logo.png"
 
 function Signup() {
-  //const url = "https://fad0d70d-d523-442e-8fa3-3fbe1e1b8bf2.mock.pstmn.io/post1"
-  const url = "http://127.0.0.1:8000/user/account"
+  const url = "https://fad0d70d-d523-442e-8fa3-3fbe1e1b8bf2.mock.pstmn.io/post1"
+  //const url = "http://127.0.0.1:8000/user/account"
   const [data, setData] = useState({
     userid: "",
     userpw: "",
-    sex: "male",
-    age: "20",
+    sex: 1,
+    age: 20,
+    height: 0,
+    weight:0,
+    health:"비활동적",
     isveg: "N",
     vegtype: "N",
     allergic: "N",
@@ -52,8 +55,11 @@ function Signup() {
       .post(url, {
         user_id: data.userid,
         password: data.userpw,
-        sex: data.sex,
-        age: data.age,
+        sex: parseInt(data.sex),
+        age: parseInt(data.age),
+        height: parseFloat(data.height),
+        weight: parseFloat(data.weight),
+        heatlth:data.health,
         vegtype: data.vegtype,
         allergic: newunable,
       })
@@ -127,8 +133,8 @@ function Signup() {
                 value={data.sex}
                 style={{ width: 320, textAlign: "center" }}
               >
-                <option value="male">남자</option>
-                <option value="female">여자</option>
+                <option value="1">남자</option>
+                <option value="0">여자</option>
               </select>
             </label>
           </div>
@@ -153,6 +159,47 @@ function Signup() {
               </select>
             </label>
           </div>
+          
+          <div className="d-flex justify-content-center">
+            <label className="su-label">
+            <span>신장을 입력해주세요<br/>&#40;단위 cm&#41;</span>
+              <input 
+                onChange={(e) => handle(e)}
+                id="height"
+                value={data.height}
+                style={{ width: 320, textAlign: "center" }}
+                type="number"/>
+            </label>
+          </div>
+          <div className="d-flex justify-content-center">
+            <label className="su-label">
+            <span>체중을 입력해주세요<br/>&#40;단위 kg&#41;</span>
+              <input 
+                onChange={(e) => handle(e)}
+                id="weight"
+                value={data.weight}
+                style={{ width: 320, textAlign: "center" }}
+                type="number"/>
+            </label>
+          </div>
+          <div className="d-flex justify-content-center">
+            <label className="su-label">
+              <span>평소에 활동적이신가요?</span>
+              <select
+                onChange={(e) => handle(e)}
+                id="health"
+                value={data.health}
+                style={{ width: 320, textAlign: "center" }}
+              >
+                <option value="비활동적">비활동적</option>
+                <option value="저활동적">저활동적</option>
+                <option value="활동적">활동적</option>
+                <option value="매우활동적">매우활동적</option>
+              </select>
+            </label>
+          </div>
+
+
           <div className="d-flex justify-content-center">
             <label className="su-label">
               <span>채식주의자이신가요?</span>
