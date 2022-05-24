@@ -7,6 +7,7 @@ function Table(props) {
   const grouplist = props.grouplist
   const ingrelist = props.ingrelist
   const getSelectedGroupValue = props.getSelectedGroupValue
+  const getSelectedIngre = props.getSelectedIngre
   const cell_group = document.getElementsByClassName("group")
   const cell_ingre = document.getElementsByClassName("ingre")
   const [selected_ingre, setSelectedIngre] = useState([])
@@ -15,6 +16,10 @@ function Table(props) {
     e.preventDefault()
     getSelectedGroupValue(index)
 
+    // 기존에 선택한 재료면 clicked된 상태로 만드는 수정 필요
+    for (let i = 0; i < cell_ingre.length; i++) {
+      cell_ingre[i].classList.value = "tableCell ingre"
+    }
     if (e.target.classList.contains("clicked")) {
       e.target.classList.remove("clicked")
     } else {
@@ -39,17 +44,15 @@ function Table(props) {
     console.log(selected_ingre)
   }
 
+  function sendSelectedIngre() {
+    getSelectedIngre(selected_ingre)
+    console.log(selected_ingre)
+  }
+
   useEffect(() => {
-    function resetIngre() {
-      for (let i = 0; i < cell_ingre.length; i++) {
-        cell_ingre[i].classList.value = "tableCell ingre"
-      }
-      console.log(cell_ingre)
-    }
     function changeValue() {
       setSelectedIngre(selected_ingre)
     }
-    resetIngre()
     changeValue()
   }, [selected_ingre])
 
@@ -125,7 +128,12 @@ function Table(props) {
       </div>
       <div className="row">
         <div className="col-12 text-center">
-          <button type="button" className="sl-table-btn" href={"#"}>
+          <button
+            type="button"
+            className="sl-table-btn"
+            href={"#"}
+            onClick={sendSelectedIngre}
+          >
             해당 재료로 추천 받기
           </button>
         </div>
