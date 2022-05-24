@@ -5,12 +5,16 @@ import "../../index.css"
 import image from "../../images/logo.png"
 
 function Signup() {
-  const url = "https://fad0d70d-d523-442e-8fa3-3fbe1e1b8bf2.mock.pstmn.io/post1"
+  //const url = "https://fad0d70d-d523-442e-8fa3-3fbe1e1b8bf2.mock.pstmn.io/post1"
+  const url = "http://127.0.0.1:8000/user/account"
   const [data, setData] = useState({
     userid: "",
     userpw: "",
-    sex: "male",
-    age: "20",
+    sex: 1,
+    age: 20,
+    height: 0,
+    weight:0,
+    health:"비활동적",
     isveg: "N",
     vegtype: "N",
     allergic: "N",
@@ -40,27 +44,24 @@ function Signup() {
     { label: "아황산포함식품", value: "21" },
   ]
   const [unableselected, setunableSelected] = useState([])
-  const alreoptions = [
-    { label: "간장", value: "1" },
-    { label: "된장", value: "2" },
-    { label: "고추장", value: "3" },
-    { label: "쌈장", value: "4" },
-  ]
-  const [alreselected, setalreSelected] = useState([])
-
+  const newunable=[]
+  
   function submit(e) {
     e.preventDefault()
+    for(let i=0;i<unableselected.length;i++){
+      newunable.push(unableselected[i].label)
+    }
     axios
       .post(url, {
-        userid: data.userid,
-        userpw: data.userpw,
-        sex: data.sex,
-        age: data.age,
-        veg: data.isveg,
+        user_id: data.userid,
+        password: data.userpw,
+        sex: parseInt(data.sex),
+        age: parseInt(data.age),
+        height: parseFloat(data.height),
+        weight: parseFloat(data.weight),
+        health:data.health,
         vegtype: data.vegtype,
-        allergic: data.allergic,
-        unable: unableselected,
-        already: alreselected,
+        allergic: newunable,
       })
       .then((res) => {
         console.log(res.data)
@@ -75,10 +76,26 @@ function Signup() {
     console.log(newdata)
   }
 
+  function changedis(e){
+    if(e.target.value==="Y"){
+      if(e.target.id==="isveg"){
+        document.getElementById("vegdiv").style.display="flex"
+      }else if(e.target.id==="allergic"){
+        document.getElementById("alldiv").style.display="flex"
+      }
+    }else if(e.target.value==="N"){
+      if(e.target.id==="isveg"){
+        document.getElementById("vegdiv").style.display="none"
+      }else if(e.target.id==="allergic"){
+        document.getElementById("alldiv").style.display="none"
+      }
+    }
+  }
+
   return (
     <div className="su-bg" style={{ background: "#A8BA88" }}>
       <div className="su">
-        <div class="d-flex justify-content-center">
+        <div className="d-flex justify-content-center">
           <img src={image} width="45" height="45" />
           <h1>나는 뭐 먹지</h1>
         </div>
@@ -95,7 +112,7 @@ function Signup() {
               />
             </label>
           </div>
-          <div class="d-flex justify-content-center">
+          <div className="d-flex justify-content-center">
             <label className="su-label">
               <span>비밀번호</span>
               <input
@@ -107,7 +124,7 @@ function Signup() {
               />
             </label>
           </div>
-          <div class="d-flex justify-content-center">
+          <div className="d-flex justify-content-center">
             <label className="su-label">
               <span>성별</span>
               <select
@@ -116,12 +133,12 @@ function Signup() {
                 value={data.sex}
                 style={{ width: 320, textAlign: "center" }}
               >
-                <option value="male">남자</option>
-                <option value="female">여자</option>
+                <option value="1">남자</option>
+                <option value="0">여자</option>
               </select>
             </label>
           </div>
-          <div class="d-flex justify-content-center">
+          <div className="d-flex justify-content-center">
             <label className="su-label">
               <span>나이</span>
               <select
@@ -142,11 +159,52 @@ function Signup() {
               </select>
             </label>
           </div>
-          <div class="d-flex justify-content-center">
+          
+          <div className="d-flex justify-content-center">
+            <label className="su-label">
+            <span>신장을 입력해주세요<br/>&#40;단위 cm&#41;</span>
+              <input 
+                onChange={(e) => handle(e)}
+                id="height"
+                value={data.height}
+                style={{ width: 320, textAlign: "center" }}
+                type="number"/>
+            </label>
+          </div>
+          <div className="d-flex justify-content-center">
+            <label className="su-label">
+            <span>체중을 입력해주세요<br/>&#40;단위 kg&#41;</span>
+              <input 
+                onChange={(e) => handle(e)}
+                id="weight"
+                value={data.weight}
+                style={{ width: 320, textAlign: "center" }}
+                type="number"/>
+            </label>
+          </div>
+          <div className="d-flex justify-content-center">
+            <label className="su-label">
+              <span>평소에 활동적이신가요?</span>
+              <select
+                onChange={(e) => handle(e)}
+                id="health"
+                value={data.health}
+                style={{ width: 320, textAlign: "center" }}
+              >
+                <option value="비활동적">비활동적</option>
+                <option value="저활동적">저활동적</option>
+                <option value="활동적">활동적</option>
+                <option value="매우활동적">매우활동적</option>
+              </select>
+            </label>
+          </div>
+
+
+          <div className="d-flex justify-content-center">
             <label className="su-label">
               <span>채식주의자이신가요?</span>
               <select
-                onChange={(e) => handle(e)}
+                onChange={(e)=>{handle(e);changedis(e);}}
                 id="isveg"
                 value={data.isveg}
                 style={{ width: 320, textAlign: "center" }}
@@ -156,9 +214,13 @@ function Signup() {
               </select>
             </label>
           </div>
-          <div class="d-flex justify-content-center">
+          <div 
+            id="vegdiv" 
+            className="justify-content-center" 
+            style={{display:"none"}}
+          >
             <label className="su-label">
-              <span>어느 유형에 속하시나요?</span>
+              <span>어느 채식 유형에 속하시나요?</span>
               <select
                 onChange={(e) => handle(e)}
                 id="vegtype"
@@ -166,7 +228,6 @@ function Signup() {
                 style={{ width: 320, textAlign: "center" }}
               >
                 <option value="N"></option>
-                <option value="fruitarian">프루테리언(fruitarian)</option>
                 <option value="vegan">비건(vegan)</option>
                 <option value="lacto-vegetarian">
                   락토 베지테리언(lacto-vegetarian)
@@ -186,11 +247,11 @@ function Signup() {
               </select>
             </label>
           </div>
-          <div class="d-flex justify-content-center">
+          <div className="d-flex justify-content-center">
             <label className="su-label">
               <span>알레르기가 있으신가요?</span>
               <select
-                onChange={(e) => handle(e)}
+                onChange={(e)=>{handle(e);changedis(e);}}
                 id="allergic"
                 value={data.allergic}
                 style={{ width: 320, textAlign: "center" }}
@@ -200,7 +261,11 @@ function Signup() {
               </select>
             </label>
           </div>
-          <div class="d-flex justify-content-center">
+          <div 
+            id="alldiv" 
+            className="justify-content-center" 
+            style={{display:"none"}}
+          >
             <label className="su-label2">
               주의해야할 알레르기 성분에 체크해 주세요
               <MultiSelect
@@ -211,18 +276,7 @@ function Signup() {
               />
             </label>
           </div>
-          <div class="d-flex justify-content-center">
-            <label className="su-label2">
-              항상 보유중인 식자재를 체크해 주세요
-              <MultiSelect
-                options={alreoptions}
-                value={alreselected}
-                onChange={setalreSelected}
-                labelledBy="Select"
-              />
-            </label>
-          </div>
-          <div class="d-flex justify-content-center">
+          <div className="d-flex justify-content-center">
             <button className="su-btn" class="btn btn-outline-dark">
               회원가입하기
             </button>
