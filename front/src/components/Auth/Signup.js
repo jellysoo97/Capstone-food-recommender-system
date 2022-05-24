@@ -59,7 +59,7 @@ function Signup() {
         age: parseInt(data.age),
         height: parseFloat(data.height),
         weight: parseFloat(data.weight),
-        heatlth:data.health,
+        health:data.health,
         vegtype: data.vegtype,
         allergic: newunable,
       })
