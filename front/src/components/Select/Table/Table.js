@@ -1,51 +1,57 @@
-import React, { useState } from "react"
+import React, { useEffect, useState } from "react"
 import "../../../index.css"
 
 function Table(props) {
   const user = props.user
   const unable = props.unable
-  const datalist = props.datalist
-  const getIngreGroup = props.getIngreGroup
-  const getSelectedIngre = props.getSelectedIngre
+  const grouplist = props.grouplist
+  const ingrelist = props.ingrelist
+  const getSelectedGroupValue = props.getSelectedGroupValue
+  const cell_group = document.getElementsByClassName("group")
+  const cell_ingre = document.getElementsByClassName("ingre")
   const [selected_ingre, setSelectedIngre] = useState([])
 
-  const ingre_list = [
-    "감자 및 전분류",
-    "견과류",
-    "곡류",
-    "과실류",
-    "난류",
-    "당류",
-    "두류",
-    "버섯류",
-    "어패류 및 수산물",
-    "유제품류",
-    "유지류",
-    "육류",
-    "음료류",
-    "조리가공품류",
-    "조미료류",
-    "주류",
-    "차류",
-    "채소류",
-    "해조류",
-    "갑각류",
-    "두족류",
-    "수산가공품",
-    "어류",
-  ]
-
-  const clickIngreGroup = (e) => {
+  const clickIngreGroup = (e, index) => {
     e.preventDefault()
-    getIngreGroup(e.target.innerText)
+    getSelectedGroupValue(index)
+
+    if (e.target.classList.contains("clicked")) {
+      e.target.classList.remove("clicked")
+    } else {
+      for (let i = 0; i < cell_group.length; i++) {
+        cell_group[i].classList.value = "tableCell group"
+      }
+      e.target.classList.add("clicked")
+    }
   }
 
   const insertIngre = (e) => {
     e.preventDefault()
-    setSelectedIngre(selected_ingre.concat(e.target.innerText))
-    console.log("child:", selected_ingre)
-    getSelectedIngre(selected_ingre)
+
+    // selected_ingre 삭제 수정 필요
+    if (e.target.classList.contains("clicked")) {
+      e.target.classList.remove("clicked")
+      selected_ingre.filter((el) => el !== e.target.innerText)
+    } else {
+      e.target.classList.add("clicked")
+      selected_ingre.push(e.target.innerText)
+    }
+    console.log(selected_ingre)
   }
+
+  useEffect(() => {
+    function resetIngre() {
+      for (let i = 0; i < cell_ingre.length; i++) {
+        cell_ingre[i].classList.value = "tableCell ingre"
+      }
+      console.log(cell_ingre)
+    }
+    function changeValue() {
+      setSelectedIngre(selected_ingre)
+    }
+    resetIngre()
+    changeValue()
+  }, [selected_ingre])
 
   return (
     <div className="container-fluid py-5">
@@ -70,10 +76,15 @@ function Table(props) {
           <div className="sl-table-box">
             <table className="table table-hover">
               <tbody>
-                {ingre_list
-                  ? ingre_list.map((el, index) => (
+                {grouplist
+                  ? grouplist.map((el, index) => (
                       <tr key={index} className="tableRowItems">
-                        <td className="tableCell" onClick={clickIngreGroup}>
+                        <td
+                          className="tableCell group"
+                          onClick={(e) => {
+                            clickIngreGroup(e, index)
+                          }}
+                        >
                           {el}
                         </td>
                       </tr>
@@ -85,11 +96,11 @@ function Table(props) {
           <div className="sl-table-box">
             <table className="table table-hover">
               <tbody>
-                {datalist
-                  ? datalist.map((el, index) => (
+                {ingrelist
+                  ? ingrelist.map((el, index) => (
                       <tr key={index} className="tableRowItems">
-                        <td className="tableCell" onClick={insertIngre}>
-                          {el["fields"]["ingre_group_1"]}
+                        <td className="tableCell ingre" onClick={insertIngre}>
+                          {el}
                         </td>
                       </tr>
                     ))
