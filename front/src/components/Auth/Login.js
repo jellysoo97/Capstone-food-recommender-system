@@ -1,21 +1,50 @@
-import React from "react"
+import React, { useState } from "react"
+import axios from "axios"
 
 function Login() {
+  const url = "http://127.0.0.1:8000/user/login/"
+  const [logindata, setlogindata] = useState({
+    user_id: "",
+    password: "",
+  })
+
+  function handle(e) {
+    const newlogindata = { ...logindata }
+    newlogindata[e.target.id] = e.target.value
+    setlogindata(newlogindata)
+    console.log(newlogindata)
+  }
+
+  function submit(e) {
+    e.preventDefault()
+    axios
+      .post(url, {
+        user_id: logindata.user_id,
+        password: logindata.password,
+      })
+      .then((res) => {
+        console.log(res.data)
+        window.location.reload()
+      })
+  }
+
   return (
     <div className="container-fluid d-flex lg-bg">
       <div className="lg-box">
         <div className="lg-title text-center mb-5">로그인</div>
         <div className="lg-form">
-          <form className="needs-validation">
+          <form onSubmit={(e) => submit(e)} className="needs-validation">
             <div className="row mb-4 text-center justify-content-center">
               <label for="inputId" className="col-2 col-form-label">
                 아이디
               </label>
               <div className="col-8">
                 <input
+                  onChange={(e) => handle(e)}
+                  value={logindata.user_id}
                   type="text"
                   className="form-control"
-                  id="inputId"
+                  id="user_id"
                   required
                 />
               </div>
@@ -31,9 +60,11 @@ function Login() {
               </label>
               <div className="col-8">
                 <input
+                  onChange={(e) => handle(e)}
+                  value={logindata.password}
                   type="password"
                   className="form-control"
-                  id="inputPassword"
+                  id="password"
                   required
                 />
               </div>
@@ -41,9 +72,7 @@ function Login() {
             </div>
             <div className="row text-center">
               <div className="col-12">
-                <button type="submit" className="lg-btn">
-                  로그인
-                </button>
+                <button className="lg-btn">로그인</button>
               </div>
             </div>
           </form>
