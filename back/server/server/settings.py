@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     "account",
     "recommend",
     "selectIngre",
+    "firstPreference",
 ]
 
 MIDDLEWARE = [
@@ -57,7 +58,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    #cors
+    # cors
     "corsheaders.middleware.CorsMiddleware",
 ]
 

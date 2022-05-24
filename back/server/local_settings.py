@@ -1,11 +1,11 @@
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'food-recommender-system',
-        "USER" : "root",
-        "PASSWORD" : "wangkibbum97",
-        "HOST" : "127.0.0.1",
-        "PORT" : "3306",
+        'NAME': 'food_recommender_system',
+        "USER": "jongseol",
+        "PASSWORD": "ghkdwjddus0118",
+        "HOST": "127.0.0.1",
+        "PORT": "3306",
     }
 }
 
