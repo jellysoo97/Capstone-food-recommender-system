@@ -8,8 +8,6 @@ from .serializers import UserSerializer
 from .models import User
 
 # 계정 전체 조회(GET), 회원가입(POST)
-
-
 @csrf_exempt
 def account_list(request):
     if request.method == 'GET':
@@ -26,8 +24,6 @@ def account_list(request):
         return JsonResponse(serializer.errors, status=400)
 
 # pk로 특정 계정 조회(GET), 수정(PUT), 삭제(DELETE)
-
-
 @csrf_exempt
 def account(request, pk):
     obj = User.objects.get(pk=pk)
@@ -49,8 +45,6 @@ def account(request, pk):
         return HttpResponse(status=204)
 
 # 로그인(POST)
-
-
 @csrf_exempt
 def login(request):
     if request.method == 'POST':

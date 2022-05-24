@@ -10,6 +10,8 @@ from .models import Ingre
 from account.models import User
 from firstPreference.models import Recipe
 from firstPreference.serializers import RecipeSerializer
+import simplejson as json
+
 # Create your views here.
 
 
@@ -22,8 +24,6 @@ def ingre_list(request, pk):
         # serializer = IngreSerializer(obj)
         # return JsonResponse(serializer.data, safe=False)
 
-# pk는 유저의 인덱스
-
 
 def ingre_combi(request, pk):
     # 필요한 데이터
@@ -32,9 +32,14 @@ def ingre_combi(request, pk):
     df_veges = pd.read_csv('채식주의자종류.csv')
 
     # 유저 아이디로 정보 가져오기
+    # 리스트가 텍스트로 오므로 이것을 다시 리스트화 하기
     obj = User.objects.get(id=pk)
-    vege_kinds = obj.vegtype
-    inedible_groups = obj.allergic
+    vege_kinds_raw = obj.vegtype
+    inedible_groups_raw = obj.allergic
+    jsonDec = json.decoder.JSONDecoder()
+    vege_kinds = jsonDec.decode(vege_kinds_raw)
+    inedible_groups = jsonDec.decode(inedible_groups_raw)
+
     #
     if request.method == 'POST':
         # 재료들 리스트가 이리로 넘어옴{ingres:[1,2,3,4,...]}
