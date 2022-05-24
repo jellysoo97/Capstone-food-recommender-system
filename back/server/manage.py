@@ -16,18 +16,18 @@ def main():
             "forget to activate a virtual environment?"
         ) from exc
 
-    try:
-        print(sys.argv)
-        if sys.argv[2] == 'react':
-            project_root = Path(__file__).resolve().parent.parent
-            os.chdir(os.path.join(project_root, "front"))
-            os.system("yarn start")
-            os.chdir(project_root)
-            sys.argv.pop(2)
-    except IndexError:
-        execute_from_command_line(sys.argv)
-    else:
-        execute_from_command_line(sys.argv)
+    # try:
+    #     print(sys.argv)
+    #     if sys.argv[2] == 'react':
+    #         project_root = Path(__file__).resolve().parent.parent
+    #         os.chdir(os.path.join(project_root, "front"))
+    #         os.system("yarn start")
+    #         os.chdir(project_root)
+    #         sys.argv.pop(2)
+    # except IndexError:
+    #     execute_from_command_line(sys.argv)
+    # else:
+    #     execute_from_command_line(sys.argv)
     execute_from_command_line(sys.argv)
 
 
