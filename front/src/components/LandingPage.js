@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState, useEffect } from "react"
 import "../index.css"
 
 const cardImg1 = require("../images/card_nutrient.png")
@@ -6,6 +6,19 @@ const cardImg2 = require("../images/card_vegi.png")
 const cardImg3 = require("../images/card_recipe.png")
 
 function LandingPage() {
+  let userId = window.localStorage.getItem("userId")
+  console.log(userId)
+
+  useEffect(() => {
+    userId = window.localStorage.getItem("userId")
+    console.log(userId)
+  }, [])
+  // const [userId, setUserId] = useState()
+  // useEffect(() => {
+  //   setUserId(window.localStorage.getItem("userId"))
+  //   console.log(typeof userId)
+  // }, [userId])
+
   const CardRow = () => {
     const Row = ({ src, alt, title, desc1, desc2, desc3 }) => {
       return (
@@ -76,11 +89,15 @@ function LandingPage() {
           </div>
           <div className="row text-center">
             <div className="col-12">
-              <a href="/signup">
-                <button type="button" className="lp-regi">
-                  회원가입
-                </button>
-              </a>
+              {userId === null ? (
+                <a href="/signup">
+                  <button type="button" className="lp-regi">
+                    회원가입
+                  </button>
+                </a>
+              ) : (
+                ""
+              )}
             </div>
           </div>
         </div>

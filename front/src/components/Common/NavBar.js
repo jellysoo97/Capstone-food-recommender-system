@@ -1,8 +1,19 @@
-import React from "react"
+import React, { useState, useEffect } from "react"
 
 const logoImg = require("../../images/logo.png")
 
 function NavBar() {
+  let userId = window.localStorage.getItem("userId")
+
+  useEffect(() => {
+    userId = window.localStorage.getItem("userId")
+  }, [])
+  // const [userId, setUserId] = useState()
+  // useEffect(() => {
+  //   setUserId(window.localStorage.getItem("userId"))
+  //   console.log(typeof userId)
+  // }, [userId])
+
   return (
     <div>
       <nav
@@ -46,13 +57,19 @@ function NavBar() {
               </ul>
             </li>
           </ul>
-          <ul className="nav justify-content-end">
-            <li className="nav-item">
-              <a href={"/login"} className="btn btn-success">
-                로그인
-              </a>
-            </li>
-          </ul>
+          {userId === null ? (
+            <ul className="nav justify-content-end">
+              <li className="nav-item">
+                <a href={"/login"} className="btn btn-success">
+                  로그인
+                </a>
+              </li>
+            </ul>
+          ) : (
+            <ul className="nav justify-content-end">
+              <li className="nav-item">{userId}님</li>
+            </ul>
+          )}
         </div>
       </nav>
     </div>

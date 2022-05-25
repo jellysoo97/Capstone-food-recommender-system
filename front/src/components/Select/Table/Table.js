@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react"
+import axios from "axios"
 import "../../../index.css"
 
 function Table(props) {
-  const user = props.user
   const unable = props.unable
   const grouplist = props.grouplist
   const ingrelist = props.ingrelist
@@ -11,6 +11,8 @@ function Table(props) {
   const cell_group = document.getElementsByClassName("group")
   const cell_ingre = document.getElementsByClassName("ingre")
   const [selected_ingre, setSelectedIngre] = useState([])
+  let userIdx = window.localStorage.getItem("idx")
+  let user = window.localStorage.getItem("userId")
 
   const clickIngreGroup = (e, index) => {
     e.preventDefault()
@@ -45,8 +47,18 @@ function Table(props) {
   }
 
   function sendSelectedIngre() {
-    getSelectedIngre(selected_ingre)
-    console.log(selected_ingre)
+    // getSelectedIngre(selected_ingre)
+    // console.log(selected_ingre)
+    axios
+      .post(`http://localhost:8000/selectIngre/bestcombi/${userIdx}`, {
+        selected_ingre: selected_ingre,
+      })
+      .then((response) => {
+        console.log(response)
+      })
+      .catch((error) => {
+        console.log(error)
+      })
   }
 
   useEffect(() => {
@@ -68,7 +80,7 @@ function Table(props) {
       <div className="row text-center mb-4">
         <div className="col-12">
           <h5>
-            <strong>{unable}</strong>가 포함된 메뉴를 제외하고
+            <strong>땅콩, 복숭아</strong>가 포함된 메뉴를 제외하고
             <br />
             <strong>영양성분이 우수한 순으로</strong> 추천됩니다.
           </h5>

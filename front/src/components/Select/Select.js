@@ -59,21 +59,21 @@ function Select() {
     getSub()
   }, [selected_group_value])
 
-  useEffect(() => {
-    getSelectedIngre()
-    console.log(selected_ingre)
+  // useEffect(() => {
+  //   getSelectedIngre()
+  //   console.log(selected_ingre)
 
-    axios
-      .post("http://localhost:8000/selectIngre/bestcombi", {
-        selected_ingre: selected_ingre,
-      })
-      .then((response) => {
-        console.log(response)
-      })
-      .catch((error) => {
-        console.log(error)
-      })
-  }, [])
+  //   axios
+  //     .post("http://localhost:8000/selectIngre/bestcombi", {
+  //       selected_ingre: selected_ingre,
+  //     })
+  //     .then((response) => {
+  //       console.log(response)
+  //     })
+  //     .catch((error) => {
+  //       console.log(error)
+  //     })
+  // }, [])
 
   return (
     <div>
