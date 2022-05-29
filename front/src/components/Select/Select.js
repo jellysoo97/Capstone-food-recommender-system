@@ -7,6 +7,7 @@ function Select() {
   const [grouplist, setGrouplist] = useState([])
   const [ingrelist, setIngrelist] = useState([])
   const [selected_group_value, setSelectedGroupValue] = useState("")
+  const [selected_ingre, setSelectedIngre] = useState([])
   let get_group_data = []
   let group_data_list = []
   let get_ingre_data = []
@@ -14,6 +15,10 @@ function Select() {
 
   const getSelectedGroupValue = (selected_group_value) => {
     setSelectedGroupValue(parseInt(selected_group_value))
+  }
+
+  const getSelectedIngre = (selected_ingre) => {
+    setSelectedIngre(selected_ingre)
   }
 
   useEffect(() => {
@@ -54,12 +59,29 @@ function Select() {
     getSub()
   }, [selected_group_value])
 
+  // useEffect(() => {
+  //   getSelectedIngre()
+  //   console.log(selected_ingre)
+
+  //   axios
+  //     .post("http://localhost:8000/selectIngre/bestcombi", {
+  //       selected_ingre: selected_ingre,
+  //     })
+  //     .then((response) => {
+  //       console.log(response)
+  //     })
+  //     .catch((error) => {
+  //       console.log(error)
+  //     })
+  // }, [])
+
   return (
     <div>
       <Table
         grouplist={grouplist}
         getSelectedGroupValue={getSelectedGroupValue}
         ingrelist={ingrelist}
+        getSelectedIngre={getSelectedIngre}
       />
     </div>
   )

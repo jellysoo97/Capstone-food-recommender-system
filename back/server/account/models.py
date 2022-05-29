@@ -1,26 +1,21 @@
 from django.db import models
 from django.contrib.auth.models import AbstractBaseUser, BaseUserManager
+from django.forms import CharField
 
 
 class User(models.Model):
     id = models.AutoField(primary_key=True)
     user_id = models.CharField(
-        default='', max_length=100, null=False, blank=False, unique=True)
-    # sex = models.BooleanField(default=False, null=False)
-    # age = models.SmallIntegerField(
-    #     default='', null=False, blank=False)
-    vege_type = models.CharField(
-        default='', max_length=50, null=False, blank=False, unique=False)
-    # alle_type = models.CharField(
-    #     default='', max_length=50, null=False, blank=False, unique=False)
-    password = models.CharField(max_length=200)
-# =======
-#     sex = models.BooleanField(default=False, null=False)
-#     age = models.SmallIntegerField(
-#         default='', null=False, blank=False)
-#     vegetype = models.CharField(
-#         default='', max_length=50, null=False, blank=False, unique=False)
-#     allergic = models.CharField(
-#         default='', max_length=50, null=False, blank=False, unique=False)
-#     password = models.CharField(max_length=200)
-# >>>>>>> 3955f6c96a53d949719e0843be6a96f0191f2d49
+        default='', max_length=128, null=False, blank=False, unique=True)
+    password = models.CharField(max_length=128)
+    sex = models.BooleanField(default=False, null=False)
+    age = models.SmallIntegerField(
+        default='', null=False, blank=False)
+    height = models.IntegerField(default=160, null=False)
+    weight = models.IntegerField(default=60, null=False)
+    health = models.CharField(default="없을 무", max_length=128)
+    # 리스트 https://django-mysql.readthedocs.io/en/latest/model_fields/list_fields.html
+    vegtype = models.TextField(default="[]", max_length=128)
+    # 리스트
+    allergic = models.TextField(default="[]", max_length=128)
+

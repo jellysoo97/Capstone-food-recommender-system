@@ -1,20 +1,27 @@
 import React, { useEffect, useState } from "react"
+import axios from "axios"
 import "../../../index.css"
 
 function Table(props) {
-  const user = props.user
   const unable = props.unable
   const grouplist = props.grouplist
   const ingrelist = props.ingrelist
   const getSelectedGroupValue = props.getSelectedGroupValue
+  const getSelectedIngre = props.getSelectedIngre
   const cell_group = document.getElementsByClassName("group")
   const cell_ingre = document.getElementsByClassName("ingre")
   const [selected_ingre, setSelectedIngre] = useState([])
+  let userIdx = window.localStorage.getItem("idx")
+  let user = window.localStorage.getItem("userId")
 
   const clickIngreGroup = (e, index) => {
     e.preventDefault()
     getSelectedGroupValue(index)
 
+    // 기존에 선택한 재료면 clicked된 상태로 만드는 수정 필요
+    for (let i = 0; i < cell_ingre.length; i++) {
+      cell_ingre[i].classList.value = "tableCell ingre"
+    }
     if (e.target.classList.contains("clicked")) {
       e.target.classList.remove("clicked")
     } else {
@@ -39,17 +46,25 @@ function Table(props) {
     console.log(selected_ingre)
   }
 
+  function sendSelectedIngre() {
+    // getSelectedIngre(selected_ingre)
+    // console.log(selected_ingre)
+    axios
+      .post(`http://localhost:8000/selectIngre/bestcombi/${userIdx}`, {
+        selected_ingre: selected_ingre,
+      })
+      .then((response) => {
+        console.log(response)
+      })
+      .catch((error) => {
+        console.log(error)
+      })
+  }
+
   useEffect(() => {
-    function resetIngre() {
-      for (let i = 0; i < cell_ingre.length; i++) {
-        cell_ingre[i].classList.value = "tableCell ingre"
-      }
-      console.log(cell_ingre)
-    }
     function changeValue() {
       setSelectedIngre(selected_ingre)
     }
-    resetIngre()
     changeValue()
   }, [selected_ingre])
 
@@ -65,7 +80,7 @@ function Table(props) {
       <div className="row text-center mb-4">
         <div className="col-12">
           <h5>
-            <strong>{unable}</strong>가 포함된 메뉴를 제외하고
+            <strong>땅콩, 복숭아</strong>가 포함된 메뉴를 제외하고
             <br />
             <strong>영양성분이 우수한 순으로</strong> 추천됩니다.
           </h5>
@@ -125,7 +140,12 @@ function Table(props) {
       </div>
       <div className="row">
         <div className="col-12 text-center">
-          <button type="button" className="sl-table-btn" href={"#"}>
+          <button
+            type="button"
+            className="sl-table-btn"
+            href={"#"}
+            onClick={sendSelectedIngre}
+          >
             해당 재료로 추천 받기
           </button>
         </div>

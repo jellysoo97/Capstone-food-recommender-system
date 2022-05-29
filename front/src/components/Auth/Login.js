@@ -1,18 +1,20 @@
-import React , { useState } from "react"
+import React, { useState } from "react"
+import { useNavigate } from "react-router-dom"
 import axios from "axios"
 
 function Login() {
-  const url = "http://127.0.0.1:8000/user/login/"
-  const [logindata,setlogindata]=useState({
-    user_id:"",
-    password:"",
+  const url = "http://127.0.0.1:8000/user/login"
+  const [logindata, setlogindata] = useState({
+    user_id: "",
+    password: "",
   })
+  const navigate = useNavigate()
+
 
   function handle(e) {
     const newlogindata = { ...logindata }
     newlogindata[e.target.id] = e.target.value
     setlogindata(newlogindata)
-    console.log(newlogindata)
   }
 
   function submit(e) {
@@ -20,12 +22,13 @@ function Login() {
     axios
       .post(url, {
         user_id: logindata.user_id,
-        password:logindata.password,
-
+        password: logindata.password,
       })
       .then((res) => {
         console.log(res.data)
-        window.location.reload()
+        navigate("/")
+        window.localStorage.setItem("idx", res.data.idx)
+        window.localStorage.setItem("userId", res.data.userId)
       })
   }
 
@@ -73,10 +76,7 @@ function Login() {
             </div>
             <div className="row text-center">
               <div className="col-12">
-                {/* <button type="submit" className="lg-btn"> */}
-                <button className="lg-btn">
-                  로그인
-                </button>
+                <button className="lg-btn">로그인</button>
               </div>
             </div>
           </form>

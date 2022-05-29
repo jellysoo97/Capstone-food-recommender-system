@@ -22,4 +22,5 @@ urlpatterns = [
     path('user/', include('account.urls')),
     path('recommend/', include('recommend.urls')),
     path('selectIngre/', include('selectIngre.urls')),
+    path('preference/', include('firstPreference.urls')),
 ]
