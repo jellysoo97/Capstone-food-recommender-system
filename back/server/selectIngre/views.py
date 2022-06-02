@@ -17,13 +17,27 @@ def getIngreGroup(request):
         groups = serializers.serialize("json", datas, fields="group")
         return HttpResponse(groups, content_type="text/json-comment-filtered")
 
-
 # 재료군별 재료 GET
 def getIngreSub(request, id):
     subs = IngreGroup.objects.filter(pk=id)
     if request.method == "GET":
         sub = serializers.serialize("json", subs)
         return HttpResponse(sub, content_type="text/json-comment-filtered")
+
+# 못먹는 재료 GET
+def getInedible(request, pk):
+    if request.method == "GET":
+        obj = User.objects.get(id=pk)
+        user_vege = obj.vegtype
+        inedible_groups_raw = obj.allergic
+        inedible_groups = inedible_groups_raw.split(",")
+        if user_vege:
+            get_vege_data = VegeType.objects.filter(vege_kinds__contains=user_vege)
+            vege_data = serializers.serialize("json", get_vege_data)
+            vege_data_json = json.loads(vege_data)
+            vege_indbl = vege_data_json[0]["fields"]["vege_indbl"].split(",")
+            inedible_groups.extend(vege_indbl)
+        return JsonResponse(inedible_groups, safe=False)
 
 
 #################################궁합모듈############################################
@@ -105,7 +119,7 @@ def BestCombi(request, pk):
     # return JsonResponse(r_serializer.data, safe=False)
 
 
-# #input데이터(변수명: put, 형식: 딕셔너리) 받아서 indedible_groups 리스트 생성
+# input데이터(변수명: put, 형식: 딕셔너리) 받아서 indedible_groups 리스트 생성
 # inedible_groups = put['allergic'] #리스트
 # vege_kinds = put['vegtype'] #문자열
 # #알레르기환자: 못먹는 재료가 바로 리스트(inedible_groups)로 들어옴(알레르기 없으면 빈리스트)

@@ -25,9 +25,9 @@ function Login() {
       })
       .then((res) => {
         console.log(res.data)
-        navigate("/")
         window.localStorage.setItem("idx", res.data.idx)
         window.localStorage.setItem("userId", res.data.userId)
+        navigate("/")
       })
   }
 
