@@ -6,18 +6,12 @@ const cardImg2 = require("../images/card_vegi.png")
 const cardImg3 = require("../images/card_recipe.png")
 
 function LandingPage() {
-  let userId = window.localStorage.getItem("userId")
-  console.log(userId)
+  const [userId, setUserId] = useState("")
 
   useEffect(() => {
-    userId = window.localStorage.getItem("userId")
-    console.log(userId)
-  }, [])
-  // const [userId, setUserId] = useState()
-  // useEffect(() => {
-  //   setUserId(window.localStorage.getItem("userId"))
-  //   console.log(typeof userId)
-  // }, [userId])
+    const userIdLs = window.localStorage.getItem("userId")
+    setUserId(userIdLs)
+  })
 
   const CardRow = () => {
     const Row = ({ src, alt, title, desc1, desc2, desc3 }) => {

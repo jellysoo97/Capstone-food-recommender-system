@@ -1,18 +1,22 @@
 import React, { useState, useEffect } from "react"
+import { Navigate, useNavigate } from "react-router-dom"
 
 const logoImg = require("../../images/logo.png")
 
 function NavBar() {
-  let userId = window.localStorage.getItem("userId")
+  const [userId, setUserId] = useState("")
+  const navigate = useNavigate()
 
   useEffect(() => {
-    userId = window.localStorage.getItem("userId")
-  }, [])
-  // const [userId, setUserId] = useState()
-  // useEffect(() => {
-  //   setUserId(window.localStorage.getItem("userId"))
-  //   console.log(typeof userId)
-  // }, [userId])
+    const userIdLs = window.localStorage.getItem("userId")
+    setUserId(userIdLs)
+  })
+
+  const logOut = (e) => {
+    e.preventDefault()
+    window.localStorage.clear()
+    navigate("/login")
+  }
 
   return (
     <div>
@@ -67,7 +71,12 @@ function NavBar() {
             </ul>
           ) : (
             <ul className="nav justify-content-end">
-              <li className="nav-item">{userId}님</li>
+              <li className="nav-item py-2 px-3">{userId}님</li>
+              <li className="nav-item">
+                <a className="btn btn-success" onClick={logOut}>
+                  로그아웃
+                </a>
+              </li>
             </ul>
           )}
         </div>
