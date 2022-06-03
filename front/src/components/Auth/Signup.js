@@ -46,13 +46,17 @@ function Signup() {
     { label: "아황산포함식품", value: "21" },
   ]
   const [unableselected, setunableSelected] = useState([])
-  const newunable = []
+  let newunable = []
   const navigate = useNavigate()
 
   function submit(e) {
     e.preventDefault()
-    for (let i = 0; i < unableselected.length; i++) {
-      newunable.push(unableselected[i].label)
+    if(unableselected.length!==0){
+        for (let i = 0; i < unableselected.length; i++) {
+        newunable.push(unableselected[i].label)
+      }
+    }else{
+      newunable="[]"
     }
     axios
       .post(url, {
