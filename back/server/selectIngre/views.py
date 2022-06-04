@@ -5,8 +5,6 @@ import json
 
 from .models import *
 from account.models import User
-from firstPreference.models import Recipe
-from firstPreference.serializers import RecipeSerializer
 
 # Create your views here.
 
@@ -65,6 +63,11 @@ def BestCombi(request, pk):
         # vege_data = json.dumps(vege_data_json[0])
         vege_indbl = vege_data_json[0]["fields"]["vege_indbl"].split(",")
         inedible_groups.extend(vege_indbl)
+    
+    # 대체식품 inedible_groups에서 제외
+    for elem in main:
+        if elem in inedible_groups:
+            inedible_groups.remove(elem)
 
     result, best_combi = [], []
     # bestcombiglv 테이블에서 모든 데이터 가져옴
@@ -96,7 +99,8 @@ def BestCombi(request, pk):
                     # 각 행의 recipe_id를 result에 삽입
                     result.append(lst_s_json[0]["fields"]["recipe_id"])
     sample_combi_result = list(set(result))
-    return sample_combi_result
+    return_result = {"combi": sample_combi_result, "pk": pk, "inedible": inedible_groups}
+    return return_result
 
 
     # for c in df_best_comb_2['best_combination']:
