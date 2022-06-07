@@ -278,20 +278,20 @@ menu_list = ['RECIPE_ID', '에너지', '단백질', '지방',
 short_nut = []
 
 
-for j in sample[8] :
+for j in sample[8] : # user db 에서 못먹는 재료 데이터 하나하나 추출
     te = []
-    a = list(source_df[source_df['식품'] == j].iloc[0])
-    a = a[1:]
-    a = list(map(float, a))
+    a = list(source_df[source_df['식품'] == j].iloc[0]) # 재료 하나에 해당하는 재료 영양성분 데이터 추출
+    a = a[1:] # 식품 이름을 제외하고, 영양성분 데이터만 추출
+    a = list(map(float, a)) # 문자열로 되어있을 수 있는 데이터 float 형으로 변환
 
-    for i in range(0, len(reco)) :
-        te.append((a[i] - reco[i]) / reco[i])
+    for i in range(0, len(reco)) : # 각 영양성분 권장섭취량과 비교(절대 양이 아닌, 비율로 계산), 가장 비율이 높은 것을 뽑을 것임(권장섭취량 대비 가장 높은 영양 비율을 가진 재료)
+        te.append((a[i] - reco[i]) / reco[i]) # 비율로 나타내기
 
     te
 
     te.index(max(te))
 
-    short_nut.append(menu_list[te.index(max(te))+1])
+    short_nut.append(menu_list[te.index(max(te))+1]) # 비율 중 가장 큰 것을 부족 영양소로 추가(menu_list에는 식품 이름이 포함되어 있으므로 가장 큰 영양소를 뽑으려면 +1 해주어야함)
 
 short_nut
 
@@ -303,25 +303,26 @@ short_nut
 
 location = []
 
-for i in short_nut :
+for i in short_nut : # 부족한 영양소의 인덱스 위치를 찾아냄( 예> 발린 -> 18번째)
     location.append(menu_list.index(i))
 
+# 가중평균 방법 -> 부족 영양소의 합에 부족하지 않은 영양소와 부족한 영양소의 차이의 비율만큼 곱해줌 
 
 def nutrient(i) :  
     tem = []
     short_nutri = 0
     
-    for j in range(0, len(reco)) :
+    for j in range(0, len(reco)) : # 영양소 차이 계산
         tem.append(menu.iloc[i][j+1] - reco[j])
     
-    for k in location :    
+    for k in location :    # 부족 영양소 얼마만큼인지 파악
         short_nutri += tem[k]
     
     not_short_nutri = sum(tem) - short_nutri
     
     difference = not_short_nutri - short_nutri
     
-    total = short_nutri * difference * not_short_nutri / sum(tem)
+    total = short_nutri * difference * not_short_nutri / sum(tem)  # 부족한 영양소에 부족하지 않은 영양소와의 비율만큼 
     
     return [abs(total), menu.iloc[i]['RECIPE_ID']]
     
