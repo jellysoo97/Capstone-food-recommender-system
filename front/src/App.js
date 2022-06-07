@@ -27,7 +27,8 @@ function App() {
           <Route exact path="/signup" element={<Signup />} />
           <Route exact path="/prefer" element={<FirstPrefer />} />
           <Route exact path="/login" element={<Login />} />
-          <Route exact path="/select" element={<Select />} />
+          <Route exact path="/select/:cate" element={<Select />} />
+          <Route exact path="/select/:cate" element={<Select />} />
           <Route exact path="/result" element={<Result />} />
         </Routes>
       </div>

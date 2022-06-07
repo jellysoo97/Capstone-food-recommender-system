@@ -3,6 +3,7 @@ from django.core import serializers
 from rest_framework.parsers import JSONParser
 import json
 
+from recommend.views import IngreBalance
 from .models import *
 from account.models import User
 
@@ -40,7 +41,7 @@ def getInedible(request, pk):
 
 #################################궁합모듈############################################
 
-def BestCombi(request, pk):
+def BestCombi(request, cate, pk):
     # 유저 아이디로 정보 가져오기
     # 리스트가 텍스트로 오므로 이것을 다시 리스트화 하기
     obj = User.objects.get(id=pk)
@@ -99,8 +100,14 @@ def BestCombi(request, pk):
                     # 각 행의 recipe_id를 result에 삽입
                     result.append(lst_s_json[0]["fields"]["recipe_id"])
     sample_combi_result = list(set(result))
-    return_result = {"combi": sample_combi_result, "pk": pk, "inedible": inedible_groups}
-    return return_result
+
+#################################영양소 균형 & 선호도 알고리즘 따로 실행############################################
+    if cate == "balance":
+        return_result = IngreBalance(pk, inedible_groups, sample_combi_result)
+    else:
+        print("preference")
+    
+    return JsonResponse(return_result, safe=False)
 
 
     # for c in df_best_comb_2['best_combination']:

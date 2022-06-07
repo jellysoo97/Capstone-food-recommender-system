@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react"
+import { useParams } from "react-router-dom"
 import axios from "axios"
 import "../../../index.css"
 import Table from "./Table"
@@ -16,6 +17,7 @@ function TableData(props) {
   const [selected_ingre, setSelectedIngre] = useState([])
   const [isChecked, setisChecked] = useState(false)
   const [checkedItems, setCheckedItems] = useState(new Set())
+  let cate = useParams()
 
   const clickIngreGroup = (e, index) => {
     e.preventDefault()
@@ -70,9 +72,12 @@ function TableData(props) {
 
   function sendSelectedIngre() {
     axios
-      .post(`http://localhost:8000/selectIngre/bestcombi/${userIdx}`, {
-        selected_ingre: [...selected_ingre],
-      })
+      .post(
+        `http://localhost:8000/selectIngre/bestcombi/${cate.cate}/${userIdx}`,
+        {
+          selected_ingre: [...selected_ingre],
+        }
+      )
       .then((response) => {
         console.log(response)
       })

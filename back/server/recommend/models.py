@@ -8,7 +8,7 @@
 from django.db import models
 
 class RecipeBasic(models.Model):
-    id = models.IntegerField(db_column='ID', blank=True, null=True)  # Field name made lowercase.
+    id = models.IntegerField(db_column='ID', primary_key=True, blank=True, null=False)  # Field name made lowercase.
     recipe_id = models.IntegerField(db_column='RECIPE_ID', blank=True, null=True)  # Field name made lowercase.
     recipe_nm_ko = models.TextField(db_column='RECIPE_NM_KO', blank=True, null=True)  # Field name made lowercase.
     sumry = models.TextField(db_column='SUMRY', blank=True, null=True)  # Field name made lowercase.
@@ -18,12 +18,12 @@ class RecipeBasic(models.Model):
     img_url = models.TextField(db_column='IMG_URL', blank=True, null=True)  # Field name made lowercase.
 
     class Meta:
-        managed = False
+        managed = True
         db_table = 'recipe_basic'
 
 
 class RecipeIngre(models.Model):
-    id = models.IntegerField(db_column='ID', blank=True, null=True)  # Field name made lowercase.
+    id = models.IntegerField(db_column='ID', primary_key=True, blank=True, null=False)  # Field name made lowercase.
     recipe_id = models.IntegerField(db_column='RECIPE_ID', blank=True, null=True)  # Field name made lowercase.
     recipe_nm_ko = models.TextField(db_column='RECIPE_NM_KO', blank=True, null=True)  # Field name made lowercase.
     energy = models.FloatField(blank=True, null=True)
@@ -37,6 +37,7 @@ class RecipeIngre(models.Model):
     phos = models.FloatField(blank=True, null=True)
     calrium = models.FloatField(blank=True, null=True)
     natrium = models.FloatField(blank=True, null=True)
+    zinc = models.FloatField(blank=True, null=True)
     copper = models.FloatField(blank=True, null=True)
     selenium = models.FloatField(blank=True, null=True)
     vita_d3 = models.FloatField(blank=True, null=True)
@@ -50,15 +51,46 @@ class RecipeIngre(models.Model):
     cysteine = models.FloatField(blank=True, null=True)
 
     class Meta:
-        managed = False
+        managed = True
         db_table = 'recipe_ingre'
 
 class RecipeOrder(models.Model):
-    id = models.IntegerField(db_column='ID', blank=True, null=True)  # Field name made lowercase.
+    id = models.IntegerField(db_column='ID', primary_key=True, blank=True, null=False)  # Field name made lowercase.
     recipe_id = models.IntegerField(db_column='RECIPE_ID', blank=True, null=True)  # Field name made lowercase.
     cooking_no = models.IntegerField(db_column='COOKING_NO', blank=True, null=True)  # Field name made lowercase.
     cooking_dc = models.TextField(db_column='COOKING_DC', blank=True, null=True)  # Field name made lowercase.
 
     class Meta:
-        managed = False
+        managed = True
         db_table = 'recipe_order'
+
+class IngreNut(models.Model):
+    id = models.IntegerField(db_column='ID', primary_key=True, blank=True, null=False)  # Field name made lowercase.
+    name = models.TextField(blank=True, null=True)
+    energy = models.FloatField(blank=True, null=True)
+    protein = models.FloatField(blank=True, null=True)
+    fat = models.FloatField(blank=True, null=True)
+    carbo = models.FloatField(blank=True, null=True)
+    fiber = models.FloatField(blank=True, null=True)
+    calcium = models.FloatField(blank=True, null=True)
+    steel = models.FloatField(blank=True, null=True)
+    magne = models.FloatField(blank=True, null=True)
+    phos = models.FloatField(blank=True, null=True)
+    calrium = models.FloatField(blank=True, null=True)
+    natrium = models.FloatField(blank=True, null=True)
+    zinc = models.FloatField(blank=True, null=True)
+    copper = models.FloatField(blank=True, null=True)
+    selenium = models.FloatField(blank=True, null=True)
+    vita_d3 = models.FloatField(blank=True, null=True)
+    dfe = models.FloatField(blank=True, null=True)
+    vita_b12 = models.FloatField(blank=True, null=True)
+    vita_c = models.FloatField(blank=True, null=True)
+    threo = models.FloatField(blank=True, null=True)
+    valine = models.FloatField(blank=True, null=True)
+    histi = models.FloatField(blank=True, null=True)
+    tyrosine = models.FloatField(blank=True, null=True)
+    cysteine = models.FloatField(blank=True, null=True)
+
+    class Meta:
+        managed = True
+        db_table = 'ingre_nut'

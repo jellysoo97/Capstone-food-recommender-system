@@ -1,10 +1,8 @@
-import React, { useEffect, useState } from "react"
-import axios from "axios"
+import React from "react"
 import "../../../index.css"
 
 function Table(props) {
   const userId = props.userId
-  const userIdx = props.userIdx
   const inedible = props.inedible
   const grouplist = props.grouplist
   const ingrelist = props.ingrelist
