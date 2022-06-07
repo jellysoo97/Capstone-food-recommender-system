@@ -5,6 +5,7 @@
 #   * Make sure each ForeignKey and OneToOneField has `on_delete` set to the desired behavior
 #   * Remove `managed = False` lines if you wish to allow Django to create, modify, and delete the table
 # Feel free to rename the models, but don't rename db_table values or field names.
+from imaplib import Internaldate2tuple
 from django.db import models
 
 class RecipeBasic(models.Model):
@@ -94,3 +95,14 @@ class IngreNut(models.Model):
     class Meta:
         managed = True
         db_table = 'ingre_nut'
+
+class RecipeWhat(models.Model):
+    id = models.IntegerField(db_column='ID', primary_key=True, blank=True, null=False)  # Field name made lowercase.
+    recipe_id = models.IntegerField(db_column='RECIPE_ID', blank=True, null=True)  # Field name made lowercase.
+    irdnt_nm = models.TextField(db_column='IRDNT_NM', blank=True, null=True)
+    irdnt_cpcty = models.TextField(db_column='IRDNT_CPCTY', blank=True, null=True)
+    irdnt_nb = models.IntegerField(db_column='IRDNT_NB', blank=True, null=True)
+
+    class Meta:
+        managed = True
+        db_table = 'recipe_what'
