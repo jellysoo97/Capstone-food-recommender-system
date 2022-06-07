@@ -1,4 +1,5 @@
 import pandas as pd
+import json
 
 from .models import *
 from account.models import User
@@ -26,6 +27,7 @@ def IngreBalance(pk, inedible, combi):
     user = User.objects.get(id=user_idx)
     # recipe_id에 해당하는 데이터 -> 레시피영양정보 모델에서 불러오기
     combi_menu_ingre = recipe_ingre_data[recipe_ingre_data["recipe_id"].isin(best_combi_result)]
+    combi_menu_ingre = combi_menu_ingre.fillna(0)
     
     # 권장섭취량 계산 -  데이터 [이름, 성별(true, false), 키,  나이, 몸무게, 신체활동], 나이별 열량 데이터 필요
     # 신체활동 데이터는 1.0(비활동적), 1.11(저활동적), 1.25(활동적), 1,48(매우활동적)
@@ -80,6 +82,7 @@ def IngreBalance(pk, inedible, combi):
     # 부족 영양소 확인하기 위한 재료 데이터 추출
     source_df = ingre_nut.loc[:, ["name", "energy", "protein", "fat", "carbo", "fiber", "calcium", "steel", "magne", "phos", "calrium", "natrium", "zinc", "copper", "selenium", "vita_d3", "dfe", "vita_b12",
             "vita_c", "threo", "valine", "histi", "tyrosine", "cysteine"]]
+    # print(source_df[source_df["name"] == "땅콩"])
     # 부족한 영양소 추출 - 못먹는 메뉴에서 권장 섭취량 대비 비율이 가장 높은 영양소(가장 풍부한 영양소) 추출
     nut_list = ["energy", "protein", "fat", "carbo", "fiber", "calcium", "steel", "magne", "phos", "calrium", "natrium", "zinc", "copper", "selenium", "vita_d3", "dfe", "vita_b12",
             "vita_c", "threo", "valine", "histi", "tyrosine", "cysteine"]
@@ -88,18 +91,26 @@ def IngreBalance(pk, inedible, combi):
     for elem in inedible_list :
         te = []
         # 재료 하나에 해당하는 재료 영양성분 데이터 추출
-        print(elem)
-        nut = list(source_df[source_df["name"] == elem].iloc[0])
+        nut = list(source_df[source_df["name"].str.contains(elem)].iloc[0])
+        # nut = list(source_df[source_df["name"] == elem].iloc[0])
         # 식품 이름을 제외하고, 영양성분 데이터만 추출
         nut = nut[1:]
-        # 문자열로 되어있을 수 있는 데이터 float 형으로 변환
-        nut = list(map(float, nut))
+        try:
+            # 문자열로 되어있을 수 있는 데이터 float 형으로 변환
+            nut = list(map(float, nut))  
+        except:
+            a_new = []
+            for ingre in nut:
+                if type(ingre) == str:
+                    ingre = ingre.replace(",", "")
+                a_new.append(ingre)
+            nut = list(map(float, a_new))
 
         # 각 영양성분 권장섭취량과 비교(절대 양이 아닌, 비율로 계산)
         # 가장 비율이 높은 것을 뽑을 것임(권장섭취량 대비 가장 높은 영양 비율을 가진 재료)
         for i in range(0, len(user_recommend)) :
             # 비율로 나타내기
-            te.append((nut[i] - user_recommend[i]) / user_recommend[i])
+            te.append((float(nut[i]) - float(user_recommend[i])) / float(user_recommend[i]))
         # 비율 중 가장 큰 것을 부족 영양소로 추가(menu_list에는 식품 이름이 포함되어 있으므로 가장 큰 영양소를 뽑으려면 +1 해주어야함)
         short_nut.append(nut_list[te.index(max(te))])
 
@@ -114,8 +125,13 @@ def IngreBalance(pk, inedible, combi):
         short_nutri = 0
         
         for j in range(0, len(user_recommend)) :
-            tem.append(combi_menu_ingre.iloc[i][j+1] - user_recommend[j])
-        
+            if combi_menu_ingre.iloc[i][j+3] == "" :
+                tem.append(float(0) - float(user_recommend[j]))
+            else:
+                elem = str(combi_menu_ingre.iloc[i][j+3])
+                elem = elem.replace(",", "")
+                tem.append(float(elem) - float(user_recommend[j]))
+
         for k in location :    
             short_nutri += tem[k]
         
@@ -125,7 +141,7 @@ def IngreBalance(pk, inedible, combi):
         
         total = short_nutri * difference * not_short_nutri / sum(tem)
         
-        return [abs(total), combi_menu_ingre.iloc[i]['RECIPE_ID']]
+        return [abs(total), combi_menu_ingre.iloc[i]["recipe_id"]]
 
     total_list = []
     for i in range(0, len(combi_menu_ingre)) :
@@ -141,10 +157,15 @@ def IngreBalance(pk, inedible, combi):
     def getRecipeInfo(id_list):
         return_result = {}
         for elem in id_list:
+            elem = int(elem)
             basic_info = RecipeBasic.objects.get(recipe_id=elem)
-            order_info = RecipeOrder.objects.get(recipe_id=elem)
-            return_result[elem] = {basic_info: basic_info, order_info: order_info}
-        return return_result
+            order_info = RecipeOrder.objects.filter(recipe_id=elem).values()
+            return_result[elem] = {"basic_info": 
+            {"recipe_nm_ko": basic_info.recipe_nm_ko, "sumry": basic_info.sumry, 
+            "cooking_time": basic_info.cooking_time, "qnt": basic_info.qnt, 
+            "level_nm": basic_info.level_nm, "img_url": basic_info.img_url}, 
+            "order_info": list(order_info)}
+        return json.dumps(return_result, ensure_ascii=False)
     last_result = getRecipeInfo(return_result)
 
     return last_result
