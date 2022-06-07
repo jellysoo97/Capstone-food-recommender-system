@@ -209,10 +209,10 @@ td.tableCell.clicked {
 .rs-info{
   display:inline-block;
   background-color: #E9DCCD;
-  width: 60vw;
-  min-height: calc(80vh - 80px);
+  width: 50vw;
+  min-height: 75vh;
   position: absolute;
-  top:20vh;
+  top:10vh;
   left:10vh;
 }
 .rs-img{
@@ -226,7 +226,17 @@ td.tableCell.clicked {
 
 .rs-img img{
   width:40vw;
-  height:631px;
+  min-height: calc(100vh - 80px);
+  /* height:631px; */
   object-fit: cover;
+}
+.rs-recipe{
+  height:200px;
+  overflow:auto;
+}
+.rs-star{
+  position: absolute;
+  bottom:0px;
+  left:0px;
 }
 
