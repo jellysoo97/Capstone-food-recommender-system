@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react"
-import { useParams } from "react-router-dom"
+import { useParams, useNavigate } from "react-router-dom"
 import axios from "axios"
 import "../../../index.css"
 import Table from "./Table"
@@ -17,6 +17,7 @@ function TableData(props) {
   const [selected_ingre, setSelectedIngre] = useState([])
   const [isChecked, setisChecked] = useState(false)
   const [checkedItems, setCheckedItems] = useState(new Set())
+  const navigate = useNavigate()
   let cate = useParams()
 
   const clickIngreGroup = (e, index) => {
@@ -79,7 +80,11 @@ function TableData(props) {
         }
       )
       .then((response) => {
-        console.log(response)
+        console.log(response.data)
+        window.localStorage.setItem("result", response.data)
+        response.data
+          ? navigate(`/result/${cate.cate}`)
+          : console.log("데이터 없음")
       })
       .catch((error) => {
         console.log(error)

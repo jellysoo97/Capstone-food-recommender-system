@@ -29,7 +29,8 @@ function App() {
           <Route exact path="/login" element={<Login />} />
           <Route exact path="/select/:cate" element={<Select />} />
           <Route exact path="/select/:cate" element={<Select />} />
-          <Route exact path="/result" element={<Result />} />
+          <Route exact path="/result/:cate" element={<Result />} />
+          <Route exact path="/result/:cate" element={<Result />} />
         </Routes>
       </div>
       <Footer />
