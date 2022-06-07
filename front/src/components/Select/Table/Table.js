@@ -1,88 +1,16 @@
-import React, { useEffect, useState } from "react"
-import axios from "axios"
+import React from "react"
 import "../../../index.css"
 
 function Table(props) {
   const userId = props.userId
-  const userIdx = props.userIdx
   const inedible = props.inedible
   const grouplist = props.grouplist
   const ingrelist = props.ingrelist
-  const getSelectedGroupValue = props.getSelectedGroupValue
-  const getSelectedIngre = props.getSelectedIngre
-
-  const cell_group = document.getElementsByClassName("group")
-  const cell_ingre = document.getElementsByClassName("ingre")
-  const [selected_ingre, setSelectedIngre] = useState(new Set())
-  const [isChecked, setisChecked] = useState(false)
-  const [checkedItems, setCheckedItems] = useState(new Set())
-
-  const clickIngreGroup = (e, index) => {
-    e.preventDefault()
-    getSelectedGroupValue(index)
-
-    for (let i = 0; i < cell_ingre.length; i++) {
-      cell_ingre[i].classList.value = "tableCell ingre"
-    }
-    if (e.target.classList.contains("clicked")) {
-      e.target.classList.remove("clicked")
-    } else {
-      for (let i = 0; i < cell_group.length; i++) {
-        cell_group[i].classList.value = "tableCell group"
-      }
-      e.target.classList.add("clicked")
-    }
-  }
-
-  const checkHandler = (e, el, index) => {
-    const td = document.getElementById(`td${index}`)
-    setisChecked(!isChecked)
-    if (e.target.checked) {
-      checkedItems.add(el)
-      setCheckedItems(checkedItems)
-      td.classList.remove("inedible")
-      selected_ingre.add(td.innerText)
-      setSelectedIngre(selected_ingre)
-    } else if (!e.target.checked && checkedItems.has(el)) {
-      checkedItems.delete(el)
-      setCheckedItems(checkedItems)
-      td.classList.add("inedible")
-      selected_ingre.delete(td.innerText)
-      setSelectedIngre(selected_ingre)
-    }
-    console.log(checkedItems)
-    console.log(selected_ingre)
-  }
-
-  const insertIngre = (e) => {
-    // e.preventDefault()
-    // selected_ingre 삭제 수정 필요
-    if (e.target.classList.contains("clicked")) {
-      e.target.classList.remove("clicked")
-      selected_ingre.delete(e.target.innerText)
-      setSelectedIngre(selected_ingre)
-    } else {
-      e.target.classList.add("clicked")
-      selected_ingre.add(e.target.innerText)
-      setSelectedIngre(selected_ingre)
-    }
-    console.log(selected_ingre)
-  }
-
-  function sendSelectedIngre() {
-    // getSelectedIngre(selected_ingre)
-    // console.log(selected_ingre)
-    axios
-      .post(`http://localhost:8000/selectIngre/bestcombi/${userIdx}`, {
-        selected_ingre: [...selected_ingre],
-      })
-      .then((response) => {
-        console.log(response)
-      })
-      .catch((error) => {
-        console.log(error)
-      })
-  }
+  const selected_ingre = props.selected_ingre
+  const clickIngreGroup = props.clickIngreGroup
+  const checkHandler = props.checkHandler
+  const insertIngre = props.insertIngre
+  const sendSelectedIngre = props.sendSelectedIngre
 
   return (
     <div className="container-fluid py-5">
@@ -130,33 +58,62 @@ function Table(props) {
               <tbody>
                 {ingrelist
                   ? ingrelist.map((el, index) => {
-                      if (inedible.includes(el)) {
-                        return (
-                          <tr key={index} className="tableRowItems">
-                            <td
-                              className="tableCell ingre inedible"
-                              id={`td${index}`}
-                            >
-                              {el}
-                              <input
-                                type="checkbox"
-                                className="form-check-input mx-2"
-                                onChange={(e) => checkHandler(e, el, index)}
-                              ></input>
-                            </td>
-                          </tr>
-                        )
+                      if (selected_ingre.includes(el)) {
+                        if (inedible.includes(el)) {
+                          return (
+                            <tr key={index} className="tableRowItems">
+                              <td className="tableCell ingre" id={`td${index}`}>
+                                {el}
+                                <input
+                                  type="checkbox"
+                                  className="form-check-input mx-2"
+                                  onChange={(e) => checkHandler(e, el, index)}
+                                  checked
+                                ></input>
+                              </td>
+                            </tr>
+                          )
+                        } else {
+                          return (
+                            <tr key={index} className="tableRowItems">
+                              <td
+                                className="tableCell ingre clicked"
+                                onClick={insertIngre}
+                              >
+                                {el}
+                              </td>
+                            </tr>
+                          )
+                        }
                       } else {
-                        return (
-                          <tr key={index} className="tableRowItems">
-                            <td
-                              className="tableCell ingre"
-                              onClick={insertIngre}
-                            >
-                              {el}
-                            </td>
-                          </tr>
-                        )
+                        if (inedible.includes(el)) {
+                          return (
+                            <tr key={index} className="tableRowItems">
+                              <td
+                                className="tableCell ingre inedible"
+                                id={`td${index}`}
+                              >
+                                {el}
+                                <input
+                                  type="checkbox"
+                                  className="form-check-input mx-2"
+                                  onChange={(e) => checkHandler(e, el, index)}
+                                ></input>
+                              </td>
+                            </tr>
+                          )
+                        } else {
+                          return (
+                            <tr key={index} className="tableRowItems">
+                              <td
+                                className="tableCell ingre"
+                                onClick={insertIngre}
+                              >
+                                {el}
+                              </td>
+                            </tr>
+                          )
+                        }
                       }
                     })
                   : ""}
