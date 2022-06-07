@@ -240,7 +240,7 @@ reco
 
 # 메뉴 데이터에서 한국인 영양섭취 기준에 나열되어 있는 영양분 열만 뽑아내기
 
-menu = menu[['RECIPE_NM_KO', '에너지', '단백질', '지방',
+menu = menu[['RECIPE_ID', '에너지', '단백질', '지방',
        '탄수화물', '총 식이섬유', '칼슘', '철', '마그네슘', '인', '칼륨', '나트륨', '아연', '구리',
        '셀레늄',  '비타민 D3', '엽산(DFE)', '비타민 B12', '비타민 C', '트레오닌', '발린', '히스티딘',  '티로신', '시스테인']]
 menu
@@ -271,7 +271,7 @@ sample[8]
 
 # 부족한 영양소 추출 - 못먹는 메뉴에서 권장 섭취량 대비 비율이 가장 높은 영양소(가장 풍부한 영양소) 추출
 
-menu_list = ['RECIPE_NM_KO', '에너지', '단백질', '지방',
+menu_list = ['RECIPE_ID', '에너지', '단백질', '지방',
        '탄수화물', '총 식이섬유', '칼슘', '철', '마그네슘', '인', '칼륨', '나트륨', '아연', '구리',
        '셀레늄',  '비타민 D3', '엽산(DFE)', '비타민 B12', '비타민 C', '트레오닌', '발린', '히스티딘',  '티로신', '시스테인']
 
@@ -323,7 +323,7 @@ def nutrient(i) :
     
     total = short_nutri * difference * not_short_nutri / sum(tem)
     
-    return [abs(total), menu.iloc[i]['RECIPE_NM_KO']]
+    return [abs(total), menu.iloc[i]['RECIPE_ID']]
     
     #calorie = float(menu.iloc[i]['에너지']) - reco[0]
     #protein = float(menu.iloc[i]['단백질']) - reco[1]
