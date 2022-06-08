@@ -98,11 +98,11 @@ code {
   padding: 20px;
   background-color: white;
   outline: none;
-  border-radius : 20px;
-  position : absolute;
-  left :15vw;
-  top : 100px;
-  width :70vw;
+  border-radius: 20px;
+  position: absolute;
+  left: 15vw;
+  top: 100px;
+  width: 70vw;
   min-height: calc(100vh + 145px);
 }
 .su-label {
@@ -123,8 +123,8 @@ code {
   padding: 10px;
 }
 .su-bg {
-  background-color: #A8BA88;
-  display : block;
+  background-color: #a8ba88;
+  display: block;
   min-height: calc(100vh + 500px);
 }
 
@@ -199,11 +199,14 @@ code {
 td.tableCell.clicked {
   background: rgba(0, 0, 0, 0.075);
 }
+td.tableCell.ingre.inedible {
+  text-decoration: line-through;
+}
 
 /* result */
-.rs{
-  display : flex;
-  background-color: #E9DCCD;
+.rs {
+  display: flex;
+  background-color: #e9dccd;
   min-height: calc(100vh - 80px);
 }
 .rs-info{
@@ -215,15 +218,14 @@ td.tableCell.clicked {
   top:10vh;
   left:10vh;
 }
-.rs-img{
+.rs-img {
   background-color: lightblue;
-  display:inline-block;
+  display: inline-block;
   width: 40vw;
   min-height: calc(100vh - 80px);
-  position:absolute;
-  right:0px;
+  position: absolute;
+  right: 0px;
 }
-
 .rs-img img{
   width:40vw;
   min-height: calc(100vh - 80px);
@@ -239,4 +241,3 @@ td.tableCell.clicked {
   bottom:0px;
   left:0px;
 }
-

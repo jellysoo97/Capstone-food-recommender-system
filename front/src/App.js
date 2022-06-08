@@ -9,7 +9,7 @@ import Signup from "./components/Auth/Signup"
 import Login from "./components/Auth/Login"
 import Select from "./components/Select/Select"
 import Result from "./components/Result/Result"
-
+import FirstPrefer from "./components/Auth/FirstPrefer"
 
 function App() {
   return (
@@ -25,13 +25,16 @@ function App() {
         <Routes>
           <Route exact path="/" element={<LandingPage />} />
           <Route exact path="/signup" element={<Signup />} />
+          <Route exact path="/prefer" element={<FirstPrefer />} />
           <Route exact path="/login" element={<Login />} />
-          <Route exact path="/select" element={<Select />} />
-          <Route exact path="/result" element={<Result />} />
+          <Route exact path="/select/:cate" element={<Select />} />
+          <Route exact path="/select/:cate" element={<Select />} />
+          <Route exact path="/result/:cate" element={<Result />} />
+          <Route exact path="/result/:cate" element={<Result />} />
         </Routes>
       </div>
       <Footer />
-    </Suspense> 
+    </Suspense>
   )
 }
 export default App

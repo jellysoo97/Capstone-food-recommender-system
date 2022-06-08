@@ -1,80 +1,172 @@
-from django.shortcuts import render
-from django.http import HttpResponse, JsonResponse
-from django.views.decorators.csrf import csrf_exempt
-from rest_framework import generics
-from rest_framework.parsers import JSONParser
-from django.core import serializers
 import pandas as pd
-from .serializers import IngreSerializer
-from .models import Ingre
+import json
+
+from .models import *
 from account.models import User
-from firstPreference.models import Recipe
-from firstPreference.serializers import RecipeSerializer
-import simplejson as json
 
 # Create your views here.
 
+def IngreBalance(pk, inedible, combi):
+    # 메뉴별 영양소 데이터
+    recipe_ingre_data = pd.DataFrame(RecipeIngre.objects.all().values())
+    # 데이터 결측치 = 0
+    recipe_ingre_data = recipe_ingre_data.fillna(0)
+    # 재료별 영양소 데이터
+    ingre_nut = pd.DataFrame(IngreNut.objects.all().values())
+    # 데이터 결측치 = 0
+    ingre_nut = ingre_nut.fillna(0)
 
-def ingre_list(request, pk):
-    obj = Ingre.objects.filter(ingre_group_small__contains=pk)
-    print(obj)
-    if request.method == "GET":
-        serializer = serializers.serialize("json", obj)
-        return HttpResponse(serializer, content_type="text/json-comment-filtered")
-        # serializer = IngreSerializer(obj)
-        # return JsonResponse(serializer.data, safe=False)
+    # 유저 인덱스
+    user_idx = pk
+    # 궁합 알고리즘 결과값: recipe_id 리스트
+    best_combi_result = combi
+    # 유저 못 먹는 재료 리스트
+    inedible_list = inedible
 
+    # 해당 idx의 유저 정보 불러오기
+    user = User.objects.get(id=user_idx)
+    # recipe_id에 해당하는 데이터 -> 레시피영양정보 모델에서 불러오기
+    combi_menu_ingre = recipe_ingre_data[recipe_ingre_data["recipe_id"].isin(best_combi_result)]
+    combi_menu_ingre = combi_menu_ingre.fillna(0)
+    
+    # 권장섭취량 계산 -  데이터 [이름, 성별(true, false), 키,  나이, 몸무게, 신체활동], 나이별 열량 데이터 필요
+    # 신체활동 데이터는 1.0(비활동적), 1.11(저활동적), 1.25(활동적), 1,48(매우활동적)
+    # 2020 한국인 영양섭취 기준, 권장영양소 작성
+    if user.health == "비활동적":
+        health_data = 1.0
+    elif user.health == "저활동적":
+        health_data = 1.11
+    elif user.health == "활동적":
+        health_data = 1.25
+    else: health_data = 1.48
 
-def ingre_combi(request, pk):
-    # 필요한 데이터
-    df_best_comb_2 = pd.read_csv('재료별최적의궁합2_new.csv')
-    df_lsts = pd.read_csv('재료리스트정리.csv')
-    df_veges = pd.read_csv('채식주의자종류.csv')
+    def calculate(sex, age, height, weight, health):
+        if sex == 1 :
+            cal = 662 - 9.53 * age + health * (15.91 * weight + 539.6 * height / 100 )
+            carbo = cal * 0.6 /4
+            protein = cal * 0.14 / 4
+            fat = cal * 0.26 / 9
+        else :
+            cal = 354 - 6.91 * age + health * (9.36 * weight + 726 * height / 100 )
+            carbo = cal * 0.6 /4
+            protein = cal * 0.14 / 4
+            fat = cal * 0.26 / 9
+        fiber = 30
+        calcium = 800
+        steel = 12
+        magne = 320
+        phos = 700
+        calrium = 3500
+        natrium = 1500
+        zinc = 9
+        copper = 750
+        selenium = 60
+        vita_d3 = 10
+        dfe = 400
+        vita_b12 = 2.4
+        vita_c = 100
+        threo = 1200
+        valine = 1500
+        histi = 900
+        tyrosine = 3000
+        cysteine = 1200
+        return [cal, protein, fat, carbo, fiber, calcium, steel, magne, phos, calrium, natrium, zinc, copper, selenium, vita_d3, dfe, vita_b12,
+            vita_c, threo, valine, histi, tyrosine, cysteine]
 
-    # 유저 아이디로 정보 가져오기
-    # 리스트가 텍스트로 오므로 이것을 다시 리스트화 하기
-    obj = User.objects.get(id=pk)
-    vege_kinds_raw = obj.vegtype
-    inedible_groups_raw = obj.allergic
-    jsonDec = json.decoder.JSONDecoder()
-    vege_kinds = jsonDec.decode(vege_kinds_raw)
-    inedible_groups = jsonDec.decode(inedible_groups_raw)
+    # 유저의 하루 권장 섭취량
+    user_recommend = calculate(user.sex, user.age, user.height, user.weight, health_data)
+    # 유저의 한끼 권장 섭취량
+    for i in range(0, len(user_recommend)) :
+        user_recommend[i] = user_recommend[i] / 3
+    
+    # 부족 영양소 확인하기 위한 재료 데이터 추출
+    source_df = ingre_nut.loc[:, ["name", "energy", "protein", "fat", "carbo", "fiber", "calcium", "steel", "magne", "phos", "calrium", "natrium", "zinc", "copper", "selenium", "vita_d3", "dfe", "vita_b12",
+            "vita_c", "threo", "valine", "histi", "tyrosine", "cysteine"]]
+    # print(source_df[source_df["name"] == "땅콩"])
+    # 부족한 영양소 추출 - 못먹는 메뉴에서 권장 섭취량 대비 비율이 가장 높은 영양소(가장 풍부한 영양소) 추출
+    nut_list = ["energy", "protein", "fat", "carbo", "fiber", "calcium", "steel", "magne", "phos", "calrium", "natrium", "zinc", "copper", "selenium", "vita_d3", "dfe", "vita_b12",
+            "vita_c", "threo", "valine", "histi", "tyrosine", "cysteine"]
+    short_nut = []
+    # user db 에서 못먹는 재료 데이터 하나하나 추출
+    for elem in inedible_list :
+        te = []
+        # 재료 하나에 해당하는 재료 영양성분 데이터 추출
+        nut = list(source_df[source_df["name"].str.contains(elem)].iloc[0])
+        # nut = list(source_df[source_df["name"] == elem].iloc[0])
+        # 식품 이름을 제외하고, 영양성분 데이터만 추출
+        nut = nut[1:]
+        try:
+            # 문자열로 되어있을 수 있는 데이터 float 형으로 변환
+            nut = list(map(float, nut))  
+        except:
+            a_new = []
+            for ingre in nut:
+                if type(ingre) == str:
+                    ingre = ingre.replace(",", "")
+                a_new.append(ingre)
+            nut = list(map(float, a_new))
 
-    #
-    if request.method == 'POST':
-        # 재료들 리스트가 이리로 넘어옴{ingres:[1,2,3,4,...]}
-        data = JSONParser().parse(request)
-        # 재료 리스트를 꺼내주기
-        main = data[0]
-    # 알레르기환자: 못먹는 재료가 바로 리스트(inedible_groups)로 들어옴(알레르기 없으면 빈리스트)
-    # 채식주의자: 채식주의자의 종류가 리스트로 들어옴(vege_kinds) -> 종류를 받아서 채식주의자별 못먹는 재료 리스트(vege) 생성
-    # 채식주의자 아니면 vege_kinds가 빈리스트 -> vege 생성하지 않음
-        if vege_kinds:
-            for k in vege_kinds:
-                vege_idx = list(df_veges[df_veges['VEGE_KINDS'] == k].index)[0]
-                vege = df_veges.loc[vege_idx, 'VEGE_INDBL'].split(',')
-                # 채식주의자 종류별 못먹는 재료를 못먹는 재료 리스트(indedible_groups)에 추가
-                inedible_groups.extend(vege)
+        # 각 영양성분 권장섭취량과 비교(절대 양이 아닌, 비율로 계산)
+        # 가장 비율이 높은 것을 뽑을 것임(권장섭취량 대비 가장 높은 영양 비율을 가진 재료)
+        for i in range(0, len(user_recommend)) :
+            # 비율로 나타내기
+            te.append((float(nut[i]) - float(user_recommend[i])) / float(user_recommend[i]))
+        # 비율 중 가장 큰 것을 부족 영양소로 추가(menu_list에는 식품 이름이 포함되어 있으므로 가장 큰 영양소를 뽑으려면 +1 해주어야함)
+        short_nut.append(nut_list[te.index(max(te))])
 
-        # 못먹는 재료 리스트(inedible_groups)와 대체식품 재료 리스트(alters)를 비교
-        # 대체도 안되고 최종적으로 제외해야 하는 재료 리스트(indedible) = 대체식품 리스트에 들어있지 않은(대체 안되는) 못먹는 재료 리스트
-        #inedible = set(inedible_groups) - set(alters)
+    # 영양소 균형 알고리즘 : 가중평균방법
+    location = []
 
-        result = []
-        for c in df_best_comb_2['best_combination']:
-            combi = c.replace(' ', '').replace(
-                '[', '').replace(']', '').replace("'", "").split(',')
-            # 입력된 재료(변수명: main, 형식: 리스트, '식품군별 상세분류'데이터의 ['SUBGROUP'] 원소) 각각 재료별 최적의 궁합 찾기
-            if len(set(main) & set(combi)) != 0:
-                for i in df_lsts.index:
-                    lst_s = df_lsts.loc[i, 'SUBGROUP'].replace(' ', '').replace(
-                        '[', '').replace(']', '').replace("'", "").split(',')
-                    # 최종적으로 제외해야 하는 재료를 제외하고 최적의 궁합에 있는 모든 재료는 포함하는 레시피 번호
-                    # 결과 레시피 번호(변수명: result, 내용: 레시피 번호, 형식:리스트)는 다음 인자로 넘겨줌
-                    if (len(inedible_groups & set(lst_s)) == 0) & set(combi).issubset(set(lst_s)):
-                        result.append(df_lsts.loc[i, 'RECIPE_ID'])
-        sample_combi_result = result
-        recommendations = Recipe.objects.filter(
-            recipe_id__in=sample_combi_result)
-        r_serializer = RecipeSerializer(recommendations, many=True)
-        return JsonResponse(r_serializer.data, safe=False)
+    for i in short_nut :
+        location.append(nut_list.index(i))
+
+    def nutrient(i) :  
+        tem = []
+        short_nutri = 0
+        
+        for j in range(0, len(user_recommend)) :
+            if combi_menu_ingre.iloc[i][j+3] == "" :
+                tem.append(float(0) - float(user_recommend[j]))
+            else:
+                elem = str(combi_menu_ingre.iloc[i][j+3])
+                elem = elem.replace(",", "")
+                tem.append(float(elem) - float(user_recommend[j]))
+
+        for k in location :    
+            short_nutri += tem[k]
+        
+        not_short_nutri = sum(tem) - short_nutri
+        
+        difference = not_short_nutri - short_nutri
+        
+        total = short_nutri * difference * not_short_nutri / sum(tem)
+        
+        return [abs(total), combi_menu_ingre.iloc[i]["recipe_id"]]
+
+    total_list = []
+    for i in range(0, len(combi_menu_ingre)) :
+        total_list.append(nutrient(i))
+    total_list.sort(key=lambda x:x[0])
+
+    result = []
+    for i in range(0, len(total_list)) :
+        result.append(total_list[i][1])
+    return_result = result[:5]
+
+    # recipe_id에 해당하는 기본정보, 과정정보 가져오기
+    def getRecipeInfo(id_list):
+        return_result = {}
+        for elem in id_list:
+            elem = int(elem)
+            basic_info = RecipeBasic.objects.get(recipe_id=elem)
+            order_info = RecipeOrder.objects.filter(recipe_id=elem).values()
+            what_info = RecipeWhat.objects.filter(recipe_id=elem).values()
+            return_result[elem] = {"basic_info": 
+            {"recipe_nm_ko": basic_info.recipe_nm_ko, "sumry": basic_info.sumry, 
+            "cooking_time": basic_info.cooking_time, "qnt": basic_info.qnt, 
+            "level_nm": basic_info.level_nm, "img_url": basic_info.img_url}, 
+            "order_info": list(order_info), "what_info": list(what_info)}
+        return json.dumps(return_result, ensure_ascii=False)
+    last_result = getRecipeInfo(return_result)
+
+    return last_result
