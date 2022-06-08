@@ -18,4 +18,3 @@ class User(models.Model):
     vegtype = models.TextField(default="[]", max_length=128)
     # 리스트
     allergic = models.TextField(default="[]", max_length=128)
-
