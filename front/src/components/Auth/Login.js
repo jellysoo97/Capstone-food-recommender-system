@@ -10,7 +10,6 @@ function Login() {
   })
   const navigate = useNavigate()
 
-
   function handle(e) {
     const newlogindata = { ...logindata }
     newlogindata[e.target.id] = e.target.value
