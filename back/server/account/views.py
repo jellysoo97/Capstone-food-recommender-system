@@ -1,7 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse, JsonResponse
 from django.views.decorators.csrf import csrf_exempt
-from rest_framework import generics
 from rest_framework.parsers import JSONParser
 
 from .serializers import UserSerializer
@@ -19,9 +18,10 @@ def account_list(request):
 
     elif request.method == 'POST':
         data = JSONParser().parse(request)
-        print(type(data))
+        print(data)
         serializer = UserSerializer(data=data)
-        if serializer.is_valid():
+        print(serializer)
+        if serializer.is_valid(raise_exception=True):
             serializer.save()
             return JsonResponse(serializer.data, status=201)
         return JsonResponse(serializer.errors, status=400)
@@ -57,8 +57,11 @@ def login(request):
     if request.method == 'POST':
         data = JSONParser().parse(request)
         search_id = data['user_id']
+        print(search_id)
         obj = User.objects.get(user_id=search_id)
+        user = {"idx": obj.id, "userId": obj.user_id}
+        print(user)
         if data['password'] == obj.password:
-            return HttpResponse(status=200)
+            return JsonResponse(user, safe=False)
         else:
             return HttpResponse(status=400)

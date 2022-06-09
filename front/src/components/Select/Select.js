@@ -4,6 +4,9 @@ import axios from "axios"
 import Table from "./Table/Table.js"
 
 function Select() {
+  const [userId, setUserId] = useState("")
+  const [userIdx, setUserIdx] = useState()
+  const [inedible, setInedible] = useState([])
   const [grouplist, setGrouplist] = useState([])
   const [ingrelist, setIngrelist] = useState([])
   const [selected_group_value, setSelectedGroupValue] = useState("")
@@ -20,6 +23,24 @@ function Select() {
   const getSelectedIngre = (selected_ingre) => {
     setSelectedIngre(selected_ingre)
   }
+
+  useEffect(() => {
+    setUserId(window.localStorage.getItem("userId"))
+    setUserIdx(window.localStorage.getItem("idx"))
+    console.log(userId, userIdx)
+
+    function getInedible() {
+      axios
+        .get(`http://localhost:8000/selectIngre/inedible/${userIdx}`)
+        .then((response) => {
+          setInedible([...response.data])
+        })
+        .catch((error) => {
+          console.log(error)
+        })
+    }
+    userIdx !== undefined ? getInedible() : console.log("비로그인 상태")
+  }, [userIdx])
 
   useEffect(() => {
     function getGroup() {
@@ -56,28 +77,17 @@ function Select() {
           console.log(error)
         })
     }
-    getSub()
+    typeof selected_group_value == "number"
+      ? getSub()
+      : console.log("선택된 재료군 없음")
   }, [selected_group_value])
-
-  useEffect(() => {
-    getSelectedIngre()
-    console.log(selected_ingre)
-
-    axios
-      .post("http://localhost:8000/selectIngre/bestcombi", {
-        selected_ingre: selected_ingre,
-      })
-      .then((response) => {
-        console.log(response)
-      })
-      .catch((error) => {
-        console.log(error)
-      })
-  }, [])
 
   return (
     <div>
       <Table
+        userId={userId}
+        userIdx={userIdx}
+        inedible={inedible}
         grouplist={grouplist}
         getSelectedGroupValue={getSelectedGroupValue}
         ingrelist={ingrelist}

@@ -1,8 +1,23 @@
-import React from "react"
+import React, { useState, useEffect } from "react"
+import { Navigate, useNavigate } from "react-router-dom"
 
 const logoImg = require("../../images/logo.png")
 
 function NavBar() {
+  const [userId, setUserId] = useState("")
+  const navigate = useNavigate()
+
+  useEffect(() => {
+    const userIdLs = window.localStorage.getItem("userId")
+    setUserId(userIdLs)
+  })
+
+  const logOut = (e) => {
+    e.preventDefault()
+    window.localStorage.clear()
+    navigate("/login")
+  }
+
   return (
     <div>
       <nav
@@ -46,13 +61,24 @@ function NavBar() {
               </ul>
             </li>
           </ul>
-          <ul className="nav justify-content-end">
-            <li className="nav-item">
-              <a href={"/login"} className="btn btn-success">
-                로그인
-              </a>
-            </li>
-          </ul>
+          {userId === null ? (
+            <ul className="nav justify-content-end">
+              <li className="nav-item">
+                <a href={"/login"} className="btn btn-success">
+                  로그인
+                </a>
+              </li>
+            </ul>
+          ) : (
+            <ul className="nav justify-content-end">
+              <li className="nav-item py-2 px-3">{userId}님</li>
+              <li className="nav-item">
+                <a className="btn btn-success" onClick={logOut}>
+                  로그아웃
+                </a>
+              </li>
+            </ul>
+          )}
         </div>
       </nav>
     </div>

@@ -1,20 +1,22 @@
 import React, { useState } from "react"
+import { useNavigate } from "react-router-dom"
 import axios from "axios"
 import { MultiSelect } from "react-multi-select-component"
+
 import "../../index.css"
 import image from "../../images/logo.png"
 
 function Signup() {
   //const url = "https://fad0d70d-d523-442e-8fa3-3fbe1e1b8bf2.mock.pstmn.io/post1"
-  const url = "http://127.0.0.1:8000/user/account"
+  const url = "http://localhost:8000/user/account"
   const [data, setData] = useState({
     userid: "",
     userpw: "",
     sex: 1,
     age: 20,
     height: 0,
-    weight:0,
-    health:"비활동적",
+    weight: 0,
+    health: "비활동적",
     isveg: "N",
     vegtype: "N",
     allergic: "N",
@@ -44,11 +46,12 @@ function Signup() {
     { label: "아황산포함식품", value: "21" },
   ]
   const [unableselected, setunableSelected] = useState([])
-  const newunable=[]
-  
+  const newunable = []
+  const navigate = useNavigate()
+
   function submit(e) {
     e.preventDefault()
-    for(let i=0;i<unableselected.length;i++){
+    for (let i = 0; i < unableselected.length; i++) {
       newunable.push(unableselected[i].label)
     }
     axios
@@ -59,13 +62,14 @@ function Signup() {
         age: parseInt(data.age),
         height: parseFloat(data.height),
         weight: parseFloat(data.weight),
-        health:data.health,
+        health: data.health,
         vegtype: data.vegtype,
-        allergic: newunable,
+        allergic: String(newunable),
       })
       .then((res) => {
         console.log(res.data)
-        window.location.reload()
+        alert("회원가입이 완료되었습니다.")
+        navigate("/login")
       })
   }
 
@@ -76,18 +80,18 @@ function Signup() {
     console.log(newdata)
   }
 
-  function changedis(e){
-    if(e.target.value==="Y"){
-      if(e.target.id==="isveg"){
-        document.getElementById("vegdiv").style.display="flex"
-      }else if(e.target.id==="allergic"){
-        document.getElementById("alldiv").style.display="flex"
+  function changedis(e) {
+    if (e.target.value === "Y") {
+      if (e.target.id === "isveg") {
+        document.getElementById("vegdiv").style.display = "flex"
+      } else if (e.target.id === "allergic") {
+        document.getElementById("alldiv").style.display = "flex"
       }
-    }else if(e.target.value==="N"){
-      if(e.target.id==="isveg"){
-        document.getElementById("vegdiv").style.display="none"
-      }else if(e.target.id==="allergic"){
-        document.getElementById("alldiv").style.display="none"
+    } else if (e.target.value === "N") {
+      if (e.target.id === "isveg") {
+        document.getElementById("vegdiv").style.display = "none"
+      } else if (e.target.id === "allergic") {
+        document.getElementById("alldiv").style.display = "none"
       }
     }
   }
@@ -159,27 +163,37 @@ function Signup() {
               </select>
             </label>
           </div>
-          
+
           <div className="d-flex justify-content-center">
             <label className="su-label">
-            <span>신장을 입력해주세요<br/>&#40;단위 cm&#41;</span>
-              <input 
+              <span>
+                신장을 입력해주세요
+                <br />
+                &#40;단위 cm&#41;
+              </span>
+              <input
                 onChange={(e) => handle(e)}
                 id="height"
                 value={data.height}
                 style={{ width: 320, textAlign: "center" }}
-                type="number"/>
+                type="number"
+              />
             </label>
           </div>
           <div className="d-flex justify-content-center">
             <label className="su-label">
-            <span>체중을 입력해주세요<br/>&#40;단위 kg&#41;</span>
-              <input 
+              <span>
+                체중을 입력해주세요
+                <br />
+                &#40;단위 kg&#41;
+              </span>
+              <input
                 onChange={(e) => handle(e)}
                 id="weight"
                 value={data.weight}
                 style={{ width: 320, textAlign: "center" }}
-                type="number"/>
+                type="number"
+              />
             </label>
           </div>
           <div className="d-flex justify-content-center">
@@ -199,12 +213,14 @@ function Signup() {
             </label>
           </div>
 
-
           <div className="d-flex justify-content-center">
             <label className="su-label">
               <span>채식주의자이신가요?</span>
               <select
-                onChange={(e)=>{handle(e);changedis(e);}}
+                onChange={(e) => {
+                  handle(e)
+                  changedis(e)
+                }}
                 id="isveg"
                 value={data.isveg}
                 style={{ width: 320, textAlign: "center" }}
@@ -214,10 +230,10 @@ function Signup() {
               </select>
             </label>
           </div>
-          <div 
-            id="vegdiv" 
-            className="justify-content-center" 
-            style={{display:"none"}}
+          <div
+            id="vegdiv"
+            className="justify-content-center"
+            style={{ display: "none" }}
           >
             <label className="su-label">
               <span>어느 채식 유형에 속하시나요?</span>
@@ -251,7 +267,10 @@ function Signup() {
             <label className="su-label">
               <span>알레르기가 있으신가요?</span>
               <select
-                onChange={(e)=>{handle(e);changedis(e);}}
+                onChange={(e) => {
+                  handle(e)
+                  changedis(e)
+                }}
                 id="allergic"
                 value={data.allergic}
                 style={{ width: 320, textAlign: "center" }}
@@ -261,10 +280,10 @@ function Signup() {
               </select>
             </label>
           </div>
-          <div 
-            id="alldiv" 
-            className="justify-content-center" 
-            style={{display:"none"}}
+          <div
+            id="alldiv"
+            className="justify-content-center"
+            style={{ display: "none" }}
           >
             <label className="su-label2">
               주의해야할 알레르기 성분에 체크해 주세요

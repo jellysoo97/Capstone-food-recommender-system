@@ -1,8 +1,4 @@
-from django.shortcuts import render
 from django.http import HttpResponse, JsonResponse
-from django.views.decorators.csrf import csrf_exempt
-from rest_framework import generics
-from rest_framework.parsers import JSONParser
 from django.core import serializers
 import pandas as pd
 from .serializers import IngreSerializer
@@ -86,3 +82,14 @@ def ingre_combi(request):
             recipe_id__in=sample_combi_result)
         r_serializer = RecipeSerializer(recommendations, many=True)
         return JsonResponse(r_serializer.data, safe=False)
+import json
+from rest_framework.parsers import JSONParser
+
+from selectIngre.views import BestCombiGlv
+from .models import *
+
+# Create your views here.
+
+def IngreBalance():
+    best_combi_result = BestCombiGlv()
+    
