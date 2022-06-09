@@ -213,7 +213,7 @@ td.tableCell.ingre.inedible {
   display:inline-block;
   background-color: #E9DCCD;
   width: 50vw;
-  min-height: 75vh;
+  min-height: 80vh;
   position: absolute;
   top:10vh;
   left:10vh;
@@ -228,11 +228,12 @@ td.tableCell.ingre.inedible {
 }
 .rs-img img{
   width:40vw;
-  min-height: calc(100vh - 80px);
-  /* height:631px; */
+  height:calc(100vh - 80px);
+  /* min-height: calc(100vh - 80px); */
   object-fit: cover;
 }
 .rs-recipe{
+  background-color: #e9e5e1;
   height:200px;
   overflow:auto;
 }
@@ -240,4 +241,28 @@ td.tableCell.ingre.inedible {
   position: absolute;
   bottom:0px;
   left:0px;
+}
+.rs-info span{
+  font-weight: bold;
+}
+/* resultlist */
+.rl{
+  display : flex;
+  background-color: #E9DCCD;
+  min-height: calc(100vh - 80px);
+}
+.rl-list{
+  text-align: center;
+  margin:auto;
+}
+.list-group{
+  height: 350px;
+  text-align: center;
+  font-size: 30px;
+  overflow:auto;
+}
+.list-group img{
+  width:200px;
+  height:200px;
+  object-fit: cover;
 }
