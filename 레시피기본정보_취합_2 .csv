@@ -1,0 +1,893 @@
+,RECIPE_ID,RECIPE_NM_KO,SUMRY,COOKING_TIME,QNT,LEVEL_NM,IMG_URL
+0,2,오곡밥,정월대보름에 먹던 오곡밥! 영양을 한그릇에 담았습니다.,60분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/000300.jpg
+1,3,잡채밥,잡채밥 한 그릇이면 오늘 저녁 끝! 입 맛 없을 때 먹으면 그만이지요~,30분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/000400.jpg
+2,4,콩나물밥,다이어트에 으뜸인 콩나물밥. 밥 물 넣을때 평소보다 적게 넣는거 잊지마세요!,40분,4인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/000600.jpg
+3,5,약식,집에서도 쉽게 만들어 맛있게 먹을 수 있답니다. 어려워 마시고 만들어 보세요~!,60분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/000800.jpg
+4,6,호박죽,호박죽 한 그릇이면 하루가 든든하답니다.,30분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/001300.jpg
+5,7,흑임자죽,검은깨를 갈아서 만든 고소함이 가득한 흑임자죽. 남녀노소 모두 사랑하는 맛!,25분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/001400.jpg
+6,8,카레라이스,향긋한 카레향이 너무 좋지요. 누구나 좋아하는 만들기도 간편한 음식입니다.,30분,4인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/001600.jpg
+7,9,오므라이스,각종 채소를 계란 속에 꼭꼭 숨겨 편식하는 아이들도 맛있게 먹어요~,30분,4인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/001800.jpg
+8,16,만둣국,만두를 예쁘게 만들면 이쁜 딸을 낳는다고 하죠? 가족들과 오손도손 맛있는 만두국 만들어 드셔보세요~,40분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/003500.jpg
+9,21,미역국,미역국은 철분이 풍부하게 함유된 음식이라 여자들에게 특히 좋은 음식이라 하지요.,30분,4인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/004700.jpg
+10,22,미역냉국,"더운 여름, 새콤달콤 시원한 미역냉국으로 입맛을 살려보세요~",30분,4인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/004800.jpg
+11,25,오이냉국,아삭아삭한 오이와 새콤달콤한 냉국의 조화!,20분,4인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/005200.jpg
+12,27,재첩국,재첩은 해감을 잘 한다음 사용하셔야 해요. 그래야 깔끔한 맛을 낼 수 있어요.,30분,4인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/005400.jpg
+13,35,콩나물무침,"아주 흔한 요리이지만,그 맛을 내는데도 비법이 있죠!",20분,4인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/006600.jpg
+14,36,우엉조림,"아삭한 우엉을 맛깔스러운 간장 양념으로 조려보세요~ 맛깔스러운 간단한 반찬, 만들어볼까요?",30분,4인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/006900.jpg
+15,38,멸치볶음,고소하고 짭잘한 멸치볶음 하나면 밥 한공기 뚝딱이죠.,20분,4인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/007300.jpg
+16,43,콩나물잡채,당면 대신 콩나물로 잡채를 만들어볼까요~,30분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/008800.jpg
+17,45,마늘장아찌,"마늘장아찌, 입맛 없을 때 드셔보세요~",20분,4인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/009100.jpg
+18,53,청국장찌개,한국인의 입맛에 딱 맞는 구수한 청국장입니다!,30분,4인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/011200.jpg
+19,54,순두부찌개,순두부의 연한 질감과 개운한 국물이 입안에서 술~술~넘어갑니다.,25분,4인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/011300.jpg
+20,55,동태찌개,？끗이 손질한 생선을 넣어 시원한 동태찌개를 끓여보세요~,40분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/011400.jpg
+21,56,김치찌개,냉장고에 있는 김치로 얼큰한 김치찌개 끓여보세요. 김치는 단순한 듯 하지만 조리법에 따라 다양한 맛을 낼 수 있답니다.,40분,4인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/011500.jpg
+22,57,콩비지찌개,구수한 냄새가 고향의 맛을 전해주네요. 옛날 엄마의 맛을 기억하면서 정성스럽게 끓여보세요.,30분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/011600.jpg
+23,59,유부초밥,맛있게 조린 유부에 밥을 넣어 만든 초밥종류입니다,20분,1인분,보통,http://file.okdab.com/UserFiles/searching/recipe/012000.jpg
+24,61,해파리냉채,쫄깃한 해파리로 새콤한 냉채요리를 해보세요. 손님초대 요리로 손색없는 입맛 당기는 요리입니다.,40분,4인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/012400.jpg
+25,63,열무김치,"아삭하게 씹히는 열무김치, 잘 익힌 국물 맛이 탄산음료에 버금간답니다.",40분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/012800.jpg
+26,64,오이소박이,아삭하게 씹히는 오이와 맛있는 양념의 환상의 조화!,40분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/012900.jpg
+27,65,나박김치,향긋한 미나리를 나박김치에 넣어 향도좋고 맛도좋은 개운한 물김치 드셔보세요. 소화제가 필요없답니다.,35분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/013000.jpg
+28,66,총각김치,뜨거운 밥과 총각김치가 너무 잘 어울리지요.,60분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/013100.jpg
+29,68,동치미,동치미로 시원한 국물 내어 겨울철 야식으로 이용해보세요. 이보다 더 맛있을 순 없을겁니다.,40분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/013300.jpg
+30,69,갓김치,물에 밥을 말아 갓김치를 얹어 먹으면 밥도둑이 따로 없답니다. 씁쓸한 맛이 매력인 갓김치! 만들어 보세요~,30분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/013400.jpg
+31,71,감자탕,얼큰한 국물에 양념이 잘 베인 감자와 돼지고기가 입에서 술술 넘어갑니다.,60분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/013700.jpg
+32,72,아구탕,"아구찜과는 또다른 매력, 아구탕 대령이오~",30분,4인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/013800.jpg
+33,73,조기매운탕,조기로 구이요리만 하셨다구요? 이번에는 매운탕으로 끓여보세요. 조기의 또다른 맛을 느끼실 수 있답니다.,30분,4인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/014000.jpg
+34,74,알탕,씹히는 맛이 독특한 알이 듬뿍 들어간 얼큰하고 시원한 알탕!,30분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/014100.jpg
+35,78,낙지전골,갖가지 재료를 듬뿍 넣은 시원한 전골요리로 저녁 식탁을 꾸며보세요~,40분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/014700.jpg
+36,80,콩나물국밥,콩나물을 넣어 시원한 국밥 한뚝배기 하실래요~,30분,4인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/015100.jpg
+37,81,곰탕,"곰탕, 이제는 집에서 끓여 더욱 깊은 맛을 내보세요.",120분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/015500.jpg
+38,82,설렁탕,쇠뼈를 푹 고아낸 뽀얀 국물 한 대접 먹으면 기운이 솟아납니다.,90분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/015600.jpg
+39,83,도가니탕,몸이 허하다고 느껴질때 도가니탕 한그릇으로 기운 챙기세요.,180분,4인분,어려움,http://file.okdab.com/UserFiles/searching/recipe/015900.jpg
+40,84,꼬리곰탕,꼬리곰탕 한그릇이면 허했던 기력을 찾을 수 있죠.,60분,4인분,어려움,http://file.okdab.com/UserFiles/searching/recipe/016000.jpg
+41,85,갈비탕,갈비탕으로 속을 달래보세요. 든든해집니다!,175분,4인분,어려움,http://file.okdab.com/UserFiles/searching/recipe/016100.jpg
+42,86,부추김치,"부추는 향도 좋고 맛도 달아, 김치로 담그면 맛있습니다.",20분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/016200.jpg
+43,87,파김치,파김치는 익으면 젖갈과 맛이 잘 어울려 든든한 밑반찬이 된답니다.,30분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/016300.jpg
+44,88,백김치,백김치를 담궈 시원한 김치를 맛보세요! 고춧가루를 넣은 김치와는 또다른 시원한 맛이랍니다.,60분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/016400.jpg
+45,89,깻잎장아찌,"？잎장아찌는 만들기도 쉬우며, 입맛없을 때 먹기 좋은 밑반찬입니다.",30분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/016500.jpg
+46,92,쇠고기장조림,장조림 하나면 간단하게 식사 준비 할 수 있지요.,30분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/017600.jpg
+47,93,연근조림,연근이 아삭하게 씹혀요! 만들기도 아주 쉽지요~,30분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/017700.jpg
+48,94,해물파전,각종 해산물이 들어간 해물파전! 바다향과 고소한 향이 그대로~,40분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/017900.jpg
+49,96,냉이된장찌개,"모시조개로 시원한 국물맛을 내고, 냉이로 향긋한 내음이 나는 냉이조갯국 만들어 보세요~",30분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/018400.jpg
+50,98,닭강정,양념치킨보다 달콤하고 바삭한 닭강정. 손이 절로 가지요.,40분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/018600.jpg
+51,99,배추겉절이,간단하면서도 입맛을 돋우는 반찬으로는 배추 겉절이가 최고지요!,30분,4인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/019100.jpg
+52,100,더덕구이,더덕을 양념해 구우면 향이 솔솔~ 입안이 즐거운 식사가 되지요.,35분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/019200.jpg
+53,101,감자조림,감자는 간장에 조리면 유난히 더 달고 맛있는것 같아요~~,40분,4인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/019500.jpg
+54,104,호박전,젊어서도 늙어서도 맛있는 호박! 애호박으로 고소한 전을 부쳐보아요~,30분,4인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/020000.jpg
+55,105,탕수육,가장 보편적인 요리방법으로 만든 탕수육입니다..달콤 새콤한 소스에 찍어먹는 고기튀김의 맛은..정말 언제나 맛있죠~,30분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/020100.jpg
+56,107,불고기,배에 재워 더 달콤하고 부드러운 불고기~ 오늘 저녁 어떠세요?,20분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/020500.jpg
+57,108,부추전,피를 맑게 해준다는 부추! 부추를 밀가루 반죽과 함께 섞어 노릇하고 바삭하게 구워낸 전요리랍니다.,30분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/020700.jpg
+58,109,돼지갈비구이,돼지갈비를 양념에 잘 재워 채소에 싸 드셔보세요. 입안 가득 넣어도 계속 계속 들어갈거에요.,50분,4인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/021000.jpg
+59,113,낙지볶음,"톡 쏘는 매콤한 양념에 쫄깃한 낙지를 살짝만 볶아보세요~ 술안주로도, 밥반찬으로도, 이보다 좋은 것이 없답니다!",30분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/022700.jpg
+60,114,두부김치,"맛있게 익은 김치에 참기름, 깨소금 양념해서 따뜻한 두부와 함께 먹으면 담백하고 시원한 맛이 일품이죠.",20분,4인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/023000.jpg
+61,129,골뱅이무침,간단하게 술상을 차릴때 새콤달콤한 골뱅이무침 하나면 OK!,30분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/028600.jpg
+62,131,육회,싱싱한 육회는 회 못지않게 맛이 좋습니다.,30분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/028800.jpg
+63,133,삼계탕,여름철 보양식의 대표음식 삼계탕! 시원한 국물과 쫄깃한 닭고기로 몸보신하세요~,60분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/029400.jpg
+64,141,과일샐러드,향긋한 과일향이 너무 좋아요. 만들기도 참 쉽습니다.,20분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/031000.jpg
+65,145,부대찌개,햄과 갖은 재료로 푸짐한 부대찌개로 오늘 저녁상을 근사하게 차려보세요~,40분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/032200.jpg
+66,147,아귀찜,부드러운 아구살과 양념장이 어우러져 매콤 개운한 요리입니다.,60분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/032400.jpg
+67,153,화양적,여러가지 야채들을 색색별로 꼿은 화양적. 미각과 시각을 동시에 만족시키는 요리이죠.,30분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/033800.jpg
+68,155,쇠고기전골,쇠고기를 푸짐하게 넣어 만든 전골 요리랍니다~,60분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/034300.jpg
+69,157,잡채,잔칫상에 빠질 수 없는 잡채! 여러 가지 재료의 조화가 일품이예요~,25분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/034600.jpg
+70,160,닭날개튀김,닭부위중에서 가장 맛있는 날개로 맛있는 튀김요리를 해보세요.,60분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/035800.jpg
+71,161,오징어순대,오징어로 순대를 만든다? 아주 색다른 음식이죠.,60분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/036000.jpg
+72,169,떡국,설날 아침 떡국먹고 한살 더먹기!,30분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/039000.jpg
+73,170,절편,절편에 모양을 다 낸 다음 손으로 꼭 참기름 바르셔야해요,60분,2인분,어려움,http://file.okdab.com/UserFiles/searching/recipe/039200.jpg
+74,171,수정과,달콤한 곶감과 향긋한 계피향이 어우러져서 한국의 정서를 느끼게 해준답니다~,60분,4인분,어려움,http://file.okdab.com/UserFiles/searching/recipe/039800.jpg
+75,172,깐풍기,바삭하게 튀겨서 맛있게 만들어보세요~,40분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/040000.jpg
+76,173,팥시루떡,"우리의 전통떡을 집에서 직접 만들어 보세요. 하트모양, 동그라미, 별모양으로 아이들의 호기심도 자극하구요.",50분,2인분,어려움,http://file.okdab.com/UserFiles/searching/recipe/040200.jpg
+77,178,찰밥,찹쌀과 팥을 섞어 만든 찰밥입니다.,40분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/042500.jpg
+78,181,달래된장찌개,구수한 된장찌개에 상큼한 달래가 들어가 향긋한 달래된장찌개!,40분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/043100.jpg
+79,188,오징어찌개,오징어로 간단하게 찌개요리 해보세요.,40분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/046800.jpg
+80,190,영양돌솥밥,보기만해도 영양가 풍부한 돌솥밥이랍니다.,40분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/047000.jpg
+81,191,시금치된장국,시금치와 새우로 맛을 내고 된장으로 간을 해보세요.,30분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/047100.jpg
+82,195,어묵국,아이들이 좋아하는 어묵으로 만드는 간단하고 시원한 어묵국!,30분,4인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/047800.jpg
+83,199,잣죽,"부드럽고 든든한 죽 한 그릇, 어떠세요~",40분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/048400.jpg
+84,200,고추장아찌,맵지 않은 청고추로 맛나는 장아찌 한 번 담가볼까요,30분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/048800.jpg
+85,202,쇠고기무국,쇠고기무국에 제일 중요한것은 바로 무의 선택이죠,40분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/049400.jpg
+86,204,육개장,육개장에는 얼큰한 국물맛을 내는것이 제일 중요해요.,60분,2인분,어려움,http://file.okdab.com/UserFiles/searching/recipe/050000.jpg
+87,215,오징어산적,오징어로 산적 요리 해볼까요?,30분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/053200.jpg
+88,225,코다리찜,"코다리찜, 밑반찬으로 그만이죠!",40분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/055800.jpg
+89,240,돼지갈비찜,잔칫상에 빠질 수 없는 갈비찜! 이번에는 돼지갈비를 매콤하게 즐겨보세요~,60분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/061100.jpg
+90,241,떡볶이,한국의 대표분식 떡볶이! 남녀노소 좋아해요~,30분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/061400.jpg
+91,244,보쌈김치,김장 때면 빠질 수 없는 보쌈김치!,180분,4인분,어려움,http://file.okdab.com/UserFiles/searching/recipe/062000.jpg
+92,261,약과,달달하게 입맛 당기는 약과..오늘 한번 도전해보세요~,40분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/066400.jpg
+93,265,고들빼기김치,고들빼기의 향이 아주 일품인 고들빼기 김치!,70분,2인분,어려움,http://file.okdab.com/UserFiles/searching/recipe/067700.jpg
+94,292,잔치국수,출출할때 간식거리로 야참으로도 부담스럽지 않아요.,30분,4인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/074300.jpg
+95,294,코다리조림,코다리를 맛있게 조려보세요. 밑반찬 뿐만 아니라 아주 좋은 술안주도 될수 있지요~,30분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/074900.jpg
+96,295,치킨데리야끼,맛있게 볶아만든 밥에 데리야끼 소스를 맛있게 한접시 먹음직스럽게 담아보세요.,30분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/075500.jpg
+97,296,순대볶음,군것질로 가장 많이 선호하는 순대를 집에서 볶아 드셔 보세요.,20분,4인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/075700.jpg
+98,297,닭갈비,춘천닭갈비를 그대로 옮겨 놓은듯한 양념의 비법이 여기에 있지요. 춘천닭갈비를 그대로 옮겨 놓은듯한 맛!,25분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/076300.jpg
+99,306,라볶이,라면의 색다른 변신을 원하신다면 지금 한번 도전해 보세요.,30분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/078500.jpg
+100,316,물만두,남녀노소 좋아하는 만두! 튀기지 않고 물만두로 즐겨보세요~,50분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/081400.jpg
+101,319,닭개장,"얼큰한 국물에 여러가지 나물과 담백한 닭살을 넣어 맛있게 끓인 닭개장 한그릇, 생각나시죠?",60분,2인분,어려움,http://file.okdab.com/UserFiles/searching/recipe/081900.jpg
+102,320,김치볶음밥,한국인의 입맛에 딱맞는 김치볶음밥! 편식하는 아이들 간식으로도 좋아요~,20분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/082100.jpg
+103,321,오징어채볶음,반찬이 없다구요? 냉장고에 남아있는 오징어채를 고추장에 조물조물 무쳐보세요~,20분,3인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/082300.jpg
+104,322,바지락칼국수,"바지락으로 시원한 국물맛을 내고, 쫄깃한 면발에 칼국수를 색다르게 먹을 수 있는 요리랍니다.",25분,3인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/082400.jpg
+105,326,홍합미역국,홍합의 시원한 맛이 미역국의 맛을 한층 더해준답니다.,20분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/083500.jpg
+106,327,오징어덮밥,쫄깃한 오징어와 매콤한 양념의 환상조합으로 밥 한 공기 뚝딱!,30분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/083700.jpg
+107,332,충무김밥,김밥에 오징어 초무침을 곁들여보세요~,50분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/085500.jpg
+108,333,기스면,"특이한 면 요리를 원하신다면, 결코 어렵지 않은 조리법으로 특이한 음식을 맛볼 수 있답니다!",30분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/086000.jpg
+109,335,마늘빵,마늘빵을 집에서 정성스럽게 만들어 보세요.,20분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/086300.jpg
+110,339,인절미,옛날처럼 큰 절구는 없어도 조그마한 절구로 인절미를 만들어 보세요.,60분,1인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/086900.jpg
+111,342,꽁치구이,꽁치를 가장 신선하게 맛있게 먹을 수 있답니다. 소금을 적당하게 뿌려서 그릴에 구워 바로 드세요~!,20분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/087500.jpg
+112,344,무생채,새콤달콤하게 무쳐서 밥상위에 올려 놓으면 인기 짱!,20분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/088000.jpg
+113,346,안심스테이크,기념일날 분위기 있게 스테이크를 집에서 만들어 보세요.,40분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/088300.jpg
+114,347,파래무침,해조류가 다이어트에 좋은거 알고계시죠? 새콤 달콤하게 무쳐보세요.,20분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/088400.jpg
+115,350,월남쌈,베트남 음식이 생소하시다구요?? 이 방법대로만 하면 OK!,30분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/089100.jpg
+116,359,캘리포니아롤,게를 가지고 피크닉에 갈 수는 없을까요? 확인해 보세요^^,60분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/092700.jpg
+117,374,해초무침,상큼한 사과 소스에 신선한 해초를 담아 맛있는 산뜻한 샐러드를 만들어 보세요.,20분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/100100.jpg
+118,376,장어덮밥,더운 여름이 다가오고 있어요. 몸보신을 위해서 맛난 장어덮밥을 만들어 보세요.,30분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/100300.jpg
+119,380,볶음우동,매콤한 소스를 쫄깃한 우동면에 뿌려드세요. 아삭하게 씹히는 야채가 들어가 더욱 맛있답니다.,30분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/101600.jpg
+120,388,조기찜,영양가 풍부한 조기로 맛있는 찜을 만들어 보세요. 반찬으로 너무 좋답니다~,30분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/106400.jpg
+121,395,어묵볶음,얼큰한 김치와 어묵을 같이 볶아보세요. 어묵은 일단 기름을 한번 빼고 김치와 같이 볶아줍니다.,30분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/108700.jpg
+122,399,참치김치찌개,간단하고 쉬운 참치김치찌개를 만들어 보세요. 얼큰한 맛을 더하려면 고춧가루를 좀 더 넣어주세요~,30분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/109900.jpg
+123,405,간장게장,담백하고 짜지 않은 간장게장을 만들어보세요. 밥도둑이 따로 없답니다.,60분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/111900.jpg
+124,407,돼지불고기,저녁 반찬 뭐 해먹을까? 오늘 저녁 반찬으로 딱 어울리는 요리. 돼지불고기를 준비해보세요.,30분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/112900.jpg
+125,409,라조기,늘 시켜먹던 라조기를 직접 만들어 보세요. 바삭하게 튀긴 닭에 맛있는 소스를 곁들이면 정말 맛있는 라조기가 되지요.,40분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/114400.jpg
+126,425,무말랭이무침,양념장을 맛있게 만들어 무말랭이를 맛있게 조물조물 무쳐보세요.,20분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/120900.jpg
+127,427,돌솥비빔밥,뜨근한 돌솥에 여러가지 재료들을 넣어 맛있는 돌솥비빔밥을 만들어보세요~,30분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/121400.jpg
+128,429,고등어조림,오늘 저녁에는 고등어조림으로 밥 한끼 해결합시다. 간이 밴 무도 맛이 일품이죠~,30분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/121900.jpg
+129,430,갈치구이,갈치구이를 접시에 담을 땐 레몬을 한조각 올려서 더욱 이쁘게! 보기 좋은게 먹기도 좋답니다~,15분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/122700.jpg
+130,431,갈치조림,밥 한그릇 생각나게 하는 갈치조림이죠!,30분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/122800.jpg
+131,437,쌀국수,베트남 고유의 시원한 쌀국수 요리를 우리집 가정에서 느껴보세요~ 담백한 육수와 상큼한 숙주가 일품이예요!,30분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/131400.jpg
+132,444,근대된장국,담백하고 시원한 근대된장국으로 밥 한그릇 뚝딱 해결해 보세요.,30분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/136600.jpg
+133,445,된장찌개,"구수한 냄새, 고소한 맛! 한국의 대표음식 된장찌개! 우리 입맛에 딱이예요~",30분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/137600.jpg
+134,453,전복죽,쫄깃한 전복살과 깊은 감칠맛이 입 안에 맴도는 보양식 죽 대령이오~,30분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/141600.jpg
+135,477,참치죽,고소한 참치가 들어가 심심하지 않아요~,30분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/156100.jpg
+136,481,돼지고기김치찌개,개운한 김치찌개~! 신김치와 청정원 국선생 육수만  있으면 감칠맛 나는 요리는 문제 없답니다.,30분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/158100.jpg
+137,482,두부조림,바삭한 두부를 감칠맛나는 굴소스에 부드럽게 조렸어요~ 술안주로 밥반찬으로 인기 만점이에요!,30분,4인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/158600.jpg
+138,484,해물볶음밥,빠른 요리가 필요할 땐 맛도 함께 챙겨주는 굴소스로 요리해보세요~,30분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/159000.jpg
+139,486,해물매운탕,매콤하면서 시원한 해물탕으로 개운하게 속풀이 하세요!,60분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/160200.jpg
+140,487,해물순두부찌개,부드럽게 넘어가는 맛이 최고!! 시원하고 개운한 국물맛이 단백하게 입맛을 살려주는 순두부찌개!!,30분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/160800.jpg
+141,488,김치우동,칼칼한 국물이 땡기는 날~ 김치우동으로 시원함을 달래보세요!,30분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/161700.jpg
+142,489,쫄면,쫄깃하고 새콤달콤한 쫄면~ 차고 매콤한 맛이 자꾸자꾸 땡겨요!,40분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/162500.jpg
+143,492,떡만두국,따끈한 국물이 생각날 때! 쫄깃한 떡과 속살 탱탱한 만두가 들어간 떡만두국 어떠세요~,30분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/163500.jpg
+144,493,꽁치김치찌개,김치찌개가 지겨우시다구요? 꽁치를 넣어 칼칼하고 시원한 꽁치김치찌개! 추운 날 밥반찬으로 그만이지요~,60분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/163700.jpg
+145,494,미소된장국,단백한 국물맛이 좋은 미소된장국으로 속을 가볍게 달래보세요~,30분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/163900.jpg
+146,495,비빔냉면,"더운 여름, 시원하고 새콤달콤한 비빔냉면을 비벼비벼~",50분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/166300.jpg
+147,496,메기매운탕,메기와 각종 채소를 넣어 얼큰하게 끓인 탕 요리,60분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/167000.jpg
+148,6943155,깨송편,추석을 맞아 천연가루를 넣어 아이들과 재밌게 송편을 만들어 보았어요. 설탕깨소를 넣어 달콤 고소한 나만의 송편 만들기에요!,2시간이내,6인분이상,중급,https://recipe1.ezmember.co.kr/cache/recipe/2020/09/30/e81f37d07d0d3fbe3fb7aa12ede4f5ff1.jpg
+149,1775942,백설기,이런저런 맛있는 떡들도 가장 기본은 백설기와 인절미랍니다. 속살이 뽀야니 보슬보슬한 백설기 같이 만들어봐요.,60분이내,6인분이상,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/26/35c01c3a24c9236cff58b2e540d89125.jpg
+150,6829556,참깨경단,참깨와 찹쌀가루  설탕 등으로 가족들 간식을 만들어 보려고 준비했습니다. 쫀득쫀득 고소한 간식 참깨경단 소개합니다.,60분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/29/0cb4b1c6c4f0903b83fabeeba5dfd7031.jpg
+151,423515,메밀전병,절이나 잔치상 손님상에 강원도 상차림에서 빠지지않는 메밀전병.. 함께 만들어봐요~^^,60분이내,4인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/09/2f0676d092dac2e3ed50ff5cbab0113f.jpg
+152,2307290,무지개떡,집에서 만드는 알록달록 예쁜 무지개떡~~~,60분이내,6인분이상,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/2e9eff2c93c7c69cb8cb206c93bfa760.jpg
+153,1794977,수수부꾸미,가끔 시장에서 하나 3000원씩 하는 수수부꾸미 보면 아쉽게 돌아서셨다면 얼른 한번 만들어 보세요.,60분이내,4인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/18/f6bfa89e1bd48acfa8d231a2a3470501.jpg
+154,6771624,수수팥떡,집에서는 잘 해먹지 않으니 직접 만든다는게 좀 낯선 음식인데요. 차근차근 만들어보면 크게 어렵지 않답니다.,60분이내,4인분,고급,https://recipe1.ezmember.co.kr/cache/recipe/2015/05/15/1abce4b95f64f2a786466cb50dfce6bb1.jpg
+155,1777992,시루떡,쫀득~~하게 맛있는 찰시루떡 만들기 입니다.,60분이내,4인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/c67e329701358afa25bb7fd9479d4e6f.jpg
+156,4081953,쑥떡,쑥향이 은은한 쑥바람떡.. 집에서 쉽게 만들 수 잇어요~~,60분이내,,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/04/22/62c7e584c97eee72e1b888a2ceefe99f1.jpg
+157,1451091,찹쌀떡,저흰 가을에 곶감을 사다 냉장고에 두고 먹는데요. 곶감과 견과류를 넣어 오븐으로 찹살떡을 구워봤어요~,60분이내,5인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/07/29/61801a5d0703410ee9c409fb2d86cd4a.jpg
+158,1774834,매작과,다양한 모습의 매작과를 만들어 보았습니다. 매화나무에 참새가 꽃밭 속에는 나비가 노는 그런 모양의 매작과 입니다. 크게 보면 매작과인데 성형하는 모습에 따라 꽃과  나뭇잎매작과 등등 다양하게 부르더군요.,60분이내,2인분,중급,https://recipe1.ezmember.co.kr/cache/recipe/2017/07/11/5a745e0ac546b9ecaf770f31fb1aac96.jpg
+159,6888624,송화다식,송화가루가 날리는 계절 송화가루를 채취하여 다식으로 만들어보았습니다,2시간이상,2인분,고급,https://recipe1.ezmember.co.kr/cache/recipe/2018/05/10/6623a0e9c1b4b345e70916626b7a71e21.jpg
+160,5911683,가자미구이,느끼하지않고 개운한 가자미구이 구운 마늘은 구수 ~,15분이내,,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/04/04/429fb595c2cc96562ed9f36aa66483a51.jpg
+161,4578394,굴비구이,굴비구이 짜지않게 굴비만드는법. 노릇하게 구워서 아이밥상에 내놓으면 밥한공기 뚝딱! ,30분이내,6인분이상,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/ad6e17e76ecb583b203940ccf0762e65.jpg
+162,1279927,닭구이,간식이나 술안주가 필요하시다면  굽네치킨의 유사품 구웠네치킨~!,2시간이상,2인분,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/13/107d37e91db68a5f2f0daa4669ee82b6.jpg
+163,1459372,돼지고기산적,저희집 밥도둑 돼지고기 산적을 소개해 드릴까해요~ 만들기도 쉽고 맛도 있어 밥도둑이 따로 없답니다.,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/09/6e06f715dc4ff94a589421fb810d6059.jpg
+164,1657950,등심스테이크,맛있는 등심으로 만드는 스테이크입니다.,30분이내,4인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/11/30/356fb1fd9c07965c7aba7bfab75a1e06.jpg
+165,3460003,뱅어포구이,칼슘을 보충해주기 위해 만든 오늘의 반찬..뱅어포구이는... 봉부부의 뱃속으로 모두 들어가긴 했지만... 역시나 하랑이의 반찬을 고민고민하다가 만든 반찬이랍니다~~ㅎㅎㅎㅎ,,,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/04/27/eca9643373f67218533485d844e239b81.jpg
+166,6910464,버섯구이,간단한 남편 술안주,5분이내,1인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2019/04/14/34a8eb54e8ff8f7eddf6c1207039e1881.jpg
+167,6897466,삼겹살고추장구이,삼겹살은 매번 구워서 쌈 싸 먹기만 했는데 오늘은 고추장 양념을 만들어 재웠다 구워 봤습니다.,30분이내,3인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2018/10/03/9184e2ce34b66274305580e4f23c40b21.jpg
+168,3600539,삼겹살구이,한주간동안 가족들이 같이 식사할시간이 거의 없다보니 주말이나 휴일에 브런치로 삼겹살 자주 식탁위에 올립니다.. 미리미리 준비해두면 고기만 구우면 바로 주말 브런치로 삼겹살구이 즐길수 있어요~,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/788626eb67b44e14aa22ae121c60a7e6.jpg
+169,2748092,삼치구이,바삭하고 보드라운 삼치구이,,,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/04/10/b8c8c499120089d790f84f6e7caa49ff1.JPG
+170,731429,새송이버섯구이,담백하고 부드러운 새송이 버섯에 짭조름한 소스가 올라간 초간단 요리 새송이버섯 구이입니다.,15분이내,2인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/11/30/53270c47790abe7830d589a879d728a4.jpg
+171,725014,새우구이,고소하고 부드러운 카레감자 새우구이 소개합니다~,2시간이상,4인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/09/03ba283b7d457566fc1d5faf7071f1a5.jpg
+172,1845926,오리불고기,집에서 쉽게 만드는 쫄깃하고 맛있는 오리불고기입니다.,30분이내,3인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/25/10bc04349af2c279496c032394c4184e.jpg
+173,6872974,장어고추장구이,삼복 더위야 물럿거라 ~ ,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2017/07/19/bee5a921277d74d60f9cbd6117ecf9c21.jpg
+174,6874057,조기구이,냉동에 오래 있다보면 잡냄새가 심하더라구여ㅠ 그럴때 청주에 푹 담궈다쓰면 잡냄새가 싹~ 저는 코가 민감해서 조금만이라도 냄새가 나면 먹지를 못하는 편이라 음식할때 비릿내제거를 확실히 하는편이예요ㅋ,30분이내,2인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2017/08/04/224e981d02c3bf6627e6c7c79f4e175d1.jpg
+175,6886202,조미김,바삭바삭 짭조름한 조미김을 만들어보았어요.,30분이내,4인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2018/03/27/bac6ca400db770ac472a65f1a1d4980c1.jpg
+176,6880119,쥐포구이,소스 취향차이로 우리 이제 그만 싸우자 ㅜ0ㅜ 넌 와사비소스해! 난 고추장소스 먹을거야!  세상의 모든 레시피 만개의레시피,10분이내,2인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2017/11/27/202ddc1827c6c6ff9ac04abf74e59b041.jpg
+177,6867089,표고버섯구이,촉촉하게 잘 구워진 표고버섯과  부드러운 크림치즈와 어우러진 채소의 맛은 고기에도 뒤지지 않을 최고의 맛이 난답니다. 거기에 바삭한 빵가루와 촉촉한 표고버섯의  대비되는 맛은 계속 계속 먹고 싶어진답니다.,60분이내,2인분,중급,https://recipe1.ezmember.co.kr/cache/recipe/2017/03/18/c25c786fb28c7c0e0cfe357cc8f866721.jpg
+178,1400026,함박스테이크,와인소스긴 하지만  음식에 와인을 넣으면 맛이 강렬하지 않아서 아이들도 잘 먹고~~ 저렴한 가격에 외식하는 분위기도 나고 말이죠. 소스는 일반 햄버거 스테이크에~ 또는 그냥 등심과 안심 스테이크에 내어도 손색이 없는 소스랍니당. 전 같이 넣는 양파가 참 달달하니 고기와 같이 먹으면 맛있더라고요. 함박스테이크 레시피에 찹쌀가루를 넣어서 맛을 더욱 쫀득하게 만들어 보았어요. 볶음밥까지 함께 곁들여서~멋진 주말 음식으로 만들어 보세요.,60분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/0494af649a0d275ef82886e32d93733d.jpg
+179,6898898,햄구이,귀찮은데 밥은 먹어야할 때 쉽게 만들어 먹을 수 있어요!,5분이내,1인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2018/10/28/ad91e40c3874cd88649a3d693b2363461.jpg
+180,1652071,소고기찹스테이크,신랑이랑 단둘이 먹을땐 스테이크해도 재료비 크게 부담스럽지 않지만 식구들 많으면 스테이크로 상차리기엔 재료비가 무척 많이 들거든요. 그래서 적은 소고기로 푸짐하고 근사한 한접시를 만들수있는 찹스테이크~! 요거 만들기도 간단해서 연말 파티요리로 딱 좋답니다.,30분이내,3인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/1633ee1825d4fbf1ce4dc1abf0423cc4.jpg
+181,2828054,양갈비스테이크,지인분이 양고기 전문점을 하세요. 모임에 갔다가 몇점 얻어와 멋좀 내보았습니다.,60분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/07/24/ed19f005d277e6d0e2633511fb3f1a83.jpg
+182,1209669,닭꼬치,간식이나 안주로 그만 간장양념 닭꼬치입니다.,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/09/91ec6589b71c1b0c1230a88c1ff30fbb.jpg
+183,6909194,도미구이,독일이라는 나라는 돼지고기나 소세지로 유명하지만  해물류와는 어찌보면 무관하다 싶을 정도로 애정이 없는 나라나 마찬가지 입니다. 물론  그렇다고 생선이나 해물류를 전혀 살 수 없지는 않습니다만  종류도 너무 적고  비싸고  그리고 신선하지도 않습니다.  그런 나라에서 집에서  생선을 굽는다는 것도 또한 큰일날 일 중의 하나죠..온 집에 생선구이 냄새로 이웃에게 항의를 받을 수도 있습니다.  하지만  먹고 싶을땐 먹어야죠!!  유럽의 도미라고 불리우는 유명한 생선이 있는데요  도라데 (Dorade)라고 합니다.  도미과 생선으로 생긴것도 도미랑 비슷하게 생긴 바다생선입니다. 도미과 생선이니 구워 먹어도 맛있겠죠? 그래서 함 구워 먹어 봤습니다.,30분이내,2인분,중급,https://recipe1.ezmember.co.kr/cache/recipe/2019/03/25/abca391c89c603ae9b2c16e66cd50ca01.jpg
+184,793932,돼지갈비,보통의 간장 양념을 먹는 갈비가 지루하다면 얼얼하게 맵게 먹자! 매운맛 돼지갈비~,2시간이상,4인분,고급,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/07/a370e095bac4d3db5638e43a2170c9f9.jpg
+185,6904026,병어구이,tv. 만물상에 나온 레시피로 (유귀열)병어로 구이를 해봤습니다.,15분이내,4인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2019/01/08/2b893ea9acde7a7246919cdc211d8c081.jpg
+186,6939663,양념장어구이,더운 여름  장어구이 드시고 힘내시라고- 양념장어구이 만드는 법 알려드릴게요 :)   ,,2인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2020/08/20/7975afac27042868774a2022931c94991.jpg
+187,2386232,임연수구이,이렇게 밥위에 올려 냠냠 살짝 짭쪼름하고 기름기가 있어서 퍽퍽하지 않더라구요 이건 정말 생선의 재발견! 임연수어의 재발견입니다~ 넘넘 맛나요,30분이내,2인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/6259d468bc958990259400e0e0510a26.jpg
+188,935240,햄버그스테이크,오늘은 다짐육으로 저렴하게 만들지만 나름 있어보인다고 믿고 싶은 햄버그 스테이크를 올려봐요.(함박스테이크 라고도 하죠?) 요즘 불황이라 외식도 자주 못하시고 그러실텐데 이렇게 멋내서 집에서도 저렴하게 외식하는 기분 느끼시면 좋을꺼같네요.,30분이내,3인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/09/08cd9dc01e4c91f4f992bc45cc1ad2f0.jpg
+189,1042275,황태구이,황태는 얼어 붙어서 더덕처럼 마른 북어라 하여 더덕북어라고도 한다고해요~ 한 겨울철에 명태를 일교차가 큰 덕장에 걸어 영하 10도이하의 차가운 바람을 맞으며 얼고 녹기를 스무번 이상 반복해서 4개월간 말린 명태를 말한답니다!! 단백질이 60%를 차지하고 있는 고단백 식품이죠~~ 빛이 누렇고 살이 연하고 부드러우며 쫄깃하고 포근포근한 육질이 시감을 좋게하고 일반 북어에 비해 깊은 맛이 있지요~ 황태는 해독작용이 뛰어나서 숙취해소와 간장해독  노폐물제거 등의 효능을 갖고 있어 술마신 다음날 황태국 한그릇이면 속을 시원하게 만들어주죠~~ㅋㅋ 신랑이 황태포구이를 참 좋아하는데 이상하게 잘 않사게 되는 건어물중 하나랄까요!,30분이내,6인분이상,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/09/29ec76f5063f2744a826c55e5796378c.jpg
+190,6892406,훈제오리,훈제오리 요리   알록달록한 야채를 곁들여 푸짐하게 ~,30분이내,2인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2018/07/11/e332dcc54fa5bc168d92715a37bdf3501.jpg
+191,1554098,두부구이,얼린 두부로 만들어 식감이 참 좋은 양념두부구이입니다. 유부의 느낌이 살짝 난다고나 할까요??,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/10/29/d479bc173d62333be519aa111ec47fe6.jpg
+192,6837358,감자된장국,포슬포슬 구수한 감자가 듬뿍들어간 간단하게 끓이는 감자된장국입니다. 담백하고 맛있어요. ,30분이내,3인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/11/22/3bbcf1edc7ad20dadc4714cfa2e59b831.jpg
+193,5474478,굴무국,무를 넣은 굴국은 시원해서 속풀이에 좋습니다. 굳이 국물을 따로 내어 끓일 필요 없어요~ 다시마 한조각이면 충분하답니다. 굴의 향을 살릴 수 있는 맑은국으로 끓여보았습니다~!,15분이내,3인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/05/23/1fee885ec45adc938392445f0fc6a81c1.jpg
+194,1400024,김치콩나물국,시원하게 속을 풀어야 할 일이 생기면 콩나물을 같이 넣고 해장국을 끓여요. 콩나물의 시원한 맛과 신 김치의 개운한 맛이 어우러져서 김치콩나물 해장국에 밥 한 그릇을 말아서 먹으면 아무 생각이 들지 않거든요. 김치와 콩나물을 넣은 해장국은 새우젓으로 간을 해야 감칠맛 나고 맛이 있어요.,30분이내,4인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/a07eb544f4ccf16ce4e7ad8c6b162590.jpg
+195,1792468,냉이된장국,봄향기 물씬 냉이된장국입니다.,30분이내,3인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/bc10becdbe0ef7723d56222013888fde.jpg
+196,2622096,달걀국,담백하고 깔끔한 달걀국입니다.,15분이내,3인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/07/09/bbb264a27b5fd4fc52b27f70a1edeba6.jpg
+197,1666626,닭곰탕,진한 국물의 닭곰탕입니다.,90분이내,4인분,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/28/772dee1e559ede4acf84de96e8832bb4.jpg
+198,4730680,대합미역국,국물맛이 일품인 대합미역국입니다.,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/3a0487f704fae23b373ff09cd4303af8.jpg
+199,2380465,동태국,국물맛을 뽐내는 시원하고 얼큰한 동태국입니다.,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/ec941a57457505146bb61c2bb0a629f7.jpg
+200,2398182,미역된장국,오늘의 요리는 뜨끈 뜨끈 담백한 국물맛이 일품인 미역된장국이예요. 몸에 좋은 미역과 된장~ 그리고 두부까지 넣은 건강한 국이랍니다.,15분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/558da30eb062bbc1997a681e3ea8fa96.jpg
+201,1935583,미역오이냉국,조미료가 들어가지 않은 깔끔하고 시원한 오이미역냉국 만들어 볼께요.,30분이내,2인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/03/81c20a03c6ca5d43f07cebfc843b8d95.jpg
+202,1680042,배추된장국,건더기 듬뿍 퍼서 밥쪼금 말아 먹어도 든든한 배추국입니다.,30분이내,4인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/b76504861ee1d4d603edfa6a6db0fe04.jpg
+203,1697618,뼈해장국,뜨끈한 뚝배기 뼈다귀해장국 만들어 봤어요. 무작정 핏물부터 빼면서 인터넷 찾아봤는데 만드는법도 가지각색  그냥 제 마음대로 만들어봤답니다.,2시간이내,6인분이상,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/28/673d2e8dac0f4cc2248b05f22930f6c5.jpg
+204,6016644,사골국,구수하고 깔끔한 국물이 일품인 사골국 떡국  만두국끓일 때 부대찌개  청국장 끓일때 요긴히 쓸 사골국이랍니다.,2시간이상,,고급,https://recipe1.ezmember.co.kr/cache/recipe/2015/04/04/7f123acf5aaa83030f291dc4ddab05c01.jpg
+205,2549270,새우미역국,미리준비하면 10분만에 미역국 끓일수있다,10분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/14/ead4a20e337f04195accb61c1b20212f.jpg
+206,793400,새우탕,맑은 국은 돌쟁이 호윤군까지 두루두루 맛있게 먹을수 있기에 요즘은 맑은탕을 주로 끓이려고 하거든요~ 한그릇에 푸짐하게 만들수 없는 국이 없을까 고민하다가 냉장고를 털어서 새우탕을 끓이기로 했어요~,30분이내,3인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/09/9ad00f403d2478824d906eefded0811b.jpg
+207,1025554,쇠고기미역국,정성들여 푹 끓인 쇠고기 미역국입니다.,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/27/1b71738b7905e5c9f3e296a02a462a3c.jpg
+208,6925166,순두부달걀탕,순두부와 달걀로 부드럽고 저자극적인 건강식단으로  쉽고간단/초스피드로 만들기 좋아요,15분이내,4인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2020/01/17/84b0cc620688ab520e746edfa12cd7791.jpg
+209,1086069,쑥된장국,쑥 국은 끓이기가 정말 쉬워요. 그래서 제목을 정하면서.. 초간단 쑥국이라고 할까?? 하다가 초간단이라는 말이 좀 식상한 듯 하여..ㅎㅎ '거저먹는 쑥 된장국'이라고 적었어요.,15분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/09/ef54f17c7ca838d1557760b5225b4a60.jpg
+210,3060622,아욱된장국,정말 실패 없을 정도로 쉽고!! 누구나 만들어도 맛 조절을 쉽게 잘 할 수 있는 아욱 된장국을 끓였어요,15분이내,2인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/a9db91c9868e89b0a420dfe72c360ed4.jpg
+211,6869960,애호박된장국,국물이 어찌나 개운하고 맛있던지 역시 국물요리엔 육수가 중요하긴 해요  전엔 파 다듬어 여러 가지 용도로 보관하면서 무심코 버렸던 파뿌리가  몸에도 좋고  육수를 내줄 때는 깊은 맛을 준다고 해요  알고 난 뒤에는 파한단 사 오고 나면  알뜰하게 버리지 않고 보관했다 육수 낼 때 꼭 사용한답니다 ,30분이내,2인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2017/05/18/a7d689dcd12410f81e518fceaa1309c71.jpg
+212,6933235,얼갈이배춧국,냉장고에 먹다 남은 얼갈이 배추로 칼칼하고  시원한 얼갈이 배춧국을 끓여 봤습니다. 매 끼니때 마다 국은 필수인 남편을 위해 급하게 끓였지만 맛은 괜찮아요 ㅎ ,30분이내,4인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2020/05/17/9e96efd0c47d863f909812e1e95198761.jpg
+213,1655442,오징어국,얼큰하고 시원한 오징어국입니다.,30분이내,4인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/c2a0976abfaea7addfbbc1fe3b7247a3.jpg
+214,1046159,우거지된장국,깔끔하고 구수한 우거지된장국입니다.,30분이내,4인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/21/cb1b5b5f4c7f8e8d01a8cf977ce34ce2.jpg
+215,1587429,콩나물국,맑은 국물이 더욱 시원한 맛을 선사합니다.,15분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/07/27/6b6f795d2600222a0f94e7435c5eb26f.jpg
+216,6934885,콩나물된장국,비가 오는날  뜨끈뜨끈한 국물생각 ^.^ 밥 말아서 한그릇 뚝딱! 오늘저녁 구수한 콩나물된장국 어떠세요?,,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2020/06/23/5255d842f5f7b2f9f5b7b28a7890af3a1.jpg
+217,5256531,토란국,다이어트식품으로 좋은 토란국 끓이는법 소개합니다.,60분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/05/398106accfa8031a72883f57d14601b71.jpg
+218,5245842,호박잎된장국,식이섬유소가 풍부한 연하고 부드러운 호박잎과 단백질이 풍부한 된장으로 끓인 뜨끈한 된장국,,,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/04/18/564ea9057b933b52b458c301fc8eab2e1.jpg
+219,6864983,홍합무국,시원하고 깔끔한 홍합뭇국,30분이내,2인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2017/02/08/ccda614d54ac8dea4c8ffab808132f0d1.jpg
+220,5493357,사골만두국,국물이 진하고 뜨끈한 만두국,,3인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/04/09/ddbb564435f58a83fd6adc233491c46a1.jpg
+221,6862045,마라탕,마라탕은 특유의 향신료 향이 나는 중국요리로  맛은 혀가 얼얼해지도록 매콤한 것이 특징입니다.  대림시장에 있는 식품점에서 사온 마라탕 소스로 손쉽게 만들어보았습니다. ,10분이내,5인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2016/12/02/e79538c6203f380639640c56a273a0851.jpg
+222,6845695,게국지,간장게장과 묵은지를 이용해서 손쉽게 맛을 내는 게국지!!!,60분이내,4인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2016/03/31/eb85538ae12f62711d92ec6772e6950f1.jpg
+223,6880753,곰치국,부드럽고 탱탱한 식감을 가진 곰치. 생선들 중에 1위를 차지할만큼 부들부들한 식감을 가졌답니다!! 그런데 맛자체는 담백하기때문에. 이것만 먹으면 좀 심심할 수 있는데. 이렇게 묵은 김치  국물과 무를 넣으니 질리지 않고 맛있게 즐길 수 있답니다.,30분이내,4인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2017/12/10/4942630ce13fc837544e23017be6838c1.jpg
+224,1688516,굴국밥,국물이 시원한게 맑은 국으로 아주 좋았어요. 몸에도 좋은 굴국밥 만들기도 쉬우니까 한번 잡숴 보세요.,30분이내,2인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/26/e0b5af3c872b2942a4e67aece56e69f3.jpg
+225,3364816,김치국,김장김치 맛있게 성공하셨어요? 저의집 김치냉장고속에 김치들...맛있게 익고 있는데요. 올해 여러번 김장김치 담근것중에 한통이 맛이 좀 덜해요. 그때 부랴부랴 담근다고 부재료 양을 적게 했더니 확실히 시원한 맛이 덜하더라고요. 그래서 그 김치로 찌개  볶음을 만들어먹는데요. 오늘은 김칫국을 여러가지 만들어봤습니다. 혹 집에 물러지거나 맛이 좀 덜한 김장김치가 있다면 김칫국 한번 만들어보세요~~,60분이내,4인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/04/3db749f30b796e5818b7655c4cbfa84f.jpg
+226,6921590,떡만둣국,11월이 되었는데 1일과 2일은 요리포스팅을 못했네요. 이틀 연달아서 서울나들이를 했더니 너무 피곤해서 못했답니다. 오늘 아침에 일어나는데 어찌나 몸이 찌뿌둥한지 노는 건 즐거운데 체력이 받쳐주질 않네요. 밥하기 싫어서 뭉그적 거리다가 내 배가 고파서 떡만둣국을 끓여봤답니다. 1일날 해먹으려고 사놓았는데 오늘 해먹었어요~,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2019/11/03/fdb5bf55ab983cbee8bd3abfa3a517b71.jpg
+227,972470,매생이국,이 메생이는 우주식품으로 지정될 정도로 식물성 고단백식품인데요. 건강에 좋은 강알카리성이고 비타민 미네랄이 풍부해서 간에 좋다고합니다. 저칼로리라 다이어트에도 좋고요. 피부미용  그리고 허약한 분들의 피로회복에 좋다니 간단히 만드는 메생이국 즐겨보세요.,30분이내,6인분이상,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/10/27/a4694ecf9e302e67a2d11106fd4e2d9e.jpg
+228,2509072,무된장국,무 특유의 시원함과 된장의 구수함이 잘 어우러져서 은근 끌린다고 해야 되나요? 암튼 부담없이 한 끼 먹기에 적당한 것 같아요.,30분이내,2인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/05/7fecc594a4689898d4a39f86db59f4bd.jpg
+229,1732198,바지락조개국,뚝딱 끓여 아침상에  혹은 매운 요리와 함께 먹을때 더욱 맛깔나는 조개국이에요. 콩나물도 넣을까 하다가 손이 많이 간다는 귀차니즘으로 그냥 두부만 넣어서 아주 간단하게 끓여보았어요.,30분이내,4인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/25/fd53e7cc72b1541f52287b9c08c589bd.jpg
+230,3153237,뼈다귀해장국,뼈오독오독발라먹어가며 살바르는재미에 . 요등뼈를해먹는데..ㅎ 사드시지말고 ^^집에서 해드세요~~,90분이내,,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/04/23/137adc33cda14c997c15d9fa2eb4af1d1.jpg
+231,1826505,선지해장국,선지해장국을 집에서 끓여보겠습니다.,2시간이내,6인분이상,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/31/d6864bc5be5a1923d0b86a0b549deeb0.jpg
+232,931629,소고기미역국,담백한 소고기미역국입니다.,2시간이상,4인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/30/363c56c97fa33bc4f8957790953ec3ee.jpg
+233,1779149,순대국,속이 든든해지고 확 풀리는 순대국 만들기입니다. ,30분이내,2인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/0e487b4c7086c122a2105a6e064718f1.jpg
+234,1747042,시래기된장국,구수하고 건강에 좋은 시래기된장국~~ 뜨끈하고 구수한게 맛도 좋지만  비타민과 무기질이 풍부한 식재료라 건강에도 좋답니다.,60분이내,4인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/25/afc5370cab5ee78c68aa52394fdbe04d.jpg
+235,6838607,올갱이국,해장국으로 딱 좋은 시원하고 구수한 올갱이국입니다. 된장 양념으로 끓여 더욱 구수하고 고춧가루를 넣어 칼칼해요. 밥한그릇에 김치한접시와 함께 먹으면 더욱 맛있답니다.,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/11/24/240eaca0c234a733522d3ab40e9b84491.jpg
+236,3291304,우거지해장국,시판 사골국물로 쉽게 끓이는 구수한 우거지해장국입니다.,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/9982a31488733ec9562515552dedde85.jpg
+237,6901155,우렁된장국,몸레좋은 달래.우렁함께넣은 된장국♡ https://blog.naver.com/yejin1108/221410949056,15분이내,3인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2018/12/02/a1a85d6f21c160149c16bd7df53b96fd1.jpg
+238,6842385,탕국,명절음식중 빠져서는안되는 음식 중 하나가 탕국이죠? 지방마다..집집마다 쓰는 재료가 조금씩차이도나고 많은 재료가 들어가는 국이라 어렵게느껴지는 탕국을 일상에서도 쉽게 만들어드실 수 있도록 레시피를작성하겠습니다~^^,60분이내,6인분이상,초급,https://recipe1.ezmember.co.kr/cache/recipe/2016/01/31/a38526cc1926287a4bf9ad4623e05c921.jpg
+239,1689906,황태해장국,시원한 속풀이 해장국으로 좋은 황태국입니다.,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/27/5e41fc358cbaa9d030baf23674bdf0e8.jpg
+240,2381775,갈낙탕,갈비탕과는 달리 시원한 끝맛과 연포탕에서는 느낄 수 없는 갈비탕의 고소하고 진한 육수의 맛~ 갈비만으로  낙지만으로는 낼 수 없는 독특한 맛을 갈비와 낙지가 만나 만들어 냈으니 영양과 맛 모두를 잡을 수 있는 환절기 가족 보양식으로 추천드리고 싶어요.,90분이내,,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/05/a45eecf5efe868d48b3759a945d388f9.jpg
+241,6940636,광어매운탕,밖에서 비싸게 사먹는 것 보다 집에서 해먹는게 더 싼 광어 매운탕 : ),60분이내,3인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2020/09/02/add3d7348af6b62de27875db2e18fc6a1.png
+242,997268,대구매운탕,보들보들 야들야들~~ 깔끔하고 얼큰한 대구 매운탕입니다.,30분이내,3인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/09/2278c04511a24232b0c3b45cdc133143.jpg
+243,4526888,대구지리탕,국물맛이 시원하고 담백한 대구지리탕입니다.,30분이내,3인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/a2bb4e19dcde969533e2220e83e686cf.jpg
+244,1618973,복지리탕,주문진항에서 큰거 3마리에 3만원 살아있는 복어는 1kg 2만원이라는데 손질이 당연 겁나서 바로바로 손질해놓은 복어 3마리 사왔어요. 얼음넣고 아이스포장해서 왔지요. 오자마자 한마리씩 냉동보관하고 얼큰하고 ~~시원하게 복매운탕을 끓여볼려구요. ~,60분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/c294d33dac5c0ed7886256c05947f0ca.jpg
+245,2461334,우럭매운탕,우럭과 함께 매운탕에 들어가는 무  미나리  쑥갓  대파  양파  애호박을 준비하면서 멸치다시마국물에 필요한 재료도 함께 준비해 보았어요.,60분이내,1인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/d0413a5faf47f438ddb01fe7dd738a4f.jpg
+246,6879162,전복탕,최근 체중이 줄어 좀 고민입니다. 나이 들어 살이 빠지면 더 늙어 보여서요. (어째 이런 일이~~ 옛날엔 살이 너무 넉넉해서 걱정이었는데...) 격세지감일 뿐입니다.  그런 제게 언니가 추천해 준 음식이 전복탕! 몇년 전  입원으로 잃은 입맛과 활력을 되찾아 준 음식이 바로 전복탕이라네요.  저희 집 가까이에 있는 가락시장에서 싱싱하고 큼지막한 전복을 사왔어요. 남편의 지원금 5만원에 2만원을 보태 10마리에 7만원을 주고 샀지요. ^^*,60분이내,3인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2017/11/06/741f095463ccb9349dd6c5bcf709aa261.jpg
+247,1408665,추어탕,친정 엄마가 여름이 되면 더 자주 끓여 주시는 영양식이 있어요~ 바로 추어탕인데요~ 정말 손 많이 가는 요리지만 출가한 딸들  사위들 먹이시려고 이렇게 정성껏 만들어 주시곤 한답니다.,60분이내,6인분이상,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/07/31/9536c5256f500b6d3244595bf7b57d6e.jpg
+248,1602120,바지락미역국,혈액순환에 좋고 국물이 시원한 바지락 미역국 끓였어요. 미역국은 먹어도 먹어도 질리지 않고 밥 말아 먹으면 든든하고 다이어트식으로도 아주 좋아서 즐겨 먹는답니다~,30분이내,3인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/94355b012aa021851e6f432f1a1d4cec.jpg
+249,6878740,북어무국,깔끔 션~ 하니 맛나욤. ,30분이내,4인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2017/10/29/b3a12854c669659508401f627c78d1381.jpg
+250,1566424,도토리묵말이,흔히 먹는 도토리묵을 좀더 고급스럽게 만들어보았답니다.,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/29/efaeabd03d9b9b2963c1051804bd8680.jpg
+251,675335,도토리묵,횡성장에 가면 꼭 구입하는 말린도토리묵... 시골 할머님이 정갈하게 정성껏 도토리묵을 말려 파시는데.. 이맛이 꼬들꼬들 한게 다 먹고나면 또 다시 생각난답니다.. 근데 조금 비싸다는게 단점..^^ 집에서 말려볼까해서 해 보니 저희집은 말리기가 좀 불편하다는거.. 그래서 또 새로 구입한 오븐에 야채 건조 기능이 있어 해 보려니..흐미..4~6시간 정도 시간소요..전기세 장난아니겠쪄~ㅋㅌ 그래서 할머니가 말린신걸 늘 가믄 구입한답니다.. 대형마트가믄 구매 할수도 있다는데. .원주에선 큰마트가 이마트 딸랑 한곳인데 매번 가는게 번거롭다는.. 이웃님들도 말린 도토리묵에 매력에 함 빠져보세요~ 꼬들꼬들한게 기 막히게 맛나답니다..^^~,60분이내,4인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/09/58835961d4aab29e61a916065eec56a7.jpg
+252,1434375,깍두기,아삭아삭 매콤한 깍두기를 소개합니다~,60분이내,6인분이상,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/07/31/08207876b89590190252ecee052a2bea.jpg
+253,1387465,깻잎김치,매콤한 밥도둑 밤깻잎과 깻잎김치입니다.,60분이내,6인분이상,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/31/95b3a803b5741596df731f57bda01ed3.jpg
+254,3563346,돌나물물김치,돌나물의 봄나물중 대표적이 나물중의 하나이기도 한데요 비타민C 칼슘 인이 많아 풍부한무기질이 봄의 나른함을 없애주는 채소입니다.,,,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/04/15/466ec70391a1ac40466c061afded0de21.jpg
+255,1867091,배추김치,금방한 따끈한 밥에.. 맛있는 김치만 있으면 반찬걱정 반은 줄어들지요.,2시간이상,6인분이상,고급,https://recipe1.ezmember.co.kr/cache/recipe/2015/07/24/4e895894688359cbd6b378fb41d6f7f0.jpg
+256,1515384,얼갈이배추김치,김치 만드는 것 어렵게 생각하지 마시고 한 번 시도해 보세요. 시간이 좀 걸려서 그렇지 생각만큼 어렵지는 않답니다. 다만 집집마다 김치맛이 다르니까 이 레시피가 입맛에 맞지 않을 수는 있어요. 하지만 한 두번 하다보면 입맛에 맞게 양념을 가감하실 수 있으니까 일단 시도해 보세요.,2시간이내,6인분이상,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/10/22/8b2eb2473045b839d79a11a62f468b91.jpg
+257,1109282,오이김치,,90분이내,6인분이상,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/09/ed1b1fbc3e735c852895f363a776a4c4.jpg
+258,5098371,열무얼갈이김치,열무 얼갈이김치는 일반 배추김치와 다르게 만들기 쉽고 맛 내기도 쉬운 편이기 때문에  김치 초보자들도 쉽게 따라 만들 수 있는 김치입니다.,60분이내,2인분,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/03/5738272fd0517462959991a2af33a94c1.jpg
+259,2007911,고구마김치,아삭아삭 씹는맛이 시원하고 맛있는 고구마줄기 김치랍니다. 배추김치만큼 단맛이 있지는 않지만  씹으면 살짝..고구마줄기내의 단맛과 시원한 맛이 여름철별미랍니다.,60분이내,6인분이상,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/18/735979ec9580f3e018cd15993cf628fa.jpg
+260,4177623,배깍두기,달콤하고 아삭한 배는 후식으로도 좋지만 깍두기로 담가 먹으면 아삭하면서도 달콤하고 시원한 맛이 좋답니다. 제철농산물 배  부추  새우젓  천일염 등으로 만든 아삭하고 시원한 배깍두기 소개합니다.,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/05/23/7479dcf3c3c5df5108a77a5e3eaf93291.jpg
+261,6896318,무말랭이김치,명절에 갈비찜이나 수육  불고기 먹을때 백김치나 나박김치도 좋지만 쌈에 올려 먹을 김치로 무말랭이 만한것도 없지요. 아껴둔 무말랭이를 몽땅 털어 김치양념에 무쳐 무말랭이 김치를 했습니다.,90분이내,6인분이상,초급,https://recipe1.ezmember.co.kr/cache/recipe/2018/09/21/e02a38d993459f248030899dff14dfd11.jpg
+262,781722,간짜장,우리나라 사람 누구나 좋아하지만 정작 집에서 만들기는 꺼려하는 음식이라고나 할까요? 1번째는 중국집 맛을 그대로 내기 어려우니깐. 2번째는 그나마 젤 싸고 저렴한 음식을 구지 집에서 만들 필요가 있을까? 등등의 이유로 집에서 해서 드시길 꺼려들 하시죵. 그래도 일단 이 짜장도 집에서 만들어 드시는 것이 손에 익게되면 이것만큼 쉬운 요리도 없다라는 거.,30분이내,3인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/09/0aeaf7f7b453c6bab1953e7bd7b73f8a.jpg
+263,983950,고기만두,두부  부추와 배추  당근까지 재료가 골고루 들어가 있어 그래서 그냥 먹어도 단맛이 돌고 수분도 많고 참 맛이있어는 만두입니다.,60분이내,6인분이상,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/10/25/126fac73b20db433fb8d71558ca91566.jpg
+264,748769,군만두,잡채를 해서 먹다보면 조금씩 남을 때가 있죠? 1~2번 먹다보면 좀 질리기도 하구요. 그래서 후다닥 만두로 변신시켜 봤어요.,30분이내,6인분이상,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/10/02/b64f1e03c35554c165dce12d4a131c18.jpg
+265,1005520,김치만두,오랫만에 친정엄마와 함께 만두를 빚었어요. 제가 어렸을 적엔 그믐날이면 꼭 만두를 빚었는데 연탄난로 위에 큰냄비 올려 놓고 만두를 빚으면서 계속 삶아가면서 먹었던 기억이 나네요.,2시간이상,6인분이상,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/15/fd6b30ba9f907dd143eba3d6a25fcb1c.jpg
+266,6881102,떡라면,쫄깃쫄깃한 떡과 꼬들꼬들한 면발의  환상적인 콜라보! 그냥 라면만 먹었을때보다 확실히 속이 더 든든해서 한끼 식사로도 야식으로도 훌륭한  떡라면 맛있게 끓이는 방법 소개할게요.  ,30분이내,1인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2017/12/18/292ee289f08331b085c9fe57a5c0e2821.jpg
+267,1364193,라면,전날 삼계탕을 해먹고 닭국물이 남았거든요. 집에 사다둔 생라면 넣어 끓여 먹었지용~~,15분이내,1인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/10/28/9b7beade13159096123aadac689b16f1.jpg
+268,3923303,막국수,쫄깃하고 부드러운 닭가슴살과 메밀국수. 싱싱한 야채에 기가막히게 맛난 양념까지 더해지니 두말 필요 없습니다. 쟁반 막국수 만들어 볼게요.,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/26/5cba13c365f72eab44347b21d5a828dd.jpg
+269,689388,만두, ,30분이내,3인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/09/4a9d52a307d67f3357098abb10a18f77.jpg
+270,726413,메밀국수,무더운 여름이 더워도 너무 덥네요~ 식욕이 똑!떨어지기 쉬운 때... 시원한 메밀국수 한번 삶아보세요~가다랭이 국물이 깔끔한 시원한 메밀소바..,60분이내,6인분이상,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/09/bd7a43d28bdd666050773804e23def48.jpg
+271,1631580,물냉면,첫 맛은 은은한 멸치의 향이 입안에 감돌고 멸치의 향이 지나가면 건새우의 은은한 맛이 입 안을 휩싸고 지나가는 물냉면입니다.,2시간이내,6인분이상,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/29/8a639defd15560c58f43bd7a85be9d15.jpg
+272,786892,미트볼토마토스파게티,밥이나 스파게티와 잘어울리는 미트볼 소스입니다.,60분이내,1인분,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/03/7e9bbd7da6638d5ab94ae11b11a0621b.jpg
+273,846860,비빔국수,샐더드 채소가 듬뿍들어가 상큼하고 가볍게 먹기 좋은 국수입니다.,30분이내,3인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/10/27/bff880a8e9021e557599c077ef74c37f.jpg
+274,1535666,수제비,포도즙이 들어가서 살짝~ 보라빛이 도네요. 매번 먹는 하얀색의 수제비보다 조금 더 색다르게 즐길 수 있어요. 더불어 포도의 영양도 함께 섭취할 수 있고요.,90분이내,4인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/04/8042d04a45fbb7816f7c521df0a05f79.jpg
+275,6487714,쟁반국수,야채와 면 그리고 양념만 있으면 쟁반국수 만들기 어렵지 않아요~,30분이내,1인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/05/31/2e476551ad4070a0b3b3a6c9d80570571.jpg
+276,633250,짜장면,집에서 만든 홈메이드 짜장면 이예요. 사먹은 짜장면보다 푸짐하고 맛있답니다. 채소와 고기를 듬뿍넣었고  옥수수와 계란을 넣어 더욱 고소하고 맛있어요. ,60분이내,4인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/10/28/5a5b924ebfb498a44d14475335e5188e.jpg
+277,1062081,짬뽕,비오는 날 더 맛있는 얼큰한 짬뽕입니다.,60분이내,3인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/25/6c6327bd22c492db8db3f7674faf296b.jpg
+278,627980,칼국수,으슬으슬 추울땐 뜨끈한 칼국수~,30분이내,3인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/05/1899da45649fa85b09630c65d908ee8d.jpg
+279,732761,콩국수,더운 여름에는 땀이 줄줄 흐르기 마련인데요. 얼음을 동등 떠있는 시원한 콩국물에 국수를 말아먹는 콩국수는 예나 지금이나 입맛이 없고 땀을 많이 흘리게 되는 여름보양식이지요. 콩국물은 자칫 쉽게 상하기 때문에 집에서 직접 만들어 드시면 좋아요.,2시간이상,5인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/09/733465162c3632e63e913f77f5e26a83.jpg
+280,6854444,회냉면,홍어사서 반은 찜만들고  반은 막걸리 식초에 삭혔다가 홍어 무침만들어 냉면을 만들었습니다,60분이내,4인분,중급,https://recipe1.ezmember.co.kr/cache/recipe/2016/08/11/c76510dcd2b6c57cbfc26c5d40f958521.jpg
+281,5141337,쉬림프로제파스타,쉬림프로제파스타 요즘 정말 더워도 너무 덥죠~ 장마는 끝났다고 하더니 오늘 갑자기 천둥이 치더니 비가 내리네요 이 비가 더위를 조금 누그러뜨려줬으면 좋겠네요 날이 덥다보니 입맛도 없고 자꾸 면만찾게 되네요 오늘은 파스타를 해먹기로 했어요 파스타를 먹을때 늘 하는 고민은 짜장먹을까 짬뽕먹을까처럼 토마토소스먹을까 크림소스먹을까죠?ㅋ 토마토만 먹기엔 좀 아쉽고 크림만 먹기엔 좀 느끼하고 이럴때 딱 좋은게 로제파스타예요 오동통한 새우와 양송이버섯 듬뿍 넣은 맛있는 로제파스타로 무더위에 단비처럼 더위를 식혀볼까요?ㅋ,15분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/5322774f293363e05e2d51161d8b712a.jpg
+282,6909286,트러플크림파스타,파인다이닝 부럽지 않은 고급진 크림파스타  이제 집에서 쉽고 간단하게 즐겨 보세요  #오뚜기트러플크림스파게티소스 #오뚜기스파게티소스 #크림파스타 #트러플크림파스타  세상의 모든 레시피 만개의레시피 ,,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2019/03/27/2d73db119f616b9d044796326c56c9281.jpg
+283,6526433,장칼국수,된장과 고추장  간장이 들어가 구수하고 얼큰한 맛의 별미로 좋은 장칼국수입니다.,60분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/05/26/fc34686fb9919755d58f8be5e049a48b1.jpg
+284,5882825,명란파스타,향긋한 봄나물과 바다내음 가득한 방풍명란해물파스타,30분이내,,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/03/18/b760d4861ef1ca8fb726d95df5a9bb7a1.jpg
+285,1572023,닭칼국수,쌀쌀한 날씨에 닭 한마리가 들어간 칼국수로 몸보신하세요~,2시간이상,3인분,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/07/22/65bc2939c907273ddd9e264c17c11504.jpg
+286,4362138,굴짬뽕,담백하고 시원하고 진한 국물맛이 일품인 굴짬뽕을 끓여볼게요~,60분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/25/104f3e9a2e3d0fb47ac514299e61d01e.jpg
+287,1971825,열무김치국수,간만에 침대  가구 밑 먼지까지 다 털고 화장실 락스청소 창고정리까지 하고 나니 얼굴이 꼭 마라톤 한시간 정도 한사람처럼 빨갛게 달아올라서 장난이 아니였답니다 샤워하고 나와서도 어찌나 땀이나던지 점심을 안먹은지라 얼음 동동 띄우고..열무국수를 만들어먹었다죠.,15분이내,1인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/571c0f9b3380eed82f7799baa7cb75a7.jpg
+288,6830620,열무냉면,?열무김치의 약간 시큼한 맛도 나면서 새콤달콤한 맛과 겨자소스의 맛까지 느껴져 국물 맛 참 좋네요.,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/07/30/4bac2945ed5a51c8c92ab6de540c851c1.jpg
+289,853438,울면,다먹을때 까지 따듯하고 깔끔한 울면 급하게 만들었어도 해물과 야채가 듬뿍들어가서 국물이 시원하고 개운하니 맛있어서 올려봅니다,60분이내,4인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2016/08/02/56846bed2f9a1c1ccd4ac7e5ba20b32f.jpg
+290,1032173,자장면,주말 특식으로 자장면을 만들었습니다. 외식 음식 중에서 이 자장면만큼 많이 팔리는 음식도 드물것입니다. 중국본토에서 건너와 우리나라 문화에 맞게 맛있게 변형된 자장면. 자장면은 언제 먹어도 맛있습니다. 미원을 넣지 않아도 충분히 맛있게 그리고 건강하게 먹을 수 있습니다. 가족을 위해 조금의 수고를 아끼지 않는다면 건강과 외식비용 두 가지를 모두 다 잡은 소울 자장면입니다.,30분이내,4인분,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/17/ff045007cf13cfefd9d703878ca289bf.jpg
+291,1564781,짬뽕라면,눈물쏙나게 맵고 얼큰한 짬뽕라면 ,30분이내,1인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/ae4babbf513c396b2a730e1efaf2ef8a.jpg
+292,6835308,치즈라면,치즈 한장 넣었다고 치즈 라면? 아니죠~~ 치즈의 고소함을 더욱 극대화시키면서도 그 느끼함은 조금 줄여줄 수 있는 치즈라면 레시피를 생각해봤습니다,5분이내,1인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/30/91703ab5a6b76265254efbffff48b04c1.jpg
+293,990147,계란볶음밥,냉장고에 남아있는 당근과 애호박  그리고 베이컨과 밥새우 계란 등을 넣어 밥을 볶아보았습니다. 20년 동안 꾸준히 볶아왔던 볶음밥에 관한 저만의 노하우를 알려드릴께요.,15분이내,3인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/09/45316abe6eac66df875261f36d8d721f.jpg
+294,4668029,고추김밥,해피투게더 야간매점메뉴!... 매콤함이 매력있는 고추김밥.. 한번 만들어 먹어봤는데요.. 완전 중독성있는 맛이더라구요... 그이후로... 간식 및 야식으로 자주 해먹는 메뉴가 되었다죠..,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/2cc645115e4ecb0c878774c005e50733.jpg
+295,732981,김밥,오늘 올릴 요리는용 ~ 간단한 재료들로 만든 김밥인대용 ~ 이름하여 < 신호등 김밥 > 이랍니당 ~ 캬캬캬 ~ 김밥 속에 들어가는 재료가 딸랑 3가지이지만 ~ 오만가지 재료를 다 집어 넣은 김밥 보다는 훨씬 맛이 쪼아용 ~ 헤헤헤 ~ 그러니까 꼭 한번씩들 맹글어서 드셔 보셔용 ~ 만들기도 열라 쉽당께라 ~,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/09/7c2495e9aae42d1cf503b161659d3987.jpg
+296,1612982,김치김밥,간단히 만드는 매콤한 김치 김밥입니다.,15분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/30/4ad67d0dff954388cbb51bd2ce5421e3.jpg
+297,1434380,낙지덮밥,쫄깃쫄깃 낙지 요리를 참 좋아 하는 편이랍니다. 남편이 매콤한 요리를 좋아하는터라 결혼 후 저도 매콤한 요리가 점 점 좋아지게 되더라구요.,30분이내,1인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/06a8fb4e977cb608c12a976d167261fe.jpg
+298,6875894,날치알김밥,저는 김밥을 참좋아라하는데요!!항상 속재료만들어넣코 김밥을 말다보면 기찮아서 후회하곤합니다ㅠㅠ그래서 초간단 간편하면서 중독성 있는맛을 뽐내는 날치알김밥을 만들어봅시다!!!,15분이내,4인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2017/09/05/d5a0975451aa2447510eda24bb0439c61.jpg
+299,1308926,닭고기덮밥,이른 아침을 먹고 나가는 남편도 한그릇 뚝딱 해치울 수 있고 재료만 준비 되어 있다면 만드는데 5분~10분 정도 밖에 안 걸리는 스피디한 한그릇 덮밥..... 손쉽게 제가 이전에 소개해 드린 참치액을 이용해서 한번 만들어 드셔 보세요. 그 스피디함에 한번 놀라고~~~ 그리고 그 맛에 또 한번 놀라고....,15분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/11/039623ba7108b93829075c6bc347313c.jpg
+300,1794162,돈까스김밥,아이들 소풍 도시락 메뉴로 좋은 돈까스 김밥입니다. 일반 김밥과 달리 돈까스가 들어가 더욱 담백하고 든든하답니다. ,60분이내,2인분,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/50d30431b758146254c58b65e0f58a05.jpg
+301,1619742,무밥,건강한 한그릇요리 무밥 만들기 ,30분이내,3인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/8fd98f849bb7754ae93510f83c885347.jpg
+302,4966347,보리밥,여름을 앞두고 다이어트 식단을 짜 봐야겠다는 생각에 만들어 본 여름 별미 감자보리밥입니다.,60분이내,3인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/19/4130c5e13538a3c482df727237338017.jpg
+303,420112,볶음밥,오늘은 꽈리고추의 매콤함에 홀딱반해서 춘권피 볶음밥을 만들어 봤어요.,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2016/08/11/d75a7af51a97541bc74ea7059e2998dc.jpg
+304,1107800,불고기덮밥,몸에좋은 한우로 맛있는 불고기덮밥을 만들어보세요.,60분이내,3인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/20/c32c1c039defe077b21a6b4d44c87eda.jpg
+305,1071680,새우볶음밥,고소하게 씹히는 맛이 좋은 새우볶음밥입니다.,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/09/bb9abd9cc91ff9224bda4ab55847ba4a.jpg
+306,6860829,쇠고기김밥,등심 고기 구워 먹고 한팩 남았길래 다시 굽기도 애매한 양이기도 해서 살짝 재워서 야채 푸짐히 넣고 양파장아찌 넣어 둘둘 말아 본 건강만점 쇠고기김밥 이랍니다. 뭐 특별할거 없은 흔하디 흔한 김밥이긴 하지만 바쁘게 살고 있는 가족들에게 맛있는 집밥으로 정성껏 둘둘 말아 보았네요. 익숙하게 말아 본 감칠맛 좋은 쿡여사표 김밥을 올려 봅니다.,60분이내,3인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2016/11/16/86e6a9d0aba9c7d0c2db59f6390059fe1.jpg
+307,1721405,쇠고기볶음밥,찬밥이 많이 남았을때 만들면 좋은 쇠고기 볶음밥입니다.,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/21/12c2f0827cf8467ae4a5f078daef7f97.jpg
+308,6851895,순대국밥,자취생 요리 두 번째 시리즈  초간단 사리곰탕 순대국밥!  세상의 모든 레시피 만개의레시피,30분이내,1인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2016/06/30/b391d576c178e502bd5df850133bfd741.png
+309,818895,알밥,날치알이 입안에서 톡톡터지는 고소한 알밥입니다.,15분이내,1인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/10/30/5af61677fd6bef28f87f215a939fcc5c.jpg
+310,1615827,육회비빔밥,저지방 웰빙 부위인 우둔살이 맛나는 육회로 변신!!,30분이내,2인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/16/328ae88fecc7fa0e10ee1e7cf43fcbc6.jpg
+311,1656516,제육덮밥,속을 든든히 채울 수 있는 돼지고기볶음덮밥을 만들었습니다.,30분이내,1인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/17/fc8c3f06c2e4036be6f2522c5bc5f82e.jpg
+312,773263,짜장밥,짜장면은 시켜먹으면 편해서 좋겠지만 집에서 만들면 제철재료로 영양가 있게 만들 수 있어서 좋은것 같아요. 오늘은 짜장밥으로 만들어보았어요.,60분이내,5인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/11/a05a9d0f3fe916cb36f0f719bf299111.jpg
+313,4407556,짬뽕밥,닭발로 육수를 만들어 진하고 개운한 짬뽕밥입니다.,2시간이상,2인분,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/19/24a1e1d2c95f8149929f4aa557425385.jpg
+314,6901841,차조밥,늦가을 또는 초겨울에 햇잡곡 나오잖아요. 오늘은 차조밥. 차조는 고소한맛을 가진 잡곡 이에요.,60분이내,6인분이상,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2018/12/12/c42f47942bc23b6ffb05b2753005f5b61.jpg
+315,1187008,참치김밥,소풍이나 나들이 갈 때 도시락으로 좋을거 같아서 참치 김밥 올려봐용,15분이내,1인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/09/42d30033fa59d63b3f41fb85ba35667e.jpg
+316,6834201,참치마요삼각김밥,예전에 일본인 친구와 놀러를 갔었는데 그때 친구가 직접 만들어 싸온 참치마요 삼각김밥이 얼마나 맛있던지 그 맛을 잊을수 없어서 오늘도 만들어봅니다~~ 일반 참치마요와는 맛이 좀 다르답니다. 약간 코를쏘는 맛이 전 처음에 와사비가 들어간 줄 알았어요 그런데 만들어보니 그맛이 아니더라구요~ 바로 비밀은 겨자였어요~~ 느끼함을 싹 잡아주는 아주 행복한 맛이랍니다.,15분이내,1인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/12/e0414a1b453625f64abb9019793189891.jpg
+317,1146707,참치볶음밥,한끼 식사로 너무 좋은 간단 참치 볶음밥 만들기 입니다.,30분이내,1인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/11/26/422553a64e37501c11023600c413f806.jpg
+318,6887293,채소김밥,한번 먹은 반찬에 식상함을 줄이기 위해 반찬으로 김밥을 만들났더니 애기들이 잘 먹어요~남은 반찬이 잘 활용 된거 같아요,5분이내,1인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2018/04/14/7b3448e4a73066b30a3893c87cf5b2691.jpg
+319,6871015,채소볶음밥,아무것도 하기싫을땐 볶음밥 만한게 없죠^~^ 집에 있는 짜투리채소로 후다닥 만들어 봤어요ㅎㅎ  ,10분이내,1인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2017/06/10/b84c188d2ccd87c86ebb3210038a16591.jpg
+320,6836580,표고버섯볶음밥,쫄깃한 맛과 고소한 맛이 일품인 표고버섯볶음밥입니다.,15분이내,1인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/10/22/4e3f39d26a9eef7e3bceb49266f5c1ba1.jpg
+321,1803555,하이라이스,가마솥밥으로 만든 하이라이스 소개해요~ 저희 딸래미가 무척 좋아라하는 음식이랍니다.,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/c5c06c7e29e5f35a305213fe20274272.jpg
+322,4545652,현미밥,웰빙 건강밥으로 고소하고 맛좋은 소고기 시래기 김치 현미밥입니다.,60분이내,4인분,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/19/ee6b14a6031190bd8b65f628d7d84814.jpg
+323,6948938,흑미밥,흑미밥 만드는법 비율과 물 조절만 잘하면 됩니다. 몸에 좋은 흑미밥 만들기! ,60분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2020/12/21/c74daaa4fe57d5c81ce2e7938e6789201.jpg
+324,4982678,곤드레나물밥,요즘 반해버린 곤드레나물밥과 곤드레나물 볶음을 소개 합니다.,90분이내,2인분,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/0fee0b9e4a4581fefbbee3bb55485685.jpg
+325,671381,국밥,오늘 아침 메뉴는 모듬 국밥이랍니당~ 짬뽕이랑 콩나물 국밥을 섞어 놓은 거랍니당,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2016/08/09/9e900cbd6830077c8c3c50680678f905.jpg
+326,6839228,돼지국밥,정구지를 듬뿍 넣은 돼지국밥 만들기. 부산의 명물 돼지국밥따라하기죠!!! 돼지 안심을 이용해서 맑고 깨끗한 돼지국밥입니다. ,60분이내,2인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/12/05/7ce925d9723c4341b596b1950ffd35e31.jpg
+327,2019598,멍게비빔밥,바다의 향기를 가득 담은 상큼한 맛이 일품인 멍게비빔밥 맛있게 만들어 봅시다.,30분이내,4인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/07/11/2fd66f2e7e9122f714d1585a8bb38b18.jpg
+328,3914829,멸치주먹밥,고소한 멸치가 들어간 멸치주먹밥 만들어 보아요.,10분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/17/afc413fd7a0ddf638e110e9a404bf60a.jpg
+329,2310807,묵밥,여름이 가기전에 시원한 묵밥 한 뚝배기 하세요~! 김치만 맛있으면 채소는 냉장고 사정대로 깨소금 듬뿍 넣고 션하게 묵밥 한뚝배기 하면서 여름이여 안녕 하고 싶네요.,30분이내,1인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/a070b6ce705dbf3548714fa576567d23.jpg
+330,4371767,문어초밥,쫄깃쫄깃 맛있는 문어초밥입니다.,30분이내,1인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/0984e275933da5a9d619b2c80ba745cf.jpg
+331,6932807,삼선볶음밥,중국집은 고슬고슬하게 잘 볶은 볶음밥이 인기가 많지만 그중에서도 삼선볶음밥은 오징어 새우 해삼 등 재료를 듬뿍 넣고 만든 프리미엄 요리 입니다  ,15분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2020/05/16/d0e42c01d941eda6b084dc94fe7ee4301.jpg
+332,1871348,새우초밥,간단하지만 폼나는 나들이도시락~~ 통새우초밥도시락입니다.,30분이내,2인분,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/fdcad997c7b356bfb0cb66ce0da638c1.jpg
+333,4354511,새우튀김롤,새우튀김은 남녀노소 누구나 좋아하는 음식이죠. 오늘은 새우튀김을 넣은 롤을 한번 만들어봤어요.,15분이내,1인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/90e2fdfed509f45d28935f269ee1749d.jpg
+334,1588388,샐러드김밥,상큼하게 즐기는 샐러드 김밥입니다.,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/2a7fe802261997394dbf12db1b806b28.jpg
+335,5307876,소고기국밥,뜨끈하게 먹는 소고기 국밥 소개해드립니다.,30분이내,3인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/05/5889787b36600ee0181a1f6cad54d1ab1.JPG
+336,1876120,소고기김밥,요즘 한참 아이들 유치원에서 견학을 많이 갑니다.. 이제 저희 집도 두녀석이 나란히 유치원을 다니기에...아무래도 도시락 싸는 것도 아이들 챙기는 것도.. 두배가 되었어요.. 그래서 가끔씩 김밥을 쌀적에  좀더 심플~ 하게 갈 수 있는 방법을 모색하게 되네요..몇일전 아이 견학때 싸 준 김밥인데요... 간단하면서 아이도 좋아하는...소고기 꼬마 김밥이예요... 작은 사이즈라 아이가 한 입에 쏙~ 넣어도 좋고  또 재료들이 다진 것들이라 씹어 먹기에도 편안합니다.,60분이내,4인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/12/7cbbbb50253d0684c816e1718c8fb4fc.jpg
+337,6942031,송이덮밥,햄과 양송이 청경채 피망을 넣고 볶아서 만든 양송이볶음 밥반찬으로 너무 맛있습니다 ,10분이내,1인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2020/09/16/669a60157f4182d293f8a39522ef71601.jpg
+338,4354494,연어롤,부드러운 연어에 바삭한 방울튀김을 이용한 롤입니다.,30분이내,1인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/22/98ee8e9318ac7ef3498d008c57a78b98.jpg
+339,778392,연어초밥,상큼한 소스를 곁들여 담백하게 들기는 연어초밥입니다. 간단하지만 근사해서 손님접대에 좋아요.,30분이내,1인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/10/29/38a341c77a68a589d184f9f12310bb96.jpg
+340,6842064,잡탕밥,?부드럽고 고소한 맛이 좋은 중국식덮밥 잡탕밥을 만들어봤어요 ? 원래는 버섯덮밥을 하려고 했다가 재료가 자꾸 추가되면서 잡탕밥이라고 불러야 할 것 같네요 ? 아무튼 맛있게 먹었던 덮밥이었답니다.,15분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2016/01/27/64d3d39262390f7a9b5742caff05cfbc1.jpg
+341,6669489,장어초밥,집에서 손쉽게 해먹을 수 있는 건강식  장어초밥입니다.,60분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/05/13/b5e65f5d162fac3946a10238534665c41.JPG
+342,1107227,참치덮밥,간단하게 비벼만 주면 맛나게 즐길수 있어요 참치 다다끼 덮밥입니다.,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/24/8c66c05e6090dedc08a4e0a31caea9f6.jpg
+343,1393909,해물덮밥,한끼 식사로 든든한 해물덮밥입니다.,30분이내,2인분,고급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/a1012ca2623d1df054be0426a03ac992.jpg
+344,1466690,회덮밥,신선한 회덮밥입니다. 회가 씹히는 맛이 아주 쫀득하니 맛이 좋네요.,15분이내,1인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/30/f2357211f92a53019521b5da51158ed7.jpg
+345,1962915,애호박볶음,냉장고를 뒤지니 생명이 왔다갔다하는 애호박이 있어서 볶음을 만들었습니다~,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/10/423e926beb3bfa68924328395289fb86.jpg
+346,843116,감자볶음,삶아 놓은 감자와 양파  브로콜리로 '뒤죽박죽 감자요리'를 만들었답니다.,60분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/09/20732a4c917ac34eafaa1e834c40622d.jpg
+347,2693254,건새우볶음,초스피드로 만들 수 있는 국민 밑반찬 마른새우볶음을 만들었어요.,15분이내,6인분이상,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/e50292ed00bde00b2738d04d9fef4a06.jpg
+348,1357522,고추볶음,고추볶음 이 음식 아시는 분들 있으신지? 전 어려서 시골에 가면 외할머니가 늘 상에 무슨 양념처럼 항상 올려 주시던 음식이 바로 이 고추볶음이었어요.. 엄마의 설명만 듣고 만든 고추볶음은... 이제는 또 고추가 싸고 많이 나는 요즘이면 저희집 단골 메뉴가 되어 버렸어요.. 고추볶음 이야기 하면서 참으로 사설도 기네요. 시골의 맛을 생각나게 하는... 그리고 알싸하고 맵고 땡기는 진짜 우리의 맛을 보여주는 고추볶음을 여러분께 소개해 드려요.,15분이내,6인분이상,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/10/28/a4a675d26fb10996f8057dbf0197a153.jpg
+349,1754797,김치볶음,제가 신김치를 싫어 하는데 김치볶음은 신김치로 만들어야 맛있더라구요~ 후라이팬 닦기도 귀찮고 해서 간단하게 전자렌지로 매콤한 김치볶음 만들어봤답니다~,5분이내,1인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/07/c5be634aa451dbd565a52dddaf1290e5.jpg
+350,840432,꽈리고추멸치볶음,멸치에 꽈리고추의 향기가 베어들어 자꾸만 젓가락이 간다죠? 멸치와 꽈리고추를 넣고 함께 볶다보니 멸치는 타고 나중에 꽈리고추는 설컹하니 잘 안익고 그러더라구요. 그때부터 꽈리고추를 먼저 익히고나서 나중에 멸치를 넣고 양념을 하기 시작했더니 꽈리고추가 부드럽게 잘 익더라구요.,10분이내,4인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/07/e3e548c871a990e37302318f36f904a6.jpg
+351,1048716,느타리버섯볶음,아침에 간단하게 후다닥 만드는 밑반찬 애느타리버섯볶음입니다.,10분이내,3인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/09/43c14d03f128d54441df14e959febb2a.jpg
+352,3665091,닭발볶음,요즘 닭발에 콜라겐 이하 좋은 성분이 많이 있다고 드시는분들이 많은데 좋기도 하지만 기름기가 없어서 너무 좋아요.,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/bda8b1db8dbcee165893683910712424.jpg
+353,1968984,닭볶음,쫄깃하고 매콤한 닭볶음입니다.,30분이내,3인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/07/30/18d855d62881c5dc6169080114b1abb9.jpg
+354,6880989,당근볶음,당근을 감자볶듯 볶으면 심플한 단맛의 깔끔한 반찬 하나가 뚝딱 완성된답니다. 좀 넉넉히 볶아두면 비빔밥으로 먹어도 좋고 메인디쉬의 가니쉬로도 훌륭히 제역할을 해주어요,10분이내,2인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2017/12/15/12e679fa2d436dcf5d0fc755e050ad7a1.jpg
+355,1095605,돼지고기김치볶음,술안주로 좋은 두부를 곁들인 매콤한 돼지고기 김치 볶음입니다.,15분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/24/2e5dc814140772f7791251fd7722e1b9.jpg
+356,5006811,돼지고기채소볶음,파채 멀리하는 아이들도 이렇게 만들어 주면 언제 그랬냐는듯이 고기와 잘 먹더라고요 고기도 맛나고  볶음채소도 맛나고요 ~ 오늘도 맛있는 한끼 만들어 드세요 ~,60분이내,2인분,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/15/ba5a0848cc3ca12d43bb466de345768d.jpg
+357,671308,마늘쫑볶음,맛있는 밑반찬  마늘쫑 볶음을 해볼까해용.,10분이내,6인분이상,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/17/89a1bf6e2aa20e68f3aa4b990c3a821d.jpg
+358,6851375,마늘쫑잔멸치볶음,요즘에도 마늘쫑이 있어 사왔어요.  잔멸치와 같이 볶으면 맛있을것 같아요. 오늘의메뉴는 마늘쫑잔멸치볶음이 되겠어요.,15분이내,3인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2016/06/21/e2de9b86a641ea55bb51d34a2fd72c141.jpg
+359,1034604,마파두부,중국 사천성에서 곰보할머니가 만들기 시작했다는 마파두부. 매콤한 두반장소스가 일품인 마파두부는 만들기도 간단할 뿐만 아니라 맛도 좋아서 손님초대요리로도 좋고  가족을 위한 주말특식으로도 좋아요. 재료도 착하고 만들기도 간단하지요. 특히 밥에 비벼 먹으면 정말 맛나요.,30분이내,2인분,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/18/a425f8c728e5b27682c8022b72be67b5.jpg
+360,6868796,멸치견과류볶음,오래 두어도 굳지 않고 맛있는 멸치볶음 만드는 법  대추를 채 썰어서 넣었는데   보기도 예쁘고 맛도 있을 것 같아서 그대로 해보았어요~~~    씹을수록 고소하면서 맛있는 견과류 멸치볶음      ,10분이내,6인분이상,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2017/04/21/fb2eeeae2d80b359512d77445f9f99361.jpg
+361,6794121,멸치마늘쫑볶음,멸치마늘쫑볶음 밥에 비벼서 올려 먹으면 정말 맛있더라구요. 레시피 알려드릴게요.,30분이내,4인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/05/26/4968d05e7694bae6735ac7ef315af12a1.jpg
+362,1071072,미역줄기볶음,맛있는 반찬~ 미역줄기볶음입니다. 염장미역줄기 사다가 찬 물에 담가 소금기를 빼고 양파와 함께 볶아놓으면 정말 맛있지요.,90분이내,6인분이상,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/11/2e5cb94c4ea3f223ad5e3e277420b105.jpg
+363,841240,브로콜리볶음,브로콜리는 슈퍼푸드로 잘 알려져있죠~ 특히 여성에게 참 좋은 식품이에요~~대부분 스파게티에 넣어먹거나 데쳐서 초장을 찍어먹잖아요~ 이렇게 볶아서 먹어도 참 맛있답니다~,15분이내,3인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2016/06/30/0b62f4dd0032bf056295dbcc0c483768.jpg
+364,4169118,새송이버섯볶음,오늘은 반찬으로 좋은 새송이버섯볶음을 만들어 보려고요. 신선한 새송이버섯과 천일염  들기름 등으로 볶아 낸 재료 본연의 맛을 느낄 수 있으며 깔끔하고 쫄깃쫄깃한 반찬! 새송이버섯볶음 소개합니다.,30분이내,3인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/05/26/67bc6f426412ded936bfedc51b43df701.jpg
+365,1535583,새우볶음,진미채와 비슷한 스타일이라 간단하면서 맛좋은 밑반찬이 될 것 같아요. 두절새우가 두툼해서 주로 두절새우를 많이 썼었는데 홍새우도 바삭하게 씹히는 맛이 괜찮네요.,10분이내,6인분이상,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/04/cc0a83dd265c2f999c9cc22aea582132.jpg
+366,4004256,소시지볶음,시원한 맥주안주로 잘 어울리는 소시지구이도 좋고요. 재료도 간단하고 누구나 쉽게 만들어 먹을 수 있는 소시지볶음과 소시지구이입니다.,15분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/05/29/c9d1fb374c82b5229f0707d4431787361.jpg
+367,6884787,쇠고기고추장볶음,입맛이 없을 때 쌀밥에 고추장 넣어 벅벅 비벼드시고 싶은 적 있으시지요? 그냥 고추장은 좀 너무하다 싶으니 쇠고기고추장볶음  어떠세요? 먹기만 간단한 것이 아니라 만들기도 간단해요. 해외생활에서도 집밥을 대신할 수 있는 밑반찬이 된답니다.,30분이내,6인분이상,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2018/03/01/9b60f5e498a0fa9322e5bd6ec00fc8601.jpg
+368,3190886,쇠고기볶음,간편하게 만들어먹는 쇠고기볶음,,,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/03/31/8a2d5d248dfab60d3ea3eb6918b16c151.jpg
+369,3254850,양파볶음,오늘의 주재료는 바로바로 양파!! 입니다. 양파를 어찌하냐고요?... 그저 채썰어서 간하고.. 볶기만 하면 끝~~~~~,10분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/07/10/221827c99acb1dd7f43a899515a8fdf9.jpg
+370,943964,어묵잡채,매콤한 두반장어묵잡채입니다. 그냥 고춧가루를 넣은 것과는 다른 두반장 특유의 향이 괜찮더라구요.,60분이내,5인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/30/b4572cd6c808f56147cbb1bcf1cc553d.jpg
+371,526037,오징어볶음,설 명절 잘 보내시고 복 많이 받으셨나요?? 강원도 원주서 대구로 오르락 내리락~ 정신없는 설 연휴가 자나고 나니 이제 한시름 놓아요~^^ 이것저것 설 음식으로 냉장고가 그득합니다.. 느끼한 설 음식에 질렸을 즈음~ 오징어 초 고추장 찍어 먹고 남은 오징어 이용 매콤 오징어 볶음 해 드셔보세요~ 느끼해진 입맛을 살려준답니다..^^ 함께 만들어 밥이나 소면에 비벼 먹어요~,60분이내,4인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/09/4acedc90da11eb16cfbea10c7dfb3e7c.jpg
+372,6850497,유산슬,집에서도 중화풍요리 쉽고 간단하게 만들수 있답 니다  주재료만 약간씩 바뀔순 있지만 맛은 시켜먹는것 못지 않게 맛있어요~,30분이내,2인분,중급,https://recipe1.ezmember.co.kr/cache/recipe/2016/06/05/d8b4e71dbd3ab5188d752f19af4156871.jpg
+373,4387547,잔멸치견과류볶음,도시락반찬이나 밑반찬으로 좋은 멸치볶음. 몸에좋는 견과류등뿍넣어 착한 멸치볶음 만들어 보아요.,15분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/19/d62e2cd4a3882fd7ed73149326d3840e.jpg
+374,847598,잔멸치볶음,과자같은 멸치볶음이 아니라 촉촉해서 먹을 밥과 함께 먹으면 좋은 멸치볶음입니다. 고소하게 볶아 밥과 즐겨보세요.,30분이내,4인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/10/29/a8be9dc316b2c75056ecccadd3c94ba7.jpg
+375,1017506,제육볶음,청양고추를 넣어서 매콤하고 요즘 야금야금 까먹는 귤을 갈아서 넣으니 달달하면서 맛이 좋더라구요. 딱히 밥하기 귀찮거나 저녁메뉴가 고민이실때 돼지고기만 사다가 만들어 보세용. 다른반찬 없이도 밥공기 뚝딱 비워집니다.,30분이내,2인분,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/18/242b78bd7a8b500bd14376ec20ef5650.jpg
+376,3119680,참치김치볶음,김장철이 가까워오면! 익은김치 그냥 드시기에는 약간 맛이 없어서 찌개에도 많이 이용하시잖아요. 오늘은 적당히 익은 김치에 참치캔을 넣어 휘리릭 볶았답니다. 요 반찬은 다들 잘 아시지만 한번 소개를 해보아요.,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/53d652d2c69b53c1e6bcbb4734a201eb.jpg
+377,6858250,팔보채,중식을 하고싶은데 일일히 재료구하기가 어려우신분들은 이렇게 활용해보세요. 손쉽게 만들수 있는 법이에요.,30분이내,4인분,중급,https://recipe1.ezmember.co.kr/cache/recipe/2016/10/11/c4ad35bcf2eeb3701b971db7e7f370b41.jpg
+378,6871055,햄채소볶음,냉장고에 조금 남은 햄과 채소를 함께 볶은 햄채소볶음입니다:),10분이내,2인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2017/06/11/c3fa58b7724c32a84da06597ef4cbb991.jpg
+379,6927363,매콤제육볶음,만능고추장을 이용한 간단한 매콤제?볶음 만들기! 만능양념장만 있으면 제육볶음도 너무 쉽다규요~!!,15분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2020/02/27/1abf813809390829efc4c3f985db499b1.jpg
+380,1083529,간장제육볶음,고추장소스의 제육볶음도 맛있지만  또 색다른 맛으로 먹으려면 이렇게 간장양념으로 해서 먹어도 아이들도 좋아하고  담백한 맛으로 즐길 수가 있답니다.,30분이내,3인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/09/52226fa7c95ad2845bccbaaed04c3fbf.jpg
+381,4693611,돼지불백,몇일전 무한도전에 나온 기사식당 돼지불백 레시피 알려드릴게요.,2시간이상,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/18/c9e8221735873bb4cf4ea914e226c900.jpg
+382,1114526,뚝배기불고기,뜨끈하게 먹는 부드러운 뚝배기불고기입니다.,30분이내,1인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/30/49393267758345883f190ba3635defd0.jpg
+383,2511618,소불고기,쇠고기 야채 불고기만큼 가족들에게 인기좋은 반찬도 없는듯해요. 냉장고속 자투리 야채를 모아 소고기 야채불고기 만들어 볼게요.,60분이내,4인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/07/12/baf9a5bd7913d232025a9cac24fcb76c.jpg
+384,6835564,오돌뼈볶음,매운맛을 좋아하시는 분들에겐 닭발과 오돌뼈볶음이 필수이겠지요???ㅎ 남아있는 대패삼겹살을 이용해서 매콤한 오돌뼈볶음을 만들어보았어요^^,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/10/02/b4b27e7aec95f71f64215bd3e9cd0efd1.jpg
+385,1975240,국물떡볶이,비오는 날 팍팍 - 국물 듬뿍 떡볶이,60분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/316dc4bd406ea1b779cb9665f1f56233.jpg
+386,387126,짜장떡볶이,요건 짜장이 주 재료지만 고추장도 넣어 많이 텁텁하지 않고 매콤하면서도 달콤한 느끼하지 않은 짜장 떡볶이랍니다. 굳이 좀 럭셔리 하게 이름을 붙이자면 사천 짜장 떡볶이 정도 되겠네요.,30분이내,3인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/30/0bef860e49414e839f7eefba39b9157a.jpg
+387,5816092,차돌박이숙주볶음,집들이음식 생일상차림에 딱 좋은 초간단 차돌박이숙주볶음,15분이내,,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/04/08/4ea91e9ee76a326070699df5a8990c9f1.jpg
+388,6838874,감바스알아히요,짧은시간에 맛있는 에피타이저를 만들수 있는 '감바스 알 아히요' 5분 레시피입니다. 올리브오일과 새우  마늘이 주재료인데 느끼할 것 같지만  페퍼론치노의 매콤함 때문에 전혀 그렇게 느껴지지 않아요~! 스페인 가정식 '파에야'와 잘 어울리는 요리랍니다 ^_^,5분이내,1인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/11/30/9775d31431e976cf6aa7d69daaa0a9511.jpg
+389,6858030,돼지고기짜글이,국물이 적게 자작하게 끓여낸 돼지고기 짜글이 찌개입니다.,30분이내,2인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2016/10/06/6d78b8208af0cbfd8c77530cc32491031.jpg
+390,6919179,수제비떡볶이,염대장표 수제비떡볶이는 요새 대세라지???  떡대신 넣어서 색다른 요리같은걸 ???  세상의 모든 레시피 만개의레시피 ,30분이내,2인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2019/09/16/75986caea8064ebe87c172f1aba034791.png
+391,5978907,닭가슴살야채볶음,닭가슴살과 야채를 넣어만든 영양가득 요리입니다.,30분이내,1인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/6a397a596c3a9755147d8db227d78dde.jpg
+392,6899942,마라샹궈,먹거리의 다양성이 다른 어떤 때보다도 풍성해진 요즘  집에서 만들어 먹는 음식의 종류 또한 이전보다 훨씬 다양해졌음을 느끼는 요즘입니다. 저는 캐나다의 중식전문 식당에서 마라샹궈라는 음식을 처음 접해봤는데요. 한국에서도 요즘 인기몰이 중인 이 음식은 입안을 얼얼하게 만들 만큼 톡 쏘는 매운맛과 함께 특유의 깊은 감칠맛을 가지고 있어 다양한 채소 및 해산물을 넣고 볶아 많은 분들이 즐기는 음식입니다.  마라 페이스트를 하나 구비해 두니  마라탕이나 마라샹궈 만들기에 다양하게 활용할 수 있어서 좋더라고요. 오늘은 간단히 채소 약간과 손질 새우를 넣고 매콤하게 만들어보려고 해요. 매운맛을 극대화하기 위해 건고추와 할라피뇨까지 넣어 스트레스 날려버릴 매움 맛의 끝  쉬림프 마라샹궈 레시피 함께 만들어볼게요.,15분이내,1인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2018/11/11/10ef36c0937f69424608952f051018f71.jpg
+393,665647,고추잡채,매콤해서 더 맛있는 중화풍 매콤 고추잡채입니다.,30분이내,4인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/10/29/b12d52143b939c90815d677dea3f1967.jpg
+394,2430673,난자완스,부드라운 고기완자와 야채가 어우러진 난자완스입니다.,30분이내,3인분,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/b2ba164095d647f6f3721a4de21001ca.jpg
+395,6508183,깻잎나물볶음,향이 너무 좋은 깻잎나물을 이용한 간단한 반찬! 깻잎나물볶음을 소개합니다~,15분이내,3인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/01/2a316b685aed8cdf3b3856eceed573c71.jpg
+396,1634278,돼지고기볶음,약간 짭조롬한 돼지고기와 어린잎을 섞어 드시면 정말 좋아요. 예전엔 콩나물을 데쳐서 먹기도 햇는데 그도 좋지만 어린잎채소를 올린것도 아주 좋으네요.,15분이내,2인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/bf7a77a86f6216b6ca3ee3ef3055daa8.jpg
+397,1759711,돼지껍데기볶음,쫄깃쫄깃 안주로도 너무 좋은 돼지껍데기 볶음입니다.,30분이내,2인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/54f9c621edfb74db787bc475caa64248.jpg
+398,986385,소세지볶음,요거 하나 만들어두면 밥반찬이든  술안주든 딱이죠?,10분이내,4인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/09/c93ef8ef16bc1874a105baac72287049.jpg
+399,6854853,양송이버섯볶음,향긋한 버섯 향에 고소한 들기름 향이 입혀진 맛있는 양송이버섯볶음이에요. 양배추가 들어가서 씹히는 식감도 있어 너무 맛있어요!,30분이내,4인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2016/08/18/53738a004b66bf2ff05696009447090b1.jpg
+400,1802927,주꾸미볶음,야들야들 쫄깃한 맛 매콤한 주꾸미 볶음입니다.,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/22/00c442a835b1d6b02b6598c930767625.jpg
+401,1839395,표고버섯볶음,담백하고 쫄깃한 표고버섯볶음입니다.,15분이내,3인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/25/2e0c0627acf52ce185a680d2b1aa8c53.jpg
+402,1604976,해물볶음,냉장고 정리하다가 조금씩 냉동보관되어있는 해물들 꺼내서 한끼식사로 만들어 봤읍니다..반찬으로 먹다가 나중에 밥볶아먹어주면 더 맛있답니다.. . . 하루일과를 마치고 집으로 돌아올 가족들을위해 해물볶음 준비하시는건 어떨지요~,30분이내,4인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/72a8030cab209a1f536ecd8b3c0b689e.jpg
+403,1721826,만가닥버섯볶음,만가닥 버섯 씹히는 맛이 참 좋습니다. 강하지 않은 양념이라 다이어트하는 사람에게 부담도 없구요.,15분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/77feab29c26682a2dc6a41e8b32a4718.jpg
+404,2303978,BLT샌드위치,누구나 쉽게 만드는 BLT 샌드위치,30분이내,1인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/fdea02a7a987fe6c2bd565f4c6a212bd.jpg
+405,715143,감자크로켓,감자를 모양잡는게 좀 번거롭긴 하지만  맛있는 간식 또는 한 끼 식사에요. 햇감자 특유의 포실함이 그대로 살아있는 크로켓입니다.,60분이내,4인분,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/08/432c0ec50199049f79854892a50ccc25.jpg
+406,6764489,꽈배기,재래시장가면 꽈배기 모양으로 그자리에서 튀겨서 설탕 묻쳐주는 그 빵입니다~,2시간이상,6인분이상,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/05/14/9bd4d69ce1fad5d173781ab7af3b386b1.jpg
+407,1798214,닭가슴살샌드위치,푸짐하고 근사한 닭가슴살파프리카샌드위치 만들어볼게요,30분이내,1인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/24/f61254891712e102ad2178689f9c7248.jpg
+408,591830,롤케이크,봄향기가 날 것 같은 롤케이크를 만들어 봤어요.,90분이내,6인분이상,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/08/e6f993adb698d57d01c21ce9ddac5707.jpg
+409,708392,머핀,쫀득 쫀득 새콤달콤 푸룬과 고소하고 새콤한 견과류와 건과일이 씹히는 자극적이지 않고 고소한 머핀이예요. 믹스 자체가 유기농이라 너무 달지않고 강하지 않은 맛이 아이들에게 딱 맞는 영양간식이 될것 같더라구요.,30분이내,6인분이상,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/09/ee2b1505c07937a46f0bf067d18adf17.jpg
+410,1256007,모닝빵,담백한 모닝빵입니다.,90분이내,4인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/30/f1f02b510171b749c15758851b39c096.jpg
+411,563148,모카빵,모카향이 풍부한 부드러운 모카빵입니다.,90분이내,4인분,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/10/21/3309fe0d6d794d2d1554a6febc4aecc0.jpg
+412,960200,베이글,검은깨도 들어가고 검은깨 두유도 듬뿍 들어가서 색도 진하고 냄새도 매우 고소한 블랙베이글이랍니다.,2시간이내,4인분,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/10/377252728abfb642e2e63a4be66e9248.jpg
+413,933469,불고기버거,든든한 한 끼식사로도 손색이 없는 맛있는 불고기버거랍니다. ,60분이내,3인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/10/acdd1d118f4c2ff6524de4a865fd039f.jpg
+414,916444,사과파이,바삭하고 고소한 파이지 속에 달콤하고 향기로운 사과필링이 쫀득쫀득 씹히는 사과파이. 은은한 계피향이 솔솔 파삭하게 부숴지는 사과파이의 유혹에 빠져 보세요.,2시간이내,6인분이상,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/03/4ae17e80a606ba6224cb4a2e38a6324a.jpg
+415,521782,생크림케이크,,60분이내,4인분,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/09/476829b8e98ffd7d8915ac548583c6d8.jpg
+416,1751379,소보로빵,부드럽고 고소한 추억의 소보루빵입니다.,90분이내,6인분이상,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/e353c9dfeef5131b2282dc94213f47e1.jpg
+417,559333,식빵,베이커리에서 파는 빵처럼 맛있는 홈메이트 식빵이예요. 쫄깃하고 부드러운 식감이 좋아 그냥 먹어도 맛있고 잼에 발라먹어도 맛있답니다. ,90분이내,3인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/11/17/93202361060bba5217a7aa6c481fe6cd.jpg
+418,6908241,식빵토스트,에어프라이어 간식,15분이내,1인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2019/03/12/d997ba7873f48064c90aea6a8a00064d1.jpg
+419,553211,찐빵,오븐이 없어도 만들수 있는 따끈따끈 찐빵. 갓 쪄낸 찐빵을 반갈라서 호호 불어먹는 그맛~ 찹쌀가루를 넣어 더욱 쫄깃한 찐빵 맛보시렵니까~,90분이내,6인분이상,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/09/bc7483bfc2c82083236b10b6ab272986.jpg
+420,1065440,참치샌드위치,아침거르지마세요~ - 참치샌드위치,30분이내,1인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/09/df514513f61c0e54d69fcfdfdb50401c.jpg
+421,675044,찹쌀도넛,타피오카 전분을 사용해 만든 찹쌀도넛이예요. 시판 도넛의 형태로 만들어 친숙하죠? 다른 도넛보다 이 도넛은 쫄깃쫄깃하고 부드러운 맛이 일품이랍니다. ,60분이내,4인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/28/4dc4f493ed182744aaa04c90e98a6830.jpg
+422,748033,채소샌드위치,건강하게 맛있는 구운채소 샌드위치,30분이내,1인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/07/30/380dbd58eb61f01f240688a567f3bf64.jpg
+423,6586098,초코소라빵,아이들도 아주 좋아라하는 간식~ 피곤할때 달달한간식 땡기잖아요. 초코소라빵 만나보세요~,2시간이상,2인분,고급,https://recipe1.ezmember.co.kr/cache/recipe/2015/05/22/63a1c2dd780aad4bfee9221ec7f0ad021.jpg
+424,1815656,츄러스,튀기지 않아 더 담백하고 고소한 츄러스입니다.,60분이내,6인분이상,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/28/2403ba3e10475042892872760a1cd86a.jpg
+425,1392287,치킨버거,여름방학 간식 홈메이드 치킨버거입니다.,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/b9ef2d657f4a73811a4c177ef0e5c206.jpg
+426,6943482,카스텔라,카스텔라는 딱히 발효시간도 없고 과정도 복잡하지 않아서  초보 베이킹으로 딱인거 같아요~ 여러분들도 만들어보아요~ (20*20 사각틀 1개 분량),60분이내,6인분이상,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2020/10/06/68da97c18ece0005f4660a1b35ee43b41.jpg
+427,6828869,페이스트리,바삭바삭한 홈메이드 크로와상 레시피를 소개합니다~,2시간이상,6인분이상,고급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/19/207881b5d636d4faf4278df6ffe0aaec1.jpg
+428,685531,피자빵,집에 식빵과 야채  피자치즈등만 있으면 따로 도우를 만드는 수고 없이도 손쉽게 만들수 있는 누구나 좋아하고 맛있는 피자빵 함께 만들어 봐요.,30분이내,6인분이상,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/04/7d6bcbbaf73e5fa125eff2b887904de1.jpg
+429,774760,햄버거,두툼한 패티를 자랑하는 수제 햄버거랍니다. 홈메이드의 장점은 있는 재료를 활용하고 또 좋아하는 좋은 재료를 맘껏 넣을수 있다는게 큰 장점이겠죠?,15분이내,3인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/03/8a28bb50a9be9d0c9c5c675e2bbb060f.jpg
+430,6829886,햄샌드위치,냉장고에 있는 간단한 재료에 햄넣어 간단하고 맛있는 샌드위치 만들기,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/07/08/0eb5b89aafce2520f06cf63f046e46fd1.jpg
+431,696937,햄치즈샌드위치,간단 샌드위치~ 햄치즈계란샌드위치,30분이내,3인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/07/31/eca3a5f3ec4e18f44f24f11f415e4956.jpg
+432,965561,호떡,시판찰호떡가루로 만든 고소한 호떡입니다.,60분이내,4인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/30/a59549d3473a71b18b7935b7ad9fe58d.jpg
+433,2007598,곰보빵,아이들도 좋아하는 바삭 달콤한 소보로 빵이에요.,2시간이상,6인분이상,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/16/d5284999ecfdd27b89e6ccb655c213cf.jpg
+434,830298,만주,노른자 물덕에 노릿노릿하고 검은깨가 박혀있는 못난이 만주. 그냥 앙금만 넣지 않고 앙금안에 견과랑 건과을 넣었더니 씹는 맛도 있고 아주 고소해요.,2시간이내,6인분이상,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/07/838d4ef2b129f63d8edd98a61214e9ab.jpg
+435,1363719,불고기피자, 볶아 먹고 남은 불고기와 피자소스  그리고 피자치즈 정도만 갖추면 간단하게 만들 수 있는 훌륭한 불고기 피자예요. 도우를 식빵으로 사용해도 좋고  담백한 종류의 토핑이나 속에 잼 등이 들어있지 않은 빵이라면 어떤 빵도 이용할 수 있어요. 재료에 구애 받지 않는 간단 만능 피자랍니다.,30분이내,3인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/251a3edcae134ea6ce42501cc632c508.jpg
+436,390524,초콜릿케이크,쫀득하고 달콤한 더블 초콜릿 케이크:3 요새 느끼한거랑 달콤한거랑 너무 좋아져서 큰일이예요. 이러다가 굴러다닐지도..흐흐,60분이내,4인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/09/afd8ef09ce0bd71df72892bfb590ba63.jpg
+437,617899,치즈케이크,치즈케이크는 수플레  또는 베이크드 치즈케이크 이렇게 두가지 방법으로 굽거나 아니면 치즈타르트를 굽곤 했는데 얼마전 구입한 책에 나온 후로마쥬 치즈케이크를 보고 그맛이 궁금해서 만들어 봤답니다.,60분이내,6인분이상,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/09/028080005b40fa7c30972fed3edd989d.jpg
+438,2459252,치즈피자,고소한 도우와 다양한 치즈의 풍미가 어우러진 치즈피자입니다.,90분이내,2인분,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/a0496240d85a1cee29c26f2ab048cc72.jpg
+439,6829166,페퍼로니피자,씬피자마냥 또띠아로 간단하게 피자만드는 방법입니다. 오븐없이 팬에도 가능해요.,15분이내,2인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/19/af03d2205b2702a16f873dd88846ee741.jpg
+440,1687906,포테이토피자,피자를 좋아해서 자주 사먹는 편이에요. 근데 먹고나면 손과 입에 기름기가 항상 묻어나더라구요. 저는 모짜렐라 치즈때문에 그런건지 알았는데  알고보니 피자 도우에 기름기가 많아서 그런거라고 하더라구요. 오늘 피자가 먹고 싶어서 포테이토 피자를 만들었답니다. 도우는 얇게 하고 토핑도 집에 있는 재료들만 가지고 간소하게 얹어 최대한 담백하게 해봤어요.,60분이내,6인분이상,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/15/4e9beede974549f9724b50a2c8afb273.jpg
+441,6911149,가죽나물무침,봄나물의 마지막을 알리는 가죽나물~ 독특한향을 가진 가죽나물무침으로  별미반찬으로 즐겨보세요,15분이내,2인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2019/04/26/8c684e3b06eaa80fbf3923b1c515b3b71.jpg
+442,4627150,유채나물무침,꽃도 예쁘지만 나물도 맛있는 유채나물 소개합니다.,15분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/7b7980376840b0216d8fddf8f38acc63.jpg
+443,1701797,참나물무침,아삭하고 구수한 참나물무침입니다.,15분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/26/d3257cad96557d8790de5b7a65178b45.jpg
+444,1364640,취나물된장무침,된장의 구수한 맛이 나물의 향과 참 잘 어울리는 취나물 된장무침입니다.,15분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/eccb231ae504f19f26c532a53a9ac2c9.jpg
+445,1802860,톳나물무침,두가지맛 톳나물입니다.,15분이내,1인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/30/6c74afde4b13bc1c76262897f485375a.jpg
+446,922951,감자샐러드,보통 샐러드는 차가운 상태로 먹는 cool 샐러드인데  이건 감자를 따끈하게 익혀서 만드는 따끈한 샐럿이지요. 홀그레인 머스타드가 잔뜩 들어가서 특유의 겨자향과 맛과 씨겨자 씹는 맛이 훌륭하답니다.,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/07/47793a1466ba8342e87649cbdc98f6bd.jpg
+447,1586788,굴무생채,반찬없는 날 휘리릭 무쳐서 먹으면 향긋한 굴의 향이 입안에 퍼지며 아삭한 무의 맛이 입맛을 마구마구 돋게 해주는것 같아요. 시원한 가을무와 굴의 만남 아삭아삭 맛있는 굴 무생채입니다.,30분이내,4인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/10/22/501a03626494cfb0fc2ef0e7d6fed347.jpg
+448,907095,굴무침,굴 귀신 우리 남편이 최고로 좋아하는 밑반찬이에요. 싱싱한 생굴에 무와 갖은 양념을 넣어 맛깔스럽게 버무리면 향긋한 굴 향기에 자꾸만 젓가락이 가는 일품 밑반찬으로 둔갑하지요.,15분이내,2인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/07/3b5887f2d2f2ecad9db71d640b318424.jpg
+449,1167485,김무침,구운김 말고 김무침으로 맛있는 반찬을 만들어 봐욤~,15분이내,4인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/09/bef685154a142ac9eabff1376c526811.jpg
+450,6869702,낙지무침,오늘은 쫄깃쫄깃한 낙지와 잘 어울리는 달짝지근하고 시원한 배를 가지고 맛있는 낙지 무침을 만들어 보았답니다. 완성된 밥에 방금 무친 낙지 무침을 넣고 비벼서 먹으면 입맛 없을 때 꿀맛~~~!! 여러분도 이렇게 한 번 도전해보세요,60분이내,3인분,중급,https://recipe1.ezmember.co.kr/cache/recipe/2017/04/21/4da0536f122adc8f4c2bc1e071ecadc51.jpg
+451,1151398,느타리버섯무침,오늘은 가볍에 버섯무침을 가장 흔하게 접하고  싸면서도 맛있는 애느타리버섯을 이용한 밥반찬이랍니다,15분이내,3인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/09/5f54655b6d68add0f64b8d3c3183ca0d.jpg
+452,5836141,다시마무침,쫄깃한 식감과 향이 좋은 쌈다시마 무침,30분이내,1인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/04/16/5f7acd186f6f853bac508b82374703921.jpg
+453,2497170,단호박샐러드,달달한 단호박과 부드러운 소스가 잘 어울리는 단호박 샐러드입니다.,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/07/08/b68c639d92ad823852db4337889759ae.jpg
+454,1765463,달래무침,장날 사온 달래.. 봄이면 뭐니뭐니해도 달래 냉이 쑥으로 꾸미는 식탁이 봄을 그대로 전해주는것 같아서.. 간단하면서도 요것만 있음 반한그릇은 언제.. 다 없어졌는지 모를정도로 맛있게 먹을수 있는 달래무침.. 사실 새콤달콤하게 달래무침을 하게되면 고기를 먹을때도 그만인죠.. 이번에는 걍 밥반찬으로 먹을거라.. 신맛과 단맛은 그리 강하지 않게 다들 좋아하는 달래무침으로 해봤답니다.,15분이내,4인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/d2be460d9a1276b7556114bf1903b262.jpg
+455,591345,닭가슴살샐러드,다이어트나 몸짱들이 가장 즐겨 먹는다는 닭가슴살이기도 하지만... 아삭아삭한 야채를 곁들여 톡~쏘는 겨자소스에 버무려먹음 .. 젓가락이 가요 젓가락이 가 닭가슴살 샐러드에 젓가락이 가..ㅋㅌ 닭가슴살 샐러드 물향기랑 만들어 보아요~,15분이내,1인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/09/5c6c844ec174ba2a3277b6e1827fc1cf.jpg
+456,1633863,닭고기냉채,시원스럽게 뚫려지는 매콤함  놓치고 싶지 않는 단 맛  은은한 향을 자랑하는 싱그런 맛까지 닭고기냉채입니다.,60분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/29/91914b6bdb0628f29f2d82bbe42d7d2f.jpg
+457,6833989,도라지생채,새콤달콤한 초고추장 넣고 간단하게 무친 도라지생채입니다. ,30분이내,3인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/09/09d5614105eb3971139d33fe5347a9951.jpg
+458,6836913,도라지오이생채,가끔은 의도하지 않은 요리가 탄생하기도 합니다 ㅎㅎ 도라지생채 만들려고 하다가 갑자기 변경되어 도라지오이생채가 되었어요,10분이내,2인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/10/26/bcc481ca8e66020c5a50e92a58bf14b71.jpg
+459,2603077,도토리묵무침,다이어트에도 좋고 건강에도 좋은 도토리묵 무침 만드는 법 입니다.,10분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/07/20/8abd30b29288b8a20cc94b2fd72c0c44.jpg
+460,1766960,돌나물무침,돗나물은 주로 물김치를 담아 먹는 경우가 많죠. 오늘은 간단하게 무쳐 봤어요.,10분이내,2인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/16/75e846709700000ac35221c932b18b6e.jpg
+461,1188746,마늘쫑무침,중독성 있는 감칠맛~ 매콤한 마늘쫑무침입니다!,15분이내,4인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/09/1dfd179bff1957841a8c0daa78c9839e.jpg
+462,1376825,미나리무침,아삭하고 향긋한 미나리 무침입니다.,10분이내,3인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/31/d41a25e39f15dab84f7ed1cf1ee77371.jpg
+463,1082198,미역초무침,새콤하게 입맛을 돋구는 미역초무침입니다. 아삭아삭한 오이도 넣고해서 입맛없을 때 반찬으로 먹으면 좋을꺼같아요.,30분이내,2인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/09/3551b50657b58a95d8d18a533af40614.jpg
+464,2301701,부추무침,일반 부추는 아이들이 먹기에는 대가 좀 세고 향이 강해서 부드럽고 연한 영양부추를 무쳐 주었더니 아이들이 잘 먹는답니다. 조그만 영양부추를 한 단 사서 간단하게 무쳤습니다. 다른 재료는 넣지않고 영양부추만으로도 감칠맛 나게 먹을 수 있어서 좋답니다.,30분이내,4인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/10/2fb09cd7d20e0e436a29b515463b3363.jpg
+465,2636017,북어채무침,마땅한 찬거리가 없어서 만들어 본 북어채무침이에요.,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/07/22/2bc30e45446efdcbd6a7ebaff321c877.jpg
+466,660876,상추겉절이,완전 초간단한고 입맛당기고 새콤달콤한 상추 겉절이를 만들어볼게요. 상추 겉절이는 바로 무쳐서 숨 죽기전에 빨리 먹어야해요. 그럼 만들어 봐요.,10분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/09/ce740c6ea22c93c1cfb0f05513486d39.jpg
+467,4126933,양배추샐러드,오늘 소개 요리는 조리하지 않고 바로 드실 수 있는 샐러드인데요. 자극적인 반찬들을 많이 준비 하셨을 때 혹은 마땅한 반찬이 없는데? 라고 생각 하실 때 휘리릭- 준비하실 수 있는  특별한 계량은 필요없고 썰어서 버무리면 끝이랍니다. 몹시 간단해요. 간단하지만 맛있게 드실 수 있다는 것이 포인트예요,10분이내,2인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/05/6466aba770842dba4847d810bec9fa691.jpg
+468,6630762,양상추샐러드,오늘은 저희집에서 반찬이 없거나 아님 간단한 한그릇요리등 만들어 낼때 제가 자주 만드는 샐러드입니다.,10분이내,1인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/05/e4347353e5af19638624511b4c38cbdf1.jpg
+469,840464,양장피,흔히 중국요리 시켜먹을 때  탕슉과 팔보채..양장피를 주로 잘 시켜먹잖아요. 매콤한 겨자향이 입맛을 돋우고  각종 야채와 해물들로 영양 만점이지요. 그런데  손이 참 많이 가네요. 재료를 일일이 채썰고 장식하고  볶고 그래야하거든요. 그래두 시키는것보다 훨씬 저렴한 가격으로 먹을 수 있어서 좋아요.,60분이내,4인분,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/10/29/fd45f1d09dba6667ebd8316d5f7886d4.jpg
+470,6880744,양파부추무침,고기 먹을때 함께 먹으면 정말 맛있는 부추겉절이 입니다. 양파를 넣어 씹는맛도 있구요. 어떤 고기와도 잘 어울리는 양파부추무침이랍니다.,10분이내,2인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2017/12/09/9cb4a9cedfdc69a48ddcadf3c1d464e71.jpg
+471,6857865,열무겉절이,아삭거리는 열무로 겉절이를 만들어보았어요! 비빔밥으로 비벼먹어도 좋고  밥반찬으로도 좋죠. 다른 반찬 필요없답니다:),10분이내,3인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2016/10/04/b961075e353c01771ce43ed78b922a031.jpg
+472,682718,오이부추무침,김치대신 금방 무쳐먹는 오이부추무침 만드는 법입니다.,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/01/17fe460a8a852d64473c588357ad1ad9.jpg
+473,6851097,오이생채,새콤달콤 입맛돋는 오이생채  오이무침!!! 재료도 간단하고 불앞에 설 필요없이 뚝딱하고 만들수 있는 만큼 참 자주 해먹는 반찬중에 하나인것 같아요. 아삭아삭한 오이에 새콤달콤 양념 을 곁들이면 입맛이 절로 돋는 레시피 지금부터 알려 드릴께요.,15분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2016/06/16/0237a24b42407fdd5f98f416896d04fe1.jpg
+474,929265,오이지무침,김장으로 인해 김치냉장고를 정리 할때가 되어 구석구석 뒤져보니.. 깊숙히 보관되어 있는 오이지... 참기름 향이 물씬 나는 오이지무침이면 덥디 더운 여름엔 찬물에 밥 말아서 먹어두 한그릇 뚝딱 해결.. 모처럼 도시락 반찬으로 담아줄려구 오이지 무침했어요.. 일반 오이 절여 하는것두 아삭하지만 오이지에 새콤달콤함과 아삭함에 역쉬 밑반찬으로 좋아요~ 물향기의 행복한 밥상~,15분이내,4인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/09/e75e91f80dc396d89139b990e8b05b09.jpg
+475,1769647,오징어무침,유자향이 솔솔 향긋한 오징어무침 만들기 입니다. ,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/16/3f6211693ef6d3098b16098640c42c4f.jpg
+476,6834871,오징어물회,양념 맛 때문에 밖에서 사드시던 분들께 좋은 소식 집에서 만드는 오징어물회와 오징어회덮밥 알고보면 쉬워요~♡,15분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/22/b09db164956d15328788c1200ce3de201.jpg
+477,2336803,오징어채무침,오징어채무침 반찬.. 정말 우리 국민의 밑반찬이죠...,30분이내,4인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/05/a5086a7492b180476f771f7abc71acb7.jpg
+478,2999820,오징어채소무침,쫄깃한 오징어와 새콤 매콤 달콤한 매실청 고추장 소스가 잘 어울리는 반찬입니다.,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/972eb17c854288b2693434ea51e3b7c7.jpg
+479,6853273,옥수수샐러드,감자 옥수수 샐러드 그냥 먹어도 좋고 빵에 가득 넣어 먹어도 좋은 여름간식 감자 옥수수 맛있게 다양하게 즐겨보자,60분이내,1인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2016/07/22/7e5e0d77a48f4c99b1a18e3938149c8b1.jpg
+480,1839354,참치샐러드,영양이 풍부한 참치샐러드 그냥먹어도 좋고 샌드위치 만들어 드셔도 넘 맛나요.,10분이내,2인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/d93c769c20a02cee105acdee0796598f.jpg
+481,6862802,채소샐러드,아이 둘 자라 떠나고 나니 우리 부부 둘뿐입니다. 그러다 보니 식탁에는 채소 위주가 되곤 합니다. 청정원 푸드박스에 당첨되어 날아온 햄으로 수제 요구르트와 함께 채소샐러드를 만들어 보았습니다.,15분이내,2인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2016/12/18/993f945f580584a5b736c910dca534c71.jpg
+482,6824644,파무침,고기구워서 함께 먹을때 맛있는 파무침 만드는 법입니다.,10분이내,1인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/09/399c0447ae97b12d4ba0d3d52ef948951.jpg
+483,6921843,풋고추된장무침,점심식사에는 쌈을 많이 싸먹잖아요? 풋고추 따로 쌈장 따로 먹는 것보다는 풋고추된장무침으로 한쌈해보시면 좋으실 것 같아요. ,5분이내,2인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2019/11/08/f08979ff495b2fdbdac908fbfa8b82821.jpg
+484,3444196,풋마늘무침,재래시장에 풋마늘이 나왔더라고요.. 눈에 띄는 신선한 식재료는 바로 자전거 바구니에 구입하는 사람이지요.. 풋마늘 2천원치 구입해서 살짝 데친후 새콤달콤하게 무쳐서 없던 입맛까지 살려 보시는것은 어떠세요? ,30분이내,4인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/07/14/a5e034e9f09df66c5a4b72def038dd98.jpg
+485,4445140,피조개무침,달콤한 피조개를 새콤달콤한 초고추장에 무쳐 놓으면 너무 맛있는 안주거리가 된답니다.,15분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/18/bcee6598bd3a3ae9990bda99eb39f86c.jpg
+486,6693607,회무침,상큼한 우어 회무침 만들어 봤어요.,30분이내,4인분,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/05/09/e5d40896baa0c6480b96a468160a47fb1.jpg
+487,1475328,노각무침,너무 여물어 버려서 안에 씨는 많지만  씨를 도려내고 남은 깨끗한 살은 무치면 일반 오이무침과는 또 다른 식감을 선사해 주네요.,30분이내,4인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/30/7c4b7cd204277962c98f715e47db47b7.jpg
+488,3407760,단무지무침,반찬으로 만들어 본 꼬들 단무지인데요. 매콤하게 양념을 좀 하고 무쳐보았는데요. 맛이 참 좋아요. 입맛 사라지셨다면 꼬들 단무지로 입맛 제대로 잡으셔요.,10분이내,2인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/96b14ba9f213569f044c2b2279de4025.jpg
+489,1792182,더덕무침,더덕은 산삼에 버금 가는 약효가 있다고 해서 사삼이라고도 한다지요~ 영양 가득한 더덕을 이용하여 맛있게 더덕무침을 만들어볼게요!,15분이내,3인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/10/8f8dddcfd57dee8f5c480f658bf19fb8.jpg
+490,6867857,쑥갓나물무침,향긋한 식감이 몸을 편안하게 하네요. 오래간만에 나물을 무쳐서  한 번 배속 편안하게 드셔보세요.,30분이내,3인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2017/04/01/74d7bd73d4c8eaa55d9948b6558977f41.jpg
+491,1821222,청포묵무침,다이어트요리 청포묵무침입니다.,5분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/26/9a548edd075288837fa0e2566212435c.jpg
+492,640790,탕평채,청포묵1모에 무지 싸 답니다. 손쉽게 마트 가심 구할수 있찌요~ 탕평채가 궁중 음식이라지만..만들기가 소박하고 재료 또한 착하답니다.. 일상적으로 만들기도 쉽게 색감이 이뻐 손님상에도 좋아요~ 물향기랑 탕평채(청포묵무침) 만들어 보아요~,30분이내,4인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/09/af551c161175b25d0ed281b4ef1d4691.jpg
+493,6842342,홍어무침,전라도 잔칫상에 홍어가 빠지면 정말 섭섭하지요???ㅎ 심술이의 막내동생이 결혼을 하게되어 집으로 오실 친척분들께 대접할 홍어무침을 만들어보았어요^^,2시간이내,6인분이상,중급,https://recipe1.ezmember.co.kr/cache/recipe/2016/01/30/d9f7ab343cc0ef1b19b46bcfa7e768cf1.jpg
+494,2321797,삼색나물,,30분이내,3인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/b6ccd9a30d046b5d0c19ea12297ba736.jpg
+495,1920554,단호박견과류샐러드,영양간식 단호박 견과류샐러드입니다.,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/6c7d921772a0ed8d7dd2a856b83d810b.jpg
+496,6702976,코울슬로샐러드,두루두루 쓰임좋고 맛도 좋은 코우슬로 샐러드입니다.,30분이내,1인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/05/14/0639c7332fed320e88996229b56605321.jpg
+497,5404025,연근샐러드,검은깨를 갈아서 만든 드레싱을 곁들인 연근샐러드입니다.,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/05/cf22e3a2d6edd4f9b1f37fbaf2f8e30d1.jpg
+498,6944329,고구마순나물,고구마수확 제철시기에 맛볼 수 있는 고구마순 요리,30분이내,4인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2020/10/16/c7daf22077ec6dca11d6d7a80d65c4f61.jpg
+499,6851196,비름나물된장무침,나물요리 좋아하세요? 전 입맛이 토속적이라 나물요리 엄청 엄청 좋아합니다. 국도 반찬도 나물밥도!!!!! 그럼 간단하게 만들어보죠. ,10분이내,4인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2016/06/18/ad09cc856a27c479122411a91cc9af861.jpg
+500,6889302,아욱된장무침,      입이 짧은 저희 아이가 주저 없이 잘 먹는 저희집 인기 반찬을 가지고 왔어요 :) 양념만 그대로 하고 채소만 시금치 등으로 바꿔주면 맛있고 건강한 반찬이 다양하게 뚝딱 완성이죠. ,15분이내,4인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2018/05/21/98dd2f4f95badfabf29cc0e91e2f7c691.jpg
+501,1575540,톳나물두부무침,톡톡 씹히는 맛있는 맛 톳나물 두부 무침입니다.,30분이내,3인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/30/c5096bac6903999c3e3a111621f96318.jpg
+502,3924119,가지나물무침,재료도 착하고 누구나 간단하게 만들어 먹을 수 있는 가지나물 무침,,,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/04/22/9e5c3083d7f7675144501e37d278659d1.jpg
+503,6679835,고춧잎나물무침,밥반찬으로도 좋고 비빔밥에 비벼 먹어도 너무 좋은 고춧잎나물무침입니다.,60분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/05/08/5fb1b457ca11119a6b5a55df475178141.jpg
+504,6885147,깻잎나물무침,들깻잎 무침 언제 먹어도 맛있어요.,30분이내,4인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2018/03/05/5e805e1e8d1a0646de8e221ea3f517ad1.jpg
+505,6841683,냉이나물무침,[ 냉이 효능 ]  ?  ?냉이는 쌍떡잎식물 이판화군 겨자과의 두해살이풀로 들이나 밭에서 자랍니다.  ?냉이는 봄나물로 많이 알려져있지만 사실 11월부터 나오는데 그때 먹어도 맛있죠.  ?봄철 냉이가 좋은건 겨울을 견디고 나온 강인한 뿌리때문인데요 봄에 먹는 인삼이라고도 하죠.  ??냉이는 지라(?비장 위 뒤쪽장기)를 건강하게 해주어 이뇨 지혈 해독에 좋다네요.  비타민 A가 많아 ?눈에도 좋고 단백질 칼륨 칼슘이 풍부하다고 하니 많이 드세요 ^^  오늘 루비씨는 몸에 좋고 맛도 좋고 아주 쉬운 냉이무침을 해보겠습니다.?  ?냉이무침은 시금치쳐럼 간단한 소금장으로도 무치고 초고추장으로도 무치고 여러가지 요리법이 있는데  ?오늘 루비씨는 된장으로 맛나게 무쳐볼께요. ,15분이내,4인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2016/01/14/e723cf5516315b2e5597187b5c1dfc5e1.jpg
+506,1818637,방풍나물무침,방풍나물 풍을 예방하는 나물이라 하더라구요. 조금 사서 무쳐 먹었어요 은은한 향두 괜찮구 조물조물 나물로 무쳐 놓으니 기분 좋게 한 끼 반찬이 되네요.,15분이내,3인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/9ca9f30f33cdd6a55503e02d2b88c3f8.jpg
+507,6862691,배추나물무침,제가 나물반찬을 좋아해서 나물이 있으면 밥을 많이 먹게 되거든요~~ 이번에도 역시 이렇게 만들어서 밥을 어마어마하게 먹었~~ㅋㅋㅋ 그래도 살 안 찌는 음식이라 괜찮다며 위로하면서 맛있게 먹은 배추나물무침 소개해볼게요^^,15분이내,6인분이상,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2016/12/15/bbfcbea4bfb715ea0c5a323c2a68aa451.jpg
+508,1877434,비름나물무침,푸릇한 봄나물이 입맛을 돋우네요.,30분이내,4인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/18/cafec555ea89c55b688f6be4908594c6.jpg
+509,6345925,숙주나물무침,숙주나물의 효능도 잠깐 알아볼께요. 숙주나물은 소화가 잘 되게 해주는 성분과 함께 소화가 잘되게 도와주는 숙주나물 효능~!! 몸의 독소와 붓기를 빠지는 데 도움을 준대요. 물론 나물이니 변비 예방에도 참 좋겠지요. 또한 녹두가 열을 내리는 성질이 있기에 감기에 걸렸을때 입맛없는 분들에게 숙주로 열도 내리고 밥맛도 좋게 해준대요. 오늘 숙주나물을 무쳐 보세요~~,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/05/31/f46424722fd3fb21b418e276086ed8d41.jpg
+510,6340227,시금치나물무침,비타민이 풍부한 시금치를 이용한 나물입니다.,10분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/01/294aede26d5cf212295ae8f2ed2cbbb31.jpg
+511,6903967,시래기나물무침,시래기라는 식재료는 섬유질의 왕 이잖아요 . 푹 삶아서 무침만으로도 훌륭한 다이어트 됩니다.,10분이내,2인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2019/01/09/fc166ad683a91196c3eeb6d69aa98ce61.jpg
+512,6896020,열무나물무침,줄기는 살캉! 잎은 부들~ 2가지 매력적인 식감의 열무. 된장 양념에 버무려 맛을 낸 덕분에  계속 먹게 되네요♥ 또 양파가 달큼아삭한 맛이 먹는 재미를 더해준답니다.,10분이내,4인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2018/09/10/a953215539ce9570a6afe58e5cac1f7e1.jpg
+513,1025717,미나리나물,요즘 미나리가 참 맛있더라구요. 한 단 사다가 미나리 잎사귀부분은 잘라내고 주로 줄기부분만 데쳐서 소금과 참기름에 무쳐내면 향긋~하니 맛있어요.,15분이내,4인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/09/6536a6e69e4b5bfd4238d22dc212c8a1.jpg
+514,1195547,취나물,차례상이나 제삿상에 올리는 대표적인 삼색나물 취나물 도라지나물 고사리나물 볶음 입니다 요즘 재래시장에 가면 쌉싸름한 취나물이 많이 나오고 있답니다 파릇한 취나물을 사다가 삶아서 무쳐서 먹으면 입맛도 확~돌고 건강해 지는 느낌이 팍팍 듭니다~^^,60분이내,6인분이상,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/09/ab377ce764247df6cd2a1e563d4751a6.jpg
+515,1687021,콩나물,반찬으로 너무 좋은 4가지 콩나물 요리 만들기입니다.,60분이내,4인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/ec67608f6c06afe8129452ea0e4c4499.jpg
+516,1985525,팥빙수,직접 만든 빙수팥으로 만든 팥빙수입니다. 더운 여름 시원하게 보내세요.,60분이내,3인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/08/dffbd5d878b3675795d286cd1bee51a7.jpg
+517,6831999,미숫가루,미숫가루는 현미  보리  콩  율무  찹쌀  깨  들깨 등 여러 가지 몸에 좋은 곡물을 최대한 영양소가 파괴되지 않게 볶아 가루 낸 것으로  대 부분의 사람들이 미숫가루를 여름철 음료로만 알고 있는데  실제로 미숫가루는 식사대용으로도 좋답니다.,10분이내,1인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/15/1efe1f6047694497e71ad6fd90a6e1e71.jpg
+518,558747,식혜,무방부제  무색소  무첨가물 홈메이드 식혜!!!,2시간이상,6인분이상,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/09/4bd2cf299c240f91311e7847242af86e.jpg
+519,6732457,단무지,엄마가 집에서 만든 위생적이고 맛있는 단무지,,,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/04/28/b1a02f8e5f0f59f8027fc197a38309371.jpg
+520,6855452,더덕장아찌,오늘은 예전에 제가 만들어놓은 더덕장아찌를 이제야 올려봅니다~~~  어제 강원도 횡성에서 보내온 더덕이 어찌나 좋은지 손질한다고   하루 종일 많이 힘들었답니다ㅓ~~~     생각나기에 5월에 담아놓은 장아찌도 꺼내서 먹어보고 사진도 올립니다~~~     아래 장아찌는 담은지 3년 정도 된 것인데 요렇게 한 접시 남았어요~~ 확실히 오래된 장아찌라 윤기도 나고 많이 숙성이 되어   입안에서 살살 녹는다고 할 만큼 부드럽고 맛있답니다~~~     오래될수록 깊은 맛도 있고 부드럽고 쫄깃하니 안 먹어보면   그 맛을 말할 수가 없답니다~~~ 오래 숙성이 되어 꺼내서 아무것도 안 넣고 그대로 접시에 담았는데도 윤기가 좌르르 흐르네요~~~    완전 밥도둑이 따로 없답니다~~~  씹을수록 더덕의향과즙이 나오면서 얼마나 맛있는지요  오랫동안 아껴먹는 우리 집 보물 1호 밑반찬입니다~~~    가끔은 프라이팬에 들기름 약간 넣고 살짝만 구워주면   둘이 먹다 한 명 없어져도 모른답니다~~~ ,60분이내,6인분이상,초급,https://recipe1.ezmember.co.kr/cache/recipe/2016/08/28/41ff256998e2c4b4fde8ef0fa7ecd8871.jpg
+521,6838858,무짠지,봄철에 무짠지 꺼내서 무치면 완전 밥도둑이지요~!~! 무짠지 무치거나 물부어 찬밥과 함께 먹으면 요것처럼 맛있는 밑반찬은 없지요~!~,60분이내,6인분이상,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/11/29/1d64012d999bf488ad9db4568cb77f2b1.jpg
+522,784888,양파장아찌,식초와 설탕이 잘 조화되어서 아이들도 엄청 좋아한답니다. 저희집에선 피자를 시키면 오이피클대신 이걸 꺼내어서 먹는다죠? 오이피클보다 훨 개운하고 덜 달아서 좋거든요. 아삭아삭하고  새콤하고  은은하니 달콤하고  짭쪼름하고  시원한 장아찌만한 밑반찬이 없지요?,2시간이상,6인분이상,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/09/e1532fc613fe964df55edc93fc4fd6b8.jpg
+523,2820864,오이장아찌,짭조름하고 새콤달콤해서 입맛을 확 살려주는 오이 장아찌 입니다!! 모락모락 따뜻한 쌀밥에 오이장아찌 하난 올려 먹으면 꿀맛이예요! ,,,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/04/03/75373f1a684aac6e59c4f1c9795310e31.jpg
+524,1982829,오이지,우리 몸에 이로운 밥상을 만들어 주시던 조상님께 감사하면서 오이지 담그는 행사를 치뤘지요.,60분이내,6인분이상,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/08/c462877ab743efb44ef40c5437c8b359.jpg
+525,3176458,치킨무,집에서 만들어먹는 아삭아삭 치킨무,,,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/04/02/f07f2c48a3521590a79c452876d9146a1.jpg
+526,6850309,고추장마늘쫑장아찌,여름에 편히 먹을 반찬 만들었어요,2시간이상,6인분이상,초급,https://recipe1.ezmember.co.kr/cache/recipe/2016/06/01/fb7dab6e2ef99c0456f32b3fcd61916b1.jpg
+527,1956944,매실장아찌,1년 먹거리 매실청과 매실 장아찌 만들어 봅시다.,30분이내,6인분이상,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/561ad3f34a9b8ecef37049522509b2ca.jpg
+528,2001919,무장아찌,아삭하고 입맛없을때 좋은 무짱아찌입니다.,2시간이상,6인분이상,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/4bb4464ecac8f7d11554e69c85cff174.jpg
+529,1023681,가지전,오늘은 가지전을 지졌는데요. 가지를 어슷썰어서는 밀가루를 바른 후  계란을 입혀 팬에 지진 다음 두반장소스를 뿌려보았는데  무침이나 볶음과는 또 다른 맛으로 먹을 수 있는것 같아서 좋네요.,10분이내,4인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/18/cf3993ea0ba4d208958a30a9140c9523.jpg
+530,6210171,고구마전,고구마로 맛있는 간식을 만들어볼게요~,60분이내,6인분이상,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/04/47bcc28da732efdacdf7e2e3e2a77e7e.jpg
+531,1959138,김치전,저희집에는 2년된 묵은지가 아직 김치냉장고에 있답니다. 특별히 공수해온 맛있는 묵은지라지요. 2년된 묵은지로 만들어먹는 김치전 요거 색다른 맛이랍니다.,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/42b097190e179c2cbc91284fababb4ce.jpg
+532,680329,달걀말이,약간 짭쪼롬하게 하면 밥반찬으로 좋고요~ 좀 싱거우면 술안주나 출출할때 먹기 좋고요~특히 바쁜아침에 마땅히 먹을반찬 없을땐 초간단! 달걀말이가 최고지요~~,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/14/6a5407fb7b86f302008c139e9be1e38d.jpg
+533,2367138,달걀프라이,라면보다 쉬운 달걀 프라이 예쁘게 만드는 법입니다.,10분이내,1인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/05/0fbc709fdc161ce203f54c13d045cb7a.jpg
+534,4397089,돼지고기완자전,아이간식 또는 반찬으로 좋은 완자 고소한 돼지고기완자전입니다.,30분이내,4인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/22/783d3f422ee99edfbba0c20ae6c9aa54.jpg
+535,1608749,두부부침,간단하게 해 먹을 수 있는 두부부침입니다.,15분이내,2인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/43632a881a2caca4a7a08470b2ad25e1.jpg
+536,567655,떡갈비,부드러운 육질이 살살녹는 우리나라 전통음식 떡갈비입니다.,60분이내,3인분,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/10/27/935732914630f30fb44ea967d9980441.jpg
+537,2728514,맛살전,맛은 고소하면서 은은한 카레의 향이 풍기고 쫀득쫀득한 질감속에 살짝 매콤한 맛이 일품인 맛살전입니다.,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/29/0bb37125d5fa8bbd80b2b1ea46647d61.jpg
+538,6842646,메밀전,경기도에 살지만 강원도가 더 가까워 저는 강원도로 나들이를 많이 하게 됩니다. 바다가 보이는 곳까지 나들이를 가게되면 물회나 회를 먹고 오지만 바다까지 보러 못가면 가까운 강원도에서 막국수와 메밀전을 먹고 오게 됩니다 강원도표 메밀전은 무심한 듯 메밀에 배추와 실파가 한가하게 올려져 있지만 그 맛에는 내공이 있어 이 맛이 메밀전이구나라는 생각이 들어요,30분이내,1인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2016/02/05/9c771fafcd455f08b67f9f04ed72ce481.jpg
+539,5056573,채소전,오늘 모듬채소전은 깔끔하게 채식부침개이니 여름철에 드시면 좋을거에요.,15분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/18/0b0ab394a25a8c1243e0e51e5a188356.jpg
+540,4557398,표고버섯전,다진새우살로 만든 고소한 표고전입니다.,30분이내,1인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/06/b87e2a2c7fcb2f0ace9d8bb98984187e1.jpg
+541,6459286,소고기산적,소고기 산적 만들기 레시피 입니다.,2시간이상,3인분,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/05/28/394c5f523e2ab84968b3d54c8c8266171.jpg
+542,4779642,가자미전,간편하게 만들 수 있는 담백하고 부드러운 가자미전 소개합니다.,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/05/28/3bf0d74ef02eb13d0afeb6187a6369941.jpg
+543,1829801,고추전,고소하고 맛있는 풋고추전입니다.,30분이내,4인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/25/12c394e31bf64fc0a3721b6bf341b6f0.jpg
+544,1489134,깻잎전,동그랑땡만으로 식상하다면 향긋한 깻잎전입니다.,30분이내,4인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/49b69852ebc53f9fce412ebd1a507a2d.jpg
+545,846866,녹두빈대떡,비가 올 때 생각나는 고소한 녹두빈대떡입니다.,2시간이상,4인분,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/30/c4bd65b20d2c7c842014d159fa0a178f.jpg
+546,526063,동태전,명절때면 꼬옥 빠지지 않고 만드는게 바로 동태전이라지요,,,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/09/87fea5e69cbd940904c38481932d13a3.jpg
+547,923013,두부전,밥새우를 넣고 두부를 지져보았더니요. 구수하니 맛도 좋고 당근처럼 안익어서 걱정할 필요도 없더라구요. 건새우를 싫어하는 아이들도 이렇게 해주면 아마 감쪽같이 모르고 먹을껄요? 물론 영양도 만점이고요.,15분이내,4인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/05/8ea2ff44294e6fa0cbab61c01705a5d9.jpg
+548,1655558,미나리전,간단하게 만드는 향긋한 미나리전입니다.,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/fd2fc853fed71e7fb1bf52b3a2f609bf.jpg
+549,1869008,배추전,고소하고 담백한 배추전입니다.,15분이내,2인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/07/30/09aa7741b8955c569851ddd29698f30b.jpg
+550,6543367,버섯전,버섯에 계란만 입혀서 잘 구워 맛나게 먹어주면 되는 아주 간단한 요리,,,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/04/06/b41da66fabec0bd80593ba887218510f1.jpg
+551,1457086,야채전,부드럽고 담백한 생선살 야채 전입니다.,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/29/20b665be0d17e37a18300761d5c041ca.jpg
+552,1393131,호박부침개,오징어와 새우가 쏙쏙 호박 부침개입니다.,30분이내,4인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/7fe11da99efe3e148d09d3a58bcf8ada.jpg
+553,6881889,가자미식해,긴자미 식해는 잘 숙성 시키면 쫀득한 육질과 무우의 시원한 맛이 좁쌀과 잘 어우러져 겨우내 맛나게 먹을 수 있는 가자미 식해입니다,2시간이상,6인분이상,고급,https://recipe1.ezmember.co.kr/cache/recipe/2017/11/23/8b1e33f46d05ebc2f015de99f3b44e071.jpg
+554,1584960,양념게장,밥도둑~~ 양념게장~소개해요~,90분이내,4인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/6c220c3a064602b93b932683e27750f9.jpg
+555,4302770,오징어젓,오징어젓 직접 싱싱하게 발효시켜 드셔 보세요.,2시간이상,6인분이상,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/9ee791a3be7db6c216249637f98c624f.jpg
+556,6881690,건갈치조림,밑반찬으로 좋은 건갈치조림 쫀득함에 매료되는 반찬입니다,30분이내,6인분이상,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2017/12/22/32c02a9ebdf9e0cb3a57c615c917c53c1.jpg
+557,1773426,꽁치조림,계절에 맞는 좋은 제철 재료는 다른 철에 먹는것보다 그 영양소가 대체로 3배가 넘을 만큼 성분의 차이가 있다고 합니다... 겨울엔 꽁치가 제맛이지요...냉동이나 통조림꽁치가 아닌 생생생! 꽁치로 무우조림을 해 먹어보세요... 영양만점...아이들 밥반찬...아빠의 술안주에도 그만이지요...,60분이내,3인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/5357ca5ccff388a4e11fdceca828929e.jpg
+558,1289620,달걀장조림,짭쪼름하고 부드러운 밥도둑 계란장조림입니다.,60분이내,6인분이상,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/7cb87332cffc134964721c78875f7bbe.jpg
+559,923769,닭조림,세종류에 고기 부위별루 돌려 먹다가 실증이 나믄 종종 만들어 먹는 닭조림 소개 해 드릴께요... 손님초대에두 좋구요...매운거 같지만 전혀 맵지 않아 아이들도 잘 먹구... 간식으로나 밥반찬으로나 안주로나 손색없어요~,60분이내,4인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/09/41d81adc176092f74cf90a143ae777bc.jpg
+560,1823140,돼지고기메추리알장조림,한번 만들어 놓으면 몇끼니는 든든하게 먹을 수 있는 장조림~,2시간이내,6인분이상,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/78aaa801d13d0c4e53d49f2a2b11f1f2.jpg
+561,1011171,돼지고기장조림,짜지않고  여러 조림양념이 들어가서인지 냄새도 안나고 맛있는 돼지고기 장조림입니다.,90분이내,6인분이상,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/15/8925c1daf82aa33293ddf741bbc62740.jpg
+562,1755101,땅콩조림,고소한 땅콩과 짭쪼름하면서 달달한 조청소스가 어울려 밥한공기 뚝딱~ 은근 밥도둑이랍니당~ 후라이팬을 쓰지 않고 그릇에 넣은채로 조리하니까 설거지도 안나오고 넘 간편하네요.,5분이내,3인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/07/786cb7adaf156879c50eecae59e644a2.jpg
+563,6839925,마늘쫑조림,알싸한 마늘쫑을 더 맛있게 먹기 위해 간장양념에 푹~졸여봤는데요.. 부드럽고 쫀득한 맛이 아주 일품인 반찬이 되었습니다. 어른들도~ 아이들도~ 누구나 다 잘먹는 반찬  이렇게 만들어보세요^^,30분이내,3인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/12/15/9db266eff31c37866d3bb0dc9ea5420b1.jpg
+564,922197,메추리알장조림,입맛 없을 때 입맛을 살려주는 짭쪼름한 메추리알 장조림입니다.,60분이내,6인분이상,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/09/f4636e16c7ee2481ebb45e4d74dae4d7.jpg
+565,3988731,멸치조림,촉촉 달콤해서 한없이 집어먹게되는 멸치조림,,,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/04/22/54bb1a468203f0aef42da0dba8d3bd491.jpg
+566,940491,무조림,무가 제철인 요즘은 무가 주재료가 되서 만들어 먹는 요리들을 많이해서 먹어야 해요. 그래서 만들어본 무조림 일부러 생선조림을 할때도 생선 보다는 무를 더 좋아라 하는데  실컷 무나 먹어보자 하고 만들어 보았어요.,60분이내,4인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/10/29/3e00ae2c9c01afd17f8045bd05bcb1ca.jpg
+567,1749047,미트볼조림,고기는 잘 먹지만 야채를 잘 먹지 않는 아이들을 위해서는 이렇게 고기를 다져서 야채를 안에 꽁꽁 숨겨서 먹이면 최고 좋지요. 아이들이 좋아하는 케첩소스로 조려서 더욱 맛있고  아이들이 좋아라 한답니다. 방학동안 아이들 반찬으로  또는 간식으로 만들어 주면 제격이겠지요.,60분이내,4인분,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/905a63b6d6d9d799ea99e6ca0be5d45e.jpg
+568,1846356,버섯조림,밥에 올리고 먹어주면~ 다른 반찬이 필요없지요. ,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/14/1c603f3683d43488a9636746333e13bd.jpg
+569,2395562,병어조림,병어로 만드는 맛있는 병어조림 소개합니다.,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/07/27/262cbf9fa06a4d5011d5799ed684dfc2.jpg
+570,1047221,삼치조림,저녁에 조림을 만들어 온 식구 맛있게 먹었습니다. 고등어도 맛나지만 삼치는 고등어보다 살이 더 부드러워서 더 맛나요.,30분이내,4인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/09/ea08dd10f1fd2775ffe81cba75a365cd.jpg
+571,2509789,쇠고기메추리알장조림,든든한 밑반찬 쇠고기 메추리알 장조림입니다.,60분이내,4인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/07/28/4cb207438dda859e02a1f47e521446b9.jpg
+572,1009580,양미리조림,짭짤해서 밥과 함께 드시면 밥 한그릇 뚝딱. 밥도룩 양미리조림입니다.,60분이내,5인분,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/10/3ff950adccc901d81567453b489a88a5.jpg
+573,1700193,어묵조림,짭쪼름하고 달달한 어묵조림입니다~,15분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/26/134624ab67139099b1e612e21ee504bc.jpg
+574,1794700,오징어조림,물오징어로 간장조림 해 봤네요. 보통 마른 오징어를 많이 쓰시는데 물오징어가 훨씬 먹기 좋은거 같아요~,30분이내,4인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/18/487bc00fbe5e6bd9daa7a6af12492558.jpg
+575,1259438,오징어채조림,오징어채를 부드럽게 매콤하게 먹어보기 볶는것 보다는 바글바글 조려주면 부드럽고 촉촉해서 더 맛있는 밑반찬.볶지 말고 쪼려보세욤.,15분이내,4인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/10/700010f9fd06d581215fce8e16f5f002.jpg
+576,1845698,쥐포조림,매콤  달콤  짭짤한 쥐포조림. 크기는 작아도 쫄깃하니 씹는 맛도 좋구요. 마요네즈를 넣어서 고소하기도 하답니다.,10분이내,3인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/24/3527cf1348e9897a309bcd5b3bb6020e.jpg
+577,1622670,콩조림,검은콩이 폐경기 증후군  골다공증  피부트러블  고혈압이나 부인병등에 좋다는 기사를 읽고 그때부터 검은콩을 자주 먹으려고 노력하는 요즈음입니다.,60분이내,6인분이상,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/344baf553cf9e69b0037d6c5a59c1a16.jpg
+578,1138149,가자미조림,남은 국물에 밥까지 비벼먹으면 끝장인 가자미조림입니다~,30분이내,4인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/14/512d31f2e3a7b26a2435eb9e51aa9b6d.jpg
+579,6859078,고추조림,엄마네 텃밭 고추대 뽑으면서 보내주신 막물 고추로 짭짜롬한 고추 간장조림 했어요,30분이내,6인분이상,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2016/10/24/c92ef110e7b368d5b2b66e06c4c06b411.jpg
+580,6863142,동태조림,요즘 맛있는 동태와 고니를 넣고 같이 조렸어요  동태에 고니를 넣고 조리니 더 맛있네요  탕보다도 조림을 더 좋아해서 인지 참 맛있게  먹은거 같아요  탕이아니라 좀 낯설을진 몰라도  별미로 이렇게 조려드시는것도 추천드려요^^,30분이내,4인분,중급,https://recipe1.ezmember.co.kr/cache/recipe/2016/12/27/7dddf9ae37267d2ed3f0830c4abb38491.jpg
+581,6886604,북어조림,탄수화물을 부르는 맛!  밥도둑 북어조림♥  세상의 모든 레시피 만개의레시피,30분이내,2인분,중급,https://recipe1.ezmember.co.kr/cache/recipe/2018/04/03/f980ed1595374689fd070ce6353a53291.png
+582,4354858,소고기메추리알장조림,밥한그릇 뚝딱 밥도둑 밑반찬 장조림입니다.,60분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/40fa9efeb3ccd7b8c5277de4ac3398a2.jpg
+583,2013424,조기조림,칼칼한 조기조림을 소개합니다~!,30분이내,1인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/07/30/f2585582ad26a8111fc4b23265c91369.jpg
+584,6832152,곤약감자조림,남편이 좋아하는 감자조림에 다이어트하는 제가 먹어야 할 곤약의 만남.,30분이내,4인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/17/38321f1a4763e5040d7f9a5466fa65a81.jpg
+585,1616928,닭죽,계절의 별식 보양닭죽을 소개합니다. 기운이 저절로 떨어지는 여름철 보양식으로 거뜬하게 한 끼를 해결할 수 있는 우리의 전통적인 음식인 보양닭죽. 보양닭죽은 특히 수험생들에게 그 진가를 발휘합니다. 스트레스 해소와 긴장 완화  그리고 식은 땀을 줄여주고 원기를 복돋아 주며 숙면에도 도움을 준답니다. 늦은 밤 열공하는 수험생 아이들에게 간식으로 주어도 다이어트 효능까지 겸비하니  말 그대로 멋진 보양닭죽인 듯 합니다.,2시간이내,2인분,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/16/eeb027a7e8197e63fcbbaa17f7ad117a.jpg
+586,6870422,쇠고기죽,요양병원에서 생활하시는 시어머님 자주 찾아뵙지 못하지만  지난주 남편과 함께 다녀오면서 끓여간 쇠고기 깨 죽입니다.,30분이내,2인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2017/05/28/ddb489620bf6bcd5dd68684930abb3e71.jpg
+587,1812735,양송이스프,담백하고 우유가 들어간 양송이 스프~ 이렇게 만든 양송이 스프는 ~ 이유식으로도 활용이 가능합니다.,30분이내,2인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/18/4dc2ce5b575938b50e981502d8f9851e.jpg
+588,6861703,채소죽,소설에 흰 눈이 내리고 찬바람이 불어 갑자기 추워진 탓에 가까이에는 감기 환자가 많습니다. 이렇게 입맛 없을 때  후다닥 바쁘게 돌아가는 아침  찬밥으로 간단하게 만들어 먹을 수 있는 영양 가득한 채소 죽입니다.,15분이내,1인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2016/11/27/43dffef074fec8ec1a118c2c58bc8be61.jpg
+589,6731426,팥죽,오늘은 조청을 넣고 홈메이드 스타일의 매력적인 팥죽 만드는법 레시피로 여러분과 함께 하려고 합니다. 특히 귀한 조청이 들어가서 풍미 좋은 고급스러운 단맛을 내 주더라구요. 팥과 조청 및 설탕외에 다른 어떤 첨가제도 들어가지 않은 진짜 건강한 단팥죽! 집에서 즐기니 더욱 맛이 좋아요~,60분이내,1인분,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/04/27/7cdeee3e161a8e369b0f3dd4d04fe8641.jpg
+590,6835881,뿌팟퐁커리,뿌팟퐁커리가 너무 먹고 싶어서  집에서 만들어먹었는데 그맛이 나는걸요!?? 이제 가끔 생각날때마다 집에서 해먹으려구요! 아이 있는 집은 고추만 빼고 만드시면 될것 같아용~^^,60분이내,3인분,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/10/09/ffd0e9d503c2804d6f33eb470c5bcdf71.jpg
+591,6796562,게살죽,후다닥 이유식 게살죽 입니다.,30분이내,1인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/05/27/134653cfa88dbb5a15e2a088f7557ac01.jpg
+592,6873741,깨죽,혼자 사는 남자친구가 갑자기 장염에 걸렸어요 ㅠㅠ 약을 먹어야하는데 입맛도 까다로운 남자친구가 사서먹는죽도 싫어하고 홀로 지내다보니 늘 잡곡햇반만 먹으니... 죽을 어떻게 끓여주지 하다가 급하게 집에 돌아다니는 재료를 뒤적거리다 발견한 고마운 찹쌀로 휘리릭 초스피드로 찹쌀깨죽을 하게되었네요! 혼자사시는분들도 집에서 간단히 할수있고 맛도 좋은  찹쌀깨죽을 함께 공유하고싶어 올리게되었어요!,30분이내,2인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2017/07/29/f66a67d7dad4526d2991d9696ea526ec1.jpg
+593,6841825,소고기버섯죽,아이들 이유식으로도 좋은 영양만점 소고기버섯죽이예요^^,60분이내,3인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2016/01/19/943f4d26ff8fa41533b2392fe191ad841.jpg
+594,841542,갈치찌개,갈치찌개맛의 생명은 바로 갈치의 신선도에 있는것 같아요. 싱싱한 생물이면 더 좋고 없으면 냉동이라도 싱싱한 상태에서 하얀 은비늘을 깨끗히 제거하고 여러가지 야채들과 함께 끓이면 정말 맛있지요. 그럼 지금부터 끓여볼까요?,30분이내,4인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/07/580ebc5a8aa7e96949092f0c4a38808d.jpg
+595,6837447,김치전골,날씨가 추워지니 칼칼한 요리가 생각나는 요즘~ 주말에 만들었던 김치전골 만드는법 레시피를 소개해드릴게요~^^ 울 신랑님이 맛있다고 모처럼 칭찬해준 메뉴랍니다♪ 특별한 요리는 아니지만  가끔 김치와 돼지고기가 듬뿍 들어간 전골요리가 생각날때에 만들어 드시면 맛있는 음식이에요.,30분이내,3인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/11/27/88631fb7d3b463a9b6abf5c7bbb251191.jpg
+596,922771,꽃게탕,11월 정도 되면 생각나는 꽃게탕  새우도 같이 나오는 철이라 함께 넣고 끓이면 그 맛이 끝내주죠.,30분이내,6인분이상,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/15/1b67113e5a492dbec0d20ed8e84c5223.jpg
+597,6863044,내장탕,전 고기는 안좋아하면서도 내장은 좋아해요  그래서 어릴때 아버지가 좋아하셔서 잘 드신  내장탕을 엄마가 끓이시는 방법대로 만들었어요  흔히 먹는 내장탕처럼 매운맛이 아닌 시원한  갈비탕처럼 맑게 끓이셨죠  저도 어릴때부터 이렇게 끓이는게 입맛에 맞아  얼큰한 내장탕보다 더 맛있어서 가끔  끓여먹게 되네요  깔끔하고 시원한 맛에 내장탕~ 든든하니 맛있겠죠^^,2시간이상,6인분이상,중급,https://recipe1.ezmember.co.kr/cache/recipe/2016/12/23/f397ff83d397d9c47dea3231ec551e381.jpg
+598,700885,닭볶음탕,후다닥 만드는 매콤한 닭볶음탕입니다.,60분이내,4인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/09/1cd6cda1060e41895c84e732bd3df1d7.jpg
+599,1704643,돼지고기찌개,간단하지만 맛있는 찌개 소개해드립니다. 무돼지찌개 만들어 볼게요.,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/f63d27bce061fb53b7706a3bf410cdd1.jpg
+600,2646080,두부고추장찌개,누구나 좋아하는 두부 고추장 찌개를 얼큰하고 진하게 끓여 보세요.,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/03/257e04c0c1ccbf0a37c6c951ede2b39f.jpg
+601,6048742,두부된장찌개,아주 간단하게 만들어 먹는 두부 된장찌개입니다.,30분이내,2인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/04/a94726f33954d4273be467da40fb9788.jpg
+602,6840944,버섯샤브샤브,매콤한 샤브샤브로 유명한 프랜차이즈 등촌샤브샤브를 따라해서 만들었어요. 조미료맛이 아니라 자연의 맛으로 감칠맛을 내고 버섯도 많이 넣어 진한 육수의 맛이 끝내줘요. 매콤하면서 담백한 육수에 버섯  고기  각종사리를 퐁당 담갔다가 먹으면 육수가 쏘옥! 흡수시켜 더욱 맛있답니다. ,60분이내,4인분,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/12/30/37e675e5af4577b972d971bd1be7adaa1.jpg
+603,1469034,버섯전골,언제나 먹어도 맛있지만  요즘처럼 아침 저녁 쌀쌀한 계절엔 더욱 맛있는것 같아요. 여러가지 버섯들을 모아 버섯 모듬 전골을 만들어 봤어요~ 항암효과도 있는 여러가지 버섯들을 돌솥을 이용해 만들면 먹는 내내 따뜻하게 먹을수 있답니다.,60분이내,4인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/07/dbaa1eba669ff52d9d61f805095b57ae.jpg
+604,6700315,쇠고기샤브샤브,부드러운 고기와 미나리가 어우려져 봄의 향기를 느낄 수 있는 쇠고기 샤브샤브입니다.,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/05/08/6c4b37b297061ad318e7ad395041e7d9.jpg
+605,1387951,쇠고기된장찌개,우리나라 사람들 식탁에 가장 많이 올라오는 찌개가 된장찌개와 김치찌개죠~ 어려서 부터 먹어온 그 맛에 익숙해짐도 하나의 이유이지만 그 맛에서 오는 중독성이란 두말하면 잔소리겠죠. 베이스는 된장이지만 함께 넣는 재료에 따라서 각기 다른 맛을 내주는 된장찌개~ 오늘은 쇠고기를 넣어서 구수한 된장찌개를 끓여봤어요~ 전날 쇠고기를 구워먹고 조금 남은 것이 있어서 찌개에 넣어서 끓여 먹었답니다~ 조금씩 남은 반찬도 버리지 말고 모아서 잡탕찌개를 끓여먹으면 그 또한 별미에요~,30분이내,3인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/10/29/e2d1bd366484ff3ccbdf05f7b8a61faf.jpg
+606,6864600,순두부김치찌개,명절이 지나면 얼큰하면서 개운한게 땡기죠~ 그럼 간단하고 제일 손쉬운게 김치찌개이지요. 명절이라고 마트 행사때 사다 둔 순두부로 김치찌개 끓였습니다. 김치찌개는 ?뭘 넣고 끓여도  매일 먹어도 언제나 맛나다는 저희집 딸아이가 제일 좋아하는 메뉴이지요.,30분이내,2인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2017/02/01/f68ef91fceecf6c509413d7c43a166351.jpg
+607,1764144,어묵김치찌개,얼큰하고 감칠맛 제대로 나는 어묵 김치찌개입니다.,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/28/c92db5f4bdf16f8fa38e1197869cd00b.jpg
+608,1819146,오리백숙,맛중에 최고의 맛은 담백함이라고 하지 않았던가 하며 좀더 맑은 몸을 위해 담백함으로 무장한 음식을 즐겨보는것도 좋을듯합니다.,2시간이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2016/06/28/0ebadede22f3f7ddfca39eea0a642df9.jpg
+609,5636913,오리탕,엄마표 보양식! 따끈한 국물맛이 좋은 오리탕,90분이내,,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/04/09/50a3243cafbf138aeab9d03cd74bdcbb1.JPG
+610,777724,장어탕,지난 주말에 마트가서 장어를 사가지고 왔습니다 힘!! 하면 장어 만한게 없다구 ~~ 그 장어로 장어탕을 만들어봤습니다,30분이내,1인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/09/3d652e7df7d5d69f32ca763686e92d52.jpg
+611,1215248,햄김치찌개,얼큰하고 시원한 햄김치찌개입니다.,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/09/0ebd16156c123b725d432fa297fb6abf.jpg
+612,2625226,호박고추장찌개,얼큰하고 맛있는 호박고추장찌개 레시피를 소개합니다~,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/07/21/db18d608d6a86eb87ff4881f7862747b.jpg
+613,6932578,우삼겹된장찌개,먹다 남은 우삼겹으로 된장찌개 끓여봤어요~,60분이내,5인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2020/05/12/3c854ce445773c8e3f40d732ea6ee7481.jpg
+614,2346455,우렁된장찌개,구수하고 쫄깃한 우렁이 들어간 된장찌개입니다.,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/07/27/86f9bfaf0aec65a02fbd428a5d04c1b3.jpg
+615,6386578,밀푀유나베,담백한 배추가 듬뿍 들어간 밀푀유나베,,,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/04/10/b9984487e8fa44ea4aa7b10dbeabf8f21.jpg
+616,988147,소고기샤브샤브,푸짐하게 즐기는 뜨끈한 국물요리 소고기 샤브샤브입니다.,60분이내,3인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/27/21cfa06d0e0c9263d248e3df0c8df08a.jpg
+617,6837524,소고기버섯잡채,고추장을 넣어서 매콤하니 ?맛깔스러운 잡채!!  초간단 고추장 소고기 버섯 잡채~~   각종 버섯을 넣은 영양 만점 잡채로 상을 차려보아요  ?,30분이내,5인분,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/11/04/11ee678885ae5939a0fb169b8197ea5a1.jpg
+618,836254,돼지고기고추장찌개,,60분이내,4인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/09/66b3d0a308d53a2baab89973234ef4fb.jpg
+619,6860697,햄치즈순두부찌개,,60분이내,3인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2016/11/14/574357054bf32246e4aef12b88209dbe1.jpg
+620,1646854,비지찌개,얼큰하고 꼬소한 비지찌개랍니다~ 밥한그릇에 쓱쓱 비벼먹음 꿀맛이죠?,30분이내,1인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/e208c29a0b9a2dae356fc2e635d59669.jpg
+621,3188369,곱창전골,최고의 맛과 재료로 끓인 자칭 프리미업급 곱창전골입니다.,60분이내,3인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/a13b7b7a0448bfa3ca2e5308330af7d5.jpg
+622,1556665,꽁치찌개,고소한 꽁치가 들어간 얼큰한 김치찌개입니다.,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/29/fa5ed92c40b5a93c2120c0a95cd68b08.jpg
+623,1562405,두부전골,칼칼한 국물맛과 부드러운 두부맛이 정말 끝내주는 매콤한 매콤두부전골입니다.,60분이내,3인분,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/287cf3286a3a687665c16be2f1888bca.jpg
+624,957162,버섯찌개,얼큰 구수한 무버섯찌개입니다.,30분이내,4인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/26/2f4e1f59cbdd8534adc9c7af5614fca8.jpg
+625,2345147,새우젓두부찌개,10분도 안걸리는 초간단 찌개! 칼칼하고 뜨끈한 것이 요즘같은 날씨에 딱 맞는 찌개!,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/2b4fcf853dcddd7487a497d5814ba7ad.jpg
+626,6863104,소곱창전골,몇일전 소내장탕을 할때 넉넉하게 삶아 놓은  내장이 있어 전골을 만들었어요  얼큰하게 끓인 곱창전골이라 술안주로  그만이네요ㅋ 성인인 얘들도 맛있다고 잘먹고요  내장탕 끓여먹으면 한번쯤 해먹는 곱창전골  간만이라 더욱 맛있게 먹은거 같아요  칼칼한 곱창전골 얼큰하게 끓여 드세요^^,30분이내,4인분,고급,https://recipe1.ezmember.co.kr/cache/recipe/2016/12/26/a948316d99c3556c450e10cdbac2aaef1.jpg
+627,6107043,호박찌개,날씨가 너무 더우니 불앞에서 뭐 하기가 겁나는 오늘입니다... 이런날 찌개나 국없이 밥 못먹는 분들도 계실거에요~ 그런분들께 알려드리는 초간단 레시피! 더울날에는 그져 간편한게 최고랍니다~,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/04/5b793e2cbecb58e88f0449938238e7a71.jpg
+628,6862954,찐감자,안녕하세요? 밥심은 국력입니다. 아피오스는 북아메리카가 원산지로 인디언 감자 또는 콩감자라고 불리는데요. 치열한 전투 속에서 인디언들의 건강을 책임졌던 아피오스는 \'천상의 식품\' 이라 불리며  인삼의 주성분인 사포닌이 다량 함유되어 있고 고구마와 감자보다 단백질 섬유소  칼슘 인 등의 함량이 높은 것이 특징입니다. 특히 칼슘의 함량이 우유의 2배랍니다. 포슬포슬 달콤한 밤맛이 나고 사포닌 성분이 많아도 쓰지 않고 달콤하답니다. 요리법은 밤이나 감자  고구마가 들어가는 요리에 아피오스로 대체해서 만들면 되고요. 감자 쪄먹듯이 드시거나 튀겨서 소금을 뿌려드셔도 됩니다. 오늘은 아피오스를 가지고 찐감자를 만들어 보겠습니다.,30분이내,1인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2016/12/21/6478ac3903d896937698677f9a702ef91.jpg
+629,6923746,찐고구마,안녕하세요? 밥심은 국력입니다. 오늘은 군고구마같은 찐고구마를 만들어보겠습니다. 이기주 셰프님 레시피입니다.,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2019/12/19/d99f5a11823395e8ea0dadb097e801e11.jpg
+630,6723541,가오리찜,매콤하게 양념을 만들어 찜을 해도 좋고 간장과 고춧가루 양념을 하여 찜을 하고 제철 야채를 곁들인 양념장을 함께 올려 먹어도 좋은 가오리찜입니다.,60분이내,6인분이상,고급,https://recipe1.ezmember.co.kr/cache/recipe/2015/05/07/180f29780511eef9cd1e8cb088dfcb2e1.jpg
+631,769870,깻잎찜,울랑이 좋아하는 밑반찬중 하나인 깻잎찜이에요~ 전에도 깻잎찜 한번 올려드린적있는데요 그땐 요 국멸치가 안 들어가고 청양고추와 파등을 썰어 양념해 쪄서 올린레시피 였는데 이웃님이 요 국멸치를 잘게 찢어 넣은걸 보고 요것도 참 맛있겠단 생각이 들어서 만들어 봤어요~,30분이내,6인분이상,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/09/3e2084bc1f3621e9ba9a48b4d0a3d81f.jpg
+632,1212061,꼬막찜,후룩후룩 먹음 짭쪼롬하니 맛있어요. 약간 짭쪼롬해서 밥과 함께 드셔야 할거에요. 밥과 함께 먹으니 더 맛나더라구요.,2시간이상,4인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/10/119b972e65a9910b453c641702b94b05.jpg
+633,1415690,꽈리고추찜,담백한 맛을 그대로 살린 시골반찬 꽈리고추찜과 감자찜 만들기입니다.,90분이내,2인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/0c773e0ad08bce60065c38009f4aedb8.jpg
+634,735905,닭찜,매콤하게 닭찜을 만들수도 있었겠지만 아이들도 있기에 간장으로 양념장을 만들어서 닭찜을 만들어봤어요 이름하야~ 퓨전 닭찜~~ 같이 맛있게 만들어 보아요~~~,90분이내,4인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2016/08/25/598991ef3b2d93b1ca36a127f2640014.jpg
+635,1600533,돼지고기수육,기름 잘잘 흐르는 돼지고기수육입니다.,30분이내,3인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/10/31/ff7462f6858e8200161e0ebb6615cb85.jpg
+636,5423581,쇠고기사태찜,밤 대신 가을에 많이 나는 채소를 듬뿍 넣고 쇠고기 사태찜을 해 보세요. 재료 준비도 쉽고 영양의 균형까지 맞출 수 있어서 너무 좋답니다.,2시간이내,,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/04/09/2cbae171de31058c5a83f83cd6e16bd91.jpg
+637,3903471,애호박찜,아주 담백하게 쪄서 양념을 곁들이는 애호박찜을 만듭니다.,15분이내,,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/04/08/ffb18f6c15f1d3df22ff42e2de537b491.jpg
+638,6922794,풋고추찜,꽈리고추 아닌 풋고추로 고추찜 했어요 오랜만에 해먹었는데 맛있네요 이것도 밥도둑이네요ㅋ,30분이내,4인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2019/11/28/6638c84c961d2fec7e1c2ea86690b6ad1.jpg
+639,6931126,해물콩나물찜,한번 먹으면 또 먹고싶은맛! 매콤달콤한 콩나물찜 만들어보세요!!,2시간이내,6인분이상,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2020/04/20/2e20f7a9ddb0c20771112ff87fc78dfa1.jpg
+640,5207182,돼지고기묵은지찜,무더위에 지쳐서 단백질도 섭취할겸 한돈 앞다리살을 묵은지에 말아서 밥도둑 반찬을 만들었어요~ ,60분이내,,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/03/26/d960f19282f7eed65d708e780a009aab1.jpg
+641,1005515,대구찜,담백 짭쪼름한 대구뚝배기찜입니다~!,30분이내,1인분,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/15/b83cc9e97a89e87c08f967c786e0668d.jpg
+642,6657306,도미찜,생선의 왕이라고 불릴만큼 귀한 도미의 담백한 속살이 파채향과 만나 입안을 즐겁게 해줘요~ 특별한 생선찜 요리를 소개해드릴게요.,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/05/b5c72d286b4a7a99c48243410039dfb01.jpg
+643,5744622,동태찜,얼큰하고 개운한 동태찜입니다.,60분이내,4인분,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/05/a12b7fec381b55a6336710af07ac78eb1.jpg
+644,1023513,돼지등갈비찜,부드러운 돼지 등갈비찜입니다.,90분이내,5인분,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/25/419a56cfecb1e473530d91a754382afd.jpg
+645,349386,매운갈비찜,화끈화끈 매운맛에 입에서 살살 녹는 부드런 갈비찜이예요.,2시간이상,4인분,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/28/4a192ae54ac9a069049e6fa3bbadadd6.jpg
+646,5474246,문어숙회,가을 스테미너 문어  담백하고 깔끔한 문어숙회,30분이내,2인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/f0a2bb7260fb3d571d46657fccb4fedd.jpg
+647,6461016,민어찜,민어는 열량이 낮은 흰살 생선이라 다이어트에도 좋은 식재료이구요.. 생선중에서 소화흡수가 빨라 어린이들의 발육을 촉진시키고 노인및 환자들의 건강회복에 좋은 생선일뿐아니라 민어의 부레는 젤라틴이 주성분이고 콘드로이틴도 들어있어 노화방지와 피부탄력에 으뜸인 생선이라 볼수 있답니다. 꾸들하게 말린 민어를 쪄서 양념장을 발라먹는 밥도둑같은 반찬으로 소개해봅니다~,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/02/6056956a76045a88a89cb4779a0a26ff1.jpg
+648,3200548,병어찜,매콤 달콤한 병어조림도 좋지만  오늘은 간단하게 소금과 청양고추만 넣고 찜을 쪘답니다.,30분이내,1인분,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/07/13/3afc876a535c4bca8d999ca251f073e2.jpg
+649,6293305,북어찜,오늘은 맛있는 북어찜 만드는 방법을 소개해 드려요. 북어대신 황태를 사용했으니 더 몸에 좋겠죠~,,,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/04/02/fd2d8a0a233a04b67557d89ba4b721261.jpg
+650,6848195,붕어찜,붕어찜? 요고 별거 이니던걸요? 걍 고등어 조림 하듯이 하면 됩니다. 맛은 제가 만들었지만 진짜 맛나더라구욤.,90분이내,4인분,중급,https://recipe1.ezmember.co.kr/cache/recipe/2016/05/28/d6c0af348d537edf84e49697d38822e31.jpg
+651,997258,소갈비찜,촉촉하고 부드러운 소 갈비찜 입니다.,90분이내,5인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/26/b284085326d4003b84e31f12b62e43c3.jpg
+652,1706614,아구찜,아삭한 콩나물과 함께 쫄깃한 아구살이 가득한 아구찜입니다.,60분이내,4인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/26/649fb589bc0f1adf1b38c9251b8745c1.jpg
+653,782262,안동찜닭,부드러운 닭고기와 매콤달콤한 양념이 들어간 안동찜닭입니다.,60분이내,4인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/10/27/1636b04c4876a82054bfce2b0fa4a2ad.jpg
+654,6884819,참꼬막,요즘제철인 참꼬막! 벌교 앞바다의 은은한 갯뻘 냄세와 바다향이 느껴지는  부드러운 속살과 씹으면 씹을수록 느껴지는 단맛이 이것이 바로 벌교 참꼬막이지 싶더라구요. 은은한 봄내음 가득한 달래향과 참꼬막이 만났어요.,30분이내,4인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2018/01/31/3e1c6192eddcb017b53d5e54b909c6151.jpg
+655,1825053,해물찜,매콤하고 푸짐한 해물찜 만들어 봤어요.,60분이내,4인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/a5a0a1de6ee083940327254a2f2a28ee.jpg
+656,1656708,홍어찜,강렬한맛 삭힌 홍어찜입니다.,30분이내,2인분,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/26/4893fefd7c6951704cc94aa5ea8532b0.jpg
+657,6878886,해물냉채,냉장고에 있는 재료들을 한꺼번에 싸악~~ 정리할 수 있는 메뉴인 해물냉채입니다. 그냥 집에 있는 채소들 채썰어 놓고 거기에 칵테일새우 데쳐서 내 놓고요. 그리고 고기가 있으시면 삶거나 구워서 올리고 중요한 대파의 흰부분을 함께 채썰어서 놓고 집밥백선생의 만능냉채소스에 찍어서 드시는 간단하면서도 푸짐한 해물냉채입니다.    하지만 저는 좀더 더 간단하게 만든 냉채소스를 소개하려고요. 그냥 집에 있을 수 있는 재료들을 이용한 소스이지요!!!,30분이내,4인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2017/11/01/ae0090f280025fb88243abf798b06e211.jpg
+658,6884747,간장양념치킨,오랜만에 집에서 아이들을 위한 닭튀김을 만들어 본다  요즘 냉동고 정리를 하고 있다 정리라고 하기보다는 사다 놓은 식자재를 정리하는 중~  닭고기는 바로 사다가 조리하는 게 좋은데 대형 마트에서 두 팩 한 세트로 사다 놓은 닭은 한 번에 다 사용을 못해서 바로 냉동실에 보관을 한다  냉장 보관을 하다가 냉동실로 들어간 닭고기보다는 냉동실에 즉시 보관을 하면 해동했을 때 상태나 맛이 훨씬 좋다    ,30분이내,3인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2018/03/01/d851fdcc00a61ef5358419156c5a803c1.jpg
+659,2728687,감자튀김,간식으로 좋구  술안주로 좋은 두가지맛 프렌치프라이..,60분이내,2인분,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/07/29/84a77d72ba36693b1ca1c2c3d50b5101.jpg
+660,4916705,고등어튀김,고등어로 만드는 고소한 튀김요리~ 조리법은 간단하지만  엄청 근사한 요리랍니다. 한 입 크기로 튀겨놓으면 술안주로도 맛있고 밥 반찬으로도 너무 좋아요.,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/13/f6c2e1de3f0fc6e41a4b824b1f29c8f5.jpg
+661,4356407,김말이튀김,겉은 바삭바삭~ 안은 부드럽고 쫄깃한 김말이 튀김입니다!,60분이내,3인분,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/52c228a4332a0a2447d155e30e834d65.jpg
+662,6866062,김튀김,갑자기 만들어 보고 싶어서 도전한 요리. 요리라고 하기도 부끄부끄. 이건 냉장고 텅빈 자취인들에게 강추! 예전에 회사 대리님이 된장찌개 끓여먹고 싶어서 장봤는데 5만원이 들었다고 하던게 생각난다. 요건 오만원까지 들지 않는다는 사실!,30분이내,1인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2017/02/28/a424df24c12bd9b5958dbc1d73e8acab1.jpg
+663,6230585,다시마튀각,주전부리로 즐기거나 밑반찬으로 아주 좋은 다시마튀각,30분이내,,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/04/10/7d510dcfe34a050d4c5f7b9145856e9e1.jpg
+664,2023234,등심돈까스,오늘은 아이들도 참 좋아하는 돈까스를 가지고 왔답니다... 집에서 만들어 먹기 왠지 불편하다는 느낌이 있었거든요... 고기손질부터 시작하려면.. 넘 복잡복잡스럽고.. 요 돈까스는 고기손질이 완료되어서 오더라구요.. 그래서 돈까스만드는데.. 넘 간단하게 만들었다는 느낌이 들었어요,60분이내,1인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/11/ca0798d139dc89cf742dae3f9fc49054.jpg
+665,1213770,떡강정,바삭바삭 쫀득쫀득한 떡강정입니다. 닭강정이 그리울 때 요렇게 매운 떡강정으로 대신해도 좋겠어요. 아이들의 건강을 위해 다양한 견과류도 듬뿍 넣어주면 더 좋겠지요?,30분이내,3인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/09/0bb9eeb47bfc1c7bc32e88c2a2ca42ef.jpg
+666,6913311,미역튀각,고소하고 짭쪼롬한 미역튀각 어렵지 않아요,30분이내,6인분이상,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2019/05/27/e9f5d9050fcd009e4c28e2d9a8d823ef1.jpg
+667,6878615,새우탕수육,바사삭 소리에 고소한 알새우 탕수와 새콤달콤 소스의 조화! 새우 탕수육!,30분이내,4인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2017/10/26/e13b46349651d35ea2d2e33060032a301.jpg
+668,1412261,오징어튀김,아이들에겐 간식으로 신랑과 제겐 맥주 안주로 만든 초간단요리~~ 바삭 쫄깃한 오징어 튀김이랍니다. 오징어 튀김은 생 오징어로 만들어야 더 쫄깃거리고 맛있지요. 밀가루 옷을 입혀 튀겨내는 오징어 튀김과는 또 다른 맛을 느낄 수 있어요~ 바삭함이 더해져서 자꾸만 손이 가게 만드네요~,30분이내,2인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/11/f3b5378798894202e4c74d34f8382b67.jpg
+669,6867213,채소튀김,토요일 아침~~~ 오늘은 늦잠도 자고 ㅋㅋㅋ 완전!!! 늦게 일어났답니다~~ 늦게 일어나서 맛난음식은 먹어야하는 성준맘 ㅋㅋㅋ 아점으로 아침식탁 준비합니다~~~요즘 한식요?리에 홀릭되어있는 성준맘 ㅋㅋㅋ 오늘 아침엔 알록달록 채소튀김은 만들어보았어요 ㅋㅋㅋㅋ,30분이내,2인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2017/03/22/ab92851ef14287f308dbc3de9534ef231.jpg
+670,842900,치킨너겟,닭고기를 갈아서 아이들 간식이나 도시락반찬에 좋은 치킨너겟을 만들어 봤어요 야채가 듬뿍 넣고 만들어서 색도 예쁘고 비타민도 골고루 섭취 할 수 있어서 좋아요. 이 레시피로 만드시면 시판 용☆리 치킨맛이 난답니다~,30분이내,4인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/06/39b0fa1accaf0c01acb2492a69d98e54.jpg
+671,1747027,후라이드치킨,아이들 간식으로 닭다리로만 치킨을 만들어 주었네요.,90분이내,4인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/21/787afe8f5e2f756c7171f0dc8d13f040.jpg
+672,844137,고구마맛탕,집에 그냥 쪄서는 맛없는 고구마가 있다면 맛탕으로 맛나게 변신시켜보는건 어떨까요~ 맛탕을 자주 해먹는 편이 아닌데 달콤하고 맛있더라고요~~,60분이내,4인분,중급,https://recipe1.ezmember.co.kr/cache/recipe/2016/06/29/4819bc3dcd8f48ddbfc0f2aa2866e931.jpg
+673,1763427,고구마튀김,초간단으로 아주 맛나게 해먹는 고구마튀김이랍니다.,15분이내,2인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/10/03/010807bcebe19d9222ce07dec4341744.jpg
+674,1785801,고추튀김,매콤 고소한 고추튀김입니다.,30분이내,5인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/25/efd4019d3ccd8842108e97c1068c8a11.jpg
+675,1621867,닭튀김,딸을 위하여 처음으로 만들어본 엄마사랑표 닭튀김이랍니다. 케이준스파이스가루를 넣어서 더욱더 감칠맛 나고 로즈마리와 바즐과 마늘 매실액까지 넣어재워둔 닭고기의 맛은 부드럽고 환상적이었어요. 저희가족들 모두 너무 맛있게 먹었답니다.,30분이내,4인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/b2b17bf113a7f139eed20ed36b4630f0.jpg
+676,6873903,등심돈가스,등심돈가스4장  버섯  양파 케찹3TS  우스터소스2TS  물100CC  설탕1ts  ,60분이내,3인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2017/08/01/3dc4f6ff569260bb88bd57a584f8760d1.jpg
+677,1587755,생선까스,부드러운 속살이 맛있는 생선까스입니다.,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/27/f9644ae383e4b7c3a3ee4fd958f727ee.jpg
+678,6889418,안심돈가스,마트에서 안심을 싸게 팔길래 사다가 장조림 대신 돈가스 만들어봤는데 부드러우니 맛있더라구요~,60분이내,5인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2018/05/23/e9df922486db540b761d81b1f5f7519b1.jpg
+679,719137,양념치킨,간단하게 만들어 먹을수 있는 닭요리입니다.. 밥반찬으로나 안주로나..간식..다 좋아욤..^^,60분이내,2인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/09/23a678d9c2b39e178a98e9b8410c13fe.jpg
+680,1319939,쥐포튀김,적은 양의 기름으로도 잘 튀길 수 있으니  간식 삼아서 만들어 드셔 보세요. 술 잘 드시는 분들은 아주 딱 좋은 안주감이겠지만서도 술을 즐기지 않는 저는 아이들과 간식으로 먹지욤. 암튼 아이들에게 간식으로 만들어 주었는데  놀면서 오다가다 참 잘 먹더라고요. 매번 구워서 먹던 쥐포에 물렸다면 이번에는 튀김으로 만들어 주세요. 아이들이 좋아하는 소스를 함께 곁들여 내면 근사한 간식이 된답니다.,15분이내,2인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/9bb287f8b2979b0e5f43871fb21d8014.jpg
+681,4575463,치즈돈가스,치즈넣고 고소하게 ~ 치즈돈가스 입니다,30분이내,1인분,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/17/e0b5d1f09f0d145473db0644a4198cf1.jpg
+682,2442891,치킨까스,바삭 담백한 치킨까스입니다.,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/07/28/b7b1317e9d581f33fe61efa07d5e30d8.jpg
+683,5853406,유린기,주말 별식으로 굿~ 아삭한 양상추 곁들인 유린기입니다.,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/14/d18fd1099a712416fb4234fb2ea5742e.jpg
+684,6829574,물회,살얼음 동동 육수에 매콤달콤 시원~한 물회 만들어봤어요. 물회를 간단하게 집에서 만들어 드실 수 있는 방법 알려드려요.,60분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/27/f4e4d72c2b9e74747dd8cf3993d861761.jpg
+685,6905809,가래떡,집에서 천연색소 넣어서 만드는 오색가래떡~ 미국여성중앙에 올려 해외에 사시는 분들한테 인기였어요. ,60분이내,6인분이상,고급,https://recipe1.ezmember.co.kr/cache/recipe/2019/02/02/c208639499fb1a1dd5b1e9b00d3670231.jpg
+686,6894384,꿀떡,요즘 SNS에서 화제인 대구꿀떡 너무 맛있어 보여서 집에서 비슷하게 만들어 봤어요!쫀득달콤하니 맛있고 만들기도 쉬워요,30분이내,2인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2018/08/18/33af8710d9ac64ff40e0973eb8a003ec1.jpg
+687,1107787,고등어구이,언제먹어도 맛있는 고등어구이랍니다.,30분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/09/e1f83f0edb28ad6c11f55d1788cc6910.jpg
+688,2795635,비빔밥,비빔밥 양념장 하나만 잘 만들어 놓아도 여름철 식단이 더욱 풍성하게 변한답니다. 까칠한 입맛이라면 여름엔 매콤하게 비벼보세요.,,,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/04/02/552862ce0a3750fdad3b6288c59559511.jpg
+689,6921347,잡곡밥,안녕하세요? 밥심은 국력입니다. 잡곡밥은 백미보다 식이섬유 등 여러 가지 영양소가 많이 들어 있어서 성인병 예방에도 좋은데요. 건강에 좋다는 것은 알지만  거친 식감 때문에 싫어하는 분들도 계시죠. 오늘은 잡곡밥을 부드러운 식감으로 만들어보겠습니다. 비법은 바로 소주입니다. 그럼 잡곡밥을 만들어 보겠습니다.,60분이내,5인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2019/10/29/44e14a44fdf63b51f4a48e624710b8b81.jpg
+690,1900347,치즈김밥,고소한 치즈김밥입니다. 나들이 갈때만 김밥 싸지마시고 주말요리로 김밥을 준비해 보셔도 좋을거 같아요.,30분이내,6인분이상,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/33f0d5be4dfb9ba9621357494aa0a15d.jpg
+691,1803801,도넛,발효반죽으로 만든 폭신폭신한 도넛입니다. 버터도 설탕도 들어가지 않은 발효반죽으로 만들어서 그런지 단백하고 폭신폭신하고~ 딸래미가 넘 좋아라 하네요.,15분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/15/ea2faf5f36c4550c94a3b7003e2a3fec.jpg
+692,5558601,파전,오늘은 간단하게 오징어와 쪽파를 이용해 간단한 파전을 만들어 보았어요.. 출출할때 생각나는 파전... 간단하게 오늘 한번 부쳐 보세요.,30분이내,2인분,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/07/379182f6cace8fad213d2fbe04f81f511.JPG
+693,6884867,족발,이번엔 족발을 해봤어요!! 직접 하는 거랑 밖에서 사먹는 거랑 가격 차이가 엄청나더라고요... 근데 직접 해보니까.. 반 이상은 인건비인 듯 해요 ㄷㄷ 아주 간단하고 맛있어서 집에서 한번씩 해봐도 좋을 것 같아요!! 다음에는 장족으로 사서 독일식 족발 슈바이학센 레시피 소개해드릴께요!  -맛 소개 더도 덜도 말고 족발 맛인데 잡내를 완전히 소멸시켰다 할 정도로 맛이 깔끔해요.,2시간이상,2인분,중급,https://recipe1.ezmember.co.kr/cache/recipe/2018/03/06/78df27044a6187e88fb9680b4cd2f9eb1.jpg
+694,6864970,무청시래기국,들깨가루 넣는 다는게 깜빡했네요 있다 랑~ 오면 넣고 한번 더 끊이는걸로 ㅋㅋ 추운 날씨에 요런국 한그릇이면 온 몸이 따뜻해 질듯하쥬~ ,30분이내,4인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2017/02/08/e5b50276e8000bfaab74d0139cb2a71e1.jpg
+695,4371757,소고기무국,시원하고 든든한 국물이 필요할 때~ 가장 많이 끓이는 국요리 중 하나인 소고기 무국 간단하게 끓여서 맛있게 드세요..,30분이내,3인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/59ca2462b1cfed93d00222a6661bf5b9.jpg
+696,1698740,연포탕,겨울철 뜨끈하게 즐기는 시원한 연포탕입니다.,30분이내,2인분,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/07/30/b474a75630e55b23d7b500816d05fa71.jpg
+697,1864664,해물탕,쌀쌀한날엔 얼큰하고 시원한 해물탕 : 쫄깃쫄깃 해산물가득 : 술안주:손님상차리:집들이음식:피쉬아울렛:),30분이내,2인분,중급,https://recipe1.ezmember.co.kr/cache/recipe/2017/07/21/d5add739521d4281df22572a604c711a.jpg
+698,6701347,콜라비깍두기,일반 무와 같은 아삭한 식감에 단맛이 많이 나는 김치  아이들이 좋으하는 콜라비 깍뚜기입니다.,2시간이상,6인분이상,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/05/07/2459e90a804206429ba5a0628a7050061.jpg
+699,6869403,김치라면,날씨가 초여름을 다가온듯해요 집안 곳곳 청소도 하고  밀린 일을 하고 나니 출출하더라구요 간단하게 한 끼 해결할 때 라면처럼 좋은게 없겠죠  백종원 레시피 김치 라면으로 도전해 보았어요 ,10분이내,1인분,아무나,https://recipe1.ezmember.co.kr/cache/recipe/2017/05/07/095131a18691ecebe48dbe3b7f6741ce1.jpg
+700,1660143,해물칼국수,낙지를 넣어서 만든 칼국수 입니다,60분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/08/3eab10a6f4c1b98b7bc7d4d4a9c9ebc9.jpg
+701,4941051,완두콩밥,요즘 한창 나오고 있는 완두콩밥 만들어봐요~,60분이내,4인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/08/19/4da3e417fd3f0f181f27f9946bda0ca0.jpg
+702,1147481,오삼불고기,오삼불고기에요. 국물이 촉촉하니~ 밥에 스삭스삭 비벼먹으니 맛있더라구요. 고추장과 고춧가루가 합쳐져서 칼칼한 맛을 더해준답니다.,30분이내,3인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/09/10/951954d4465e273dfe4b07af25d6aead.jpg
+703,708450,감자전,겉은 바삭 속은 쫄깃한 감자전~,30분이내,1인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/09/2bb5ad789780b82b67bcebb45ad3a107.jpg
+704,1456733,애호박전,비오는날 생각나는 부침요리. 애호박을 듬뿍 넣어 만든 애호박전 만들어 볼게요.,15분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/30/28d55418c09e6e785443bbeb1be8f07f.jpg
+705,2422487,굴전,굴향기가 솔솔 나는 고소한 굴전입니다.,15분이내,2인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2015/07/28/43c03dd3c777e96eef0aaf6f2adb994a.jpg
+706,6861732,순대,진짜 순대가 아닌 돼지고기가 피가 되는 순대를 만들어 보았어요.  만두 같기도 하고 순대 같기도 해요. ^^,60분이내,3인분,초급,https://recipe1.ezmember.co.kr/cache/recipe/2016/11/27/0858373aad71f8aa72e4e4e218b3f14e1.jpg
+707,991854,새우튀김,오랜만에 노릇노릇 바삭바삭 고소한 새우튀김을 했어요. 맛있는 디핑소스와 함께해서 더 맛있는 바삭바삭 새우튀김.,60분이내,5인분,중급,https://recipe1.ezmember.co.kr/cache/recipe/2015/06/09/f0d67c55ef35c6f6eba74ceb0ed20d9e.jpg
+708,1,나물비빔밥,육수로 지은 밥에 야채를 듬뿍 넣은 영양만점 나물비빔밥!,60분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/000200.jpg
+709,10,감자수제비,쫀득쫀득한 수제비와 담백한 맛의 감자가 이뤄내는 하모니!,60분,4인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/001900.jpg
+710,11,냉면,"더운 여름, 살얼음 동동 띄운 시원한 냉면 한그릇 생각나시죠~",50분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/002100.jpg
+711,12,동치미막국수,시원한 동치미에 쫄깃한 국수를 말아서 만들어보세요.,30분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/002400.jpg
+712,13,열무김치냉면,맛있게 담근 열무김치에 냉면을 말아 먹어 보세요~ 새콤달콤 끝내줍니다!,25분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/002800.jpg
+713,15,해물국수,해물로 시원한 국물에 국수를 말아 드셔보세요~,40분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/003000.jpg
+714,28,구운감자와도미구이,감자의 고소함과 도미의 담백함이 어울리는 너무나도 깔끔한 맛의 음식이예요.,60분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/005600.jpg
+715,30,쇠고기양송이볶음,쫄깃하고 부드러운 쇠고기와 양송이의 만남! 향도 맛도 일품이예요~,40분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/005900.jpg
+716,32,죽순표고버섯볶음나물,향이 좋은 죽순과 표고버섯을 같이 볶아 보세요. 입맛 살리는 음식이 될거에요.,20분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/006100.jpg
+717,33,부추표고버섯볶음,향긋한 부추와 표고버섯을 같이 볶아보세요.,30분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/006200.jpg
+718,34,두부드레싱과 채소샐러드,두부의 부드러운 촉감이 너무 좋네요. 물론 몸에도 좋은 추천건강드레싱이예요~,30분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/006500.jpg
+719,39,갈치무조림,구이가 지겨우시다면 조림으로 즐겨보세요~ 무를 넣어 더 맛있습니다!,40분,4인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/007600.jpg
+720,40,닭불고기,닭고기로 만든 불고기! 간장양념이 맛있어요~,35분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/007800.jpg
+721,42,팥칼국수,구수하고 담백한 팥칼국수~  걸쭉한 팥국물이 딱이예요!,50분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/008600.jpg
+722,46,오징어불고기,오징어로 불고기를 만들어 맛있게 드셔보세요~ 간단하면서도 쉽게 맛낼 수 있답니다.,40분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/009200.jpg
+723,47,생선탕수,필수아미노산이 풍부한 생선을 탕수육에 응용해보세요. 생선을 못먹는 어린이들에게 더없이 좋답니다.,40분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/009400.jpg
+724,48,갈비구이,영양 풍부한 갈비로 푸짐한 구이 한번 해볼까요?,60분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/009900.jpg
+725,49,돈까스,가장 흔한 요리를 가장 특별하게 먹을때 처럼 기분좋은 마음으로 돈까스를 만들어보세요!,60분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/010400.jpg
+726,50,갈비찜,잔칫상에 갈비찜이 빠질 수 없죠!,80분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/010500.jpg
+727,58,북어국,개운한 북어국은 해장용으로도~ 소화가 잘 안되 속을 진정시켜줄 때에도 모두 좋은 요리랍니다.,30분,4인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/011800.jpg
+728,62,통배추김치,우리 식탁에서 꼭 빠져서는 안될 것이 바로 배추김치죠.,90분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/012700.jpg
+729,67,굴깍두기,무에 굴을 넣어 김치를 담궈보세요. 굴의 풍부한 영양과 무의 개운한 맛이 함쳐져 굴깍두기 하나로 밥 한그릇 뚝딱입니다.,40분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/013200.jpg
+730,75,우거지된장찌개,비타민이 듬뿍 들어있는 우거지를 이용한 구수한 찌개요리예요~,30분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/014300.jpg
+731,76,샤브샤브,"부담없이 먹을 수 있는 샤브샤브, 점심메뉴로도 좋습니다~",30분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/014500.jpg
+732,79,선지국,선지는 단백질이 풍부하고 철분이 많이 함유되 씹으면 고소한 맛과 영양이 그대로 전해진답니다.,30분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/015000.jpg
+733,90,오이지장아찌무침,아삭하게 씹히는 오이로 맛있는 오이장아찌 한번 만들어보세요.,20분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/016600.jpg
+734,95,오이나물,오이를 볶으면 아삭하면서도 고소한 맛이 나서 생채와는 또 다른 맛을 느낄수 있답니다.,15분,4인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/018200.jpg
+735,97,계란말이,도시락 반찬의 단골메뉴이자 훌륭한 안주인 계란말이입니다.,30분,4인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/018500.jpg
+736,102,마른오징어조림,마른 오징어를 맛있는 양념장에 버무리면 쫄깃함과 양념의 맛이 씹어도 씹어도 질리지 않아요~,30분,4인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/019700.jpg
+737,103,죽순볶음,쇠고기와 죽순은 궁합이 잘 맞는 음식이지요. 향이 좋은 죽순을 볶아 드셔보세요.,20분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/019900.jpg
+738,110,모듬초밥,여러가지 해산물을 이용해 초밥을 만들어보세요. 입도 눈도 즐겁운 식사게 될거에요~,50분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/021200.jpg
+739,111,꽁치무조림,통조림으로 간단하고 맛있게 요리하는 법! 통조림은 무조건 맛없다는 고정관념을 깨드리는 요리가 있어요~,25분,4인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/021900.jpg
+740,118,중국식볶음밥,중국요리는 센불이 가장 중요해요. 팬을 뜨겁게 달궈서 재빨리 볶아 주세요.,30분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/026100.jpg
+741,119,해장라면,라면에 여러가지 야채를 넣어 만든 시원하고 푸짐한 메뉴입니다. 술 마신 다음날 스피드하게 먹으면 너무 좋아요~,30분,4인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/026200.jpg
+742,120,국수계란말이,국수를 계란에 담아 색다름을 더해보세요~,30분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/026500.jpg
+743,121,꽁치간장구이,꽁치는 구이나 조림으로만 생각하셨죠? 간장양념을 발라가며 정성스럽게 구워보세요. 정말 맛있답니다~,40분,4인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/026900.jpg
+744,122,감자고추채볶음,감자를 채썰어 노랗게 볶은다음 색깔이 이쁜 홍고추등을 넣어 볶아주면 아주 예쁘고 맛있는 볶음요리가 되지요~,30분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/027000.jpg
+745,123,가는파잡채,가는파로 잡채 요리한번 해볼까요?,30분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/027200.jpg
+746,125,고등어살튀김과소스,고등어를 녹말가루에 묻혀 바삭하게 튀겨 맛있는 소스와 곁들이면 정말 놀라운 맛이납니다.,30분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/027400.jpg
+747,128,떡갈비구이,갈비 속에 떡이 들어있듯이 쫄깃쫄깃해서~ 떡갈비!,50분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/027800.jpg
+748,130,두부양념조림,영양가 풍부한 두부에 간장소스를 곁들이세요. 두부요리는 남녀노소 좋아하는 메뉴입니다.,20분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/028700.jpg
+749,134,주먹밥,피크닉에 빠져서는 안될 단골메뉴! 주먹밥으로 가족들과 가벼운 피크닉을 즐겨보세요.,30분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/029900.jpg
+750,137,떡갈비샌드위치,인스턴트 샌드위치는 비만의 원인이랍니다. 직접 만들어 맛과 영양이 우수한 샌드위치로 건강을 챙기세요.,30분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/030300.jpg
+751,151,송편,추석에 빠지지 않는 명절 제일음식~!! 바로 송편이죠..,60분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/033400.jpg
+752,152,빈대떡,"맛있고 즐거운 요리, 막걸리와의 궁합은 최고이지요.",30분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/033700.jpg
+753,154,토란곰탕,추석에 꼭 빠지지 않는 명절요리랍니다.,30분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/033900.jpg
+754,156,고등어무조림,자칫하면 비릴 수 있는 고등어를 무와 함께 조려보세요~ 매콤해서 밥과 잘어울려요!,30분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/034400.jpg
+755,159,김치채소볶음,김치가 들어가서 한식스러운 음식이라고 생각하시죠?  사실은 중국식 고추잡채보다 더 개운한 중국요리랍니다.,30분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/035700.jpg
+756,163,가래떡꼬치,편식하는 아이에게도 몸에 좋은 파프리카와 브로콜리를 먹일 수 있는 신기한 떡꼬치!,60분,4인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/036900.jpg
+757,165,동지팥죽,동지날이 되면 귀신이 싫어하는 붉은 것을 먹어 액땜을 한다고 하죠? 액땜도 하며 오랜만에 별식도 즐겨보세요~,60분,2인분,어려움,http://file.okdab.com/UserFiles/searching/recipe/037500.jpg
+758,168,어묵닭고기조림,어묵안에 부드러운 닭고기 안심을 넣어서 만들었답니다,35분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/038800.jpg
+759,174,두부탕,부드럽고 영양이 뛰어난 두부로 탕요리 해볼까요?,30분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/040600.jpg
+760,176,해물잡채,싱싱한 해물로 만든 잡채요리랍니다.,40분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/041200.jpg
+761,177,맑은떡국,다시마와 표고버섯으로 육수를 낸 맛있는 떡국 만들어보세요.,30분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/041700.jpg
+762,179,콩나물무밥,무의 달짝지근한 맛이 어우러져서 맛있는 건강식 밥이죠. 다른 반찬 없이 압력밥솥에서 10분만 하면 끝!,30분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/042600.jpg
+763,183,닭고기명란튀김,닭고기와 명란을 튀긴 요리랍니다,40분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/044500.jpg
+764,193,찰밥주먹밥,찰밥으로 한입에 쏙 먹을 수있는 주먹밥 만들어볼까요?,30분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/047300.jpg
+765,198,새우만두,새우로 색다른 만두를  만들어보세요!,40분,2인분,어려움,http://file.okdab.com/UserFiles/searching/recipe/048300.jpg
+766,209,삼겹살깻잎전,돼지고기의 누린 내가 싫으시다구요? 걱정마세요! 향긋한 깻잎에 싸서 전을 부치면 매우 향긋하답니다~,30분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/052200.jpg
+767,211,닭꼬치구이,닭꼬치구이!! 술안주에 그만이죠^^,40분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/052700.jpg
+768,212,녹차수제비,녹차를 넣으면 향이 더욱 좋답니다.,60분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/052800.jpg
+769,213,삼겹살치즈구이,어른들이 좋아하는 메뉴 삼겹살! 치즈를 얹어 아이들도 함께 즐겨보아요~,40분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/052900.jpg
+770,214,갈비떡볶이,갈비와 떡으로 만든 떡볶이!! 정말 맛있어요^^,40분,2인분,어려움,http://file.okdab.com/UserFiles/searching/recipe/053100.jpg
+771,220,김치수제비,따끈따근한 국물에 쫄깃한 수제비~ 한번 만들어보세요,40분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/054600.jpg
+772,221,오곡밥쌈밥정식,구수한 쌈장에 영양가 풍부한 오곡밥을 곁들여 고향을 맛을 느껴보세요.,40분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/054700.jpg
+773,223,짬뽕해물탕밥,얼큰하게 고춧가루를 넣어 영양가 풍부한 해물을 넣어 맛있게 만들어보세요.,40분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/055100.jpg
+774,226,생선초밥,싱싱한 생선을 새콤달콤 양념한 밥위에 올려 먹으면 훌륭한 일식 초밥이 되는거지요~ 정말 신선합니다!,60분,4인분,어려움,http://file.okdab.com/UserFiles/searching/recipe/055900.jpg
+775,227,버섯만두전골,푸짐한 버섯만두 전골로 오늘 저녁 어떠세요?,60분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/056100.jpg
+776,229,두부스테이크,몸에 좋은 두부로 스테이크를 만들어보세요~,40분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/056900.jpg
+777,233,닭고기카레튀김,닭고기와 카레의 환상조합!,40분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/057900.jpg
+778,237,버섯두부찌개,몸에 좋은 버섯과 두부가 들어간 얼큰한 찌개로 오늘 저녁밥상 차려보세요~ 남편이 좋아해요!,40분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/059300.jpg
+779,242,제육불고기,"밥반찬에, 술안주에 너무 좋은 메뉴랍니다~",50분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/061500.jpg
+780,243,배추밤김치,잘 절인 배추속에 양념장 솔솔 버무린 밤을 넣어서 만든 고급 김치입니다.,60분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/061900.jpg
+781,247,단팥죽,팥을 부드럽게 삶아 으깨서 만든 달달한 단팥죽! 간식으로 좋아요~,50분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/062500.jpg
+782,248,불고기낙지전골,얼큰한 국물속에 쫄깃한 낙지와 담백한 불고기가 어우러져 있는 전골요리 어떠세요?,40분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/063100.jpg
+783,249,잔멸치된장볶음,오늘도 반찬이 고민되시나요? 멸치를 볶아 놓으면 며칠 동안은 밑반찬 걱정 없이 지낼 수 있어요..,30분,4인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/063400.jpg
+784,254,콩나물버섯덮밥,향긋한 버섯향과 아삭한 콩나물이 들어간 덮밥을 양념장으로 슥슥 비벼 드셔보세요~ 입맛이 확! 살아 난답니다.,40분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/064400.jpg
+785,256,닭다리굴소스볶음,부드러운 닭다리의 살을 바라 굴소스에 볶아보세요~ 굴소스의 진한 맛이 정말 색다르답니다.,30분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/065300.jpg
+786,259,떡잡채,떡으로 만든 잡채의 맛. 아이들 간식으로 좋겠죠?,20분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/065800.jpg
+787,263,유부미역된장국,일본식된장국에 유부와 미역을 넣어서 색다른 맛을 느껴보세요~,30분,4인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/066800.jpg
+788,264,삼색수제비,"야채즙으로 반죽해서 잼있게 만들어 보세요.. 먹는 즐거움, 보는 즐거움.. 아이들이 잘 안먹는 야채를 이용한 수제비입니다.",30분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/067000.jpg
+789,266,달래굴파전,향긋한 달래와 싱싱한 굴을 넣은 아주 맛있는 파전을 만들어보세요.,30분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/067800.jpg
+790,269,숙주미나리무침,향긋한 미나리와 숙주를 함께 무쳐보세요. 정말 입맛이 새록새록 살아납니다.,20분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/068300.jpg
+791,270,참나물고추장무침,우리 입맛에 맞는 고추장 소스에 아삭한 참나물을 무쳐보세요. 밥 반찬으로 너무 좋아요.,20분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/068500.jpg
+792,272,닭고기콩나물덮밥,콩나물만 넣으면 심심하니까! 고소한 닭가슴살을 곁들여 고추장에 비벼비벼~,40분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/069600.jpg
+793,274,호박두부찌개,추운 날씨에 호박두부 찌개를 보글보글 맛있게 끓여보세요!,30분,4인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/069900.jpg
+794,275,해파리해물냉채,싱싱한 해파리와 새우 등의 해물을 겨자 소스에 맛있게 무쳐보세요.,40분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/070100.jpg
+795,277,아스파라거스새우볶음,갖가지 야채를 넣어서 기름에 살짝 볶은 향이 진하고 맛이 부드러운 요리랍니다.,30분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/071200.jpg
+796,278,꽃만두국(완당국),예쁘게 만두를 빗어 보세요.. 만두소는 부드로게 만드시구요..,40분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/071400.jpg
+797,279,돼지고기표고볶음,표고버섯의 향이 은은하게 퍼지는 맛있는 볶음요리를 해보세요!,30분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/071500.jpg
+798,280,오징어풋마늘산적,오징어의 색다른 변신! 한번 맛 보면 그 맛을 잊을수 없답니다.,30분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/071600.jpg
+799,281,상추겉절이비빔밥,상추 겉절이를 손쉽게 만들어 밥에 넣어 비벼드세요. 입맛이 새록새록!,30분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/071700.jpg
+800,286,옥수수볶음밥,간단하게 먹을수 있는 볶음밥이예요. 여러가지 채소를 첨가해 보세요.,20분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/072900.jpg
+801,287,김치꽁치조림,통조림과 신김치만 있으면 금방 만들수 있어서 아주 편리하죠.,20분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/073500.jpg
+802,289,간장떡볶이,고추장이 아닌 간장으로 맛을 낸 궁중식 떡볶이! 맵지 않아 아이들도 잘 먹어요~,60분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/073800.jpg
+803,299,열무비빔밥,잘 익은 열무김치에 고추장 양념으로 더이상 말이 필요없죠?,20분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/076800.jpg
+804,301,버섯잡채밥,잡채에 가지런히 채썬 버섯을 넣어 맛있게 오물조물 무쳐서 밥위에 끼얹으면?,40분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/077500.jpg
+805,303,된장깻잎장아찌,깻잎 장아찌 하나면 밥 한그릇 순식 간에 뚝딱!!,20분,4인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/078000.jpg
+806,304,비빔쌀국수,쌀국수를 맛있게 월남식으로 비벼보세요. 흔히 먹는 비빔국수의 맛에 특별함을 더한 요리이지요.,30분,4인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/078200.jpg
+807,305,아욱국,시원한 아욱으로 국을 끓여 오늘 저녁식사로 어떠세요?,30분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/078300.jpg
+808,307,고등어김치조림,얼큰한 김치에 양념을 풍부하게 하여 고등어와 같이 조려보세요. 밥 한 그릇이 생각나는  요리입니다.,20분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/078800.jpg
+809,308,류산슬,녹말물을 풀어서 걸죽하게 만들어 먹는 요리랍니다..,40분,4인분,어려움,http://file.okdab.com/UserFiles/searching/recipe/079400.jpg
+810,310,가지쇠고기볶음,가지랑 쇠고기가 만나서 최고의 밥반찬이 탄생했어요!,20분,3인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/079800.jpg
+811,311,버섯청국장찌개,구수한 청국장에 영양가 많은 버섯을 넣어 고향맛이 느껴지는 요리를 해보세요.,30분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/080000.jpg
+812,317,볶음쌀국수,쌀국수를 돼지고기와 여러가지 채소를 넣어 굴소스에 볶아보세요. 굴소스를 넣을때 짜지않을 정도로만 넣으세요.,25분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/081500.jpg
+813,323,오징어도라지생채,도라지의 아삭함과 오징어의 고소함을 같이 느껴 보세요.,30분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/082600.jpg
+814,329,대구탕,얼큰한 국물에 담백한 생선을 넣어 보글보글 맛있게 끓였어요. 추운 날씨에 한 그릇 뚝딱!,30분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/084400.jpg
+815,337,계란찜,여러가지 야채들과 완전단백식품 계란으로 간단한 찜요리를 해보세요~ 부드러운 아침식사로 너무 좋아요!,20분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/086700.jpg
+816,338,콩나물비빔밥,콩나물을 넣은 맛있는 비빔밥을 만들어 보세요. 아삭하게 씹히는 콩나물 맛이 정말 색다르답니다.,40분,1인분,보통,http://file.okdab.com/UserFiles/searching/recipe/086800.jpg
+817,343,오징어젓갈,밥도둑의 대표명사!,40분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/087600.jpg
+818,349,해물스파게티,레스토랑에서 즐기던 스파게티! 이젠 집에서도 즐겨보세요~ 홍합 골라 먹는 재미가 솔솔~,30분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/088800.jpg
+819,351,무나물,무를 담백하게 볶아봤어요. 어때요 맛있죠?,20분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/089400.jpg
+820,352,고등어된장조림,조림 고등어도 맛있지만 곁들여진 무에 간이 배면 더욱더 맛있죠.,40분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/089500.jpg
+821,360,오곡주먹밥,밥맛없어 하는 아이들의 눈길을 끌어 보세요.,30분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/093600.jpg
+822,362,화전,옛부터 내려오는 음식이죠? 꽃을 전 위에 살짝~,30분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/094200.jpg
+823,363,만두샐러드,만두를 바삭하게튀겨 신선한 야채와 샐러드를 만들어보세요..달콤한 허니머스터드 드레싱을 곁들여 먹으면 더욱 맛있답니다.,30분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/095200.jpg
+824,364,콩나물미나리무침,오물조물 콩나물에 향긋한 미나리를 넣어 무쳐보세요. 미나리의 초록색에 아삭한 콩나물이 너무 잘 어울린답니다.,20분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/095300.jpg
+825,366,연어알초밥,입안에서 톡톡 터지는 연어알을 초밥위에 예쁘게 장식하세요!,30분,1인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/095900.jpg
+826,373,꽃게해물탕,매콤하고 시원한 국물의 꽃게탕. 젓가락으로 꽃게살을 쏙쏙 빼먹는 맛은 별미랍니다.,30분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/099900.jpg
+827,381,오징어삼겹살볶음,육류와 해산물의 환상적인 조합! 매콤하니 좋아요~,30분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/102500.jpg
+828,383,마파두부덮밥,매콤한 두반장 소스에 부드러운 두부의 감칠맛~ 따끈한 밥위에 얹어 내세요.,30분,3인분,보통,http://file.okdab.com/UserFiles/searching/recipe/103400.jpg
+829,384,순두부,따뜻한 김이 모락모락 나는 순두부에 감칠맛나는 간장양념을 살짝 비벼 먹는 그 맛~,50분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/103900.jpg
+830,387,동래파전,식구들이 둘러 앉아 맛있는 동래파전을 만들어 드셔보세요. 오붓한 정감과 함께 맛을 느껴보세요.,30분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/106200.jpg
+831,389,양상추참치샐러드,아삭하게 씹히는 양상추 위에 맛있게 묻힌 참치 샐러드를~,20분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/106700.jpg
+832,391,김치홍합국,김치의 시원한 맛에 홍합을 넣어 한소끔 끓여 준비해보세요. 속풀이 음식으로 안성맞춤!,30분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/107300.jpg
+833,394,닭가슴살해파리샐러드,영양많은 닭살에 새콤달콤 해파리를 넣어 맛있게 무쳐보세요. 손님 상차림으로 안성맞춤!,30분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/108600.jpg
+834,396,오징어섞어찌개,얼큰한 오징어에 여러가지 채소를 넣어 맛나게 끓여보세요. 모시조개가 시원한 맛을 더해준답니다.,30분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/108800.jpg
+835,400,오징어볶음과소면,매콤하게 고추장과 고춧가루를 넣어 술안주로 너무 좋은 오징어볶음을 만들어보세요.,30분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/110100.jpg
+836,401,부추잡채,향긋하고 먹음직스런 싱싱한 부추를 깨끗한 맛이 담긴 청정원 굴소스로 요리해보세요~,30분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/110300.jpg
+837,402,쟁반라면,푸짐한 쟁반라면을 만들어 보세요. 꼬들꼬들하게 라면을 삶아서 아삭한 야채와 함께 준비하며 더욱 맛있는 요리가 되지요~,40분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/110400.jpg
+838,403,불고기꽃만두,치자로 예쁜 색깔을 내어 특별한 만두를 만들어 보세요.,30분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/110800.jpg
+839,411,미역수제비,미역국에 수제비를 넣고 끓여보세요! 색다른 맛이랍니다.,40분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/115600.jpg
+840,415,고등어튀김케첩조림,단백질이 풍부한 고등어를 바삭하게 튀겨서.. 맛있는 소스에 버무려 내세요...,30분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/117200.jpg
+841,416,생굴채소무침,우리식으로 다양하게 굴요리를 만들어보세요~,30분,1인분,보통,http://file.okdab.com/UserFiles/searching/recipe/117700.jpg
+842,418,통마늘장아찌,반찬용으로 새콤달콤하게 만들어보세요~,40분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/118200.jpg
+843,419,북어해장국밥,포송포송한 북어로 담백한 북어해장국밥을 만들어보세요. 아침식사로 아주 그만이죠!,30분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/118500.jpg
+844,426,낙지불고기,낙지와 불고기가 만났다? 낙지와 불고기를 맛있게 양념해서 얼큰하고 담백한 전골 요리를 해보세요.,40분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/121200.jpg
+845,428,고등어양념구이,고등어에 양념장 솔솔 발라서 중불이나 약불에서 구워보세요.,30분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/121800.jpg
+846,434,채소치즈죽,아침을 꼭꼭 챙겨먹어야지만이 하루도 든든하고 머리회전도 빨라진데요. 채소치즈죽으로 아침 절대 거르지 마세요~,20분,1인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/128100.jpg
+847,439,얼갈이열무물김치,여름철엔 시원한 열무김치를 넣고 국수에 말아 먹으면 정말 어떤 음식도 부럽지 않죠.,60분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/132500.jpg
+848,446,깻잎말이김치,갖가지 재료를 넣고 돌돌 말아서 멸치액젓에 절였어요. 고급스러운 김치로 아주 맛있답니다.,30분,4인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/139300.jpg
+849,447,붉은갓동치미,붉은 갓에서 배어나온 자주빛의 국물이 미각과 시각을 모두 만족시켜주는 시원한 김치예요.,30분,4인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/139400.jpg
+850,448,파프리카볶음밥,형형색깔의 파프리카 속에 볶음밥으로 아이들도 참 좋아해요.,50분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/140700.jpg
+851,449,돼지갈비레몬찜,새콤한 레몬을 곁들인 돼지갈비찜으로 식탁을 풍성하게 만들어 보세요.,60분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/140900.jpg
+852,451,낙지연포탕,낙지와 모시조개 덕분에 바다향 가득한 시원한 국물~,30분,4인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/141300.jpg
+853,455,시금치나물,개운하게 나물을 무쳐보세요! 액젓으로 간해 맛이 깔끔하답니다!,20분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/143700.jpg
+854,456,녹차콩국수,다시마와 가쓰오부시의 육수가 섞인 콩국에 쌉싸름한 맛의 녹차국수가 섞여 색다른 퓨전요리의 맛을 느껴보세요~,30분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/144500.jpg
+855,459,서리태콩국수,"여름 더위를 물리치는 단골손님, 시원한 콩국수! 쫄깃한 면발과 고소한 국물맛이 환상이죠.",30분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/145200.jpg
+856,460,대대로닭칼국수,닭육수로 만든 시원한 국물맛과 콩가루로 빚은 고소한 면발이 잘 어울리는 따끈따끈한 칼국수 대령이요!,30분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/145300.jpg
+857,461,전어회무침,입맛 없을 때는 새콤달콤한 전어회무침이 최고에요. 입안에 군침이 좌르르 돌아요.,30분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/147200.jpg
+858,462,왕새우구이와구운채소,각종 허브오일에 마리네이드한 왕새우를 오븐에 먹기좋게 구워 톡쏘는 와사비감자와 즐겨보세요.,40분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/147300.jpg
+859,464,삼색나물월남쌈,삼색나물과 고기산적을 각종 채소들과 함께 부드러운 라이스 페이퍼에 싸드세요. 세가지 소스중에 무엇을 찍어먹을지 행복한 고민을 해볼까요.,30분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/148200.jpg
+860,465,토란닭고기찜,닭고기 살에 적당히 배인 간장소스가 너무나도 맛있는거 있죠. 담백한 토란과 함께 즐겨줘요.,30분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/148400.jpg
+861,470,버섯잡채,당면 대신 버섯을 이용해 고소한 잡채를 만들어 보세요.,30분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/151300.jpg
+862,471,부추올리브오일무침,기름기가 없어 질겨지거나 퍽퍽할 수 있는 부추무침에 올리브오일을 첨가해 보세요. 윤기가 흐르는 부추무침을 보면 입맛이 돌아와요.,20분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/151500.jpg
+863,475,된장채소수제비,된장은 음식의 간과 맛을 보태주는 역할과 함께 식물성 단백질로 구성되어 버릴 것 하나 없는 기특한 식품입니다.,30분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/154800.jpg
+864,476,고추장닭강정,고추장으로 매콤 달콤하게 맛을 낸 닭강정을 만들어보세요..모두가 즐길 수 있는 요리랍니다.,40분,2인분,보통,http://file.okdab.com/UserFiles/searching/recipe/155400.jpg
+865,478,두부파프리카전,고소한 두부의 맛을 살려주는 포도씨유로 두부 파프리카전을 지져보세요. 느끼하지 않은 기름이 음식맛을 살려준답니다~,30분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/157100.jpg
+866,479,고추잡채와꽃빵,매콤한 고추잡채에 쫄깃한 꽃빵을 곁들여 드셔보세요~,30분,2인분,초보환영,http://file.okdab.com/UserFiles/searching/recipe/157300.jpg
+867,480,해물찌개,개운한 국물 한술 뜨면 피로가 싹 날아가는 시원한 해물찌개~ 쌀쌀한 날씨엔 시원한 국물이 최고랍니다!,30분,4인분,보통,http://file.okdab.com/UserFiles/searching/recipe/158000.jpg
+868,39692,시래기돼지갈비찜,겨울철 보양식,30분,2인분,초보환영,http://file.okdab.com/recipe/142362140251300052.jpg
+869,73712,시금치들깨수제비,영양가득한 시금치와 들깨로 만든 고소한 들깨수제비,30분,4인분,보통,http://file.okdab.com/recipe/147139850208600755.jpg
+870,90834,돛나물 부추 오이무침,시원하고 아삭한 오이 부추와 돛나물을 만나 영양을 더하다!,10분,2인분,초보환영,http://file.okdab.com/recipe/147521990367001612.jpg
+871,90846,오이동치미,알록달록 파프리카로 속을 채운 시원하고 아삭한 오이동치미,60분,4인분,보통,http://file.okdab.com/recipe/147522432389801632.jpg
+872,90980,호박무침,새콤하게 무친 호박 비빔밥 용으로도 좋아요.,30분,2인분,초보환영,http://file.okdab.com/recipe/147936561431200472.jpg
+873,120419,나물 월남쌈,명절을 보내고 남은 나물로 알뜰하고 맛이게 만들어 먹는 나물 월남쌈!,30분,2인분,보통,http://file.okdab.com/recipe/148066903468800139.jpg
+874,120441,단호박 고등어조림,달콤한 단호박으로 만든 달콤 짭짜름한 고등어조림,30분,4인분,보통,http://file.okdab.com/recipe/148222411418400027.jpg
+875,120463,당근잎 감자전,당근 향이 나는 향긋한 당근잎 감자전,20분,2인분,보통,http://file.okdab.com/recipe/148229812483500337.jpg
+876,120476,배추만두,배추로 만든 깜찍한 배추주머니 만두! 아삭한 배추와 영양으로 가~득 채운 보기도 좋고 맛도 좋은 배추만두랍니다.,30분,2인분,보통,http://file.okdab.com/recipe/148230648948900343.jpg
+877,180330,식빵고구마파이,식빵을 이용한 간단 고구마파이! 아이들 영양 간식으로 딱!,30분,2인분,초보환영,http://file.okdab.com/recipe/148291043686100008.jpg
+878,180344,카레토마토달걀볶음밥,토마토와 달걀을 넣은 볶음밥에 카레소스를 두른 영양만점 볶음밥,30분,1인분,초보환영,http://file.okdab.com/recipe/148291443772500013.jpg
+879,195428,누드김밥,건강한 재료로 가득담아 말은 누드김밥! 고기가 없어도 맛있어요!!,20분,3인분,보통,http://file.okdab.com/recipe/148299332505800120.jpg
+880,7000081,링도넛,[동글 동글 도넛위에 갖가지 재료를 뿌려서 정성 가득 들어간 도넛을 집에서 직접 만들어주세요.],,4인분 ,,https://www.menupan.com/cook/cookimg/025900.jpg
+881,7000115,참치완자전,[참치로 완자를 빗어 맛있게 지져보세요.],,4인분 ,,https://www.menupan.com/cook/cookimg/060900.jpg
+882,7000123,스크램블드에그,"[바쁜 아침, 스크램블드에그로 간단하게 식사하세요~]",,4인분 ,,https://www.menupan.com/cook/cookimg/073100.jpg
+883,7000156,삼선짬뽕,[얼큰한 고추기름을 만들어 신선하고 영양가 풍부한 해물을 넣어 만들었답니다..후루룩..정말 맛있답니다],,[2인분 ,,https://www.menupan.com/cook/cookimg/104000.jpg
+884,7000177,증편,[일명 술떡이라고 불리는 우리의 전통 떡요리입니다. 전통요리는 정성이 많이 든 음식들이에요.],,[2인분 ,,https://www.menupan.com/cook/cookimg/140200.jpg
+885,7000200,소고기 무국,,,             3인 ,,https://cloudfront.haemukja.com/vh.php?url=https://d1hk7gw6lgygff.cloudfront.net/uploads/direction/image_file/67160/mid_thumb_________11.13.jpg&convert=jpgmin&rt=600
+886,7000204,도토리묵 무침,,,             2인 ,,https://cloudfront.haemukja.com/vh.php?url=https://d1hk7gw6lgygff.cloudfront.net/uploads/recipe/image_file/5623/mid_thumb_________02.jpg&convert=jpgmin&rt=600
+887,7000211,대구 매운탕,,,             4인 ,,https://cloudfront.haemukja.com/vh.php?url=https://d1hk7gw6lgygff.cloudfront.net/uploads/direction/image_file/61205/mid_thumb_1.JPG&convert=jpgmin&rt=600
+888,7000250,감잣국,,,             2인 ,,https://cloudfront.haemukja.com/vh.php?url=https://d1hk7gw6lgygff.cloudfront.net/uploads/recipe/image_file/3423/mid_thumb_main.jpg&convert=jpgmin&rt=600
+889,7000294,북엇국,,,             4인 ,,https://cloudfront.haemukja.com/vh.php?url=https://d1hk7gw6lgygff.cloudfront.net/uploads/recipe/image_file/1382/mid_thumb_main_1382.png&convert=jpgmin&rt=600
+890,7000305,밀푀유 나베,,,             4 ~ 5인 ,,https://cloudfront.haemukja.com/vh.php?url=https://d1hk7gw6lgygff.cloudfront.net/uploads/direction/image_file/9184/mid_thumb_P20150307_153549400_9163FAB0-AFE2-4F18-8727-1ED25FB0EB59.JPG&convert=jpgmin&rt=600
+891,7000320,참치 샌드위치,,,             1인 ,,https://cloudfront.haemukja.com/vh.php?url=https://d1hk7gw6lgygff.cloudfront.net/uploads/direction/image_file/4385/mid_thumb_IMG_0695.JPG&convert=jpgmin&rt=600
