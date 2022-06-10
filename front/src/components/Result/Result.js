@@ -36,14 +36,14 @@ function Result(){
     )
   }
   //레시피 재료정보
-  // let rswhat = ""
-  // for (let i=0;i<rsmenu.what_info.length;i++){
-  //   if(i==rsmenu.what_info.length-1){
-  //     rswhat = rswhat+rsmenu.what_info[i].irdnt_nm
-  //   }else{
-  //     rswhat = rswhat+rsmenu.what_info[i].irdnt_nm+","
-  //   }
-  // }
+  let rswhat = ""
+  for (let i=0;i<rsmenu.what_info.length;i++){
+    if(i==rsmenu.what_info.length-1){
+      rswhat = rswhat+rsmenu.what_info[i].irdnt_nm
+    }else{
+      rswhat = rswhat+rsmenu.what_info[i].irdnt_nm+","
+    }
+  }
 
   /*별점 평가*/
   const [rating, setRating] = useState(0)
@@ -86,7 +86,7 @@ function Result(){
         <p>
           <span>조리시간 | </span>{rstime} ,
           <span>레시피 난이도 | </span>{rslv}<br/>
-          <span>재료 | </span>&#40;{rsqnt}기준&#41; <br/>
+          <span>재료 | </span>{rswhat} &#40;{rsqnt}기준&#41; <br/>
         </p>
         <p className="rs-recipe">
           <span>레시피 |</span>
@@ -95,8 +95,8 @@ function Result(){
           ))}
         </p>
         <p>
-          <span>영양성분 | </span>&#40;총 내용량 400g&#41; 580KCAL<br/>
-          탄수화물 67G| 단백질 37G| 지방 13G|
+          <span>영양성분 | </span>&#40;총 내용량 g&#41; KCAL<br/>
+          탄수화물 | 단백질 | 지방 |
         </p>
         <div className='rs-star'>
           이 레시피에 대한 나의 별점<br/>
