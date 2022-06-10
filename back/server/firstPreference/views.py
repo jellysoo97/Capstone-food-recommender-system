@@ -26,6 +26,7 @@ from recommend.models import RecipeBasic
 #             return JsonResponse(serializer.data, status=201)
 #         return JsonResponse(serializer.errors, status=400)
 
+# signup - 초기 선호도 입력 페이지 get
 def getFirstPrefer(request):
     data = RecipeBasic.objects.all().values()
     data_pd = pd.DataFrame(data)
@@ -37,3 +38,9 @@ def getFirstPrefer(request):
             "recipe_nm_ko": elem[2], "img_url": elem[-1]}
         return_result = json.dumps(return_result, ensure_ascii=False)
         return JsonResponse(return_result, safe=False)
+
+# cosine_sim_lst
+def getCosine():
+    with open("cosine_sim_lst.txt", encoding="utf-8") as txtfile:
+        cosine_sim_lst = txtfile.read()
+    return cosine_sim_lst

@@ -3,7 +3,7 @@ from django.core import serializers
 from rest_framework.parsers import JSONParser
 import json
 
-from recommend.views import IngreBalance
+from recommend.views import IngreBalance, PreferReco
 from .models import *
 from account.models import User
 
@@ -105,7 +105,7 @@ def BestCombi(request, cate, pk):
     if cate == "balance":
         return_result = IngreBalance(pk, inedible_groups, sample_combi_result)
     else:
-        print("preference")
+        return_result = PreferReco(pk, sample_combi_result)
     
     return JsonResponse(return_result, safe=False)
 
