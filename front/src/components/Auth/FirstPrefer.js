@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from "react"
+import { useNavigate } from "react-router-dom"
 import axios from "axios"
 
 function FirstPrefer() {
+  const navigate = useNavigate()
   const [menulist, setMenulist] = useState([])
   const [star, setStar] = useState({
     0: "",
@@ -34,6 +36,20 @@ function FirstPrefer() {
     }
     getMenuList()
   }, [setMenulist])
+
+  const endSignup = (e) => {
+    e.preventDefault()
+    axios
+      .post("url", {})
+      .then((response) => {
+        console.log(response.data)
+        alert("회원가입이 완료되었습니다.")
+        navigate("/login")
+      })
+      .catch((error) => {
+        console.log(error)
+      })
+  }
 
   const Indicators = ({ slide, label }) => {
     return (
@@ -228,6 +244,11 @@ function FirstPrefer() {
               aria-hidden="true"
             ></span>
             <span className="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div className="d-flex justify-content-center mt-2">
+          <button type="button" className="fp-regi" onClick={endSignup}>
+            회원가입
           </button>
         </div>
       </div>
