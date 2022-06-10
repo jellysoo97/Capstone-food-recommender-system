@@ -6,6 +6,8 @@ from django.core import serializers
 
 import pandas as pd
 import json
+import os
+from pathlib import Path
 
 # from .serializers import RecipeSerializer, PreferenceSerializer
 # from .models import Preference
@@ -41,6 +43,8 @@ def getFirstPrefer(request):
 
 # cosine_sim_lst
 def getCosine():
-    with open("cosine_sim_lst.txt", encoding="utf-8") as txtfile:
+    BASE_DIR = Path(__file__).resolve().parent
+    path = os.path.join(BASE_DIR, "cosine_sim_lst.txt")
+    with open(path, "r") as txtfile:
         cosine_sim_lst = txtfile.read()
     return cosine_sim_lst

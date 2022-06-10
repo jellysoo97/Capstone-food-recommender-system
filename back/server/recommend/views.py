@@ -187,7 +187,6 @@ def IngreBalance(pk, inedible, combi):
 #####################################선호도 알고리즘#####################################################
 
 # """컨텐츠 기반 추천 알고리즘"""
-
 def PreferReco(pk, combi):
     # 궁합 모듈 결과
     inpt = combi
@@ -204,51 +203,54 @@ def PreferReco(pk, combi):
     df_ratings = pd.DataFrame(Preference.objects.all().values())
 
     # 컨텐츠 기반 추천 알고리즘에서 레시피(메뉴) 간 유사도 추출하는 알고리즘에 필요한 학습 데이터
-    train_data = df_igrds['SUBGROUP'].apply(lambda x: x.replace('[', '').replace(']', '').replace("'", '').replace(' ', '').split(','))
+    # train_data = df_igrds['SUBGROUP'].apply(lambda x: x.replace('[', '').replace(']', '').replace("'", '').replace(' ', '').split(','))
 
-    # 유사도 추출 알고리즘 모델 학습
-    # cosine_sim_lst = getCosine()
-    # cosine_sim = np.array(cosine_sim_lst)
+    # # 유사도 추출 알고리즘 모델 학습
+    cosine_sim_lst = getCosine()
+    cosine_sim = list(cosine_sim_lst)
+    # corpus = Corpus()
+    # corpus.fit(train_data, window=8)
+    # glove = Glove(no_components=100, learning_rate=0.05)
+    # glove.fit(corpus.matrix, epochs=20, no_threads=4, verbose=True)
+    # glove.add_dictionary(corpus.dictionary)
 
-    corpus = Corpus()
-    corpus.fit(train_data, window=8)
-    glove = Glove(no_components=100, learning_rate=0.05)
-    glove.fit(corpus.matrix, epochs=20, no_threads=4, verbose=True)
-    glove.add_dictionary(corpus.dictionary)
+    # # 단어 사전 -> 문장 임베딩 시 단어 사전의 단어를 기준으로 임베딩
+    # word_dict = {}
+    # for word in  glove.dictionary.keys():
+    #     word_dict[word] = glove.word_vectors[glove.dictionary[word]]
 
-    # 단어 사전 -> 문장 임베딩 시 단어 사전의 단어를 기준으로 임베딩
-    word_dict = {}
-    for word in  glove.dictionary.keys():
-        word_dict[word] = glove.word_vectors[glove.dictionary[word]]
-
-    # 문장 임베딩 함수
-    def sent2vec_glove(tokens, word_dict, embedding_dim=100):
-        #문장 token 리스트를 받아서 임베딩  
-        size = len(tokens)
-        matrix = np.zeros((size, embedding_dim))
-        word_table = word_dict     # glove word_dict
-        for i, token in enumerate(tokens):
-            vector = np.array([
-                word_table[t] for t in token
-                if t in word_table
-            ])
-            if vector.size != 0:
-                final_vector = np.mean(vector, axis=0)
-                matrix[i] = final_vector
-        return matrix
+    # # 문장 임베딩 함수
+    # def sent2vec_glove(tokens, word_dict, embedding_dim=100):
+    #     #문장 token 리스트를 받아서 임베딩  
+    #     size = len(tokens)
+    #     matrix = np.zeros((size, embedding_dim))
+    #     word_table = word_dict     # glove word_dict
+    #     for i, token in enumerate(tokens):
+    #         vector = np.array([
+    #             word_table[t] for t in token
+    #             if t in word_table
+    #         ])
+    #         if vector.size != 0:
+    #             final_vector = np.mean(vector, axis=0)
+    #             matrix[i] = final_vector
+    #     return matrix
 
     # 컨텐츠 기반
-    def content_based(inpt):
+    def content_based(inpt, df_igrds, cosine_sim):
         sim_scores_all = []
         #input값(형식: 리스트, 내용: 궁합 알고리즘까지 거친 레시피 id)
+        print(inpt)
         for idx in inpt:
-            cos_id = df_igrds[df_igrds['RECIPE_ID'] == int(idx)].index
+            cos_id = df_igrds[df_igrds['recipe_id'] == int(idx)].index
+            print(cos_id[0])
             #레시피 간 유사도
             sim_scores = list(enumerate(cosine_sim[cos_id[0]]))
+            # print(sim_scores)
             #유사도 높은 순으로 10개
             sim_scores = sorted(sim_scores, key=lambda x: x[1], reverse=True)
             sim_scores = sim_scores[1:11]
             sim_scores_all.extend(sim_scores)
+        print(sim_scores_all)
         #나열한 50개의 학습 데이터의 인덱스 리턴 (레시피 id 아님)
         recipe_indices = [i[0] for i in sim_scores_all]
         return recipe_indices
@@ -257,21 +259,26 @@ def PreferReco(pk, combi):
     def user_preference(user_id, igrds_id, df_igrds, md_idx, svd):
         #input값(형식: 리스트, 내용: 궁합 알고리즘까지 거친 후 각각의 레시피와 유사한 레시피 10개씩. 레시피 id가 아니라 학습 데이터의 인덱스)
         #input값이 인덱스이므로 각 인덱스에 해당하는 레시피 id 추출
-        recipes_id = df_igrds.iloc[igrds_id]['RECIPE_ID']
-        recipes = md_idx.loc[list(recipes_id)][['RECIPE_NM_KO', 'RECIPE_ID']]
+        recipes_id = df_igrds.iloc[igrds_id]["recipe_id"]
+        # recipes = md_idx.loc[list(recipes_id)][['recipe_nm_ko', 'recipe_id']]
+        recipes_nm = md_idx.loc[list(recipes_id)]['recipe_nm_ko']
+        recipes_idx = md_idx.loc[list(recipes_id)].index
+        recipes = pd.DataFrame(columns=['recipe_id', 'recipe_nm_ko'])
+        recipes['recipe_id'] = recipes_idx
+        recipes['RECIPE_NM_KO'] = recipes_nm
         #각 레시피에 대한 유저의 선호도 예측
-        recipes['est'] = list(map(lambda x: svd.predict(user_id, x).est, list(recipes['RECIPE_ID'])))
+        recipes['est'] = list(map(lambda x: svd.predict(user_id, x).est, list(recipes['recipe_id'])))
         #선호도 예측점수 높은 순으로 정렬
         recipes = recipes.sort_values('est', ascending=False, ignore_index=True)
         return recipes.head(10)
 
-    # 문장 임베딩
-    sentence_glove = sent2vec_glove(train_data, word_dict)
-    # 문장 임베딩 결과를 바탕으로 레시피(메뉴)간 유사도 측정
-    cosine_sim = cosine_similarity(sentence_glove, sentence_glove)
+    # # 문장 임베딩
+    # sentence_glove = sent2vec_glove(train_data, word_dict)
+    # # 문장 임베딩 결과를 바탕으로 레시피(메뉴)간 유사도 측정
+    # cosine_sim = cosine_similarity(sentence_glove, sentence_glove)
 
     # 레시피 기본정보에 레시피 별 필요한 재료 attribute 추가
-    md = pd.merge(df_recipes, df_igrds[['RECIPE_ID', 'SUBGROUP']], on='RECIPE_ID')
+    md = pd.merge(df_recipes, df_igrds, left_on = 'recipe_id', right_on = 'recipe_id')
 
     ################ """유저 기반 협업 필터링""" ##################
 
@@ -286,14 +293,15 @@ def PreferReco(pk, combi):
 
     # 레시피 기본 정보에 레시피 별 필요한 재료 추가한 데이터 인덱스를 레시피 id로 변경
     md_idx = md.copy()
-    md_idx.index = md['RECIPE_ID']
+    md_idx = md_idx.set_index("recipe_id")
 
     # inpt: input 데이터. 식재료 궁합 알고리즘 거친 결과 레시피 id(형식: 리스트, 내용: 레시피 id)
     # 컨텐트 기반으로 받아온 결과(형식: 리스트) 각각 10개씩을 하나의 리스트로 합침 -> 총 50개의 df_igrds의 인덱스(레시피 id아님)
     content_based_recipes = content_based(inpt, df_igrds, cosine_sim)
     #모여진 컨텐트 기반 결과(형식: 리스트, 내용: 영양소 균형까지 맞춰진 레시피 각각에 대해 유사한 레시피 id, 총 50개) -> 유저 성향 예측으로 재정렬
-    result = user_preference(pk, content_based_recipes, df_igrds, md_idx, svd)
+    result = user_preference(100, content_based_recipes, df_igrds, md_idx, svd)
     #결과: 데이터프레임(column: 메뉴 이름, 레시피 id, 예측 유저 선호도 평가 점수) - 높은 순으로 10개 정렬
-    # last_result = getRecipeInfo(result)
-    print(result)
+    result_tolist = result["recipe_id"].values.tolist()
+    # last_result = getRecipeInfo(result_tolist)
+    print(result_tolist)
     # return last_result

@@ -30,8 +30,8 @@ def getInedible(request, pk):
         user_vege = obj.vegtype
         inedible_groups_raw = obj.allergic
         inedible_groups = inedible_groups_raw.split(",")
-        if user_vege:
-            get_vege_data = VegeType.objects.filter(vege_kinds__contains=user_vege)
+        if user_vege != "N":
+            get_vege_data = VegeType.objects.filter(vege_kinds=user_vege)
             vege_data = serializers.serialize("json", get_vege_data)
             vege_data_json = json.loads(vege_data)
             vege_indbl = vege_data_json[0]["fields"]["vege_indbl"].split(",")
@@ -57,8 +57,8 @@ def BestCombi(request, cate, pk):
     # 알레르기환자: 못먹는 재료가 바로 리스트(inedible_groups)로 들어옴(알레르기 없으면 빈리스트)
     # 채식주의자: 채식주의자의 종류가 리스트로 들어옴(vege_kinds) -> 종류를 받아서 채식주의자별 못먹는 재료 리스트(vege) 생성
     # 채식주의자 아니면 vege_kinds가 빈리스트 -> vege 생성하지 않음
-    if user_vege:
-        get_vege_data = VegeType.objects.filter(vege_kinds__contains=user_vege)
+    if user_vege != "N":
+        get_vege_data = VegeType.objects.filter(vege_kinds=user_vege)
         vege_data = serializers.serialize("json", get_vege_data)
         vege_data_json = json.loads(vege_data)
         # vege_data = json.dumps(vege_data_json[0])
