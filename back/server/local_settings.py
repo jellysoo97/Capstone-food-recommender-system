@@ -14,7 +14,7 @@
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'food-recommender-system',
+        'NAME': 'frs',
         "USER" : "root",
         "PASSWORD" : "wangkibbum97",
         "HOST" : "127.0.0.1",

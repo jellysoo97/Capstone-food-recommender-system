@@ -55,7 +55,7 @@ function Select() {
 
   // 선택된 재료군 idx 불러오기
   const getSelectedGroupValue = (selected_group_value) => {
-    setSelectedGroupValue(parseInt(selected_group_value))
+    setSelectedGroupValue(parseInt(selected_group_value) + 1)
   }
 
   // 선택된 재료군에 속한 재료들 불러오기
