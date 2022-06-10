@@ -1,7 +1,7 @@
-from django.urls import path, include
-from . import views
-from rest_framework import urls
+from django.urls import path
+from firstPreference.views import * 
 
 urlpatterns = [
-    path('check', views.check_preference),
+    # path('check', check_preference),
+    path("first", getFirstPrefer),
 ]

@@ -16,9 +16,7 @@ def account_list(request):
 
     elif request.method == 'POST':
         data = JSONParser().parse(request)
-        print(data)
         serializer = UserSerializer(data=data)
-        print(serializer)
         if serializer.is_valid(raise_exception=True):
             serializer.save()
             return JsonResponse(serializer.data, status=201)
@@ -51,7 +49,6 @@ def login(request):
     if request.method == 'POST':
         data = JSONParser().parse(request)
         search_id = data['user_id']
-        print(search_id)
         obj = User.objects.get(user_id=search_id)
         user = {"idx": obj.id, "userId": obj.user_id}
         print(user)

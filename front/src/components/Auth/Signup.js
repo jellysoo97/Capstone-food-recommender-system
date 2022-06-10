@@ -68,7 +68,6 @@ function Signup() {
       })
       .then((res) => {
         console.log(res.data)
-        alert("회원가입이 완료되었습니다.")
         navigate("/prefer")
       })
   }
@@ -77,7 +76,6 @@ function Signup() {
     const newdata = { ...data }
     newdata[e.target.id] = e.target.value
     setData(newdata)
-    console.log(newdata)
   }
 
   function changedis(e) {
@@ -297,7 +295,7 @@ function Signup() {
           </div>
           <div className="d-flex justify-content-center">
             <button className="su-btn" class="btn btn-outline-dark">
-              회원가입하기
+              다음 페이지
             </button>
           </div>
         </form>
