@@ -206,8 +206,7 @@ def PreferReco(pk, combi):
     # train_data = df_igrds['SUBGROUP'].apply(lambda x: x.replace('[', '').replace(']', '').replace("'", '').replace(' ', '').split(','))
 
     # # 유사도 추출 알고리즘 모델 학습
-    cosine_sim_lst = getCosine()
-    cosine_sim = list(cosine_sim_lst)
+    cosine_sim = getCosine()
     # corpus = Corpus()
     # corpus.fit(train_data, window=8)
     # glove = Glove(no_components=100, learning_rate=0.05)
@@ -239,10 +238,8 @@ def PreferReco(pk, combi):
     def content_based(inpt, df_igrds, cosine_sim):
         sim_scores_all = []
         #input값(형식: 리스트, 내용: 궁합 알고리즘까지 거친 레시피 id)
-        print(inpt)
         for idx in inpt:
             cos_id = df_igrds[df_igrds['recipe_id'] == int(idx)].index
-            print(cos_id[0])
             #레시피 간 유사도
             sim_scores = list(enumerate(cosine_sim[cos_id[0]]))
             # print(sim_scores)
@@ -250,9 +247,9 @@ def PreferReco(pk, combi):
             sim_scores = sorted(sim_scores, key=lambda x: x[1], reverse=True)
             sim_scores = sim_scores[1:11]
             sim_scores_all.extend(sim_scores)
-        print(sim_scores_all)
         #나열한 50개의 학습 데이터의 인덱스 리턴 (레시피 id 아님)
         recipe_indices = [i[0] for i in sim_scores_all]
+        recipe_indices = list(set(recipe_indices))
         return recipe_indices
 
     # 유저 기반
@@ -265,7 +262,7 @@ def PreferReco(pk, combi):
         recipes_idx = md_idx.loc[list(recipes_id)].index
         recipes = pd.DataFrame(columns=['recipe_id', 'recipe_nm_ko'])
         recipes['recipe_id'] = recipes_idx
-        recipes['RECIPE_NM_KO'] = recipes_nm
+        recipes['recipe_nm_ko'] = recipes_nm
         #각 레시피에 대한 유저의 선호도 예측
         recipes['est'] = list(map(lambda x: svd.predict(user_id, x).est, list(recipes['recipe_id'])))
         #선호도 예측점수 높은 순으로 정렬
@@ -299,9 +296,10 @@ def PreferReco(pk, combi):
     # 컨텐트 기반으로 받아온 결과(형식: 리스트) 각각 10개씩을 하나의 리스트로 합침 -> 총 50개의 df_igrds의 인덱스(레시피 id아님)
     content_based_recipes = content_based(inpt, df_igrds, cosine_sim)
     #모여진 컨텐트 기반 결과(형식: 리스트, 내용: 영양소 균형까지 맞춰진 레시피 각각에 대해 유사한 레시피 id, 총 50개) -> 유저 성향 예측으로 재정렬
-    result = user_preference(100, content_based_recipes, df_igrds, md_idx, svd)
+    result = user_preference(pk, content_based_recipes, df_igrds, md_idx, svd)
     #결과: 데이터프레임(column: 메뉴 이름, 레시피 id, 예측 유저 선호도 평가 점수) - 높은 순으로 10개 정렬
     result_tolist = result["recipe_id"].values.tolist()
-    # last_result = getRecipeInfo(result_tolist)
     print(result_tolist)
-    # return last_result
+    last_result = getRecipeInfo(result_tolist)
+    print(last_result)
+    return last_result
