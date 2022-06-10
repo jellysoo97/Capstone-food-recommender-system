@@ -170,3 +170,21 @@ def IngreBalance(pk, inedible, combi):
     last_result = getRecipeInfo(return_result)
 
     return last_result
+
+    # 결과값 index 수정
+    # def getRecipeInfo(id_list):
+    #     return_result = {}
+    #     for i in range(0, len(id_list)) :
+    #         elem = int(id_list[i])
+    #         basic_info = RecipeBasic.objects.get(recipe_id=elem)
+    #         order_info = RecipeOrder.objects.filter(recipe_id=elem).values()
+    #         what_info = RecipeWhat.objects.filter(recipe_id=elem).values()
+    #         return_result[i] = {"basic_info": 
+    #         {"recipe_nm_ko": basic_info.recipe_nm_ko, "sumry": basic_info.sumry, 
+    #         "cooking_time": basic_info.cooking_time, "qnt": basic_info.qnt, 
+    #         "level_nm": basic_info.level_nm, "img_url": basic_info.img_url}, 
+    #         "order_info": list(order_info), "what_info": list(what_info)}
+    #     return json.dumps(return_result, ensure_ascii=False)
+    # last_result = getRecipeInfo(return_result)
+
+    # return last_result

@@ -81,6 +81,7 @@ function TableData(props) {
       )
       .then((response) => {
         console.log(response.data)
+        //window.localStorage.setItem("selectmenuid","0")
         window.localStorage.setItem("result", response.data)
         response.data
           ? navigate(`/result/${cate.cate}`)
