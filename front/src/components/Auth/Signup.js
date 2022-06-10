@@ -18,7 +18,7 @@ function Signup() {
     weight: 0,
     health: "비활동적",
     isveg: "N",
-    vegtype: "[]",
+    vegtype: "N",
     allergic: "N",
   })
 
@@ -250,7 +250,7 @@ function Signup() {
                 value={data.vegtype}
                 style={{ width: 320, textAlign: "center" }}
               >
-                <option value="[]"></option>
+                <option value="N"></option>
                 <option value="vegan">비건(vegan)</option>
                 <option value="lacto-vegetarian">
                   락토 베지테리언(lacto-vegetarian)
