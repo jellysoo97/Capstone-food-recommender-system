@@ -9,6 +9,7 @@ import Signup from "./components/Auth/Signup"
 import Login from "./components/Auth/Login"
 import Select from "./components/Select/Select"
 import Result from "./components/Result/Result"
+import ResultList from "./components/Result/ResultList"
 import FirstPrefer from "./components/Auth/FirstPrefer"
 
 function App() {
@@ -30,9 +31,8 @@ function App() {
           <Route exact path="/prefer" element={<FirstPrefer />} />
           <Route exact path="/login" element={<Login />} />
           <Route exact path="/select/:cate" element={<Select />} />
-          <Route exact path="/select/:cate" element={<Select />} />
           <Route exact path="/result/:cate" element={<Result />} />
-          <Route exact path="/result/:cate" element={<Result />} />
+          <Route exact path="/resultlist/:cate" element={<ResultList />} />
         </Routes>
       </div>
       <Footer />
