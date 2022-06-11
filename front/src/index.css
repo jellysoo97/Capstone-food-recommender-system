@@ -178,54 +178,32 @@ code {
   border-radius: 15px;
   padding: 40px 0px;
 }
-.carousel-inner {
-  width: auto;
+.fp-inner-box {
   height: 400px;
 }
-.carousel-item {
-  width: auto;
-  height: 100%;
-}
-.carousel-item img {
-  cursor: pointer;
-}
-.d-block {
-  display: block;
-  width: auto;
-  height: 100%;
-}
-.carousel-caption > h5 {
-  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
-  font-weight: bold;
-  font-size: 1.5em;
-}
-.carousel-item.parent {
-  position: relative;
-}
-.fp-child {
-  position: absolute;
+.fp-inner-box img {
   width: 100%;
-  height: 100%;
-  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  height: 200px;
+}
+.star-rating {
+  width: 100%;
   display: flex;
   flex-direction: row-reverse;
-  align-items: center;
-  justify-content: center;
-  font-size: 2.5em;
+  font-size: 1.5em;
+  justify-content: space-around;
+  padding: 0 0.2em;
+  text-align: center;
 }
-.fp-child input {
+.star-rating input {
   display: none;
 }
-.fp-child label {
+.star-rating label {
+  font-size: 2em;
   color: #ccc;
-  padding: 10px;
   cursor: pointer;
 }
-.fp-child :checked ~ label {
-  color: #fc0;
-}
-.fp-child label:hover,
-.fp-child label:hover ~ label {
+.star-rating label:hover,
+.star-rating label:hover ~ label {
   color: #fc0;
 }
 .fp-regi {
@@ -284,14 +262,14 @@ td.tableCell.ingre.inedible {
   background-color: #e9dccd;
   min-height: calc(100vh - 80px);
 }
-.rs-info{
-  display:inline-block;
-  background-color: #E9DCCD;
+.rs-info {
+  display: inline-block;
+  background-color: #e9dccd;
   width: 50vw;
   min-height: 80vh;
   position: absolute;
-  top:10vh;
-  left:10vh;
+  top: 10vh;
+  left: 10vh;
 }
 .rs-img {
   background-color: lightblue;
@@ -301,43 +279,43 @@ td.tableCell.ingre.inedible {
   position: absolute;
   right: 0px;
 }
-.rs-img img{
-  width:40vw;
-  height:calc(100vh - 80px);
+.rs-img img {
+  width: 40vw;
+  height: calc(100vh - 80px);
   /* min-height: calc(100vh - 80px); */
   object-fit: cover;
 }
-.rs-recipe{
+.rs-recipe {
   background-color: #e9e5e1;
-  height:200px;
-  overflow:auto;
+  height: 200px;
+  overflow: auto;
 }
-.rs-star{
+.rs-star {
   position: absolute;
-  bottom:0px;
-  left:0px;
+  bottom: 0px;
+  left: 0px;
 }
-.rs-info span{
+.rs-info span {
   font-weight: bold;
 }
 /* resultlist */
-.rl{
-  display : flex;
-  background-color: #E9DCCD;
+.rl {
+  display: flex;
+  background-color: #e9dccd;
   min-height: calc(100vh - 80px);
 }
-.rl-list{
+.rl-list {
   text-align: center;
-  margin:auto;
+  margin: auto;
 }
-.list-group{
+.list-group {
   height: 350px;
   text-align: center;
   font-size: 30px;
-  overflow:auto;
+  overflow: auto;
 }
-.list-group img{
-  width:200px;
-  height:200px;
+.list-group img {
+  width: 200px;
+  height: 200px;
   object-fit: cover;
 }

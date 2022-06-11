@@ -17,34 +17,35 @@ from selectIngre.models import *
 # Create your views here.
 
 # recipe_id에 해당하는 기본정보, 과정정보 가져오기
-def getRecipeInfo(id_list):
-    return_result = {}
-    for elem in id_list:
-        elem = int(elem)
-        basic_info = RecipeBasic.objects.get(recipe_id=elem)
-        order_info = RecipeOrder.objects.filter(recipe_id=elem).values()
-        what_info = RecipeWhat.objects.filter(recipe_id=elem).values()
-        return_result[elem] = {"basic_info": 
-        {"recipe_nm_ko": basic_info.recipe_nm_ko, "sumry": basic_info.sumry, 
-        "cooking_time": basic_info.cooking_time, "qnt": basic_info.qnt, 
-        "level_nm": basic_info.level_nm, "img_url": basic_info.img_url}, 
-        "order_info": list(order_info), "what_info": list(what_info)}
-    return json.dumps(return_result, ensure_ascii=False)
-
-# 보내지는 recipe 정보 index 수정
 # def getRecipeInfo(id_list):
 #     return_result = {}
-#     for i in range(0, len(id_list)):
-#         elem = int(id_list[i])
+#     for elem in id_list:
+#         elem = int(elem)
 #         basic_info = RecipeBasic.objects.get(recipe_id=elem)
 #         order_info = RecipeOrder.objects.filter(recipe_id=elem).values()
 #         what_info = RecipeWhat.objects.filter(recipe_id=elem).values()
-#         return_result[i] = {"basic_info": 
+#         return_result[elem] = {"basic_info": 
 #         {"recipe_nm_ko": basic_info.recipe_nm_ko, "sumry": basic_info.sumry, 
 #         "cooking_time": basic_info.cooking_time, "qnt": basic_info.qnt, 
 #         "level_nm": basic_info.level_nm, "img_url": basic_info.img_url}, 
 #         "order_info": list(order_info), "what_info": list(what_info)}
 #     return json.dumps(return_result, ensure_ascii=False)
+
+# 보내지는 recipe 정보 index 수정
+def getRecipeInfo(id_list):
+    return_result = {}
+    for i in range(0, len(id_list)):
+        elem = int(id_list[i])
+        basic_info = RecipeBasic.objects.get(recipe_id=elem)
+        order_info = RecipeOrder.objects.filter(recipe_id=elem).values()
+        what_info = RecipeWhat.objects.filter(recipe_id=elem).values()
+        ingre_info = RecipeIngre.objects.filter(recipe_id=elem).values()
+        return_result[i] = {"basic_info": 
+        {"recipe_nm_ko": basic_info.recipe_nm_ko, "sumry": basic_info.sumry, 
+        "cooking_time": basic_info.cooking_time, "qnt": basic_info.qnt, 
+        "level_nm": basic_info.level_nm, "img_url": basic_info.img_url}, 
+        "order_info": list(order_info), "what_info": list(what_info), "ingre_info": list(ingre_info)}
+    return json.dumps(return_result, ensure_ascii=False)
 
 #####################################영양소 균형 알고리즘#####################################################
 
@@ -314,7 +315,5 @@ def PreferReco(pk, combi):
     result = user_preference(pk, content_based_recipes, df_igrds, md_idx, svd)
     #결과: 데이터프레임(column: 메뉴 이름, 레시피 id, 예측 유저 선호도 평가 점수) - 높은 순으로 10개 정렬
     result_tolist = result["recipe_id"].values.tolist()
-    print(result_tolist)
     last_result = getRecipeInfo(result_tolist)
-    print(last_result)
     return last_result
