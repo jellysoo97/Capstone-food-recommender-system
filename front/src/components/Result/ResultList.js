@@ -30,12 +30,21 @@ function ResultList(){
     resultindex.push(x)
   }
   let resultmenu = []
+  let resultmenu2 = []
   for (let i=0;i<resultindex.length;i++){
-    resultmenu.push({
+    if(i<5){
+      resultmenu.push({
       "id": resultindex[i],
       "name":resultdata[resultindex[i]].basic_info.recipe_nm_ko,
       "url":resultdata[resultindex[i]].basic_info.img_url,
-    })
+      })    
+    }else{
+      resultmenu2.push({
+        "id": resultindex[i],
+        "name":resultdata[resultindex[i]].basic_info.recipe_nm_ko,
+        "url":resultdata[resultindex[i]].basic_info.img_url,
+      }) 
+    }
   }
 
 
@@ -48,6 +57,11 @@ function ResultList(){
           {resultmenu.map((me, index) => (
           <Menulist menu={me} key={index} />
           ))}
+        </div>
+        <div className="list-group list-group-horizontal">
+          {resultmenu2? resultmenu2.map((me, index) => (
+          <Menulist menu={me} key={index} />
+          )):""}
         </div>
       </div>
     </div>
