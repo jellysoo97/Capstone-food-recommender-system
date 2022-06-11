@@ -43,7 +43,7 @@ function Signup() {
     { label: "조개류", value: "조개류" },
     { label: "게", value: "게" },
     { label: "오징어", value: "오징어" },
-    { label: "아황산포함식품", value:['포도주','햄','소시지']},
+    { label: "아황산포함식품", value: ["포도주", "햄", "소시지"] },
   ]
   const [unableselected, setunableSelected] = useState([])
   let newunable = []
@@ -51,17 +51,17 @@ function Signup() {
 
   function submit(e) {
     e.preventDefault()
-    if(unableselected.length!==0){
+    if (unableselected.length !== 0) {
       for (let i = 0; i < unableselected.length; i++) {
-        if(unableselected[i].label=="아황산포함식품"){
-          newunable.push('포도주','햄','소시지')
-        }else{
+        if (unableselected[i].label == "아황산포함식품") {
+          newunable.push("포도주", "햄", "소시지")
+        } else {
           newunable.push(unableselected[i].value)
         }
       }
-      console.log(newunable,String(newunable))
-    }else{
-      newunable="[]"
+      console.log(newunable, String(newunable))
+    } else {
+      newunable = "[]"
     }
     axios
       .post(url, {
@@ -77,6 +77,7 @@ function Signup() {
       })
       .then((res) => {
         console.log(res.data)
+        window.localStorage.setItem("sgid", res.data.id)
         navigate("/prefer")
       })
   }

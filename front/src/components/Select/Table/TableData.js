@@ -2,7 +2,9 @@ import React, { useEffect, useState } from "react"
 import { useParams, useNavigate } from "react-router-dom"
 import axios from "axios"
 import "../../../index.css"
+
 import Table from "./Table"
+import Loading from "./Loading"
 
 function TableData(props) {
   const userId = props.userId
@@ -17,6 +19,7 @@ function TableData(props) {
   const [selected_ingre, setSelectedIngre] = useState([])
   const [isChecked, setisChecked] = useState(false)
   const [checkedItems, setCheckedItems] = useState(new Set())
+  const [loading, setLoading] = useState(null)
   const navigate = useNavigate()
   let cate = useParams()
 
@@ -72,6 +75,7 @@ function TableData(props) {
   }
 
   function sendSelectedIngre() {
+    setLoading(true)
     axios
       .post(
         `http://localhost:8000/selectIngre/bestcombi/${cate.cate}/${userIdx}`,
@@ -80,9 +84,9 @@ function TableData(props) {
         }
       )
       .then((response) => {
-        console.log(response.data)
-        //window.localStorage.setItem("selectmenuid","0")
+        window.localStorage.setItem("selectmenuid", "0")
         window.localStorage.setItem("result", response.data)
+        setLoading(false)
         response.data
           ? navigate(`/result/${cate.cate}`)
           : console.log("데이터 없음")
@@ -94,17 +98,21 @@ function TableData(props) {
 
   return (
     <div>
-      <Table
-        userId={userId}
-        grouplist={grouplist}
-        ingrelist={ingrelist}
-        inedible={inedible}
-        selected_ingre={selected_ingre}
-        clickIngreGroup={clickIngreGroup}
-        checkHandler={checkHandler}
-        insertIngre={insertIngre}
-        sendSelectedIngre={sendSelectedIngre}
-      />
+      {loading ? (
+        <Loading />
+      ) : (
+        <Table
+          userId={userId}
+          grouplist={grouplist}
+          ingrelist={ingrelist}
+          inedible={inedible}
+          selected_ingre={selected_ingre}
+          clickIngreGroup={clickIngreGroup}
+          checkHandler={checkHandler}
+          insertIngre={insertIngre}
+          sendSelectedIngre={sendSelectedIngre}
+        />
+      )}
     </div>
   )
 }
