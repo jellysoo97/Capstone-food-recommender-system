@@ -38,13 +38,14 @@ function Result() {
       </div>
     )
   }
-  //레시피 재료정보
+
+  // 레시피 재료정보
   let rswhat = ""
-  for (let i = 0; i < rsmenu.what_info.length; i++) {
-    if (i == rsmenu.what_info.length - 1) {
-      rswhat = rswhat + rsmenu.what_info[i].irdnt_nm
-    } else {
-      rswhat = rswhat + rsmenu.what_info[i].irdnt_nm + ","
+  for (let i = 0; i < rsmenu.what_info.length; i++){
+    if(i == rsmenu.what_info.length - 1){
+      rswhat = rswhat + rsmenu.what_info[i].irdnt_nm + rsmenu.what_info[i].irdnt_cpcty
+    }else{
+      rswhat = rswhat + rsmenu.what_info[i].irdnt_nm + rsmenu.what_info[i].irdnt_cpcty+","
     }
   }
 
@@ -73,30 +74,39 @@ function Result() {
     } else {
       finalrate = 0
     }
+
     console.log("별점평가 값:", finalrate)
     axios
       .post(starpost, {
-        user_id: user_idx,
-        // recipe_id: recipe_id,
-        ratings: finalrate,
+        user_id: parseInt(user_idx),
+        recipe_id: parseInt(rsmenu.order_info[0].recipe_id),
+        ratings: parseFloat(finalrate),
       })
       .then((res) => {
         console.log(res.data)
       })
   }
 
+  // 레시피 영양성분
+  let rsingre = rsmenu.ingre_info[0]
+  let rskcal = rsingre.energy //Kcal
+  let rspro = rsingre.protein //단백질
+  let rsfat = rsingre.fat //지방
+  let rscar =rsingre.carbo //탄수화물
+  let rsna = rsingre.natrium //나트륨
+  let rsfi = rsingre.fiber //식이섬유
+  let rscalci = rsingre.calcium //칼슘
+  let rsst = rsingre.steel // 철
+
   return (
     <div className="rs">
       <div className="rs-info">
         <h1>{rsname}</h1>
-        <br />
         <p>
-          <span>조리시간 | </span>
-          {rstime} ,<span>레시피 난이도 | </span>
-          {rslv}
-          <br />
-          <span>재료 | </span>
-          {rswhat} &#40;{rsqnt}기준&#41; <br />
+          <span>조리시간 | </span>{rstime} ,
+          <span> 레시피 난이도 | </span>{rslv} ,
+          <span> {rsqnt}</span> <br/>
+          <span>재료 | </span>{rswhat}<br/>
         </p>
         <p className="rs-recipe">
           <span>레시피 |</span>
@@ -105,12 +115,16 @@ function Result() {
           ))}
         </p>
         <p>
-          <span>영양성분 | </span>&#40;총 내용량 g&#41; KCAL
+          <span>칼로리 | </span> {rskcal} kcal
           <br />
-          탄수화물 | 단백질 | 지방 |
+          <span>영양성분 | </span>
+          <br />
+          탄수화물 | {rscar}g &#40;식이섬유 {rsfi}g&#41;, 
+          단백질 | {rspro}g &#40;칼슘 {rscalci}mg, 철 {rsst}mg&#41;,
+          지방 | {rsfat}g, 나트륨 | {rsna}g 
         </p>
         <div className="rs-star">
-          이 레시피에 대한 나의 별점
+          <span>이 레시피에 대한 나의 별점</span>
           <br />
           <Rating
             onClick={handleRating}

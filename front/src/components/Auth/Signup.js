@@ -7,7 +7,6 @@ import "../../index.css"
 import image from "../../images/logo.png"
 
 function Signup() {
-  //const url = "https://fad0d70d-d523-442e-8fa3-3fbe1e1b8bf2.mock.pstmn.io/post1"
   const url = "http://localhost:8000/user/account"
   const [data, setData] = useState({
     userid: "",
