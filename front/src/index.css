@@ -284,14 +284,14 @@ td.tableCell.ingre.inedible {
   background-color: #e9dccd;
   min-height: calc(100vh - 80px);
 }
-.rs-info {
-  display: inline-block;
-  background-color: #e9dccd;
-  width: 60vw;
-  min-height: calc(80vh - 80px);
+.rs-info{
+  display:inline-block;
+  background-color: #E9DCCD;
+  width: 50vw;
+  min-height: 80vh;
   position: absolute;
-  top: 20vh;
-  left: 10vh;
+  top:10vh;
+  left:10vh;
 }
 .rs-img {
   background-color: lightblue;
@@ -301,9 +301,43 @@ td.tableCell.ingre.inedible {
   position: absolute;
   right: 0px;
 }
-
-.rs-img img {
-  width: 40vw;
-  height: 631px;
+.rs-img img{
+  width:40vw;
+  height:calc(100vh - 80px);
+  /* min-height: calc(100vh - 80px); */
+  object-fit: cover;
+}
+.rs-recipe{
+  background-color: #e9e5e1;
+  height:200px;
+  overflow:auto;
+}
+.rs-star{
+  position: absolute;
+  bottom:0px;
+  left:0px;
+}
+.rs-info span{
+  font-weight: bold;
+}
+/* resultlist */
+.rl{
+  display : flex;
+  background-color: #E9DCCD;
+  min-height: calc(100vh - 80px);
+}
+.rl-list{
+  text-align: center;
+  margin:auto;
+}
+.list-group{
+  height: 350px;
+  text-align: center;
+  font-size: 30px;
+  overflow:auto;
+}
+.list-group img{
+  width:200px;
+  height:200px;
   object-fit: cover;
 }

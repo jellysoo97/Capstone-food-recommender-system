@@ -23,36 +23,45 @@ function Signup() {
   })
 
   const unableoptions = [
-    { label: "메밀", value: "1" },
-    { label: "밀", value: "2" },
-    { label: "대두", value: "3" },
-    { label: "호두", value: "4" },
-    { label: "땅콩", value: "5" },
-    { label: "복숭아", value: "6" },
-    { label: "토마토", value: "7" },
-    { label: "돼지고기", value: "8" },
-    { label: "난류(가금류)", value: "9" },
-    { label: "우유", value: "10" },
-    { label: "닭고기", value: "11" },
-    { label: "쇠고기(소고기)", value: "12" },
-    { label: "새우", value: "13" },
-    { label: "고등어", value: "14" },
-    { label: "홍합", value: "15" },
-    { label: "전복", value: "16" },
-    { label: "굴", value: "17" },
-    { label: "조개류", value: "18" },
-    { label: "게", value: "19" },
-    { label: "오징어", value: "20" },
-    { label: "아황산포함식품", value: "21" },
+    { label: "메밀", value: "메밀" },
+    { label: "밀", value: "밀" },
+    { label: "대두", value: "대두" },
+    { label: "호두", value: "호두" },
+    { label: "땅콩", value: "땅콩" },
+    { label: "복숭아", value: "복숭아" },
+    { label: "토마토", value: "토마토" },
+    { label: "돼지고기", value: "돼지고기" },
+    { label: "난류(가금류)", value: "난류" },
+    { label: "우유", value: "우유" },
+    { label: "닭고기", value: "닭고기" },
+    { label: "쇠고기(소고기)", value: "소고기" },
+    { label: "새우", value: "새우" },
+    { label: "고등어", value: "고등어" },
+    { label: "홍합", value: "홍합" },
+    { label: "전복", value: "전복" },
+    { label: "굴", value: "굴" },
+    { label: "조개류", value: "조개류" },
+    { label: "게", value: "게" },
+    { label: "오징어", value: "오징어" },
+    { label: "아황산포함식품", value:['포도주','햄','소시지']},
   ]
   const [unableselected, setunableSelected] = useState([])
-  const newunable = []
+  let newunable = []
   const navigate = useNavigate()
 
   function submit(e) {
     e.preventDefault()
-    for (let i = 0; i < unableselected.length; i++) {
-      newunable.push(unableselected[i].label)
+    if(unableselected.length!==0){
+      for (let i = 0; i < unableselected.length; i++) {
+        if(unableselected[i].label=="아황산포함식품"){
+          newunable.push('포도주','햄','소시지')
+        }else{
+          newunable.push(unableselected[i].value)
+        }
+      }
+      console.log(newunable,String(newunable))
+    }else{
+      newunable="[]"
     }
     axios
       .post(url, {
