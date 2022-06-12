@@ -2,6 +2,7 @@ from django.http import HttpResponse, JsonResponse
 from django.core import serializers
 from rest_framework.parsers import JSONParser
 import json
+import time
 
 from recommend.views import IngreBalance, PreferReco
 from .models import *
@@ -48,6 +49,7 @@ def BestCombi(request, cate, pk):
     user_vege = obj.vegtype
     inedible_groups_raw = obj.allergic
     inedible_groups = inedible_groups_raw.split(",")
+    start_time = time.time()
 
     if request.method == 'POST':
         # 재료들 리스트가 이리로 넘어옴{ingres:[1,2,3,4,...]}
@@ -100,15 +102,21 @@ def BestCombi(request, cate, pk):
                     # 각 행의 recipe_id를 result에 삽입
                     result.append(lst_s_json[0]["fields"]["recipe_id"])
     sample_combi_result = list(set(result))
-    print("궁합 모듈 결과: ", sample_combi_result)
+    print("궁합 알고리즘 결과: ", sample_combi_result)
+    print("궁합 알고리즘 수행시간: ", time.time() - start_time)
 
 #################################영양소 균형 & 선호도 알고리즘 따로 실행############################################
     if cate == "balance":
+        start_time = time.time()
         return_result = IngreBalance(pk, inedible_groups, sample_combi_result)
         print("영양소 균형 알고리즘 결과: ", return_result)
+        print("영양소 균형 알고리즘 수행시간: ", time.time() - start_time)
     else:
+        start_time = time.time()
         return_result = PreferReco(pk, sample_combi_result, main, inedible_groups)
         print("선호도 알고리즘 결과: ", return_result)
+        print("영양소 균형 알고리즘 수행시간: ", time.time() - start_time)
+
     return JsonResponse(return_result, safe=False)
 
     # for c in df_best_comb_2['best_combination']:
