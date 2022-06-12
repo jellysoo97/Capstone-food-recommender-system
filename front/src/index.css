@@ -268,7 +268,7 @@ td.tableCell.ingre.inedible {
   width: 50vw;
   min-height: 77vh;
   position: absolute;
-  top: 5vh;
+  top: 10vh;
   left: 10vh;
 }
 .rs-img {
@@ -293,7 +293,7 @@ td.tableCell.ingre.inedible {
   font-weight: bold;
 }
 .rs-info p {
-  margin-bottom:7px;
+  margin-bottom: 7px;
 }
 /* resultlist */
 .rl {
@@ -305,14 +305,14 @@ td.tableCell.ingre.inedible {
   text-align: center;
   margin: auto;
 }
-.list-group{
+.list-group {
   height: 200px;
   text-align: center;
   font-size: 20px;
-  overflow:auto;
+  overflow: auto;
 }
-.list-group img{
-  width:100px;
-  height:100px;
+.list-group img {
+  width: 100px;
+  height: 100px;
   object-fit: cover;
 }

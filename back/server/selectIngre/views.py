@@ -100,15 +100,16 @@ def BestCombi(request, cate, pk):
                     # 각 행의 recipe_id를 result에 삽입
                     result.append(lst_s_json[0]["fields"]["recipe_id"])
     sample_combi_result = list(set(result))
+    print("궁합 모듈 결과: ", sample_combi_result)
 
 #################################영양소 균형 & 선호도 알고리즘 따로 실행############################################
     if cate == "balance":
         return_result = IngreBalance(pk, inedible_groups, sample_combi_result)
+        print("영양소 균형 알고리즘 결과: ", return_result)
     else:
-        return_result = PreferReco(pk, sample_combi_result)
-    
+        return_result = PreferReco(pk, sample_combi_result, main, inedible_groups)
+        print("선호도 알고리즘 결과: ", return_result)
     return JsonResponse(return_result, safe=False)
-
 
     # for c in df_best_comb_2['best_combination']:
     #     combi = c.replace(' ', '').replace(

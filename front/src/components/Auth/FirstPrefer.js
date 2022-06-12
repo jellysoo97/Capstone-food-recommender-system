@@ -59,7 +59,9 @@ function FirstPrefer() {
   const saveStar = (e, index) => {
     e.preventDefault()
     let target_value = parseInt(e.target.value)
+    console.log(target_value)
     if (e.target.checked) {
+      console.log(index, e.target.value)
       for (let i = 1; i < 6; i++) {
         let target_star = document.querySelector(
           "label[for='" + `${index} ${i}-stars` + "']"
@@ -110,7 +112,7 @@ function FirstPrefer() {
                         </label>
                         <input
                           type="radio"
-                          id={`${index} 5-stars`}
+                          id={`${index} 4-stars`}
                           name="rating"
                           value="4"
                           onClick={(e) => saveStar(e, index)}

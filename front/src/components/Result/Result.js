@@ -41,11 +41,16 @@ function Result() {
 
   // 레시피 재료정보
   let rswhat = ""
-  for (let i = 0; i < rsmenu.what_info.length; i++){
-    if(i == rsmenu.what_info.length - 1){
-      rswhat = rswhat + rsmenu.what_info[i].irdnt_nm + rsmenu.what_info[i].irdnt_cpcty
-    }else{
-      rswhat = rswhat + rsmenu.what_info[i].irdnt_nm + rsmenu.what_info[i].irdnt_cpcty+","
+  for (let i = 0; i < rsmenu.what_info.length; i++) {
+    if (i == rsmenu.what_info.length - 1) {
+      rswhat =
+        rswhat + rsmenu.what_info[i].irdnt_nm + rsmenu.what_info[i].irdnt_cpcty
+    } else {
+      rswhat =
+        rswhat +
+        rsmenu.what_info[i].irdnt_nm +
+        rsmenu.what_info[i].irdnt_cpcty +
+        ","
     }
   }
 
@@ -84,6 +89,7 @@ function Result() {
       })
       .then((res) => {
         console.log(res.data)
+        alert("별점이 저장되었습니다.")
       })
   }
 
@@ -92,7 +98,7 @@ function Result() {
   let rskcal = rsingre.energy //Kcal
   let rspro = rsingre.protein //단백질
   let rsfat = rsingre.fat //지방
-  let rscar =rsingre.carbo //탄수화물
+  let rscar = rsingre.carbo //탄수화물
   let rsna = rsingre.natrium //나트륨
   let rsfi = rsingre.fiber //식이섬유
   let rscalci = rsingre.calcium //칼슘
@@ -103,10 +109,12 @@ function Result() {
       <div className="rs-info">
         <h1>{rsname}</h1>
         <p>
-          <span>조리시간 | </span>{rstime} ,
-          <span> 레시피 난이도 | </span>{rslv} ,
-          <span> {rsqnt}</span> <br/>
-          <span>재료 | </span>{rswhat}<br/>
+          <span>조리시간 | </span>
+          {rstime} ,<span> 레시피 난이도 | </span>
+          {rslv} ,<span> {rsqnt}</span> <br />
+          <span>재료 | </span>
+          {rswhat}
+          <br />
         </p>
         <p className="rs-recipe">
           <span>레시피 |</span>
@@ -119,9 +127,9 @@ function Result() {
           <br />
           <span>영양성분 | </span>
           <br />
-          탄수화물 | {rscar}g &#40;식이섬유 {rsfi}g&#41;, 
-          단백질 | {rspro}g &#40;칼슘 {rscalci}mg, 철 {rsst}mg&#41;,
-          지방 | {rsfat}g, 나트륨 | {rsna}g 
+          탄수화물 | {rscar}g &#40;식이섬유 {rsfi}g&#41;, 단백질 | {rspro}g
+          &#40;칼슘 {rscalci}mg, 철 {rsst}mg&#41;, 지방 | {rsfat}g, 나트륨 |{" "}
+          {rsna}g
         </p>
         <div className="rs-star">
           <span>이 레시피에 대한 나의 별점</span>

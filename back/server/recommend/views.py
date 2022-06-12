@@ -203,7 +203,7 @@ def IngreBalance(pk, inedible, combi):
 #####################################선호도 알고리즘#####################################################
 
 # """컨텐츠 기반 추천 알고리즘"""
-def PreferReco(pk, combi):
+def PreferReco(pk, combi, main, inedible):
     # 궁합 모듈 결과
     inpt = combi
     # 레시피 정보
@@ -274,11 +274,18 @@ def PreferReco(pk, combi):
         #input값이 인덱스이므로 각 인덱스에 해당하는 레시피 id 추출
         recipes_id = df_igrds.iloc[igrds_id]["recipe_id"]
         # recipes = md_idx.loc[list(recipes_id)][['recipe_nm_ko', 'recipe_id']]
-        recipes_nm = md_idx.loc[list(recipes_id)]['recipe_nm_ko']
-        recipes_idx = md_idx.loc[list(recipes_id)].index
-        recipes = pd.DataFrame(columns=['recipe_id', 'recipe_nm_ko'])
-        recipes['recipe_id'] = recipes_idx
-        recipes['recipe_nm_ko'] = recipes_nm
+        recipes_raw = md_idx.loc[list(recipes_id)][['recipe_nm_ko', 'recipe_id', 'subgroup']]
+        # recipes_nm = md_idx.loc[list(recipes_id)]['recipe_nm_ko']
+        # recipes_idx = md_idx.loc[list(recipes_id)].index
+        #전체 recipes의 SUBGROUP에서
+        recipes = pd.DataFrame()
+        # recipes['recipe_id'] = recipes_idx
+        # recipes['recipe_nm_ko'] = recipes_nm
+        for i in recipes_raw.index:
+            lst_s = recipes_raw.loc[i, 'subgroup'].replace(' ', '').replace('[', '').replace(']', '').replace("'", "").split(',')
+            #입력된 재료(변수명: main)는 포함하고 최종적으로 제외해야 하는 재료를 제외하는 레시피 번호
+            if (len(set(main) & set(lst_s)) != 0) & (len(inedible & set(lst_s)) == 0):
+                recipes = recipes.append(recipes_raw.loc[i][['recipe_id', 'recipe_nm_ko']])
         #각 레시피에 대한 유저의 선호도 예측
         recipes['est'] = list(map(lambda x: svd.predict(user_id, x).est, list(recipes['recipe_id'])))
         #선호도 예측점수 높은 순으로 정렬
