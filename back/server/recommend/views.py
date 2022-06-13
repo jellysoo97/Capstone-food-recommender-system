@@ -274,7 +274,7 @@ def PreferReco(pk, combi, main, inedible):
         #input값이 인덱스이므로 각 인덱스에 해당하는 레시피 id 추출
         recipes_id = df_igrds.iloc[igrds_id]["recipe_id"]
         # recipes = md_idx.loc[list(recipes_id)][['recipe_nm_ko', 'recipe_id']]
-        recipes_raw = md_idx.loc[list(recipes_id)][['recipe_nm_ko', 'recipe_id', 'subgroup']]
+        recipes_raw = md_idx.loc[list(recipes_id)][['recipe_nm_ko', 'subgroup']]
         # recipes_nm = md_idx.loc[list(recipes_id)]['recipe_nm_ko']
         # recipes_idx = md_idx.loc[list(recipes_id)].index
         #전체 recipes의 SUBGROUP에서
@@ -284,12 +284,12 @@ def PreferReco(pk, combi, main, inedible):
         for i in recipes_raw.index:
             lst_s = recipes_raw.loc[i, 'subgroup'].replace(' ', '').replace('[', '').replace(']', '').replace("'", "").split(',')
             #입력된 재료(변수명: main)는 포함하고 최종적으로 제외해야 하는 재료를 제외하는 레시피 번호
-            if (len(set(main) & set(lst_s)) != 0) & (len(inedible & set(lst_s)) == 0):
-                recipes = recipes.append(recipes_raw.loc[i][['recipe_id', 'recipe_nm_ko']])
+            if (len(set(main) & set(lst_s)) != 0) & (len(set(inedible) & set(lst_s)) == 0):
+                recipes = recipes.append(recipes_raw.loc[i][['recipe_nm_ko']])
         #각 레시피에 대한 유저의 선호도 예측
-        recipes['est'] = list(map(lambda x: svd.predict(user_id, x).est, list(recipes['recipe_id'])))
+        recipes['est'] = list(map(lambda x: svd.predict(user_id, x).est, list(recipes.index)))
         #선호도 예측점수 높은 순으로 정렬
-        recipes = recipes.sort_values('est', ascending=False, ignore_index=True)
+        recipes = recipes.sort_values('est', ascending=False)
         return recipes.head(10)
 
     # # 문장 임베딩
@@ -321,6 +321,6 @@ def PreferReco(pk, combi, main, inedible):
     #모여진 컨텐트 기반 결과(형식: 리스트, 내용: 영양소 균형까지 맞춰진 레시피 각각에 대해 유사한 레시피 id, 총 50개) -> 유저 성향 예측으로 재정렬
     result = user_preference(pk, content_based_recipes, df_igrds, md_idx, svd)
     #결과: 데이터프레임(column: 메뉴 이름, 레시피 id, 예측 유저 선호도 평가 점수) - 높은 순으로 10개 정렬
-    result_tolist = result["recipe_id"].values.tolist()
+    result_tolist = list(result.index)
     last_result = getRecipeInfo(result_tolist)
     return last_result
