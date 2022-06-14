@@ -194,7 +194,7 @@ def IngreBalance(pk, inedible, combi):
     result = []
     for i in range(0, len(total_list)) :
         result.append(total_list[i][1])
-    return_result = result[:5]
+    return_result = result[:10]
     last_result = getRecipeInfo(return_result)
 
     return last_result
